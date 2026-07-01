@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-07-01T11:43:27+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-07-01T12:03:19+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -2443,64 +2443,31 @@
          fhir:Element.extension [
            fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-           fhir:Extension.valueUrl [ fhir:value "structureGenerale.html" ]
+           fhir:Extension.valueUrl [ fhir:value "ressourcesFHIR-struc-gen.html" ]
          ] ;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "structureGenerale.html" ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ressourcesFHIR-struc-gen.html" ] ;
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Structure générale document" ] ;
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ] ;
-         fhir:ImplementationGuide.definition.page.page [
-           fhir:index -1 ;
-           fhir:Element.extension [
-             fhir:index -1 ;
-             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-             fhir:Extension.valueUrl [ fhir:value "ressourcesFHIR-struc-gen.html" ]
-           ] ;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ressourcesFHIR-struc-gen.html" ] ;
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "FHIR" ] ;
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-         ]
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index -1 ;
          fhir:Element.extension [
            fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-           fhir:Extension.valueUrl [ fhir:value "enteteDocument.html" ]
+           fhir:Extension.valueUrl [ fhir:value "ressourcesFHIR-entete.html" ]
          ] ;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "enteteDocument.html" ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ressourcesFHIR-entete.html" ] ;
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Entête document" ] ;
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ] ;
-         fhir:ImplementationGuide.definition.page.page [
-           fhir:index -1 ;
-           fhir:Element.extension [
-             fhir:index -1 ;
-             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-             fhir:Extension.valueUrl [ fhir:value "ressourcesFHIR-entete.html" ]
-           ] ;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ressourcesFHIR-entete.html" ] ;
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "FHIR" ] ;
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-         ]
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index -1 ;
          fhir:Element.extension [
            fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-           fhir:Extension.valueUrl [ fhir:value "corpsDocument.html" ]
+           fhir:Extension.valueUrl [ fhir:value "ressourcesFHIR-corps.html" ]
          ] ;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "corpsDocument.html" ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ressourcesFHIR-corps.html" ] ;
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Corps d'un document" ] ;
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ] ;
-         fhir:ImplementationGuide.definition.page.page [
-           fhir:index -1 ;
-           fhir:Element.extension [
-             fhir:index -1 ;
-             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-             fhir:Extension.valueUrl [ fhir:value "ressourcesFHIR-corps.html" ]
-           ] ;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ressourcesFHIR-corps.html" ] ;
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "FHIR" ] ;
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-         ]
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index -1 ;
          fhir:Element.extension [

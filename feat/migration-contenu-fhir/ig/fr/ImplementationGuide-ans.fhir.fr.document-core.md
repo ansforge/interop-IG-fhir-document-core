@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-07-01T11:43:27+00:00",
+  "date" : "2026-07-01T12:03:19+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -2129,56 +2129,29 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "structureGenerale.html"
+          "valueUrl" : "ressourcesFHIR-struc-gen.html"
         }],
-        "nameUrl" : "structureGenerale.html",
+        "nameUrl" : "ressourcesFHIR-struc-gen.html",
         "title" : "Structure générale document",
-        "generation" : "markdown",
-        "page" : [{
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "ressourcesFHIR-struc-gen.html"
-          }],
-          "nameUrl" : "ressourcesFHIR-struc-gen.html",
-          "title" : "FHIR",
-          "generation" : "markdown"
-        }]
+        "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "enteteDocument.html"
+          "valueUrl" : "ressourcesFHIR-entete.html"
         }],
-        "nameUrl" : "enteteDocument.html",
+        "nameUrl" : "ressourcesFHIR-entete.html",
         "title" : "Entête document",
-        "generation" : "markdown",
-        "page" : [{
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "ressourcesFHIR-entete.html"
-          }],
-          "nameUrl" : "ressourcesFHIR-entete.html",
-          "title" : "FHIR",
-          "generation" : "markdown"
-        }]
+        "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "corpsDocument.html"
+          "valueUrl" : "ressourcesFHIR-corps.html"
         }],
-        "nameUrl" : "corpsDocument.html",
+        "nameUrl" : "ressourcesFHIR-corps.html",
         "title" : "Corps d'un document",
-        "generation" : "markdown",
-        "page" : [{
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "ressourcesFHIR-corps.html"
-          }],
-          "nameUrl" : "ressourcesFHIR-corps.html",
-          "title" : "FHIR",
-          "generation" : "markdown"
-        }]
+        "generation" : "markdown"
       },
       {
         "extension" : [{

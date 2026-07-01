@@ -1,6 +1,6 @@
-# FHIR - FR Document Core (FHIR) v0.1.0
+# Structure générale document - FR Document Core (FHIR) v0.1.0
 
-## FHIR
+## Structure générale document
 
  
 There is no translation page available for the current page, so it has been rendered in the default language 

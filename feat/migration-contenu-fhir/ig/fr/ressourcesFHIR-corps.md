@@ -1,6 +1,6 @@
-# FHIR - FR Document Core (FHIR) v0.1.0
+# Corps d'un document - FR Document Core (FHIR) v0.1.0
 
-## FHIR
+## Corps d'un document
 
 ### Liste des profils
 

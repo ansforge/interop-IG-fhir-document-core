@@ -1,6 +1,6 @@
-# FHIR - FR Document Core (FHIR) v0.1.0
+# Structure générale document - FR Document Core (FHIR) v0.1.0
 
-## FHIR
+## Structure générale document
 
 ### Standard FHIR®
 

@@ -13,7 +13,7 @@
   <name value="FHIRFRDocumentCore"/>
   <title value="FR Document Core (FHIR)"/>
   <status value="draft"/>
-  <date value="2026-07-01T11:43:27+00:00"/>
+  <date value="2026-07-01T12:03:19+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -1799,51 +1799,27 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="structureGenerale.html"/>
+          <valueUrl value="ressourcesFHIR-struc-gen.html"/>
         </extension>
-        <nameUrl value="structureGenerale.html"/>
+        <nameUrl value="ressourcesFHIR-struc-gen.html"/>
         <title value="Structure générale document"/>
         <generation value="markdown"/>
-        <page>
-          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-            <valueUrl value="ressourcesFHIR-struc-gen.html"/>
-          </extension>
-          <nameUrl value="ressourcesFHIR-struc-gen.html"/>
-          <title value="FHIR"/>
-          <generation value="markdown"/>
-        </page>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="enteteDocument.html"/>
+          <valueUrl value="ressourcesFHIR-entete.html"/>
         </extension>
-        <nameUrl value="enteteDocument.html"/>
+        <nameUrl value="ressourcesFHIR-entete.html"/>
         <title value="Entête document"/>
         <generation value="markdown"/>
-        <page>
-          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-            <valueUrl value="ressourcesFHIR-entete.html"/>
-          </extension>
-          <nameUrl value="ressourcesFHIR-entete.html"/>
-          <title value="FHIR"/>
-          <generation value="markdown"/>
-        </page>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="corpsDocument.html"/>
+          <valueUrl value="ressourcesFHIR-corps.html"/>
         </extension>
-        <nameUrl value="corpsDocument.html"/>
+        <nameUrl value="ressourcesFHIR-corps.html"/>
         <title value="Corps d'un document"/>
         <generation value="markdown"/>
-        <page>
-          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-            <valueUrl value="ressourcesFHIR-corps.html"/>
-          </extension>
-          <nameUrl value="ressourcesFHIR-corps.html"/>
-          <title value="FHIR"/>
-          <generation value="markdown"/>
-        </page>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
