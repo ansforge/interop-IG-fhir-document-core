@@ -48,7 +48,7 @@
   <name value="FRDiagnosticReportBIOChapterDocument"/>
   <title value="DiagnosticReport - FR Diagnostic Report BIO chapter Document"/>
   <status value="draft"/>
-  <date value="2026-07-01T12:03:19+00:00"/>
+  <date value="2026-07-03T07:33:59+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -619,7 +619,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260420150250"/>
+        <valueSet value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260619134042"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -667,7 +667,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260420150250"/>
+        <valueSet value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260619134042"/>
       </binding>
       <mapping>
         <identity value="w5"/>

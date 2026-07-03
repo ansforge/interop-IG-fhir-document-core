@@ -108,7 +108,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-task-patient
   "name" : "FRTaskPatientTransportDocument",
   "title" : "Task - FR Task Patient Transport Document",
   "status" : "draft",
-  "date" : "2026-07-01T12:03:19+00:00",
+  "date" : "2026-07-03T07:33:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -169,7 +169,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-task-patient
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis|20260420150251"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis|20260619134043"
       }
     },
     {
@@ -223,7 +223,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-task-patient
       "path" : "Task.input.type.coding.system",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202604200000"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202606190000"
       }
     },
     {
@@ -239,7 +239,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-task-patient
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis|20260420150250"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis|20260619134042"
       }
     },
     {
@@ -255,7 +255,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-task-patient
       "path" : "Task.input.type.coding.system",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202604200000"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202606190000"
       }
     },
     {

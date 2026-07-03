@@ -16,7 +16,7 @@
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/data-enterer-extension']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/data-enterer-extension': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.0.1']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.0.1': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.1.0']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:encounter) &gt;= 1">encounter: minimum cardinality of 'encounter' is 1</sch:assert>
       <sch:assert test="count(f:confidentiality) &gt;= 1">confidentiality: minimum cardinality of 'confidentiality' is 1</sch:assert>
@@ -163,6 +163,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>f:Composition/f:status</sch:title>
+    <sch:rule context="f:Composition/f:status">
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.status|0.1.0']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.status|0.1.0': maximum cardinality of 'extension' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>f:Composition/f:subject</sch:title>
     <sch:rule context="f:Composition/f:subject">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
@@ -208,7 +214,7 @@
   <sch:pattern>
     <sch:title>f:Composition/f:section</sch:title>
     <sch:rule context="f:Composition/f:section">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.0.1']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.0.1': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.1.0']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:text) &gt;= 1">text: minimum cardinality of 'text' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-07-01T12:03:19+00:00",
+  "date" : "2026-07-03T07:33:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -76,7 +76,7 @@
     "id" : "hl7_fhir_uv_fhir_clinical_document",
     "uri" : "http://hl7.org/fhir/uv/fhir-clinical-document/ImplementationGuide/hl7.fhir.uv.fhir-clinical-document",
     "packageId" : "hl7.fhir.uv.fhir-clinical-document",
-    "version" : "1.0.1"
+    "version" : "1.1.0"
   },
   {
     "id" : "ihe_pharm_mpd",
@@ -88,7 +88,7 @@
     "id" : "ans_fr_terminologies",
     "uri" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
     "packageId" : "ans.fr.terminologies",
-    "version" : "1.10.0"
+    "version" : "1.11.0"
   }],
   "definition" : {
     "extension" : [{

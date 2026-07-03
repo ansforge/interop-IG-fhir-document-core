@@ -114,7 +114,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
   "name" : "FRObservationContraIndicationsImagingDocument",
   "title" : "Observation - FR Observation Contra Indications Document",
   "status" : "draft",
-  "date" : "2026-07-01T12:03:19+00:00",
+  "date" : "2026-07-03T07:33:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -293,7 +293,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "mustSupport" : true,
       "binding" : {
         "strength" : "preferred",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis|20260420150249"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis|20260619134041"
       }
     },
     {
@@ -304,7 +304,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis|20260420150250"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis|20260619134042"
       }
     },
     {
@@ -326,7 +326,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis|20260420150249"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis|20260619134042"
       }
     }]
   }

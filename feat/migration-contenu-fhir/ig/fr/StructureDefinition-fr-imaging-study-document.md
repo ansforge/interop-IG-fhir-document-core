@@ -126,7 +126,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
   "name" : "FRImagingStudyDocument",
   "title" : "ImagingStudy - FR Imaging study Document",
   "status" : "draft",
-  "date" : "2026-07-01T12:03:19+00:00",
+  "date" : "2026-07-03T07:33:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -267,7 +267,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "short" : "Objectifs de référence de l'imagerie",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis|20260420150250"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis|20260619134042"
       }
     },
     {
@@ -319,7 +319,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis|20260420150249"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis|20260619134042"
       }
     },
     {
@@ -363,7 +363,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "path" : "ImagingStudy.series.instance.sopClass",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis|20260420150249"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis|20260619134042"
       }
     }]
   }

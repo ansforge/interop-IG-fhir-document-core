@@ -67,11 +67,11 @@ Sub-departmentServiceDiscipline","",1,*,"Y","","Y","CodeableConcept {[]} {[]}
     <code value=""18748-4""/>
     <display value=""Imagerie""/>
   </coding>
-</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260420150250","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260619134042","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
 "DiagnosticReport.code","DiagnosticReport.code","","Type
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}
-","Type de document d'imagerie","A code or name that describes this diagnostic report.","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis|20260420150249","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Type de document d'imagerie","A code or name that describes this diagnostic report.","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis|20260619134041","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","OBR-4 (HL7 v2 doesn't provide an easy way to indicate both the ordered test and the performed panel)","code","FiveWs.what[x]"
 "DiagnosticReport.subject","DiagnosticReport.subject","","Patient
 ","",0,1,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0]]}

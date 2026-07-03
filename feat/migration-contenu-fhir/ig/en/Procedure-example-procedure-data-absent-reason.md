@@ -10,7 +10,7 @@
 
 Profile: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
 
-**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/7.0.1/NamingSystem-uri.html)/urn:uuid:a1b2c3d4-e5f6-7890-abcd-ef1234567890
+**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/6.3.0/NamingSystem-uri.html)/urn:uuid:a1b2c3d4-e5f6-7890-abcd-ef1234567890
 
 **status**: Unknown
 

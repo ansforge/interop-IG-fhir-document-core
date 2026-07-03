@@ -26,7 +26,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fhir/uv/fhir-clinical-document/STU1.0.1/StructureDefinition-clinical-document-composition.html) 
+Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fhir/uv/fhir-clinical-document/STU1.1/StructureDefinition-clinical-document-composition.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -36,12 +36,12 @@ Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fh
 
 #### Contraintes
 
-Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fhir/uv/fhir-clinical-document/STU1.0.1/StructureDefinition-clinical-document-composition.html) 
+Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fhir/uv/fhir-clinical-document/STU1.1/StructureDefinition-clinical-document-composition.html) 
 
 ** Résumé **
 
 Obligatoire : 21 éléments(11 éléments obligatoire(s) imbriqué(s))
- Must-Support : 4 éléments
+ Must-Support : 5 éléments
 
 **Structures**
 
@@ -79,7 +79,7 @@ Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slic
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fhir/uv/fhir-clinical-document/STU1.0.1/StructureDefinition-clinical-document-composition.html) 
+Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fhir/uv/fhir-clinical-document/STU1.1/StructureDefinition-clinical-document-composition.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -91,12 +91,12 @@ Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fh
 
 #### Contraintes
 
-Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fhir/uv/fhir-clinical-document/STU1.0.1/StructureDefinition-clinical-document-composition.html) 
+Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fhir/uv/fhir-clinical-document/STU1.1/StructureDefinition-clinical-document-composition.html) 
 
 ** Résumé **
 
 Obligatoire : 21 éléments(11 éléments obligatoire(s) imbriqué(s))
- Must-Support : 4 éléments
+ Must-Support : 5 éléments
 
 **Structures**
 
@@ -143,7 +143,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-07-01T12:03:19+00:00",
+  "date" : "2026-07-03T07:33:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -189,7 +189,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
   "kind" : "resource",
   "abstract" : false,
   "type" : "Composition",
-  "baseDefinition" : "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/clinical-document-composition|1.0.1",
+  "baseDefinition" : "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/clinical-document-composition|1.1.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -215,7 +215,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.language",
       "path" : "Composition.language",
-      "min" : 1
+      "min" : 1,
+      "mustSupport" : true
     },
     {
       "id" : "Composition.extension",
@@ -423,13 +424,13 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "id" : "Composition.identifier",
       "path" : "Composition.identifier",
       "short" : "Identifiant lot de versions",
-      "min" : 1
+      "min" : 1,
+      "mustSupport" : true
     },
     {
       "id" : "Composition.status",
       "path" : "Composition.status",
-      "short" : "Statut du document",
-      "mustSupport" : true
+      "short" : "Statut du document"
     },
     {
       "id" : "Composition.type",
@@ -755,7 +756,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "path" : "Composition.section.code",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260420150250"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260619134042"
       }
     },
     {

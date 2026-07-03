@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-07-01T12:03:19+00:00",
+  "date" : "2026-07-03T07:33:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -79,7 +79,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
   "kind" : "resource",
   "abstract" : false,
   "type" : "Composition",
-  "baseDefinition" : "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/clinical-document-composition|1.0.1",
+  "baseDefinition" : "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/clinical-document-composition|1.1.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -105,7 +105,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.language",
       "path" : "Composition.language",
-      "min" : 1
+      "min" : 1,
+      "mustSupport" : true
     },
     {
       "id" : "Composition.extension",
@@ -313,13 +314,13 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "id" : "Composition.identifier",
       "path" : "Composition.identifier",
       "short" : "Identifiant lot de versions",
-      "min" : 1
+      "min" : 1,
+      "mustSupport" : true
     },
     {
       "id" : "Composition.status",
       "path" : "Composition.status",
-      "short" : "Statut du document",
-      "mustSupport" : true
+      "short" : "Statut du document"
     },
     {
       "id" : "Composition.type",
@@ -645,7 +646,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "path" : "Composition.section.code",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260420150250"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260619134042"
       }
     },
     {

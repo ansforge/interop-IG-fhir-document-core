@@ -4,7 +4,7 @@
   <id value="fr-vs-edqm-document"/>
   <language value="en"/>
   <text>
-    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet fr-vs-edqm-document</b></p><a name="en-fr-vs-edqm-document"> </a><a name="en-hcfr-vs-edqm-document"> </a><ul><li>Include codes from<a href="https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-terminologie-standardterms.html"><code>https://smt.esante.gouv.fr/terminologie-standardterms</code></a><span title="Version is explicitly stated to be 2025-03-19"> version &#x1F4CD;2025-03-19</span> where concept  is-a PDF</li></ul></div>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet fr-vs-edqm-document</b></p><a name="en-fr-vs-edqm-document"> </a><a name="en-hcfr-vs-edqm-document"> </a><ul><li>Include codes from<a href="https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-terminologie-standardterms.html"><code>https://smt.esante.gouv.fr/terminologie-standardterms</code></a><span title="Version is explicitly stated to be 2026-01-30"> version &#x1F4CD;2026-01-30</span> where concept  is-a PDF (Forme galénique)</li></ul></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document"/>
   <version value="0.1.0"/>
@@ -12,7 +12,7 @@
   <title value="ValueSet - FR ValueSet EDQM Document"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2026-07-01T12:03:19+00:00"/>
+  <date value="2026-07-03T07:33:59+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -32,7 +32,7 @@
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/terminologie-standardterms"/>
-      <version value="2025-03-19"/>
+      <version value="2026-01-30"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

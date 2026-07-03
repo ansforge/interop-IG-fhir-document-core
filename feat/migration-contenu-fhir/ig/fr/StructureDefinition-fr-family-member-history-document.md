@@ -118,7 +118,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-family-membe
   "name" : "FRFamilyMemberHistoryDocument",
   "title" : "FamilyMemberHistory - FR Family Member History Document",
   "status" : "draft",
-  "date" : "2026-07-01T12:03:19+00:00",
+  "date" : "2026-07-03T07:33:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -247,7 +247,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-family-membe
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis|20260420150249"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis|20260619134041"
       }
     },
     {
@@ -312,7 +312,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-family-membe
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis|20260420150251"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis|20260619134043"
       }
     },
     {

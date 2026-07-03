@@ -50,12 +50,12 @@ Sub-departmentServiceDiscipline","",1,*,"Y","","Y","CodeableConcept {[]} {[]}
     <code value=""26436-6""/>
     <display value=""Biologie polyvalente""/>
   </coding>
-</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260420150250","","value:$this}
+</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260619134042","","value:$this}
 ","",,"open","DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
 "DiagnosticReport.category:chapitreBIO","DiagnosticReport.category","chapitreBIO","Department
 Sub-departmentServiceDiscipline","",1,*,"Y","","Y","CodeableConcept {[]} {[]}
-","Codes des chapitres du compte-rendu de BIO","Le code du chapitre doit être un code issu du jeu de valeurs Circuit de la biologie (disponible sur bioloinc.fr), onglet ‘2.Chapitres LOINC’ et contenant les codes et libellés traduits en français pour la biologie.","Multiple categories are allowed using various categorization schemes.   The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.","","","","","","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260420150250","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Codes des chapitres du compte-rendu de BIO","Le code du chapitre doit être un code issu du jeu de valeurs Circuit de la biologie (disponible sur bioloinc.fr), onglet ‘2.Chapitres LOINC’ et contenant les codes et libellés traduits en français pour la biologie.","Multiple categories are allowed using various categorization schemes.   The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.","","","","","","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260619134042","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
 "DiagnosticReport.code","DiagnosticReport.code","","Type
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}

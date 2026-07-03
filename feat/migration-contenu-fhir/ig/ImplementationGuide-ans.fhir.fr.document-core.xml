@@ -13,7 +13,7 @@
   <name value="FHIRFRDocumentCore"/>
   <title value="FR Document Core (FHIR)"/>
   <status value="draft"/>
-  <date value="2026-07-01T12:03:19+00:00"/>
+  <date value="2026-07-03T07:33:59+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -67,7 +67,7 @@
   <dependsOn id="hl7_fhir_uv_fhir_clinical_document">
     <uri value="http://hl7.org/fhir/uv/fhir-clinical-document/ImplementationGuide/hl7.fhir.uv.fhir-clinical-document"/>
     <packageId value="hl7.fhir.uv.fhir-clinical-document"/>
-    <version value="1.0.1"/>
+    <version value="1.1.0"/>
   </dependsOn>
   <dependsOn id="ihe_pharm_mpd">
     <uri value="https://profiles.ihe.net/PHARM/MPD/ImplementationGuide/ihe.pharm.mpd"/>
@@ -77,7 +77,7 @@
   <dependsOn id="ans_fr_terminologies">
     <uri value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
     <packageId value="ans.fr.terminologies"/>
-    <version value="1.10.0"/>
+    <version value="1.11.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

@@ -15,8 +15,6 @@ Jeu de valeurs permettant de coder la substance responsable d’une allergie
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -34,7 +32,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "FRValueSetAllergySubstanceDocument",
   "title" : "ValueSet – FR ValueSet Allergy Substance Document",
   "status" : "draft",
-  "date" : "2026-07-01T12:03:19+00:00",
+  "date" : "2026-07-03T07:33:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -54,7 +52,7 @@ No Expansion for this valueset (Unknown Code System)
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-sms",
-      "version" : "2026-05"
+      "version" : "2026-06"
     }]
   }
 }

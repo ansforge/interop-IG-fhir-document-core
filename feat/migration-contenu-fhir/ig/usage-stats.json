@@ -542,7 +542,7 @@
   },
   "usage": {
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.status|0.1.0": [
-      "Composition"
+      "Composition.status"
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0": [
       "Composition"
@@ -577,7 +577,7 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
-    "http://hl7.org/fhir/StructureDefinition/event-basedOn|5.2.0": [
+    "http://hl7.org/fhir/StructureDefinition/event-basedOn|5.3.0": [
       "Composition"
     ],
     "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order|5.3.0": [
@@ -642,23 +642,23 @@
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
     ],
-    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.0.1": [
+    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade|1.1.0": [
       "Composition",
       "Composition.section"
     ],
-    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ParticipantExtension|1.0.1": [
+    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ParticipantExtension|1.1.0": [
       "Composition"
     ],
-    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/consent-extension|1.0.1": [
+    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/consent-extension|1.1.0": [
       "Composition"
     ],
-    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/data-enterer-extension|1.0.1": [
+    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/data-enterer-extension|1.1.0": [
       "Composition"
     ],
-    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/informant-extension|1.0.1": [
+    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/informant-extension|1.1.0": [
       "Composition"
     ],
-    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/information-recipient-extension|1.0.1": [
+    "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/information-recipient-extension|1.1.0": [
       "Composition"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code|2.1.0": [
