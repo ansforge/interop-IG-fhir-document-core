@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "ans.fhir.fr.document-core",
   "ig-ver" : "0.1.0",
-  "date" : "Thu, 02 Jul, 2026 16:02:13 +0000",
-  "dateISO8601" : "2026-07-02T16:02:13+00:00",
+  "date" : "Fri, 03 Jul, 2026 07:33:58 +0000",
+  "dateISO8601" : "2026-07-03T07:33:58+00:00",
   "errs" : 9,
   "warnings" : 26,
   "hints" : 103,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2188855024
+  "maxMemory" : 2276699736
 }
