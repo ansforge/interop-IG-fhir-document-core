@@ -10,7 +10,7 @@
 
 ## Contexte technique du projet
 
-[A COMPLETER : doit expliquer brièvement quelles ressources / profils sont utilisés, exemple implémentation où IG est utilisé]
+[A COMPLETER : doit expliquer brièvement quelles ressources / profils sont utilisés, exemple implémentation où IG est utilisé.]
 
 # CI/CD
 
