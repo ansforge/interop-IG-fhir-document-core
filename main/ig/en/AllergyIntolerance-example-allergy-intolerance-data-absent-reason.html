@@ -23,108 +23,6 @@
     <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
       <!-- Placeholder for child template CSS declarations -->
 
-    <script type="text/javascript">
-
-let fhirTableLoading = false;
-
-function getCollapsed(store, row) {
-  return sessionStorage.getItem("ft-"+store+row);
-}
-
-function setCollapsed(store, row, value) {
-  if (!fhirTableLoading) {
-    if (value == 'collapsed') {
-      sessionStorage.setItem("ft-"+store+row, value);
-    } else {
-      sessionStorage.removeItem("ft-"+store+row);
-    }
-  }
-}
-
-function fhirTableRowExpand(table, id) {
-  var rows = table.getElementsByTagName('tr');
-  var row, i;
-  var noex = null;
-  for (i = 0; i < rows.length; i++) {
-    row = rows[i];
-    if (row.id.startsWith(id)) {
-      if (noex && row.id.startsWith(noex)) {
-        // do nothing
-      } else {
-        noex = null;
-        if (row.id != id) {
-          row.style.display = "";
-          if (row.className == 'closed') {
-            noex = row.id;
-          }
-        }
-      }
-    }
-  }
-}
-
-function fhirTableRowCollapse(table, id) {
-  var rows = table.getElementsByTagName('tr');
-  var row, i;
-  for (i = 0; i < rows.length; i++) {
-    row = rows[i];
-    if (row.id.startsWith(id) && row.id != id) {
-      row.style.display = "none";
-    }
-  }
-}
-
-function findElementFromFocus(src, name) {
-  e = src;
-  while (e && e.tagName != name) {
-    e = e.parentNode;
-  }
-  return e;
-}
-
-// src - a handle to an element in a row in the table
-function tableRowAction(src) {
-  let table = findElementFromFocus(src, "TABLE");
-  let row = findElementFromFocus(src, "TR");
-  let td = row.firstElementChild;
-  let state = row.className;
-  if (state == "closed") {
-    fhirTableRowExpand(table, row.id);
-    row.className = "open";
-    src.src  = src.src.replace("-closed", "-open");
-    td.style.backgroundImage = td.style.backgroundImage.replace('0.png', '1.png');
-    setCollapsed(table.id, row.id, 'expanded');
-  } else {
-    fhirTableRowCollapse(table, row.id);
-    row.className = "closed";
-    src.src  = src.src.replace("-open", "-closed");
-    td.style.backgroundImage = td.style.backgroundImage.replace('1.png', '0.png');
-    setCollapsed(table.id, row.id, 'collapsed');
-  }
-}
-
-// src - a handle to an element in a row in the table
-function fhirTableInit(src) {
-  let table = findElementFromFocus(src, "TABLE");
-  var rows = table.getElementsByTagName('tr');
-  var row, i;
-  fhirTableLoading = true;
-  for (i = 0; i < rows.length; i++) {
-    row = rows[i];
-    var id = row.id;
-    if (getCollapsed(table.id, id) == 'collapsed') {
-      let td = row.firstElementChild;
-      let e = td.firstElementChild;
-      while (e.tagName != "IMG" || !(e.src.includes("join"))) {
-        e = e.nextSibling;
-      }
-      tableRowAction(e);
-    }
-  }
-  fhirTableLoading = false;
-}
-
-</script>
     <script src="assets/js/direction-management.js" type="text/javascript"> </script>
 
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -373,13 +271,13 @@ function fhirTableInit(src) {
 
 
 
-  <div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><a name="en-example-allergy-intolerance-data-absent-reason"> </a><a name="en-hcexample-allergy-intolerance-data-absent-reason"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"></p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-fr-allergy-intolerance-document.html">AllergyIntolerance - FR Allergy and intolerance Document</a></p></div><p><b>identifier</b>: <a href="http://terminology.hl7.org/6.2.0/NamingSystem-uri.html" title="As defined by RFC 3986 (http://www.ietf.org/rfc/rfc3986.txt)(with many schemes defined in many RFCs). For OIDs and UUIDs, use the URN form (urn:oid:(note: lowercase) and urn:uuid:). See http://www.ietf.org/rfc/rfc3001.txt and http://www.ietf.org/rfc/rfc4122.txt 
+  <div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><a name="en-example-allergy-intolerance-data-absent-reason"> </a><a name="en-hcexample-allergy-intolerance-data-absent-reason"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"></p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-fr-allergy-intolerance-document.html">AllergyIntolerance - FR Allergy and intolerance Document</a></p></div><p><b>identifier</b>: <a href="http://terminology.hl7.org/6.3.0/NamingSystem-uri.html" title="As defined by RFC 3986 (http://www.ietf.org/rfc/rfc3986.txt)(with many schemes defined in many RFCs). For OIDs and UUIDs, use the URN form (urn:oid:(note: lowercase) and urn:uuid:). See http://www.ietf.org/rfc/rfc3001.txt and http://www.ietf.org/rfc/rfc4122.txt 
 
 This oid is used as an identifier II.root to indicate the the extension is an absolute URI (technically, an IRI). Typically, this is used for OIDs and GUIDs. Note that when this OID is used with OIDs and GUIDs, the II.extension should start with urn:oid or urn:uuid: 
 
 Note that this OID is created to aid with interconversion between CDA and FHIR - FHIR uses urn:ietf:rfc:3986 as equivalent to this OID. URIs as identifiers appear more commonly in FHIR.
 
-This OID may also be used in CD.codeSystem.">Uniform Resource Identifier (URI)</a>/urn:uuid:7f0e9c1a-3b2d-4e5f-8a6b-1c2d3e4f5a6b</p><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification unconfirmed}">Unconfirmed</span></p><p><b>code</b>: <span title="Codes:">Agent allergique inconnu</span></p><p><a name="l464">​</a><b>patient</b>: <a href="Patient/exemple-patient">Exemple Patient</a></p><p><b>onset</b>: 2021-12-04 --&gt; (ongoing)</p><h3>Reactions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Manifestation</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:">Manifestation clinique inconnue</span></td></tr></table></div>
+This OID may also be used in CD.codeSystem.">Uniform Resource Identifier (URI)</a>/urn:uuid:7f0e9c1a-3b2d-4e5f-8a6b-1c2d3e4f5a6b</p><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification unconfirmed}">Unconfirmed</span></p><p><b>code</b>: <span title="Codes:">Agent allergique inconnu</span></p><p><a name="l461">​</a><b>patient</b>: <a href="Patient/exemple-patient">Exemple Patient</a></p><p><b>onset</b>: 2021-12-04 --&gt; (ongoing)</p><h3>Reactions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Manifestation</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:">Manifestation clinique inconnue</span></td></tr></table></div>
 
   
 
@@ -434,7 +332,7 @@ This OID may also be used in CD.codeSystem.">Uniform Resource Identifier (URI)</
           IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</a>.  
           Package ans.fhir.fr.document-core#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-07-08 10:14:00 +0000">
+  <span title="2026-07-08 15:46:00 +0000">
     2026-07-08
   </span>
 

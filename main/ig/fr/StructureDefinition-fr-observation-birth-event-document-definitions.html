@@ -27,108 +27,6 @@
     <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
     <!-- Placeholder for child template CSS declarations -->
 
-    <script type="text/javascript">
-
-let fhirTableLoading = false;
-
-function getCollapsed(store, row) {
-  return sessionStorage.getItem("ft-"+store+row);
-}
-
-function setCollapsed(store, row, value) {
-  if (!fhirTableLoading) {
-    if (value == 'collapsed') {
-      sessionStorage.setItem("ft-"+store+row, value);
-    } else {
-      sessionStorage.removeItem("ft-"+store+row);
-    }
-  }
-}
-
-function fhirTableRowExpand(table, id) {
-  var rows = table.getElementsByTagName('tr');
-  var row, i;
-  var noex = null;
-  for (i = 0; i < rows.length; i++) {
-    row = rows[i];
-    if (row.id.startsWith(id)) {
-      if (noex && row.id.startsWith(noex)) {
-        // do nothing
-      } else {
-        noex = null;
-        if (row.id != id) {
-          row.style.display = "";
-          if (row.className == 'closed') {
-            noex = row.id;
-          }
-        }
-      }
-    }
-  }
-}
-
-function fhirTableRowCollapse(table, id) {
-  var rows = table.getElementsByTagName('tr');
-  var row, i;
-  for (i = 0; i < rows.length; i++) {
-    row = rows[i];
-    if (row.id.startsWith(id) && row.id != id) {
-      row.style.display = "none";
-    }
-  }
-}
-
-function findElementFromFocus(src, name) {
-  e = src;
-  while (e && e.tagName != name) {
-    e = e.parentNode;
-  }
-  return e;
-}
-
-// src - a handle to an element in a row in the table
-function tableRowAction(src) {
-  let table = findElementFromFocus(src, "TABLE");
-  let row = findElementFromFocus(src, "TR");
-  let td = row.firstElementChild;
-  let state = row.className;
-  if (state == "closed") {
-    fhirTableRowExpand(table, row.id);
-    row.className = "open";
-    src.src  = src.src.replace("-closed", "-open");
-    td.style.backgroundImage = td.style.backgroundImage.replace('0.png', '1.png');
-    setCollapsed(table.id, row.id, 'expanded');
-  } else {
-    fhirTableRowCollapse(table, row.id);
-    row.className = "closed";
-    src.src  = src.src.replace("-open", "-closed");
-    td.style.backgroundImage = td.style.backgroundImage.replace('1.png', '0.png');
-    setCollapsed(table.id, row.id, 'collapsed');
-  }
-}
-
-// src - a handle to an element in a row in the table
-function fhirTableInit(src) {
-  let table = findElementFromFocus(src, "TABLE");
-  var rows = table.getElementsByTagName('tr');
-  var row, i;
-  fhirTableLoading = true;
-  for (i = 0; i < rows.length; i++) {
-    row = rows[i];
-    var id = row.id;
-    if (getCollapsed(table.id, id) == 'collapsed') {
-      let td = row.firstElementChild;
-      let e = td.firstElementChild;
-      while (e.tagName != "IMG" || !(e.src.includes("join"))) {
-        e = e.nextSibling;
-      }
-      tableRowAction(e);
-    }
-  }
-  fhirTableLoading = false;
-}
-
-</script>
     <script type="text/javascript" src="assets/js/direction-management.js"> </script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -816,7 +714,7 @@ $( '#tabs' ).tabs({
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.fhir.fr.document-core#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Date de génération : 
-  <span title="2026-07-08 10:14:00 +0000">
+  <span title="2026-07-08 15:46:00 +0000">
     2026-07-08
   </span>
 
