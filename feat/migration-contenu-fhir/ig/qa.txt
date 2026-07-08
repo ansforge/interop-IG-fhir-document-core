@@ -3,7 +3,7 @@ FHIRFRDocumentCore : Validation Results
 
 err = 99, warn = 168, info = 7075
 IG Publisher Version: 2.2.10
-Generated Fri Jul 03 07:56:15 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
+Generated Wed Jul 08 10:01:30 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 12 / 9 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 3 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.document-core : 64 / 5 / 4

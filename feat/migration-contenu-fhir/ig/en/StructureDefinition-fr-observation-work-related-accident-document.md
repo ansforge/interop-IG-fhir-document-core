@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-wo
   "name" : "FRObservationWorkRelatedAccidentDocument",
   "title" : "Observation - FR Observation Work Related Accident Document",
   "status" : "draft",
-  "date" : "2026-07-03T07:33:59+00:00",
+  "date" : "2026-07-08T09:43:12+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
