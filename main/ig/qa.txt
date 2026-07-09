@@ -1,10 +1,10 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 99, warn = 169, info = 7073
+err = 99, warn = 166, info = 7073
 IG Publisher Version: 2.2.10
-Generated Wed Jul 08 16:07:17 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
- Build Errors : 12 / 8 / 0
+Generated Thu Jul 09 09:20:38 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
+ Build Errors : 12 / 5 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 3 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.document-core : 64 / 5 / 4
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Procedure-example-procedure-data-absent-reason : 3 / 0 / 1
@@ -105,9 +105,6 @@ Generated Wed Jul 08 16:07:17 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.docum
 == n/a ==
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: This IG is version 4.0.1, while the IG 'ihe.pharm.mpd' is from version 5.0.0
 ERROR: Medication.extension: The reference http://hl7.org/fhir/ValueSet/medicinal-product-classification could not be resolved
-WARNING: /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/output/en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.change.history.html#/html/body/script at Line 274, column 4: The <script> containing the javascript 'try {   var currentT'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 1437 other files)
-WARNING: /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/output/en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.change.history.html#/html/body/script at Line 369, column 4: The <script> containing the javascript '// ADDED for ANS  do'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 1603 other files)
-WARNING: /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/output/en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.change.history.html#/html/body/script at Line 376, column 4: The <script> containing the javascript '// Ajout ANS  !funct'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 1603 other files)
 ERROR: en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 520: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 319: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 392, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
