@@ -1,10 +1,10 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 99, warn = 166, info = 7073
+err = 99, warn = 161, info = 7076
 IG Publisher Version: 2.2.10
-Generated Thu Jul 09 09:20:38 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
- Build Errors : 12 / 5 / 0
+Generated Fri Jul 10 12:09:29 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
+ Build Errors : 12 / 3 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 3 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.document-core : 64 / 5 / 4
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Procedure-example-procedure-data-absent-reason : 3 / 0 / 1
@@ -93,14 +93,14 @@ Generated Thu Jul 09 09:20:38 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.docum
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-actor-type-document : 0 / 2 / 2
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-allergy-code : 0 / 6 / 4
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-allergy-intolerance-type-document : 0 / 2 / 5
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-allergy-substance : 0 / 5 / 2
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-allergy-substance : 0 / 2 / 5
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-edqm-document : 0 / 1 / 2
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-encounter-class : 1 / 4 / 2
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-evaluation-type : 0 / 2 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-location-body-structure-document : 0 / 2 / 6
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-medication-translation-document : 0 / 7 / 3
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-procedure-code : 0 / 5 / 3
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-vaccine-code-cis : 0 / 5 / 2
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-procedure-code : 0 / 2 / 6
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-vaccine-code-cis : 0 / 2 / 5
 </table>
 == n/a ==
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: This IG is version 4.0.1, while the IG 'ihe.pharm.mpd' is from version 5.0.0
@@ -110,8 +110,6 @@ ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 392, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 398, column 16: The link 'StructureDefinition-fr-relatedperson-document.html' for "FRRelatedPersonDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/blockquote/ul/li/a at Line 716, column 302: The link 'StructureDefinition-fr-allergie-intolerance-document.html' for "FRAllergyIntoleranceDocument" cannot be resolved
-WARNING: /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/output/en/searchform.html#/html/head/script at Line 25, column 3: The <script> containing the javascript '{% raw %} let fhirTa'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 2 other files)
-WARNING: /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/output/en/searchform.html#/html/body/script at Line 356, column 7: The <script> containing the javascript '{% raw %} $( documen'... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (also in 2 other files)
 ERROR: fr/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 523: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: fr/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 320: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 385, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
@@ -7492,14 +7490,14 @@ INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminolo
 WARNING: ValueSet/fr-vs-actor-type-document: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-actor-type-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-fr-vs-allergy-code.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-06-01
-INFORMATION: ValueSet.compose.include[4]: Pinned the version of https://smt.esante.gouv.fr/terminologie-sms to 2026-06
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-07-01
+INFORMATION: ValueSet.compose.include[4]: Pinned the version of https://smt.esante.gouv.fr/terminologie-sms to 2026-07
 INFORMATION: ValueSet.compose.include[3].valueSet[0]: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis to 20260619134043
 WARNING: ValueSet/fr-vs-allergy-code: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-cip_ucd'
 WARNING: ValueSet/fr-vs-allergy-code: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-allergy-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-allergy-code'): Error from https://smt.esante.gouv.fr/fhir: Error: [02e5d239-e15c-425a-88ab-085cec17786e]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-bdpm|2026-06-01 could not be resolved.
-Information: X-Request-Id: 432c7625-29ab-4234-8c4c-699ec14e93f2
+WARNING: ValueSet.where(id = 'fr-vs-allergy-code'): Error from https://smt.esante.gouv.fr/fhir: Error: [f93d592e-cfb0-43cd-b891-e02f43dab217]: Could not find the code system https://smt.esante.gouv.fr/terminologie-cip_ucd|2026-07
+Information: X-Request-Id: bc26e43f-0165-4a43-8cb7-2fe1aac3ffda
 == fsh-generated/resources/ValueSet-fr-vs-allergy-intolerance-type-document.json ==
 INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://hl7.org/fhir/allergy-intolerance-type to 4.0.1
 INFORMATION: ValueSet/fr-vs-allergy-intolerance-type-document: ValueSet.compose.include[0].concept[0]: Reference to draft CodeSystem http://hl7.org/fhir/allergy-intolerance-type|4.0.1
@@ -7508,11 +7506,10 @@ INFORMATION: ValueSet/fr-vs-allergy-intolerance-type-document: ValueSet.compose.
 WARNING: ValueSet/fr-vs-allergy-intolerance-type-document: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-allergy-intolerance-type-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-fr-vs-allergy-substance.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-sms to 2026-06
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-sms to 2026-07
 WARNING: ValueSet/fr-vs-allergy-substance: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-allergy-substance should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-allergy-substance'): Error from https://smt.esante.gouv.fr/fhir: Error: [b690b130-dcba-4eaa-bd84-9d3cdc714145]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-sms|2026-06 could not be resolved.
-Information: X-Request-Id: ba852f13-9f7e-4008-aa73-7ff45f86ee13
+INFORMATION: ValueSet.where(id = 'fr-vs-allergy-substance'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-fr-vs-edqm-document.json ==
 INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-standardterms to 2026-01-30
 WARNING: Resource: The resource ValueSet/fr-vs-edqm-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
@@ -7531,24 +7528,22 @@ WARNING: ValueSet/fr-vs-location-body-structure-document: ValueSet: Published va
 WARNING: Resource: The resource ValueSet/fr-vs-location-body-structure-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 INFORMATION: ValueSet.where(id = 'fr-vs-location-body-structure-document'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-fr-vs-medication-translation-document.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-06-01
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-07-01
 INFORMATION: ValueSet.compose.include[2]: Pinned the version of https://smt.esante.gouv.fr/terminologie-atc to 2026-02
 WARNING: ValueSet/fr-vs-medication-translation-document: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-cip_ucd'
 WARNING: ValueSet/fr-vs-medication-translation-document: ValueSet.compose.include[3].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-medicabase'
 WARNING: ValueSet/fr-vs-medication-translation-document: ValueSet.compose.include[4].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-nuva/'
 WARNING: Resource: The resource ValueSet/fr-vs-medication-translation-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-medication-translation-document'): Error from https://smt.esante.gouv.fr/fhir: Error: [02e5d239-e15c-425a-88ab-085cec17786e]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-bdpm|2026-06-01 could not be resolved.
-Information: X-Request-Id: 432c7625-29ab-4234-8c4c-699ec14e93f2
+WARNING: ValueSet.where(id = 'fr-vs-medication-translation-document'): Error from https://smt.esante.gouv.fr/fhir: Error: [f93d592e-cfb0-43cd-b891-e02f43dab217]: Could not find the code system https://smt.esante.gouv.fr/terminologie-cip_ucd|2026-07
+Information: X-Request-Id: bc26e43f-0165-4a43-8cb7-2fe1aac3ffda
 == fsh-generated/resources/ValueSet-fr-vs-procedure-code.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-ccam to v82.00
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-ccam to v83.00
 INFORMATION: ValueSet.compose.include[2].valueSet[0]: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis to 20260619134042
 WARNING: ValueSet/fr-vs-procedure-code: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-procedure-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-procedure-code'): Error from https://smt.esante.gouv.fr/fhir: Error: [0d29f1b3-92f1-4024-85b4-1999bc0d17a0]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ccam|v82.00 could not be resolved.
-Information: X-Request-Id: e83f1f78-8e55-4186-92a9-7816cf2aba6a
+INFORMATION: ValueSet.where(id = 'fr-vs-procedure-code'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-fr-vs-vaccine-code-cis.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-06-01
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-07-01
 WARNING: ValueSet/fr-vs-vaccine-code-cis: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-vaccine-code-cis should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-vaccine-code-cis'): Error from https://smt.esante.gouv.fr/fhir: Error: [02e5d239-e15c-425a-88ab-085cec17786e]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-bdpm|2026-06-01 could not be resolved.
-Information: X-Request-Id: 432c7625-29ab-4234-8c4c-699ec14e93f2
+INFORMATION: ValueSet.where(id = 'fr-vs-vaccine-code-cis'): The value set expansion is too large, and only a subset has been displayed
