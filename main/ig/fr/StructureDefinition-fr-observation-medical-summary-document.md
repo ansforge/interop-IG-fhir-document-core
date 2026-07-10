@@ -114,7 +114,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
   "name" : "FRObservationMedicalSummaryDocument",
   "title" : "Observation - FR Observation Medical Summary Document",
   "status" : "draft",
-  "date" : "2026-07-10T12:01:50+00:00",
+  "date" : "2026-07-10T12:28:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
