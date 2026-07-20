@@ -14,7 +14,7 @@ Description: "FRMedicationDocument permet de décrire un médicament ou un vacci
 * extension contains $ihe-ext-medication-productname named productName 1..1 MS
 * extension[productName] ^short = "Nom de marque du produit." 
 * form MS
-* form from FRValueSetEDQMDocument (required)
+* form from FRValueSetEDQMFormDocument (required)
 * batch.lotNumber MS 
   * ^short = "Numéro de lot"
 * batch.expirationDate MS 
