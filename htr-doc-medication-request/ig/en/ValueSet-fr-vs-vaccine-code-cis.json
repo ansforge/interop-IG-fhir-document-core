@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "fr-vs-vaccine-code-cis",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet fr-vs-vaccine-code-cis</b></p><a name=\"en-fr-vs-vaccine-code-cis\"> </a><a name=\"en-hcfr-vs-vaccine-code-cis\"> </a><ul><li>Include all codes defined in <a href=\"https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-terminologie-bdpm.html\"><code>https://smt.esante.gouv.fr/terminologie-bdpm</code></a><span title=\"Version is explicitly stated to be 2026-07-01\"> version &#x1F4CD;2026-07-01</span></li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-vaccine-code-cis",
+  "version" : "0.1.0",
+  "name" : "FRValueSetVaccineCodeCISDocument",
+  "title" : "ValueSet – FR ValueSet Codes vaccins CIS (BDPM)",
+  "status" : "draft",
+  "date" : "2026-07-20T12:22:24+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Codes issus de la Base de Données Publique des Médicaments (BDPM) pour identifier les vaccins par leur code CIS.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-bdpm",
+      "version" : "2026-07-01"
+    }]
+  }
+}
