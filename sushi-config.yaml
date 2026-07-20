@@ -136,6 +136,8 @@ groups:
       - StructureDefinition/fr-observation-radiation-exposure-document
       - StructureDefinition/fr-observation-transfusion-accidents-document
       - StructureDefinition/fr-observation-work-related-accident-document
+      - StructureDefinition/fr-observation-ald-document
+      - StructureDefinition/fr-observation-prevention-document
       - StructureDefinition/fr-observation-survey-document
       - StructureDefinition/fr-observation-survey-pannel-document
       - StructureDefinition/fr-observation-social-history-document

@@ -61,34 +61,21 @@ Description: "FRMedicationRequestDocument permet de décrire un traitement presc
 * requester only Reference(FRPractitionerRoleDocument or FRPractitionerDocument)
 
 * authoredOn MS
+
 // Motif du traitement
 * reasonReference MS
   * ^short = "Motif du traitement"
-* reasonReference only Reference(FRConditionDocument or Observation)
+* reasonReference only Reference(Observation or FRConditionDocument or FRObservationPreventionDocument or FRObservationALDDocument or FRObservationWorkRelatedAccidentDocument)
 
 // document externe 
 * instantiatesUri ^short = "Référence de la prescription"
 
 * basedOn 0..1 MS
   * ^short = "Référence à un item du plan de traitement. Une copie du plan de traitement médicamenteux."
-* basedOn only Reference(FRMedicationRequestDocument)
+* basedOn only Reference(FRMedicationRequestDocument or FRCarePlanDocument or FRServiceRequestDocument or FRImmunizationRecommendationDocument)
 
-* dosageInstruction.additionalInstruction ^slicing.discriminator.type = #pattern
-* dosageInstruction.additionalInstruction ^slicing.discriminator.path = "$this"
-* dosageInstruction.additionalInstruction ^slicing.rules = #open
- 
-* dosageInstruction.additionalInstruction contains
-    instructionsPatient 0..1 MS and
-    precondition 0..1
- 
-* dosageInstruction.additionalInstruction[instructionsPatient]
-  * ^short = "Instruction au patient"
-  * coding 1..1
-  * coding = $v3-ActCode#PINSTRUCT "Patient Medication Instructions"
- 
-* dosageInstruction.additionalInstruction[precondition]
-  * ^short = "Condition préalable à l'utilisation du médicament"
-  * text = "Permet de décrire les conditions préalables à l'utilisation du médicament."
+// Instructions au patient et préconditions
+* dosageInstruction.additionalInstruction ^short = "Informations supplémentaires utilisables pour instructions au Patien ou pércondition préalables à l'utilisation du médicament"
 
 * dispenseRequest MS
   * extension contains $medicationRequest-dispenseRequest-dispenserInstruction-r5 named dispenserInstructionR5 0..1
@@ -106,25 +93,6 @@ Description: "FRMedicationRequestDocument permet de décrire un traitement presc
   * allowedCodeableConcept from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis
   * reason MS
   * reason.text ^short = "Motif de non substitution (Marge thérapeutique étroite, Enfant forme galénique, Contre-indication formelle)."
-
-* reasonReference ^slicing.discriminator.type = #pattern
-* reasonReference ^slicing.discriminator.path = "display"
-* reasonReference ^slicing.rules = #open
-
-* reasonReference contains
-    ald 0..1 and
-    accidentTravail 0..1 and
-    prevention 0..1
-
-* reasonReference[ald] only Reference(FRConditionDocument)
-* reasonReference[ald] ^short = "En rapport avec une Affection Longue Durée (ALD)."
-* reasonReference[ald] ^definition = "S'il s'agit d'une Affection Longue Durée (ALD) il faut préciser le problème"
-
-* reasonReference[accidentTravail] only Reference(FRObservationWorkRelatedAccidentDocument)
-* reasonReference[accidentTravail] ^short = "En rapport avec accident travail"
-
-* reasonReference[prevention] only Reference(FRConditionDocument)
-* reasonReference[prevention] ^short = "En rapport avec la prévention"
 
 * extension contains $ihe-ext-offLabel named horsAMM 0..* MS
 * extension[horsAMM] ^short = "Hors Autorisation de mise sur le marché"
