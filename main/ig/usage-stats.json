@@ -395,6 +395,10 @@
         "title": "Observation - FR Observation Administration Blood Derivatives Document"
       },
       {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document",
+        "title": "Observation - FR Observation ALD Document"
+      },
+      {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-birth-event-document",
         "title": "Observation - FR Observation Birth Event Document"
       },
@@ -433,6 +437,10 @@
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-history-document",
         "title": "Observation - FR Observation Pregnancy History Document"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document",
+        "title": "Observation - FR Observation Prevention Document"
       },
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-radiation-exposure-document",

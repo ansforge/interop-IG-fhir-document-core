@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-req
   "name" : "FRMedicationRequestDocument",
   "title" : "MedicationRequest - FR Medication Request Document",
   "status" : "draft",
-  "date" : "2026-07-10T12:58:40+00:00",
+  "date" : "2026-07-20T14:08:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -188,57 +188,16 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-req
     {
       "id" : "MedicationRequest.reasonReference",
       "path" : "MedicationRequest.reasonReference",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "display"
-        }],
-        "rules" : "open"
-      },
       "short" : "Motif du traitement",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
-        "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation|4.0.1",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
       }],
       "mustSupport" : true
-    },
-    {
-      "id" : "MedicationRequest.reasonReference:ald",
-      "path" : "MedicationRequest.reasonReference",
-      "sliceName" : "ald",
-      "short" : "En rapport avec une Affection Longue Durée (ALD).",
-      "definition" : "S'il s'agit d'une Affection Longue Durée (ALD) il faut préciser le problème",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "MedicationRequest.reasonReference:accidentTravail",
-      "path" : "MedicationRequest.reasonReference",
-      "sliceName" : "accidentTravail",
-      "short" : "En rapport avec accident travail",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "MedicationRequest.reasonReference:prevention",
-      "path" : "MedicationRequest.reasonReference",
-      "sliceName" : "prevention",
-      "short" : "En rapport avec la prévention",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0"]
-      }]
     },
     {
       "id" : "MedicationRequest.instantiatesUri",
@@ -252,7 +211,10 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-req
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-care-plan-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-recommendation-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -264,46 +226,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-req
     {
       "id" : "MedicationRequest.dosageInstruction.additionalInstruction",
       "path" : "MedicationRequest.dosageInstruction.additionalInstruction",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "MedicationRequest.dosageInstruction.additionalInstruction:instructionsPatient",
-      "path" : "MedicationRequest.dosageInstruction.additionalInstruction",
-      "sliceName" : "instructionsPatient",
-      "short" : "Instruction au patient",
-      "min" : 0,
-      "max" : "1",
-      "mustSupport" : true
-    },
-    {
-      "id" : "MedicationRequest.dosageInstruction.additionalInstruction:instructionsPatient.coding",
-      "path" : "MedicationRequest.dosageInstruction.additionalInstruction.coding",
-      "min" : 1,
-      "max" : "1",
-      "patternCoding" : {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-        "code" : "PINSTRUCT",
-        "display" : "Patient Medication Instructions"
-      }
-    },
-    {
-      "id" : "MedicationRequest.dosageInstruction.additionalInstruction:precondition",
-      "path" : "MedicationRequest.dosageInstruction.additionalInstruction",
-      "sliceName" : "precondition",
-      "short" : "Condition préalable à l'utilisation du médicament",
-      "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "MedicationRequest.dosageInstruction.additionalInstruction:precondition.text",
-      "path" : "MedicationRequest.dosageInstruction.additionalInstruction.text",
-      "patternString" : "Permet de décrire les conditions préalables à l'utilisation du médicament."
+      "short" : "Informations supplémentaires utilisables pour instructions au Patien ou pércondition préalables à l'utilisation du médicament"
     },
     {
       "id" : "MedicationRequest.dosageInstruction.timing",

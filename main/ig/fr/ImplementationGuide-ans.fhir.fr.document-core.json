@@ -11,7 +11,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-07-10T12:58:40+00:00",
+  "date" : "2026-07-20T14:08:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1693,6 +1693,19 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/fr-observation-ald-document"
+      },
+      "name" : "Observation - FR Observation ALD Document",
+      "description" : "FRObservationALDDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une affection longue durée (ALD).",
+      "exampleBoolean" : false,
+      "groupingId" : "Ressources FHIR corps"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/fr-observation-birth-event-document"
       },
       "name" : "Observation - FR Observation Birth Event Document",
@@ -1801,6 +1814,19 @@
       },
       "name" : "Observation - FR Observation Pregnancy History Document",
       "description" : "FRObservationPregnancyHistoryDocument permet de regrouper les observations relatives à un épisode de grossesse.",
+      "exampleBoolean" : false,
+      "groupingId" : "Ressources FHIR corps"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-observation-prevention-document"
+      },
+      "name" : "Observation - FR Observation Prevention Document",
+      "description" : "FRObservationPreventionDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une prévention.",
       "exampleBoolean" : false,
       "groupingId" : "Ressources FHIR corps"
     },
@@ -2019,6 +2045,18 @@
         "reference" : "ValueSet/fr-vs-edqm-document"
       },
       "name" : "ValueSet - FR ValueSet EDQM Document",
+      "description" : "ValueSet basé sur le CodeSystem EDQM fourni par SMT.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/fr-vs-edqm-form-document"
+      },
+      "name" : "ValueSet - FR ValueSet EDQM Form Document",
       "description" : "ValueSet basé sur le CodeSystem EDQM fourni par SMT. classe PDF (forme galénique).",
       "exampleBoolean" : false
     },

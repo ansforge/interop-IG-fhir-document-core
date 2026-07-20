@@ -13,7 +13,7 @@
   <name value="FHIRFRDocumentCore"/>
   <title value="FR Document Core (FHIR)"/>
   <status value="draft"/>
-  <date value="2026-07-10T12:58:40+00:00"/>
+  <date value="2026-07-20T14:08:41+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -1401,6 +1401,18 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/fr-observation-ald-document"/>
+      </reference>
+      <name value="Observation - FR Observation ALD Document"/>
+      <description value="FRObservationALDDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une affection longue durée (ALD)."/>
+      <exampleBoolean value="false"/>
+      <groupingId value="Ressources FHIR corps"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/fr-observation-birth-event-document"/>
       </reference>
       <name value="Observation - FR Observation Birth Event Document"/>
@@ -1501,6 +1513,18 @@
       </reference>
       <name value="Observation - FR Observation Pregnancy History Document"/>
       <description value="FRObservationPregnancyHistoryDocument permet de regrouper les observations relatives à un épisode de grossesse."/>
+      <exampleBoolean value="false"/>
+      <groupingId value="Ressources FHIR corps"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fr-observation-prevention-document"/>
+      </reference>
+      <name value="Observation - FR Observation Prevention Document"/>
+      <description value="FRObservationPreventionDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une prévention."/>
       <exampleBoolean value="false"/>
       <groupingId value="Ressources FHIR corps"/>
     </resource>
@@ -1702,6 +1726,17 @@
         <reference value="ValueSet/fr-vs-edqm-document"/>
       </reference>
       <name value="ValueSet - FR ValueSet EDQM Document"/>
+      <description value="ValueSet basé sur le CodeSystem EDQM fourni par SMT."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/fr-vs-edqm-form-document"/>
+      </reference>
+      <name value="ValueSet - FR ValueSet EDQM Form Document"/>
       <description value="ValueSet basé sur le CodeSystem EDQM fourni par SMT. classe PDF (forme galénique)."/>
       <exampleBoolean value="false"/>
     </resource>

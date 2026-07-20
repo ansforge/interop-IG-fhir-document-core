@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-07-10T12:58:40+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-07-20T14:08:41+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -1941,6 +1941,21 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-ald-document" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation ALD Document" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationALDDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une affection longue durée (ALD)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-birth-event-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-birth-event-document" ]
        ] ;
@@ -2066,6 +2081,21 @@
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Pregnancy History Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationPregnancyHistoryDocument permet de regrouper les observations relatives à un épisode de grossesse." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-prevention-document" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Prevention Document" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationPreventionDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une prévention." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
      ], [
@@ -2318,6 +2348,20 @@
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-edqm-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet - FR ValueSet EDQM Document" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet basé sur le CodeSystem EDQM fourni par SMT." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-form-document> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-edqm-form-document" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet - FR ValueSet EDQM Form Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet basé sur le CodeSystem EDQM fourni par SMT. classe PDF (forme galénique)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [

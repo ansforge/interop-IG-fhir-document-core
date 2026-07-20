@@ -37,8 +37,8 @@ Cette structure est dérivée de [MedicationRequest](http://hl7.org/fhir/R4/medi
 
 ** Résumé **
 
-Obligatoire : 1 élément(8 éléments obligatoire(s) imbriqué(s))
- Must-Support : 35 éléments
+Obligatoire : 1 élément(7 éléments obligatoire(s) imbriqué(s))
+ Must-Support : 34 éléments
  Interdit : 1 élément
 
 **Structures**
@@ -51,10 +51,15 @@ Cette structure fait référence à ces autres structures:
 * [FR Encounter Care Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0)](StructureDefinition-fr-encounter-care-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
-* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
+* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
+* [Observation - FR Observation Prevention Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0)](StructureDefinition-fr-observation-prevention-document.md)
+* [Observation - FR Observation ALD Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0)](StructureDefinition-fr-observation-ald-document.md)
 * [Observation - FR Observation Work Related Accident Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0)](StructureDefinition-fr-observation-work-related-accident-document.md)
 * [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
+* [CarePlan - FR Care Plan Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-care-plan-document|0.1.0)](StructureDefinition-fr-care-plan-document.md)
+* [ServiceRequest - FR Service Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0)](StructureDefinition-fr-service-request-document.md)
+* [ImmunizationRecommendation - FR Immunization Recommendation Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-recommendation-document|0.1.0)](StructureDefinition-fr-immunization-recommendation-document.md)
 
 **Extensions**
 
@@ -68,8 +73,6 @@ Cette structure fait référence à ces extensions:
 
 Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
 
-* The element 1 is sliced based on the value of MedicationRequest.reasonReference
-* The element 1 is sliced based on the value of MedicationRequest.dosageInstruction.additionalInstruction
 * The element 1 is sliced based on the value of MedicationRequest.dosageInstruction.timing.repeat.bounds[x]
 * The element 1 is sliced based on the value of MedicationRequest.dosageInstruction.doseAndRate.dose[x]
 * The element 1 is sliced based on the value of MedicationRequest.dosageInstruction.doseAndRate.rate[x]
@@ -97,8 +100,8 @@ Cette structure est dérivée de [MedicationRequest](http://hl7.org/fhir/R4/medi
 
 ** Résumé **
 
-Obligatoire : 1 élément(8 éléments obligatoire(s) imbriqué(s))
- Must-Support : 35 éléments
+Obligatoire : 1 élément(7 éléments obligatoire(s) imbriqué(s))
+ Must-Support : 34 éléments
  Interdit : 1 élément
 
 **Structures**
@@ -111,10 +114,15 @@ Cette structure fait référence à ces autres structures:
 * [FR Encounter Care Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0)](StructureDefinition-fr-encounter-care-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
-* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
+* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
+* [Observation - FR Observation Prevention Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0)](StructureDefinition-fr-observation-prevention-document.md)
+* [Observation - FR Observation ALD Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0)](StructureDefinition-fr-observation-ald-document.md)
 * [Observation - FR Observation Work Related Accident Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0)](StructureDefinition-fr-observation-work-related-accident-document.md)
 * [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
+* [CarePlan - FR Care Plan Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-care-plan-document|0.1.0)](StructureDefinition-fr-care-plan-document.md)
+* [ServiceRequest - FR Service Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0)](StructureDefinition-fr-service-request-document.md)
+* [ImmunizationRecommendation - FR Immunization Recommendation Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-recommendation-document|0.1.0)](StructureDefinition-fr-immunization-recommendation-document.md)
 
 **Extensions**
 
@@ -128,8 +136,6 @@ Cette structure fait référence à ces extensions:
 
 Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
 
-* The element 1 is sliced based on the value of MedicationRequest.reasonReference
-* The element 1 is sliced based on the value of MedicationRequest.dosageInstruction.additionalInstruction
 * The element 1 is sliced based on the value of MedicationRequest.dosageInstruction.timing.repeat.bounds[x]
 * The element 1 is sliced based on the value of MedicationRequest.dosageInstruction.doseAndRate.dose[x]
 * The element 1 is sliced based on the value of MedicationRequest.dosageInstruction.doseAndRate.rate[x]
@@ -152,7 +158,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-r
   "name" : "FRMedicationRequestDocument",
   "title" : "MedicationRequest - FR Medication Request Document",
   "status" : "draft",
-  "date" : "2026-07-10T12:58:40+00:00",
+  "date" : "2026-07-20T14:08:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -308,57 +314,16 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-r
     {
       "id" : "MedicationRequest.reasonReference",
       "path" : "MedicationRequest.reasonReference",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "display"
-        }],
-        "rules" : "open"
-      },
       "short" : "Motif du traitement",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
-        "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation|4.0.1",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
       }],
       "mustSupport" : true
-    },
-    {
-      "id" : "MedicationRequest.reasonReference:ald",
-      "path" : "MedicationRequest.reasonReference",
-      "sliceName" : "ald",
-      "short" : "En rapport avec une Affection Longue Durée (ALD).",
-      "definition" : "S'il s'agit d'une Affection Longue Durée (ALD) il faut préciser le problème",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "MedicationRequest.reasonReference:accidentTravail",
-      "path" : "MedicationRequest.reasonReference",
-      "sliceName" : "accidentTravail",
-      "short" : "En rapport avec accident travail",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "MedicationRequest.reasonReference:prevention",
-      "path" : "MedicationRequest.reasonReference",
-      "sliceName" : "prevention",
-      "short" : "En rapport avec la prévention",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0"]
-      }]
     },
     {
       "id" : "MedicationRequest.instantiatesUri",
@@ -372,7 +337,10 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-r
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-care-plan-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-recommendation-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -384,46 +352,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-r
     {
       "id" : "MedicationRequest.dosageInstruction.additionalInstruction",
       "path" : "MedicationRequest.dosageInstruction.additionalInstruction",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "MedicationRequest.dosageInstruction.additionalInstruction:instructionsPatient",
-      "path" : "MedicationRequest.dosageInstruction.additionalInstruction",
-      "sliceName" : "instructionsPatient",
-      "short" : "Instruction au patient",
-      "min" : 0,
-      "max" : "1",
-      "mustSupport" : true
-    },
-    {
-      "id" : "MedicationRequest.dosageInstruction.additionalInstruction:instructionsPatient.coding",
-      "path" : "MedicationRequest.dosageInstruction.additionalInstruction.coding",
-      "min" : 1,
-      "max" : "1",
-      "patternCoding" : {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-        "code" : "PINSTRUCT",
-        "display" : "Patient Medication Instructions"
-      }
-    },
-    {
-      "id" : "MedicationRequest.dosageInstruction.additionalInstruction:precondition",
-      "path" : "MedicationRequest.dosageInstruction.additionalInstruction",
-      "sliceName" : "precondition",
-      "short" : "Condition préalable à l'utilisation du médicament",
-      "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "MedicationRequest.dosageInstruction.additionalInstruction:precondition.text",
-      "path" : "MedicationRequest.dosageInstruction.additionalInstruction.text",
-      "patternString" : "Permet de décrire les conditions préalables à l'utilisation du médicament."
+      "short" : "Informations supplémentaires utilisables pour instructions au Patien ou pércondition préalables à l'utilisation du médicament"
     },
     {
       "id" : "MedicationRequest.dosageInstruction.timing",

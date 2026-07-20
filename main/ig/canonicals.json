@@ -307,6 +307,13 @@
   "name" : "FRObservationAdministrationBloodDerivativesDocument"
 },
 {
+  "id" : "fr-observation-ald-document",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document",
+  "version" : "0.1.0",
+  "name" : "FRObservationALDDocument"
+},
+{
   "id" : "fr-observation-birth-event-document",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-birth-event-document",
@@ -375,6 +382,13 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-history-document",
   "version" : "0.1.0",
   "name" : "FRObservationPregnancyHistoryDocument"
+},
+{
+  "id" : "fr-observation-prevention-document",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document",
+  "version" : "0.1.0",
+  "name" : "FRObservationPreventionDocument"
 },
 {
   "id" : "fr-observation-radiation-exposure-document",
@@ -613,6 +627,13 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document",
   "version" : "0.1.0",
   "name" : "FRValueSetEDQMDocument"
+},
+{
+  "id" : "fr-vs-edqm-form-document",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-form-document",
+  "version" : "0.1.0",
+  "name" : "FRValueSetEDQMFormDocument"
 },
 {
   "id" : "fr-vs-encounter-class",
