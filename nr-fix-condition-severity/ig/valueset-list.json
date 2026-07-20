@@ -1,0 +1,214 @@
+{
+  "codeSystems" : [{
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetParticipationType",
+    "title" : "FR ValueSet Participation Type",
+    "description" : "Type de participation : destinataire",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationType"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-composition-document.html" : "FR Composition Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-role-prise-charge",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetRolePriseCharge",
+    "title" : "Fr ValueSet RolePriseCharge",
+    "description" : "Pour les professions 41 (Assistant de service social) et 99 (Acteur caractérisé par son rôle).",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-actor-type-document",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetActorTypeDocument",
+    "title" : "ValueSet - FR ValueSet Actor Type Document",
+    "description" : "Jeu de valeurs pour les types d'acteurs.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationType"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
+    "StructureDefinition-fr-diagnostic-report-document.html" : "DiagnosticReport - FR Diagnostic Report Document",
+    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
+    "StructureDefinition-fr-observation-survey-document.html" : "Observation - FR Observation Survey Document",
+    "StructureDefinition-fr-observation-transfusion-accidents-document.html" : "Observation - FR Observation Transfusion Accidents Document",
+    "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
+    "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
+    "StructureDefinition-fr-diagnostic-report-imaging-document.html" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
+    "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-medical-summary-document.html" : "Observation - FR Observation Medical Summary Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-observation-administration-blood-derivatives-document.html" : "Observation - FR Observation Administration Blood Derivatives Document",
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-observation-blood-product-transfusion-document.html" : "Observation - FR Blood Product Transfusion Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
+    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document",
+    "StructureDefinition-fr-actor-extension.html" : "FR Actor Extension",
+    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
+    "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document",
+    "StructureDefinition-fr-device-use-statement-document.html" : "DeviceUseStatement - FR Device Use Statement Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-code",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetAllergyCodeDocument",
+    "title" : "ValueSet – FR ValueSet Allergy Code Document",
+    "description" : "Jeu de valeurs permettant de coder l’agent responsable d’une allergie :\n- Médicaments : CIP ou UCD\n- Substances : SMS\n- Aliments : CIM-11 Chapitre X Extensions – Allergènes ou substances non médicinales\n- Agents environnementaux ou physiques : idem CIM-11 Chapitre X Extensions\n- Allergènes pouvant induire une contre-indication vaccinale : jdv-allergie-vaccin-cisis",
+    "systems" : ["http://id.who.int/icd/release/11/mms",
+    "https://smt.esante.gouv.fr/terminologie-bdpm",
+    "https://smt.esante.gouv.fr/terminologie-sms",
+    "https://smt.esante.gouv.fr/terminologie-cip_ucd",
+    "http://snomed.info/sct",
+    "http://www.whocc.no/atc"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-allergy-intolerance-document.html" : "AllergyIntolerance - FR Allergy and intolerance Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-intolerance-type-document",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetAllergyInoleranceTypeDocument",
+    "title" : "ValueSet - FR ValueSet Allergy Intolerance Type Document",
+    "description" : "ValueSet contenant les codes SNOMED CT autorisés pour les types d'allergies et d'intolérances",
+    "systems" : ["http://hl7.org/fhir/allergy-intolerance-type",
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-allergy-intolerance-document.html" : "AllergyIntolerance - FR Allergy and intolerance Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-substance",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetAllergySubstanceDocument",
+    "title" : "ValueSet – FR ValueSet Allergy Substance Document",
+    "description" : "Jeu de valeurs permettant de coder la substance responsable d’une allergie",
+    "systems" : ["https://smt.esante.gouv.fr/terminologie-sms"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-allergy-intolerance-document.html" : "AllergyIntolerance - FR Allergy and intolerance Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetEDQMDocument",
+    "title" : "ValueSet - FR ValueSet EDQM Document",
+    "description" : "ValueSet basé sur le CodeSystem EDQM fourni par SMT.",
+    "systems" : ["https://smt.esante.gouv.fr/terminologie-standardterms"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
+    "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-form-document",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetEDQMFormDocument",
+    "title" : "ValueSet - FR ValueSet EDQM Form Document",
+    "description" : "ValueSet basé sur le CodeSystem EDQM fourni par SMT. classe PDF (forme galénique).",
+    "systems" : ["https://smt.esante.gouv.fr/terminologie-standardterms"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-encounter-class",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetEncounterClass",
+    "title" : "FR ValueSet Encounter Class",
+    "description" : "ValueSet pour les types de rencontre basé sur HL7 v3 ActEncounterCode.\n - Ce ValueSet peut être étendu ultérieurement avec des codes spécifiques définis par les différents volets pour répondre à des besoins métier particuliers.",
+    "systems" : ["http://terminology.hl7.org/ValueSet/v3-ActEncounterCode"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-evaluation-type",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetEvaluationTypeDocument",
+    "title" : "ValueSet – FR ValueSet Type d'évaluation",
+    "description" : "Codes autorisés pour indiquer le type d'évaluation.\nInclut LOINC, ICF, et permet d'autres systèmes si aucun code approprié n'est trouvé.",
+    "systems" : ["http://hl7.org/fhir/sid/icf", "http://loinc.org"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-observation-survey-document.html" : "Observation - FR Observation Survey Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-location-body-structure-document",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetLocationBodyStructureDocument",
+    "title" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
+    "description" : "Codes SNOMED CT autorisés pour décrire une localisation anatomique ou une voie d'abord.\nInclut :\n- Les structures anatomiques pour body site : http://hl7.org/fhir/ValueSet/body-site\n- Les structures anatomiques pour voie d'abord (approach-site-codes) : http://hl7.org/fhir/ValueSet/approach-site-codes",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-body-structure-document.html" : "BodyStructure - FR Body Structure Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-medication-translation-document",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetMedicationTranslationDocument",
+    "title" : "ValueSet - FR ValueSet Medication Translation Document",
+    "description" : "Systèmes autorisés pour les autres codifications.",
+    "systems" : ["https://smt.esante.gouv.fr/terminologie-medicabase",
+    "https://smt.esante.gouv.fr/terminologie-bdpm",
+    "https://smt.esante.gouv.fr/terminologie-cip_ucd",
+    "https://smt.esante.gouv.fr/terminologie-nuva/",
+    "https://smt.esante.gouv.fr/terminologie-atc"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document",
+    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
+    "StructureDefinition-fr-immunization-recommendation-document.html" : "ImmunizationRecommendation - FR Immunization Recommendation Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-procedure-code",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetProcedureCodeDocument",
+    "title" : "ValueSet – FR ValueSet Codes d’actes",
+    "description" : "Codes autorisés pour indiquer un acte.\nInclut :\n- Terminologie CCAM\n- NCIT (code C25218 : 'Intervention') si l'acte n'est pas trouvé dans CCAM\n- CISIS jdv-absent-or-unknown-procedure-cisis pour actes chirurgicaux inconnus ou absents.\n\nSi aucun code approprié n’est disponible, l’acte peut être décrit en texte libre.",
+    "systems" : ["http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+    "https://smt.esante.gouv.fr/terminologie-ccam",
+    "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-vaccine-code-cis",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetVaccineCodeCISDocument",
+    "title" : "ValueSet – FR ValueSet Codes vaccins CIS (BDPM)",
+    "description" : "Codes issus de la Base de Données Publique des Médicaments (BDPM) pour identifier les vaccins par leur code CIS.",
+    "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
+    "StructureDefinition-fr-immunization-recommendation-document.html" : "ImmunizationRecommendation - FR Immunization Recommendation Document"
+  }]
+}
