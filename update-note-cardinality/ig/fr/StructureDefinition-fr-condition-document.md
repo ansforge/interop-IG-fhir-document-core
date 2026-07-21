@@ -1,0 +1,379 @@
+# Condition - FR Condition Document - FR Document Core (FHIR) v0.1.0
+
+## Profil de ressource: Condition - FR Condition Document 
+
+ 
+FRConditionDocument est un profil utilisé pour décrire un problème du patient (une pathologie par exemple). 
+
+**Utilisations:**
+
+* Référence ce Profil: [AdverseEvent - FR adverse event Document](StructureDefinition-fr-adverse-event-document.md), [DeviceRequest - FR Device request Document](StructureDefinition-fr-device-request-document.md), [DeviceUseStatement - FR Device Use Statement Document](StructureDefinition-fr-device-use-statement-document.md), [Immunization - FR Immunization Document](StructureDefinition-fr-immunization-document.md)... Show 5 more, [MedicationAdministration - FR Medication Administration Document](StructureDefinition-fr-medication-administration-document.md), [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md), [MedicationStatement - FR Medication Statement Document](StructureDefinition-fr-medication-statement-document.md), [FR Patient History Extension](StructureDefinition-fr-patient-history-extension.md) and [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
+
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-condition-document)
+
+### Vues formelles du contenu du profil
+
+ [Description des profils, des différentiels, des instantanés et de leurs représentations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+*  [Tableau des éléments clés](#tabs-key) 
+*  [Tableau différentiel (differential)](#tabs-diff) 
+*  [Tableau récapitulatif (snapshot)](#tabs-snap) 
+*  [Statistiques/Références](#tabs-summ) 
+*  [Tous](#tabs-all) 
+
+#### Bindings terminologiques
+
+#### Contraintes
+
+Cette structure est dérivée de [Condition](http://hl7.org/fhir/R4/condition.html) 
+
+#### Bindings terminologiques (différentiel)
+
+#### Bindings terminologiques
+
+#### Contraintes
+
+Cette structure est dérivée de [Condition](http://hl7.org/fhir/R4/condition.html) 
+
+** Résumé **
+
+Obligatoire : 4 éléments
+ Must-Support : 12 éléments
+
+**Structures**
+
+Cette structure fait référence à ces autres structures:
+
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
+* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
+* [DocumentReference - FR Document reference Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document|0.1.0)](StructureDefinition-fr-document-reference-document.md)
+
+**Extensions**
+
+Cette structure fait référence à ces extensions:
+
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of Condition.onset[x]
+* The element 1 is sliced based on the value of Condition.abatement[x]
+
+ **Vue des éléments clés** 
+
+#### Bindings terminologiques
+
+#### Contraintes
+
+ **Vue différentielle** 
+
+Cette structure est dérivée de [Condition](http://hl7.org/fhir/R4/condition.html) 
+
+#### Bindings terminologiques (différentiel)
+
+ **Vue d'ensembleView** 
+
+#### Bindings terminologiques
+
+#### Contraintes
+
+Cette structure est dérivée de [Condition](http://hl7.org/fhir/R4/condition.html) 
+
+** Résumé **
+
+Obligatoire : 4 éléments
+ Must-Support : 12 éléments
+
+**Structures**
+
+Cette structure fait référence à ces autres structures:
+
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
+* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
+* [DocumentReference - FR Document reference Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document|0.1.0)](StructureDefinition-fr-document-reference-document.md)
+
+**Extensions**
+
+Cette structure fait référence à ces extensions:
+
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of Condition.onset[x]
+* The element 1 is sliced based on the value of Condition.abatement[x]
+
+ 
+
+Autres représentations du profil : [CSV](../StructureDefinition-fr-condition-document.csv), [Excel](../StructureDefinition-fr-condition-document.xlsx), [Schematron](../StructureDefinition-fr-condition-document.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "fr-condition-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document",
+  "version" : "0.1.0",
+  "name" : "FRConditionDocument",
+  "title" : "Condition - FR Condition Document",
+  "status" : "draft",
+  "date" : "2026-07-21T08:08:19+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "FRConditionDocument est un profil utilisé pour décrire un problème du patient (une pathologie par exemple).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "workflow",
+    "uri" : "http://hl7.org/fhir/workflow",
+    "name" : "Workflow Pattern"
+  },
+  {
+    "identity" : "sct-concept",
+    "uri" : "http://snomed.info/conceptdomain",
+    "name" : "SNOMED CT Concept Domain Binding"
+  },
+  {
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 v2 Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "sct-attr",
+    "uri" : "http://snomed.org/attributebinding",
+    "name" : "SNOMED CT Attribute Binding"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Condition",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Condition|4.0.1",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Condition",
+      "path" : "Condition"
+    },
+    {
+      "id" : "Condition.extension",
+      "path" : "Condition.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      }
+    },
+    {
+      "id" : "Condition.extension:author",
+      "path" : "Condition.extension",
+      "sliceName" : "author",
+      "short" : "Auteur du problème",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Condition.extension:author.extension:type",
+      "path" : "Condition.extension.extension",
+      "sliceName" : "type"
+    },
+    {
+      "id" : "Condition.extension:author.extension:type.value[x]",
+      "path" : "Condition.extension.extension.value[x]",
+      "patternCode" : "AUT"
+    },
+    {
+      "id" : "Condition.extension:author.extension:actor",
+      "path" : "Condition.extension.extension",
+      "sliceName" : "actor"
+    },
+    {
+      "id" : "Condition.extension:author.extension:actor.value[x]",
+      "path" : "Condition.extension.extension.value[x]",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Condition.identifier",
+      "path" : "Condition.identifier",
+      "short" : "Identifiant"
+    },
+    {
+      "id" : "Condition.clinicalStatus",
+      "path" : "Condition.clinicalStatus",
+      "short" : "Statut du problème",
+      "min" : 1,
+      "mustSupport" : true
+    },
+    {
+      "id" : "Condition.verificationStatus",
+      "path" : "Condition.verificationStatus",
+      "short" : "Certitude",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Condition.category",
+      "path" : "Condition.category",
+      "short" : "Type d'observation",
+      "min" : 1,
+      "max" : "1",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis|20260619134043"
+      }
+    },
+    {
+      "id" : "Condition.severity",
+      "path" : "Condition.severity",
+      "short" : "Sévérité",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis|20260619134042"
+      }
+    },
+    {
+      "id" : "Condition.code",
+      "path" : "Condition.code",
+      "short" : "Identification de la condition, du problème ou du diagnostic :\nCIM-10 pour les pathologie  et réactions à une vaccination : Si le problème observé n'est pas trouvé dans la terminologie CIM-10, utiliser le code='R69' display='Causes inconnues et non précisées de morbidité' system='https://smt.esante.gouv.fr/terminologie-cim-10' et décrire le problème sous forme de texte libre\nRéaction allergique : CIM-11 (2.16.840.1.113883.6.347) / Chapitre 04 Maladies du système immunitaire / Bloc Affections allergiques ou d'hyper-sensibilité\nSi pas de problème ou pas d'information : https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-problem-cisis",
+      "min" : 1,
+      "mustSupport" : true
+    },
+    {
+      "id" : "Condition.bodySite",
+      "path" : "Condition.bodySite",
+      "short" : "Localisation anatomique",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/body-site|4.0.1"
+      }
+    },
+    {
+      "id" : "Condition.subject",
+      "path" : "Condition.subject",
+      "short" : "Patient concerné",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Condition.onset[x]",
+      "path" : "Condition.onset[x]",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "type",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1,
+      "mustSupport" : true
+    },
+    {
+      "id" : "Condition.onset[x]:onsetDateTime",
+      "path" : "Condition.onset[x]",
+      "sliceName" : "onsetDateTime",
+      "short" : "Date de début du problème",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "Condition.abatement[x]",
+      "path" : "Condition.abatement[x]",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "type",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "mustSupport" : true
+    },
+    {
+      "id" : "Condition.abatement[x]:abatementDateTime",
+      "path" : "Condition.abatement[x]",
+      "sliceName" : "abatementDateTime",
+      "short" : "Date de fin du problème (si applicable)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Condition.stage.summary",
+      "path" : "Condition.stage.summary",
+      "short" : "Statut clinique du patient",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis|20260619134042"
+      }
+    },
+    {
+      "id" : "Condition.evidence.detail",
+      "path" : "Condition.evidence.detail",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Condition.note",
+      "path" : "Condition.note",
+      "short" : "Commentaire",
+      "mustSupport" : true
+    }]
+  }
+}
+
+```
