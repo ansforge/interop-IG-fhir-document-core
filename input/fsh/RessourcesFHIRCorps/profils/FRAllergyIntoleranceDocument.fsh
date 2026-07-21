@@ -46,7 +46,7 @@ Description: "FRAllergyIntoleranceDocument est un profil utilisé pourdécrire u
 * reaction.severity MS
 * reaction.severity ^short = "Sévérité"
 
-* reaction.note 0..1 MS
+* reaction.note MS
 * reaction.note ^short = "Commentaire"
 
 * reaction.onset MS

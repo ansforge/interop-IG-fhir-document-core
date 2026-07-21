@@ -77,5 +77,5 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 /* * extension contains $immunization-administeredProduct-r5 named ImmunizationAdministeredProductR5 0..*
 * extension[ImmunizationAdministeredProductR5].extension[reference].valueReference only Reference(FRMedicationDocument)
  */
-* note 0..1 MS
+* note MS
   * ^short = "Commentaire"

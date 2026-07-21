@@ -61,5 +61,5 @@ Description: "
 * request only Reference(FRMedicationRequestDocument)
 * request ^short = "Prescription"
 
-* note 0..1 MS
+* note MS
 * note ^short = "Permet de décrire les conditions préalables à l'utilisation du médicament."
