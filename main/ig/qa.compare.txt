@@ -1,7 +1,7 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 575, warn = 161, info = 7191
+err = 575, warn = 161, info = 7189
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 486 / 3 / 0
@@ -19,7 +19,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = h
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-care-plan-document : 0 / 1 / 81
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-comparison-studies-extension : 0 / 1 / 10
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-composition-document : 3 / 1 / 361
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-condition-document : 0 / 2 / 72
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-condition-document : 0 / 2 / 70
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-device-auteur-document : 0 / 1 / 83
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-device-request-document : 0 / 1 / 101
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-device-use-statement-document : 0 / 1 / 49
@@ -582,13 +582,13 @@ ERROR: ToC: The ToC contains the page AllergyIntolerance-example-allergy-intoler
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.xml.html more than once
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.json.html more than once
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.ttl.html more than once
-ERROR: en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 520: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
-ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 319: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 490: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 289: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 393, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 399, column 16: The link 'StructureDefinition-fr-relatedperson-document.html' for "FRRelatedPersonDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/blockquote/ul/li/a at Line 717, column 302: The link 'StructureDefinition-fr-allergie-intolerance-document.html' for "FRAllergyIntoleranceDocument" cannot be resolved
-ERROR: fr/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 523: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
-ERROR: fr/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 320: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: fr/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 493: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: fr/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 290: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 386, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 392, column 16: The link 'StructureDefinition-fr-relatedperson-document.html' for "FRRelatedPersonDocument" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/blockquote/ul/li/a at Line 710, column 302: The link 'StructureDefinition-fr-allergie-intolerance-document.html' for "FRAllergyIntoleranceDocument" cannot be resolved
@@ -1900,7 +1900,6 @@ INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260619134043
 INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[33].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis to 20260619134042
 INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[35].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
@@ -1938,7 +1937,6 @@ INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260619134043
-INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis to 20260619134042
 INFORMATION: StructureDefinition.differential.element[13].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0

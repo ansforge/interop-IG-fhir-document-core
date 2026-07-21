@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-bl
   "name" : "FRObservationBloodProductTransfusionDocument",
   "title" : "Observation - FR Blood Product Transfusion Document",
   "status" : "draft",
-  "date" : "2026-07-21T09:08:11+00:00",
+  "date" : "2026-07-21T09:10:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -126,7 +126,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-condition-do
   "name" : "FRConditionDocument",
   "title" : "Condition - FR Condition Document",
   "status" : "draft",
-  "date" : "2026-07-21T09:08:11+00:00",
+  "date" : "2026-07-21T09:10:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -264,12 +264,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-condition-do
     {
       "id" : "Condition.severity",
       "path" : "Condition.severity",
-      "short" : "Sévérité",
-      "mustSupport" : true,
-      "binding" : {
-        "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis|20260619134042"
-      }
+      "mustSupport" : true
     },
     {
       "id" : "Condition.code",
