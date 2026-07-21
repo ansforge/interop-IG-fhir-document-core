@@ -61,5 +61,5 @@ Description: "
   * ^short = "Motif du traitement"
 * reasonReference only Reference(FRConditionDocument or Observation)
 
-* note 0..1 MS
+* note MS
 * note ^short = "Permet de décrire les conditions préalables à l'utilisation du médicament."
