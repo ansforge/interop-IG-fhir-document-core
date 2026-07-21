@@ -223,7 +223,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Immunization.performer.actor","Immunization.performer.actor","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0]]}
 ","Individual or organization who was performing","The practitioner or organization who performed the action.","When the individual practitioner who performed the action is known, it is best to send.","","","","","","","","",,,,,"",,,,"Immunization.performer.actor",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.performer.actor",".player","FiveWs.actor"
-"Immunization.note","Immunization.note","","","",0,1,"Y","","Y","Annotation {[]} {[]}
+"Immunization.note","Immunization.note","","","",0,*,"Y","","Y","Annotation {[]} {[]}
 ","Commentaire","Extra information about the immunization that is not conveyed by the other attributes.","","","","","","","","","",,,,,"",,,,"Immunization.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.note","OBX-5 : OBX-3 = 48767-8","note"
 "Immunization.reasonCode","Immunization.reasonCode","","","",0,*,"","","","CodeableConcept {[]} {[]}

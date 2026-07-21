@@ -113,7 +113,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "MedicationAdministration.device","MedicationAdministration.device","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|4.0.1]]}
 ","Device used to administer","The device used in administering the medication to the patient.  For example, a particular infusion pump.","","","","","","","","","",,,,,"",,,,"MedicationAdministration.device",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","device->Access  OR device->AssignedDevice","PRT-10 Participation Device / RXR-3 Administrative Device"
-"MedicationAdministration.note","MedicationAdministration.note","","","",0,1,"Y","","","Annotation {[]} {[]}
+"MedicationAdministration.note","MedicationAdministration.note","","","",0,*,"Y","","","Annotation {[]} {[]}
 ","Permet de décrire les conditions préalables à l'utilisation du médicament.","Extra information about the medication administration that is not conveyed by the other attributes.","","","","","","","","","",,,,,"",,,,"MedicationAdministration.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.note",".inboundRelationship[typeCode=SUBJ]/source[classCode=OBS,moodCode=EVN,code=""annotation""].value"
 "MedicationAdministration.dosage","MedicationAdministration.dosage","","","",0,1,"","","","BackboneElement {[]} {[]}

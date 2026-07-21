@@ -613,7 +613,7 @@ Text","",0,1,"","","","string {[]} {[]}
 "fr-allergy-intolerance-document","AllergyIntolerance.reaction.exposureRoute","AllergyIntolerance.reaction.exposureRoute","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","How the subject was exposed to the substance","Identification of the route by which the subject was exposed to the substance.","Coding of the route of exposure with a terminology should be used wherever possible.","","","","","","","","",,"example","A coded concept describing the route or physiological path of administration of a therapeutic agent into or onto the body of a subject.","http://hl7.org/fhir/ValueSet/route-codes|4.0.1","",,,,"AllergyIntolerance.reaction.exposureRoute",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"fr-allergy-intolerance-document","AllergyIntolerance.reaction.note","AllergyIntolerance.reaction.note","","","",0,1,"Y","","","Annotation {[]} {[]}
+"fr-allergy-intolerance-document","AllergyIntolerance.reaction.note","AllergyIntolerance.reaction.note","","","",0,*,"Y","","","Annotation {[]} {[]}
 ","Commentaire","Additional text about the adverse reaction event not captured in other fields.","Use this field to record information indirectly related to a particular event and not captured in the description. For example: Clinical records are no longer available, recorded based on information provided to the patient by her mother and her mother is deceased.","","","","","","","","",,,,,"",,,,"AllergyIntolerance.reaction.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-author-time-extension","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
@@ -3235,7 +3235,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Supporting information found elsewhere","Links to other relevant information, including pathology reports.","","","","","","","","","",,,,,"",,,,"Condition.evidence.detail",0,*,"con-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"fr-condition-document","Condition.note","Condition.note","","","",0,1,"Y","","","Annotation {[]} {[]}
+"fr-condition-document","Condition.note","Condition.note","","","",0,*,"Y","","","Annotation {[]} {[]}
 ","Commentaire","Additional information about the Condition. This is a general notes/comments entry  for description of the Condition, its diagnosis and prognosis.","","","","","","","","","",,,,,"",,,,"Condition.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-device-auteur-document","Device","Device","","","",0,*,"","","","null {[]} {[]}
@@ -6426,7 +6426,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "fr-immunization-document","Immunization.performer.actor","Immunization.performer.actor","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0]]}
 ","Individual or organization who was performing","The practitioner or organization who performed the action.","When the individual practitioner who performed the action is known, it is best to send.","","","","","","","","",,,,,"",,,,"Immunization.performer.actor",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"fr-immunization-document","Immunization.note","Immunization.note","","","",0,1,"Y","","Y","Annotation {[]} {[]}
+"fr-immunization-document","Immunization.note","Immunization.note","","","",0,*,"Y","","Y","Annotation {[]} {[]}
 ","Commentaire","Extra information about the immunization that is not conveyed by the other attributes.","","","","","","","","","",,,,,"",,,,"Immunization.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-immunization-document","Immunization.reasonCode","Immunization.reasonCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
@@ -7515,7 +7515,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "fr-medication-administration-document","MedicationAdministration.device","MedicationAdministration.device","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|4.0.1]]}
 ","Device used to administer","The device used in administering the medication to the patient.  For example, a particular infusion pump.","","","","","","","","","",,,,,"",,,,"MedicationAdministration.device",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"fr-medication-administration-document","MedicationAdministration.note","MedicationAdministration.note","","","",0,1,"Y","","","Annotation {[]} {[]}
+"fr-medication-administration-document","MedicationAdministration.note","MedicationAdministration.note","","","",0,*,"Y","","","Annotation {[]} {[]}
 ","Permet de décrire les conditions préalables à l'utilisation du médicament.","Extra information about the medication administration that is not conveyed by the other attributes.","","","","","","","","","",,,,,"",,,,"MedicationAdministration.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-medication-administration-document","MedicationAdministration.dosage","MedicationAdministration.dosage","","","",0,1,"","","","BackboneElement {[]} {[]}
@@ -8508,7 +8508,7 @@ Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-c
 "fr-medication-statement-document","MedicationStatement.reasonReference","MedicationStatement.reasonReference","","","",0,*,"Y","","","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Observation|4.0.1]]}
 ","Motif du traitement","Condition or observation that supports why the medication is being/was taken.","This is a reference to a condition that is the reason why the medication is being/was taken.  If only a code exists, use reasonForUseCode.","","","","","","","","",,,,,"",,,,"MedicationStatement.reasonReference",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"fr-medication-statement-document","MedicationStatement.note","MedicationStatement.note","","","",0,1,"Y","","","Annotation {[]} {[]}
+"fr-medication-statement-document","MedicationStatement.note","MedicationStatement.note","","","",0,*,"Y","","","Annotation {[]} {[]}
 ","Permet de décrire les conditions préalables à l'utilisation du médicament.","Provides extra information about the medication statement that is not conveyed by the other attributes.","","","","","","","","","",,,,,"",,,,"MedicationStatement.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-medication-statement-document","MedicationStatement.dosage","MedicationStatement.dosage","","","",0,*,"Y","","","Dosage {[]} {[]}

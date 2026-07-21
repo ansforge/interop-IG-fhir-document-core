@@ -3,7 +3,7 @@ FHIRFRDocumentCore : Validation Results
 
 err = 575, warn = 161, info = 7191
 IG Publisher Version: 2.2.10 Out of date - current version is 2.2.11
-Generated Mon Jul 20 14:16:21 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
+Generated Tue Jul 21 09:16:13 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 486 / 3 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 3 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.document-core : 66 / 5 / 4
