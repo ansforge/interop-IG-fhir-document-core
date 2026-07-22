@@ -112,7 +112,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-encounter-do
   "name" : "FREncounterDocument",
   "title" : "Encounter - FR Encounter Document",
   "status" : "draft",
-  "date" : "2026-07-21T09:10:59+00:00",
+  "date" : "2026-07-22T09:27:19+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -182,11 +182,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-encounter-do
       "id" : "Encounter.class",
       "path" : "Encounter.class",
       "short" : "Type de rencontre (codes HL7 ActEncounterCode ou codes spécifiques au volet)",
-      "mustSupport" : true,
-      "binding" : {
-        "strength" : "extensible",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-encounter-class|0.1.0"
-      }
+      "mustSupport" : true
     },
     {
       "id" : "Encounter.priority",

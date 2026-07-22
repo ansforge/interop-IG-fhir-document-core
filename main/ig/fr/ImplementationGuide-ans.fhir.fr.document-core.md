@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-07-21T09:10:59+00:00",
+  "date" : "2026-07-22T09:27:19+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1497,18 +1497,6 @@
       "description" : "DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie",
       "exampleBoolean" : false,
       "groupingId" : "Data Type FHIR"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/fr-vs-encounter-class"
-      },
-      "name" : "FR ValueSet Encounter Class",
-      "description" : "ValueSet pour les types de rencontre basé sur HL7 v3 ActEncounterCode.\n - Ce ValueSet peut être étendu ultérieurement avec des codes spécifiques définis par les différents volets pour répondre à des besoins métier particuliers.",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{

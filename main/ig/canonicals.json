@@ -636,13 +636,6 @@
   "name" : "FRValueSetEDQMFormDocument"
 },
 {
-  "id" : "fr-vs-encounter-class",
-  "type" : "ValueSet",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-encounter-class",
-  "version" : "0.1.0",
-  "name" : "FRValueSetEncounterClass"
-},
-{
   "id" : "fr-vs-evaluation-type",
   "type" : "ValueSet",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-evaluation-type",

@@ -24,7 +24,6 @@
 * [ValueSet – FR ValueSet Allergy Substance Document](ValueSet-fr-vs-allergy-substance.md)
 * [ValueSet - FR ValueSet EDQM Document](ValueSet-fr-vs-edqm-document.md)
 * [ValueSet - FR ValueSet EDQM Form Document](ValueSet-fr-vs-edqm-form-document.md)
-* [FR ValueSet Encounter Class](ValueSet-fr-vs-encounter-class.md)
 * [ValueSet – FR ValueSet Type d'évaluation](ValueSet-fr-vs-evaluation-type.md)
 * [ValueSet – FR ValueSet Localisation anatomique et voie d'abord](ValueSet-fr-vs-location-body-structure-document.md)
 * [ValueSet - FR ValueSet Medication Translation Document](ValueSet-fr-vs-medication-translation-document.md)

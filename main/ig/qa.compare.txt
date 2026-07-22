@@ -1,10 +1,10 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 575, warn = 161, info = 7189
+err = 570, warn = 159, info = 7187
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
- Build Errors : 486 / 3 / 0
+ Build Errors : 482 / 3 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 3 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.document-core : 66 / 5 / 4
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Procedure-example-procedure-data-absent-reason : 3 / 0 / 1
@@ -28,7 +28,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = h
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-diagnostic-report-imaging-document : 2 / 2 / 34
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-document-reference-document : 0 / 1 / 68
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-encounter-care-document : 0 / 3 / 192
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-encounter-document : 0 / 3 / 195
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-encounter-document : 0 / 3 / 194
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-endpoint-wado-document : 0 / 1 / 35
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-family-member-history-body-site-extension : 0 / 1 / 10
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-family-member-history-document : 0 / 1 / 74
@@ -98,7 +98,6 @@ Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = h
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-allergy-substance : 0 / 2 / 5
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-edqm-document : 0 / 1 / 5
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-edqm-form-document : 0 / 1 / 2
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-encounter-class : 1 / 4 / 2
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-evaluation-type : 0 / 2 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-location-body-structure-document : 0 / 2 / 6
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-medication-translation-document : 0 / 7 / 3
@@ -520,10 +519,6 @@ ERROR: ToC: The ToC contains the page StructureDefinition-fr-status-reason-exten
 ERROR: ToC: The ToC contains the page StructureDefinition-fr-status-reason-extension.profile.ttl.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-fr-status-reason-extension-mappings.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-fr-status-reason-extension-testing.html more than once
-ERROR: ToC: The ToC contains the page ValueSet-fr-vs-encounter-class.xml.html more than once
-ERROR: ToC: The ToC contains the page ValueSet-fr-vs-encounter-class.json.html more than once
-ERROR: ToC: The ToC contains the page ValueSet-fr-vs-encounter-class.ttl.html more than once
-ERROR: ToC: The ToC contains the page ValueSet-fr-vs-encounter-class-testing.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-fr-doc-vs-participation-type.xml.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-fr-doc-vs-participation-type.json.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-fr-doc-vs-participation-type.ttl.html more than once
@@ -582,13 +577,13 @@ ERROR: ToC: The ToC contains the page AllergyIntolerance-example-allergy-intoler
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.xml.html more than once
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.json.html more than once
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.ttl.html more than once
-ERROR: en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 490: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
-ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 289: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 520: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 319: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 393, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 399, column 16: The link 'StructureDefinition-fr-relatedperson-document.html' for "FRRelatedPersonDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/blockquote/ul/li/a at Line 717, column 302: The link 'StructureDefinition-fr-allergie-intolerance-document.html' for "FRAllergyIntoleranceDocument" cannot be resolved
-ERROR: fr/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 493: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
-ERROR: fr/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 290: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: fr/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 523: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: fr/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 320: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 386, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 392, column 16: The link 'StructureDefinition-fr-relatedperson-document.html' for "FRRelatedPersonDocument" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/blockquote/ul/li/a at Line 710, column 302: The link 'StructureDefinition-fr-allergie-intolerance-document.html' for "FRAllergyIntoleranceDocument" cannot be resolved
@@ -631,17 +626,18 @@ ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.defini
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[41].groupingId: id value 'Ressources FHIR entête' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[44].groupingId: id value 'Ressources FHIR entête' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[46].groupingId: id value 'Data Type FHIR' is not valid
+ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[49].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[50].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[51].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[52].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[53].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[54].groupingId: id value 'Ressources FHIR corps' is not valid
+WARNING: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[55].description: value should not start or finish with whitespace '\n - FRMedicationAdministrationDocument permert de décrire les modalités d'administration d'un médicament au patient.\n - Il permet de décrire notamment le médicament, le mode d'administration, la quantité, la durée et la fréquence d'administration.\n - Si le traitement est en attente d’administration c’est-à dire qu’il a été prescrit.'
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[55].groupingId: id value 'Ressources FHIR corps' is not valid
-WARNING: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[56].description: value should not start or finish with whitespace '\n - FRMedicationAdministrationDocument permert de décrire les modalités d'administration d'un médicament au patient.\n - Il permet de décrire notamment le médicament, le mode d'administration, la quantité, la durée et la fréquence d'administration.\n - Si le traitement est en attente d’administration c’est-à dire qu’il a été prescrit.'
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[56].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[57].groupingId: id value 'Ressources FHIR corps' is not valid
+WARNING: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[58].description: value should not start or finish with whitespace '\n - FRMedicationStatementDocument permet de décrire les modalités d'administration d'un médicament au patient.\n - Il permet de décrire notamment le médicament, le mode d'administration, la quantité, la durée et la fréquence d'administration.\n - Si le traitement a déjà été administré ou si information rapporté par le patient ou si aucun traitement.'
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[58].groupingId: id value 'Ressources FHIR corps' is not valid
-WARNING: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[59].description: value should not start or finish with whitespace '\n - FRMedicationStatementDocument permet de décrire les modalités d'administration d'un médicament au patient.\n - Il permet de décrire notamment le médicament, le mode d'administration, la quantité, la durée et la fréquence d'administration.\n - Si le traitement a déjà été administré ou si information rapporté par le patient ou si aucun traitement.'
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[59].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[60].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[61].groupingId: id value 'Ressources FHIR corps' is not valid
@@ -661,8 +657,8 @@ ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.defini
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[75].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[76].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[77].groupingId: id value 'Ressources FHIR corps' is not valid
+WARNING: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[78].description: value should not start or finish with whitespace '\n - FRObservationVitalSignsDocument permet d'indiquer les informations détaillées relatives à une mesure clinique spécifique.\n - Il est basée sur la ressource Observation qu'elle spécialise en portant des contraintes sur les vocabulaires des éléments 'code' et 'value'.'
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[78].groupingId: id value 'Ressources FHIR corps' is not valid
-WARNING: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[79].description: value should not start or finish with whitespace '\n - FRObservationVitalSignsDocument permet d'indiquer les informations détaillées relatives à une mesure clinique spécifique.\n - Il est basée sur la ressource Observation qu'elle spécialise en portant des contraintes sur les vocabulaires des éléments 'code' et 'value'.'
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[79].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[80].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[81].groupingId: id value 'Ressources FHIR corps' is not valid
@@ -670,7 +666,6 @@ ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.defini
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[83].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[84].groupingId: id value 'Ressources FHIR corps' is not valid
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[85].groupingId: id value 'Ressources FHIR corps' is not valid
-ERROR: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.definition.resource[86].groupingId: id value 'Ressources FHIR corps' is not valid
 WARNING: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.fr.core#2.1.0 released on 2024-09-04, but the most recent appropriate version is 2.2.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/ans.fhir.fr.document-core: ImplementationGuide.dependsOn[6]: The ImplementationGuide is based on FHIR version 4.0.1 but package ihe.pharm.mpd#1.0.0-comment-2 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
 INFORMATION: Resource: The resource ImplementationGuide/ans.fhir.fr.document-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
@@ -2690,7 +2685,7 @@ INFORMATION: StructureDefinition.snapshot.element[32].constraint[1].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[35].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-encounter-class to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[35].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActEncounterCode to 3.0.0
 INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[37].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2820,7 +2815,6 @@ INFORMATION: StructureDefinition.snapshot.element[170].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[171].type[0].targetProfile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-encounter to 2.1.0
 INFORMATION: StructureDefinition.snapshot.element[171].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[0].constraint[0].source: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-encounter-class to 0.1.0
 INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[7].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
@@ -8108,11 +8102,6 @@ INFORMATION: ValueSet.where(id = 'fr-vs-edqm-document'): The value set expansion
 == fsh-generated/resources/ValueSet-fr-vs-edqm-form-document.json ==
 INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-standardterms to 2026-01-30
 WARNING: Resource: The resource ValueSet/fr-vs-edqm-form-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-== fsh-generated/resources/ValueSet-fr-vs-encounter-class.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActEncounterCode to 3.0.0
-ERROR: ValueSet/fr-vs-encounter-class: ValueSet.compose.include[0]: The system 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode' is actually a value set, which itself refers to the system 'http://terminology.hl7.org/CodeSystem/v3-ActCode' so that may be what is intended here
-WARNING: Resource: The resource ValueSet/fr-vs-encounter-class should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-encounter-class'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode' version '3.0.0' could not be found, so the value set cannot be expanded. No versions of this code system are known
 == fsh-generated/resources/ValueSet-fr-vs-evaluation-type.json ==
 WARNING: ValueSet/fr-vs-evaluation-type: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-evaluation-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
