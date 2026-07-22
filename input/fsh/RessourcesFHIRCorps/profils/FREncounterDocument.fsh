@@ -11,7 +11,6 @@ Description: "FREncounterDocument est un profil permettant de conserver les moda
 
 * class MS
 * class ^short = "Type de rencontre (codes HL7 ActEncounterCode ou codes spécifiques au volet)"
-* class from FRValueSetEncounterClass (extensible)
 
 * status MS
 * status ^short = "Statut de la rencontre (finished | planned | proposed)"
