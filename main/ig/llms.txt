@@ -3,14 +3,14 @@
 ## Pages
 
 * [Accueil](fr/index.md)
-* [Structure générale document](fr/ressourcesFHIR-struc-gen.md)
-* [Corps d'un document](fr/ressourcesFHIR-corps.md)
-* [Téléchargements et usages](fr/downloads.md)
-* [Autres Ressources](fr/autres_ressources.md)
 * [Informations sur la traduction](fr/translationinfo.md)
-* [Entête document](fr/ressourcesFHIR-entete.md)
+* [Autres Ressources](fr/autres_ressources.md)
 * [Sécurité](fr/securite.md)
+* [Entête document](fr/ressourcesFHIR-entete.md)
+* [Téléchargements et usages](fr/downloads.md)
+* [Structure générale document](fr/ressourcesFHIR-struc-gen.md)
 * [Résumé des artefacts](fr/artifacts.md)
+* [Corps d'un document](fr/ressourcesFHIR-corps.md)
 
 ## Resources
 

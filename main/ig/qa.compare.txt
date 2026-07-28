@@ -1,7 +1,7 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 570, warn = 159, info = 7187
+err = 570, warn = 159, info = 7186
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 482 / 3 / 0
@@ -28,7 +28,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = h
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-diagnostic-report-imaging-document : 2 / 2 / 34
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-document-reference-document : 0 / 1 / 68
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-encounter-care-document : 0 / 3 / 192
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-encounter-document : 0 / 3 / 194
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-encounter-document : 0 / 3 / 193
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-endpoint-wado-document : 0 / 1 / 35
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-family-member-history-body-site-extension : 0 / 1 / 10
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-family-member-history-document : 0 / 1 / 74
@@ -577,13 +577,13 @@ ERROR: ToC: The ToC contains the page AllergyIntolerance-example-allergy-intoler
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.xml.html more than once
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.json.html more than once
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.ttl.html more than once
-ERROR: en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 520: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
-ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 319: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 490: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 289: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 393, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 399, column 16: The link 'StructureDefinition-fr-relatedperson-document.html' for "FRRelatedPersonDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/blockquote/ul/li/a at Line 717, column 302: The link 'StructureDefinition-fr-allergie-intolerance-document.html' for "FRAllergyIntoleranceDocument" cannot be resolved
-ERROR: fr/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 523: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
-ERROR: fr/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 320: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: fr/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 493: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: fr/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 290: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 386, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 392, column 16: The link 'StructureDefinition-fr-relatedperson-document.html' for "FRRelatedPersonDocument" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/blockquote/ul/li/a at Line 710, column 302: The link 'StructureDefinition-fr-allergie-intolerance-document.html' for "FRAllergyIntoleranceDocument" cannot be resolved
@@ -2785,7 +2785,7 @@ INFORMATION: StructureDefinition.snapshot.element[154].type[0].targetProfile[0]:
 INFORMATION: StructureDefinition.snapshot.element[154].type[0].targetProfile[1]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization to 2.1.0
 INFORMATION: StructureDefinition.snapshot.element[154].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[155].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[155].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-cisis to 20260619134043
+INFORMATION: StructureDefinition.snapshot.element[155].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/encounter-admit-source to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[156].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[156].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v2-0092 to 3.0.0
 INFORMATION: StructureDefinition.snapshot.element[157].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2820,7 +2820,6 @@ INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[1
 INFORMATION: StructureDefinition.differential.element[7].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[13].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
-INFORMATION: StructureDefinition.differential.element[18].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-cisis to 20260619134043
 INFORMATION: StructureDefinition.differential.element[19].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-cisis to 20260619134043
 INFORMATION: StructureDefinition.differential.element[21].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document to 0.1.0
 WARNING: StructureDefinition/fr-encounter-document: StructureDefinition.snapshot.element[24].example[1].value.ofType(uri): No definition could be found for URL value '1.2.250.1.71.4.2.2.1330780321'
@@ -8063,7 +8062,7 @@ ERROR: StructureDefinition/fr-task-patient-transport-document: StructureDefiniti
 INFORMATION: Resource: The resource StructureDefinition/fr-task-patient-transport-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-task-patient-transport-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/ValueSet-fr-doc-vs-participation-type.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ParticipationType to 6.0.0
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ParticipationType to 7.0.0
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: Resource: The resource ValueSet/fr-doc-vs-participation-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-fr-doc-vs-role-prise-charge.json ==
@@ -8071,7 +8070,7 @@ INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://mos.esan
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: Resource: The resource ValueSet/fr-doc-vs-role-prise-charge should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-fr-vs-actor-type-document.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ParticipationType to 6.0.0
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ParticipationType to 7.0.0
 WARNING: ValueSet/fr-vs-actor-type-document: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-actor-type-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-fr-vs-allergy-code.json ==

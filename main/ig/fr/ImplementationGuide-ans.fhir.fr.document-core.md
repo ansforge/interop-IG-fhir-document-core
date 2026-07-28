@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-07-22T09:27:19+00:00",
+  "date" : "2026-07-28T07:28:06+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -42,7 +42,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.2.0"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7ext",
@@ -909,6 +909,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-adverse-event-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-adverse-event-document"
@@ -922,6 +926,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-allergy-intolerance-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-allergy-intolerance-document"
@@ -935,6 +943,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-body-structure-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-body-structure-document"
@@ -948,6 +960,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-care-plan-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-care-plan-document"
@@ -961,6 +977,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-condition-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-condition-document"
@@ -974,6 +994,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-advance-directive-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-advance-directive-document"
@@ -987,6 +1011,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-device-request-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-device-request-document"
@@ -1000,6 +1028,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-device-use-statement-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-device-use-statement-document"
@@ -1013,6 +1045,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-diagnostic-report-bio-chapter-document"
@@ -1026,6 +1062,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-diagnostic-report-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-diagnostic-report-document"
@@ -1039,6 +1079,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-diagnostic-report-imaging-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-diagnostic-report-imaging-document"
@@ -1052,6 +1096,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-document-reference-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-document-reference-document"
@@ -1065,6 +1113,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-encounter-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-encounter-document"
@@ -1078,6 +1130,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-endpoint-wado-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-endpoint-wado-document"
@@ -1091,6 +1147,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "AllergyIntolerance"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html"
       }],
       "reference" : {
         "reference" : "AllergyIntolerance/example-allergy-intolerance-data-absent-reason"
@@ -1103,6 +1163,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Procedure"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Procedure-example-procedure-data-absent-reason.html"
       }],
       "reference" : {
         "reference" : "Procedure/example-procedure-data-absent-reason"
@@ -1115,6 +1179,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-family-member-history-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-family-member-history-document"
@@ -1128,6 +1196,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-accession-number-identifier-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-accession-number-identifier-document"
@@ -1141,6 +1213,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-actor-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-actor-extension"
@@ -1153,6 +1229,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-author-time-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-author-time-extension"
@@ -1165,6 +1245,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-bundle-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-bundle-document"
@@ -1178,6 +1262,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-comparison-studies-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-comparison-studies-extension"
@@ -1190,6 +1278,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-composition-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-composition-document"
@@ -1203,6 +1295,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-device-auteur-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-device-auteur-document"
@@ -1216,6 +1312,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-encounter-care-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-encounter-care-document"
@@ -1229,6 +1329,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-family-member-history-body-site-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-family-member-history-body-site-extension"
@@ -1241,6 +1345,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-human-name-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-human-name-document"
@@ -1254,6 +1362,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-imaging-procedure-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-imaging-procedure-extension"
@@ -1266,6 +1378,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-immunization-type-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-immunization-type-extension"
@@ -1278,6 +1394,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-interpretation-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-interpretation-extension"
@@ -1290,6 +1410,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-location-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-location-document"
@@ -1303,6 +1427,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medication-administration-sequence-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medication-administration-sequence-extension"
@@ -1315,6 +1443,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-method-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-method-extension"
@@ -1327,6 +1459,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-not-covered-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-not-covered-extension"
@@ -1339,6 +1475,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-number-of-frames-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-number-of-frames-extension"
@@ -1351,6 +1491,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-organization-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-organization-document"
@@ -1364,6 +1508,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-patient-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-patient-document"
@@ -1377,6 +1525,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-patient-history-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-patient-history-extension"
@@ -1389,6 +1541,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-patient-ins-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-patient-ins-document"
@@ -1402,6 +1558,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-performer-event-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-performer-event-extension"
@@ -1414,6 +1574,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-practitioner-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-practitioner-document"
@@ -1427,6 +1591,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-practitionerRole-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-practitionerRole-document"
@@ -1440,6 +1608,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-procedure-difficulty-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-procedure-difficulty-extension"
@@ -1452,6 +1624,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-procedure-priority-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-procedure-priority-extension"
@@ -1464,6 +1640,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-related-person-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-related-person-document"
@@ -1477,6 +1657,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-status-reason-extension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-status-reason-extension"
@@ -1489,6 +1673,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-study-instance-uid-identifier-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-study-instance-uid-identifier-document"
@@ -1502,6 +1690,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-doc-vs-participation-type.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-doc-vs-participation-type"
@@ -1514,6 +1706,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-doc-vs-role-prise-charge.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-doc-vs-role-prise-charge"
@@ -1526,6 +1722,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-imaging-study-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-imaging-study-document"
@@ -1539,6 +1739,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-immunization-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-immunization-document"
@@ -1552,6 +1756,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-immunization-recommendation-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-immunization-recommendation-document"
@@ -1565,6 +1773,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-pregnancy-history-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-pregnancy-history-document"
@@ -1578,6 +1790,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-media-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-media-document"
@@ -1591,6 +1807,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medication-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medication-document"
@@ -1604,6 +1824,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medication-administration-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medication-administration-document"
@@ -1617,6 +1841,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medication-dispense-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medication-dispense-document"
@@ -1630,6 +1858,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medication-request-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medication-request-document"
@@ -1643,6 +1875,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medication-statement-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medication-statement-document"
@@ -1656,6 +1892,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-blood-product-transfusion-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-blood-product-transfusion-document"
@@ -1669,6 +1909,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-administration-blood-derivatives-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-administration-blood-derivatives-document"
@@ -1682,6 +1926,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-ald-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-ald-document"
@@ -1695,6 +1943,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-birth-event-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-birth-event-document"
@@ -1708,6 +1960,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-contra-indications-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-contra-indications-document"
@@ -1721,6 +1977,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-laboratory-report-results-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-laboratory-report-results-document"
@@ -1734,6 +1994,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-medical-summary-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-medical-summary-document"
@@ -1747,6 +2011,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-microorganism-detection-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-microorganism-detection-document"
@@ -1760,6 +2028,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-multiresistant-microorganism-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-multiresistant-microorganism-document"
@@ -1773,6 +2045,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-pain-score-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-pain-score-document"
@@ -1786,6 +2062,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-pregnancy-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-pregnancy-document"
@@ -1799,6 +2079,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-pregnancy-history-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-pregnancy-history-document"
@@ -1812,6 +2096,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-prevention-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-prevention-document"
@@ -1825,6 +2113,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-radiation-exposure-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-radiation-exposure-document"
@@ -1838,6 +2130,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-result-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-result-document"
@@ -1851,6 +2147,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-social-history-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-social-history-document"
@@ -1864,6 +2164,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-survey-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-survey-document"
@@ -1877,6 +2181,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-survey-pannel-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-survey-pannel-document"
@@ -1890,6 +2198,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-transfusion-accidents-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-transfusion-accidents-document"
@@ -1903,6 +2215,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-vital-signs-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-vital-signs-document"
@@ -1916,6 +2232,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-vital-signs-panel-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-vital-signs-panel-document"
@@ -1929,6 +2249,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-work-related-accident-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-work-related-accident-document"
@@ -1942,6 +2266,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-procedure-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-procedure-document"
@@ -1955,6 +2283,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-procedure-imaging-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-procedure-imaging-document"
@@ -1968,6 +2300,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-service-request-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-service-request-document"
@@ -1981,6 +2317,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-specimen-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-specimen-document"
@@ -1994,6 +2334,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-task-patient-transport-document.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-task-patient-transport-document"
@@ -2007,6 +2351,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-actor-type-document.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-actor-type-document"
@@ -2019,6 +2367,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-allergy-intolerance-type-document.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-allergy-intolerance-type-document"
@@ -2031,6 +2383,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-edqm-document.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-edqm-document"
@@ -2043,6 +2399,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-edqm-form-document.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-edqm-form-document"
@@ -2055,6 +2415,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-medication-translation-document.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-medication-translation-document"
@@ -2067,6 +2431,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-allergy-code.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-allergy-code"
@@ -2079,6 +2447,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-allergy-substance.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-allergy-substance"
@@ -2091,6 +2463,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-procedure-code.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-procedure-code"
@@ -2103,6 +2479,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-vaccine-code-cis.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-vaccine-code-cis"
@@ -2115,6 +2495,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-location-body-structure-document.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-location-body-structure-document"
@@ -2127,6 +2511,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-evaluation-type.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-vs-evaluation-type"

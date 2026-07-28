@@ -33,7 +33,7 @@ ValueSet basé sur le CodeSystem EDQM fourni par SMT. classe PDF (forme galéniq
   "title" : "ValueSet - FR ValueSet EDQM Form Document",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-07-22T09:27:19+00:00",
+  "date" : "2026-07-28T07:28:06+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
