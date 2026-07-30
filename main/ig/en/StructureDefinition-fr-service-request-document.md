@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
   "name" : "FRServiceRequestDocument",
   "title" : "ServiceRequest - FR Service Request Document",
   "status" : "draft",
-  "date" : "2026-07-28T07:28:06+00:00",
+  "date" : "2026-07-30T08:11:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -105,25 +105,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       }
     },
     {
-      "id" : "ServiceRequest.extension:interpretation",
-      "path" : "ServiceRequest.extension",
-      "sliceName" : "interpretation",
-      "short" : "Interprétation",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension|0.1.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
       "id" : "ServiceRequest.extension:method",
       "path" : "ServiceRequest.extension",
       "sliceName" : "method",
       "short" : "Méthode",
       "min" : 0,
-      "max" : "1",
+      "max" : "*",
       "type" : [{
         "code" : "Extension",
         "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0"]
@@ -186,7 +173,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       "id" : "ServiceRequest.category",
       "path" : "ServiceRequest.category",
       "short" : "Catégorie de la demande",
-      "min" : 1
+      "mustSupport" : true
     },
     {
       "id" : "ServiceRequest.code",
@@ -198,13 +185,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
     {
       "id" : "ServiceRequest.orderDetail",
       "path" : "ServiceRequest.orderDetail",
-      "max" : "1",
+      "short" : "Informations complémentaires sur la demande d'acte, par exemple : INR cible.",
       "mustSupport" : true
-    },
-    {
-      "id" : "ServiceRequest.orderDetail.coding",
-      "path" : "ServiceRequest.orderDetail.coding",
-      "short" : "Résultat de la demande"
     },
     {
       "id" : "ServiceRequest.occurrence[x]",
@@ -232,43 +214,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
     {
       "id" : "ServiceRequest.note",
       "path" : "ServiceRequest.note",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "text"
-        }],
-        "rules" : "open"
-      },
       "short" : "Justification de la demande d’examen / Finalité de l'examen",
-      "min" : 2
-    },
-    {
-      "id" : "ServiceRequest.note:finaliteExamen",
-      "path" : "ServiceRequest.note",
-      "sliceName" : "finaliteExamen",
-      "short" : "Finalité de l’examen demandé",
-      "min" : 1,
-      "max" : "1",
       "mustSupport" : true
-    },
-    {
-      "id" : "ServiceRequest.note:finaliteExamen.text",
-      "path" : "ServiceRequest.note.text",
-      "short" : "Finalité de l’examen"
-    },
-    {
-      "id" : "ServiceRequest.note:justificationDemande",
-      "path" : "ServiceRequest.note",
-      "sliceName" : "justificationDemande",
-      "short" : "Justification de la demande d’examen",
-      "min" : 1,
-      "max" : "1",
-      "mustSupport" : true
-    },
-    {
-      "id" : "ServiceRequest.note:justificationDemande.text",
-      "path" : "ServiceRequest.note.text",
-      "short" : "Justification de la demande d'examen"
     }]
   }
 }

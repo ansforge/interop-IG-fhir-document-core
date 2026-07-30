@@ -793,8 +793,7 @@
       "DiagnosticReport"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension|0.1.0": [
-      "FamilyMemberHistory.condition",
-      "ServiceRequest"
+      "FamilyMemberHistory.condition"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-sequence-extension|0.1.0": [
       "MedicationAdministration.dosage"
