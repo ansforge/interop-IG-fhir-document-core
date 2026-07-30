@@ -6,7 +6,7 @@ Description: "FRServiceRequestDocument profil permet de porter des demandes d'ex
 // mettre le bon canonical à partir de HL7 Europe Base and Core FHIR IG
 //* ^extension[$imposeProfile].valueCanonical = Canonical()
 
-* category 1..*
+* category MS
 * category ^short = "Catégorie de la demande"
 
 * identifier ^slicing.discriminator.type = #value
@@ -26,8 +26,9 @@ Description: "FRServiceRequestDocument profil permet de porter des demandes d'ex
 //* code = $terminologie-cisis#GEN-092.04.20 "Autre demande d’examen ou de suivi"
 * occurrence[x] 1..1 MS
 * occurrence[x] ^short = "Date prévisionnelle de l'examen, du suivi, de l'objectif"
-* orderDetail 0..1 MS
-* orderDetail.coding ^short = "Résultat de la demande"
+* orderDetail MS
+* orderDetail ^short = "Informations complémentaires sur la demande d'acte, par exemple : INR cible."
+
 // * supportingInfo ^short = "Résultat de la demande"
 // * supportingInfo only Reference(Observation)
 
@@ -35,11 +36,7 @@ Description: "FRServiceRequestDocument profil permet de porter des demandes d'ex
 * bodySite ^short = "Cible"
 * bodySite from http://hl7.org/fhir/ValueSet/body-site (extensible)
 
-* extension contains FRInterpretationExtension named interpretation 0..1
-* extension[interpretation] MS
-* extension[interpretation] ^short = "Interprétation"
-
-* extension contains FRMethodExtension named method 0..1 
+* extension contains FRMethodExtension named method 0..*
 * extension[method] MS
 * extension[method] ^short = "Méthode"
 
@@ -51,23 +48,8 @@ Description: "FRServiceRequestDocument profil permet de porter des demandes d'ex
 * extension[author].extension[type].valueCode = #AUT
 * extension[author].extension[actor].valueReference only Reference(FRPractitionerRoleDocument or Device or FRDeviceAuteurDocument or FROrganizationDocument or FRRelatedPersonDocument or FRPatientINSDocument or FRPatientDocument)
 
-* note ^slicing.discriminator.type = #value
-* note ^slicing.discriminator.path = "text"
-* note ^slicing.rules = #open
+* note MS
 * note ^short = "Justification de la demande d’examen / Finalité de l'examen"
-
-// Définition des deux slices
-* note contains
-    finaliteExamen 1..1 MS and
-    justificationDemande 1..1 MS
-
-// Slice 1 : Finalité de l’examen
-* note[finaliteExamen].text ^short = "Finalité de l’examen"
-* note[finaliteExamen] ^short = "Finalité de l’examen demandé"
-
-// Slice 2 : Justification de la demande
-* note[justificationDemande].text ^short = "Justification de la demande d'examen"
-* note[justificationDemande] ^short = "Justification de la demande d’examen"
 
 Invariant: fr-invariant-intent
 Description: "L'intention doit être order, plan ou proposal."
