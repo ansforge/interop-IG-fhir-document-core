@@ -151,6 +151,7 @@ groups:
       - StructureDefinition/fr-observation-vital-signs-document
       - StructureDefinition/fr-body-structure-document
       - StructureDefinition/fr-observation-multiresistant-microorganism-document
+      - StructureDefinition/fr-service-request-imaging-document
 
   Data Type FHIR:
     name: Data Type Profiles
