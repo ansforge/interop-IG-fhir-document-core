@@ -1,4 +1,11 @@
 [{
+  "id" : "fr-cs-note-type",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type",
+  "version" : "0.1.0",
+  "name" : "FRCSNoteType"
+},
+{
   "id" : "ans.fhir.fr.document-core",
   "type" : "ImplementationGuide",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fhir.fr.document-core",
@@ -188,13 +195,6 @@
   "name" : "FRImagingProcedureExtension"
 },
 {
-  "id" : "fr-imaging-request-extension",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-request-extension",
-  "version" : "0.1.0",
-  "name" : "FRImagingRequestExtension"
-},
-{
   "id" : "fr-imaging-study-document",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document",
@@ -298,6 +298,13 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-not-covered-extension",
   "version" : "0.1.0",
   "name" : "FRNotCoveredExtension"
+},
+{
+  "id" : "fr-note-type-extension",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension",
+  "version" : "0.1.0",
+  "name" : "FRNoteTypeExtension"
 },
 {
   "id" : "fr-number-of-frames-extension",
@@ -669,6 +676,13 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-medication-translation-document",
   "version" : "0.1.0",
   "name" : "FRValueSetMedicationTranslationDocument"
+},
+{
+  "id" : "fr-vs-note-type",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type",
+  "version" : "0.1.0",
+  "name" : "FRValueSetNoteType"
 },
 {
   "id" : "fr-vs-procedure-code",

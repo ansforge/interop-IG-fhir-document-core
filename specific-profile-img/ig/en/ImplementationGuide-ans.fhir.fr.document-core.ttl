@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-07-31T09:38:41+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-07-31T12:59:03+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -1340,6 +1340,20 @@
        fhir:Element.extension [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/fr-cs-note-type" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR CodeSystem Note Type" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "CodeSystem définissant les types d'informations associés aux notes d'une demande d'examen d'imagerie." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1445,20 +1459,6 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-request-extension> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-imaging-request-extension" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Imaging Request Extension" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant de renseigner les notes associées à une demande d’examen d’imagerie, notamment la finalité de l’examen et la justification de la demande." ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-type-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-immunization-type-extension" ]
        ] ;
@@ -1535,6 +1535,20 @@
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Not Covered Extension" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'indiquer si le traitement est non remboursable." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-note-type-extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Note Type Extension" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant de préciser le type d'information contenu dans une note associée à une demande d'examen d'imagerie." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
@@ -1725,6 +1739,20 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Data Type FHIR" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-note-type" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Imaging Note Type" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet définissant les types d'informations pouvant être associés aux notes d'une demande d'examen d'imagerie." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
        fhir:Element.extension [

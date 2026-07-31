@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-07-31T09:38:41+00:00",
+  "date" : "2026-07-31T12:59:03+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1261,6 +1261,22 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-fr-cs-note-type.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/fr-cs-note-type"
+      },
+      "name" : "FR CodeSystem Note Type",
+      "description" : "CodeSystem définissant les types d'informations associés aux notes d'une demande d'examen d'imagerie.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       },
       {
@@ -1381,22 +1397,6 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-fr-imaging-request-extension.html"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-imaging-request-extension"
-      },
-      "name" : "FR Imaging Request Extension",
-      "description" : "Extension permettant de renseigner les notes associées à une demande d’examen d’imagerie, notamment la finalité de l’examen et la justification de la demande.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "StructureDefinition-fr-immunization-type-extension.html"
       }],
       "reference" : {
@@ -1485,6 +1485,22 @@
       },
       "name" : "FR Not Covered Extension",
       "description" : "Extension permettant d'indiquer si le traitement est non remboursable.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-note-type-extension.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-note-type-extension"
+      },
+      "name" : "FR Note Type Extension",
+      "description" : "Extension permettant de préciser le type d'information contenu dans une note associée à une demande d'examen d'imagerie.",
       "exampleBoolean" : false
     },
     {
@@ -1701,6 +1717,22 @@
       "description" : "DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie",
       "exampleBoolean" : false,
       "groupingId" : "Data Type FHIR"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-vs-note-type.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/fr-vs-note-type"
+      },
+      "name" : "FR ValueSet Imaging Note Type",
+      "description" : "ValueSet définissant les types d'informations pouvant être associés aux notes d'une demande d'examen d'imagerie.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

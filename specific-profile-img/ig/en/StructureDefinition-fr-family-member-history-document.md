@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-family-member-
   "name" : "FRFamilyMemberHistoryDocument",
   "title" : "FamilyMemberHistory - FR Family Member History Document",
   "status" : "draft",
-  "date" : "2026-07-31T09:38:41+00:00",
+  "date" : "2026-07-31T12:59:03+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

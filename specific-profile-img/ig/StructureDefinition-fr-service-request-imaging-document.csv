@@ -200,26 +200,72 @@ AOE","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/Structu
 ","",0,*,"Y","","Y","CodeableConcept {[]} {[]}
 ","Cible","Anatomic location where the procedure should be performed. This is the target site.","Only used if not implicit in the code found in ServiceRequest.code.  If the use case requires BodySite to be handled as a separate resource instead of an inline coded element (e.g. to identify and track separately)  then use the standard extension [procedure-targetBodyStructure](http://hl7.org/fhir/R4/extension-procedure-targetbodystructure.html).","Knowing where the procedure is performed is important for tracking if multiple sites are possible.","","","","","","","",,"extensible","","http://hl7.org/fhir/ValueSet/body-site|4.0.1","",,,,"ServiceRequest.bodySite",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","SPM","targetSiteCode","Procedure.targetBodySite"
-"ServiceRequest.note","ServiceRequest.note","","","",0,*,"Y","","","Annotation {[]} {[]}
+"ServiceRequest.note","ServiceRequest.note","","","",1,*,"Y","","","Annotation {[]} {[]}
+","Justification de la demande d’examen / Finalité de l'examen","Any other notes and comments made about the service request. For example, internal billing notes.","","","","","","","","","",,,,,"","value:extension('http://hl7.fr/ig/.../StructureDefinition/fr-imaging-note-type-extension')}
+","",,"open","ServiceRequest.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Request.note","NTE",".inboundRelationship(typeCode=SUBJ].source[classCode=ANNGEN, moodCode=EVN].value[xsi:type=ST]","ClinicalStatement.additionalText"
+"ServiceRequest.note:finaliteExamen","ServiceRequest.note","finaliteExamen","","",1,1,"Y","","","Annotation {[]} {[]}
 ","Justification de la demande d’examen / Finalité de l'examen","Any other notes and comments made about the service request. For example, internal billing notes.","","","","","","","","","",,,,,"",,,,"ServiceRequest.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.note","NTE",".inboundRelationship(typeCode=SUBJ].source[classCode=ANNGEN, moodCode=EVN].value[xsi:type=ST]","ClinicalStatement.additionalText"
-"ServiceRequest.note.id","ServiceRequest.note.id","","","",0,1,"","","","string {[]} {[]}
+"ServiceRequest.note:finaliteExamen.id","ServiceRequest.note.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ServiceRequest.note.extension","ServiceRequest.note.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+"ServiceRequest.note:finaliteExamen.extension","ServiceRequest.note.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"ServiceRequest.note.extension:imagingRequest","ServiceRequest.note.extension","imagingRequest","","",0,1,"","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-request-extension|0.1.0]]} {[]}
-","FR Imaging Request Extension","Extension permettant de renseigner les notes associées à une demande d’examen d’imagerie, notamment la finalité de l’examen et la justification de la demande.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ServiceRequest.note.author[x]","ServiceRequest.note.author[x]","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
+"ServiceRequest.note:finaliteExamen.extension:noteType","ServiceRequest.note.extension","noteType","","",1,1,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension|0.1.0]]} {[]}
+","FR Note Type Extension","Extension permettant de préciser le type d'information contenu dans une note associée à une demande d'examen d'imagerie.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ServiceRequest.note:finaliteExamen.extension:noteType.id","ServiceRequest.note.extension.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"ServiceRequest.note:finaliteExamen.extension:noteType.extension","ServiceRequest.note.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ServiceRequest.note:finaliteExamen.extension:noteType.url","ServiceRequest.note.extension.url","","","",1,1,"","","","uri {[]} {[]}
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
+"ServiceRequest.note:finaliteExamen.extension:noteType.value[x]","ServiceRequest.note.extension.value[x]","","","",0,1,"","","","code {[]} {[]}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""finaliteExamen""/>","","","",,"required","","https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type|0.1.0","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","N/A"
+"ServiceRequest.note:finaliteExamen.author[x]","ServiceRequest.note.author[x]","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
 string {[]} {[]}","Individual responsible for the annotation","The individual responsible for making the annotation.","Organization is used when there's no need for specific attribution as to who made the comment.","","","","","","","","",,,,,"",,,,"Annotation.author[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A","Act.participant[typeCode=AUT].role"
-"ServiceRequest.note.time","ServiceRequest.note.time","","","",0,1,"","","Y","dateTime {[]} {[]}
+"ServiceRequest.note:finaliteExamen.time","ServiceRequest.note.time","","","",0,1,"","","Y","dateTime {[]} {[]}
 ","When the annotation was made","Indicates when this particular annotation was made.","","","","","","","","","",,,,,"",,,,"Annotation.time",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A","Act.effectiveTime"
-"ServiceRequest.note.text","ServiceRequest.note.text","","","",1,1,"","","Y","markdown {[]} {[]}
+"ServiceRequest.note:finaliteExamen.text","ServiceRequest.note.text","","","",1,1,"","","Y","markdown {[]} {[]}
+","The annotation  - text content (as markdown)","The text of the annotation in markdown format.","","","","","","","","","",,,,,"",,,,"Annotation.text",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","N/A","Act.text"
+"ServiceRequest.note:justificationDemande","ServiceRequest.note","justificationDemande","","",0,1,"Y","","","Annotation {[]} {[]}
+","Justification de la demande d’examen / Finalité de l'examen","Any other notes and comments made about the service request. For example, internal billing notes.","","","","","","","","","",,,,,"",,,,"ServiceRequest.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Request.note","NTE",".inboundRelationship(typeCode=SUBJ].source[classCode=ANNGEN, moodCode=EVN].value[xsi:type=ST]","ClinicalStatement.additionalText"
+"ServiceRequest.note:justificationDemande.id","ServiceRequest.note.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"ServiceRequest.note:justificationDemande.extension","ServiceRequest.note.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ServiceRequest.note:justificationDemande.extension:noteType","ServiceRequest.note.extension","noteType","","",1,1,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension|0.1.0]]} {[]}
+","FR Note Type Extension","Extension permettant de préciser le type d'information contenu dans une note associée à une demande d'examen d'imagerie.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ServiceRequest.note:justificationDemande.extension:noteType.id","ServiceRequest.note.extension.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"ServiceRequest.note:justificationDemande.extension:noteType.extension","ServiceRequest.note.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ServiceRequest.note:justificationDemande.extension:noteType.url","ServiceRequest.note.extension.url","","","",1,1,"","","","uri {[]} {[]}
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
+"ServiceRequest.note:justificationDemande.extension:noteType.value[x]","ServiceRequest.note.extension.value[x]","","","",0,1,"","","","code {[]} {[]}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""justificationDemande""/>","","","",,"required","","https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type|0.1.0","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","N/A"
+"ServiceRequest.note:justificationDemande.author[x]","ServiceRequest.note.author[x]","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
+string {[]} {[]}","Individual responsible for the annotation","The individual responsible for making the annotation.","Organization is used when there's no need for specific attribution as to who made the comment.","","","","","","","","",,,,,"",,,,"Annotation.author[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","N/A","Act.participant[typeCode=AUT].role"
+"ServiceRequest.note:justificationDemande.time","ServiceRequest.note.time","","","",0,1,"","","Y","dateTime {[]} {[]}
+","When the annotation was made","Indicates when this particular annotation was made.","","","","","","","","","",,,,,"",,,,"Annotation.time",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","N/A","Act.effectiveTime"
+"ServiceRequest.note:justificationDemande.text","ServiceRequest.note.text","","","",1,1,"","","Y","markdown {[]} {[]}
 ","The annotation  - text content (as markdown)","The text of the annotation in markdown format.","","","","","","","","","",,,,,"",,,,"Annotation.text",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A","Act.text"
 "ServiceRequest.patientInstruction","ServiceRequest.patientInstruction","","","",0,1,"","","Y","string {[]} {[]}

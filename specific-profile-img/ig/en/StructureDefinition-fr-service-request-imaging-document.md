@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
   "name" : "FRServiceRequestImagingDocument",
   "title" : "ServiceRequest - FR Service Request Imaging Document",
   "status" : "draft",
-  "date" : "2026-07-31T09:38:41+00:00",
+  "date" : "2026-07-31T12:59:03+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -86,15 +86,76 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       "path" : "ServiceRequest"
     },
     {
-      "id" : "ServiceRequest.note.extension:imagingRequest",
+      "id" : "ServiceRequest.note",
+      "path" : "ServiceRequest.note",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "extension('http://hl7.fr/ig/.../StructureDefinition/fr-imaging-note-type-extension')"
+        }],
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "ServiceRequest.note:finaliteExamen",
+      "path" : "ServiceRequest.note",
+      "sliceName" : "finaliteExamen",
+      "min" : 1,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "ServiceRequest.note:finaliteExamen.extension",
       "path" : "ServiceRequest.note.extension",
-      "sliceName" : "imagingRequest",
-      "min" : 0,
+      "min" : 1
+    },
+    {
+      "id" : "ServiceRequest.note:finaliteExamen.extension:noteType",
+      "path" : "ServiceRequest.note.extension",
+      "sliceName" : "noteType",
+      "min" : 1,
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-request-extension|0.1.0"]
-      }]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "ServiceRequest.note:finaliteExamen.extension:noteType.value[x]",
+      "path" : "ServiceRequest.note.extension.value[x]",
+      "patternCode" : "finaliteExamen"
+    },
+    {
+      "id" : "ServiceRequest.note:justificationDemande",
+      "path" : "ServiceRequest.note",
+      "sliceName" : "justificationDemande",
+      "min" : 0,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "ServiceRequest.note:justificationDemande.extension",
+      "path" : "ServiceRequest.note.extension",
+      "min" : 1
+    },
+    {
+      "id" : "ServiceRequest.note:justificationDemande.extension:noteType",
+      "path" : "ServiceRequest.note.extension",
+      "sliceName" : "noteType",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "ServiceRequest.note:justificationDemande.extension:noteType.value[x]",
+      "path" : "ServiceRequest.note.extension.value[x]",
+      "patternCode" : "justificationDemande"
     }]
   }
 }

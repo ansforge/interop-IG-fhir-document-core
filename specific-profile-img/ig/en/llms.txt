@@ -14,6 +14,10 @@
 
 ## Resources
 
+### CodeSystems
+
+* [FR CodeSystem Note Type](CodeSystem-fr-cs-note-type.md)
+
 ### ValueSets
 
 * [FR ValueSet Participation Type](ValueSet-fr-doc-vs-participation-type.md)
@@ -27,6 +31,7 @@
 * [ValueSet – FR ValueSet Type d'évaluation](ValueSet-fr-vs-evaluation-type.md)
 * [ValueSet – FR ValueSet Localisation anatomique et voie d'abord](ValueSet-fr-vs-location-body-structure-document.md)
 * [ValueSet - FR ValueSet Medication Translation Document](ValueSet-fr-vs-medication-translation-document.md)
+* [FR ValueSet Imaging Note Type](ValueSet-fr-vs-note-type.md)
 * [ValueSet – FR ValueSet Codes d’actes](ValueSet-fr-vs-procedure-code.md)
 * [ValueSet – FR ValueSet Codes vaccins CIS (BDPM)](ValueSet-fr-vs-vaccine-code-cis.md)
 
@@ -110,12 +115,12 @@
 * [FR Comparison Studies Extension](StructureDefinition-fr-comparison-studies-extension.md)
 * [FR Family Member History Body Site Extension](StructureDefinition-fr-family-member-history-body-site-extension.md)
 * [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md)
-* [FR Imaging Request Extension](StructureDefinition-fr-imaging-request-extension.md)
 * [FR Immunization Type Extension](StructureDefinition-fr-immunization-type-extension.md)
 * [FR Interpretation Extension](StructureDefinition-fr-interpretation-extension.md)
 * [FR Medication Administration Sequence Extension](StructureDefinition-fr-medication-administration-sequence-extension.md)
 * [FR Method Extension](StructureDefinition-fr-method-extension.md)
 * [FR Not Covered Extension](StructureDefinition-fr-not-covered-extension.md)
+* [FR Note Type Extension](StructureDefinition-fr-note-type-extension.md)
 * [FR Number of Frames Extension](StructureDefinition-fr-number-of-frames-extension.md)
 * [FR Patient History Extension](StructureDefinition-fr-patient-history-extension.md)
 * [FR Performer Event Extension](StructureDefinition-fr-performer-event-extension.md)
