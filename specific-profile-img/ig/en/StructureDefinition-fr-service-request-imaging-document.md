@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
   "name" : "FRServiceRequestImagingDocument",
   "title" : "ServiceRequest - FR Service Request Imaging Document",
   "status" : "draft",
-  "date" : "2026-07-31T13:02:34+00:00",
+  "date" : "2026-07-31T13:07:52+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -91,7 +91,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       "slicing" : {
         "discriminator" : [{
           "type" : "value",
-          "path" : "extension('http://hl7.fr/ig/.../StructureDefinition/fr-note-type-extension')"
+          "path" : "extension('http://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension')"
         }],
         "rules" : "open"
       },
