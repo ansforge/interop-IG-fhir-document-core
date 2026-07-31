@@ -35,7 +35,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-procedure-prio
   "name" : "FRProcedurePriorityExtension",
   "title" : "FR Procedure Priority Extension",
   "status" : "draft",
-  "date" : "2026-07-31T07:56:22+00:00",
+  "date" : "2026-07-31T09:38:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

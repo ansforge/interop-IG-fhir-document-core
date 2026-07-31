@@ -3,7 +3,7 @@ FHIRFRDocumentCore : Validation Results
 
 err = 581, warn = 161, info = 7196
 IG Publisher Version: 2.2.11
-Generated Fri Jul 31 08:04:48 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
+Generated Fri Jul 31 09:45:58 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 492 / 3 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 3 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.document-core : 67 / 5 / 4
@@ -589,13 +589,13 @@ ERROR: ToC: The ToC contains the page AllergyIntolerance-example-allergy-intoler
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.xml.html more than once
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.json.html more than once
 ERROR: ToC: The ToC contains the page Procedure-example-procedure-data-absent-reason.ttl.html more than once
-ERROR: en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 490: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
-ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 289: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 520: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: en/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 319: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 393, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 399, column 16: The link 'StructureDefinition-fr-relatedperson-document.html' for "FRRelatedPersonDocument" cannot be resolved
 ERROR: en/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/blockquote/ul/li/a at Line 717, column 302: The link 'StructureDefinition-fr-allergie-intolerance-document.html' for "FRAllergyIntoleranceDocument" cannot be resolved
-ERROR: fr/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 493: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
-ERROR: fr/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 290: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: fr/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 523: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
+ERROR: fr/Procedure-example-procedure-data-absent-reason.html#/html/body/div/div/div/div/div/div/p/a at Line 284, column 320: The link 'Patient/exemple-patient' for "Exemple Patient" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 386, column 16: The link 'StructureDefinition-fr-practitionerrole-document.html' for "FRPractitionerRoleDocument" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 392, column 16: The link 'StructureDefinition-fr-relatedperson-document.html' for "FRRelatedPersonDocument" cannot be resolved
 ERROR: fr/ressourcesFHIR-struc-gen.html#/html/body/div/div/div/div/div/blockquote/ul/li/a at Line 710, column 302: The link 'StructureDefinition-fr-allergie-intolerance-document.html' for "FRAllergyIntoleranceDocument" cannot be resolved
@@ -2350,7 +2350,7 @@ INFORMATION: StructureDefinition.snapshot.element[9].constraint[1].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[10].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[10].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[14].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[14].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260619134041
 INFORMATION: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[23].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document to 0.1.0
@@ -2360,7 +2360,7 @@ INFORMATION: StructureDefinition.snapshot.element[55].type[0].targetProfile[0]: 
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-comparison-studies-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-history-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[4].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension to 0.1.0
-INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
+INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260619134041
 INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[13].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document to 0.1.0
@@ -3039,7 +3039,7 @@ INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[17].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[17].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -3096,7 +3096,7 @@ INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-acquisition-cisis to 20260420150250
-INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
+INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[8].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[9].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis to 20260619134042
 INFORMATION: StructureDefinition.differential.element[12].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-acquisition-cisis to 20260420150250
@@ -5272,7 +5272,7 @@ INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[31].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[31].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[33].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document to 0.1.0
@@ -5337,7 +5337,7 @@ INFORMATION: StructureDefinition.snapshot.element[79].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[80].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[81].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[82].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
+INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[9].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[12].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
@@ -7590,7 +7590,7 @@ INFORMATION: StructureDefinition.differential.element[24].type[0].targetProfile[
 INFORMATION: Resource: The resource StructureDefinition/fr-procedure-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-fr-procedure-imaging-document.json ==
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[41].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[45].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260619134041
 INFORMATION: StructureDefinition.snapshot.element[63].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
@@ -7612,7 +7612,7 @@ INFORMATION: StructureDefinition.snapshot.element[89].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[89].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[90].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[91].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[2].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
+INFORMATION: StructureDefinition.differential.element[2].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[3].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260619134041
 INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0

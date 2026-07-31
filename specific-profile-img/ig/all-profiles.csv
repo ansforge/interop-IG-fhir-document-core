@@ -4308,7 +4308,7 @@ Filler IDPlacer ID","",0,*,"","","Y","Identifier {[]} {[]}
 ","",,"open","DiagnosticReport.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-diagnostic-report-imaging-document","DiagnosticReport.basedOn:serviceRequestAccessionNumber","DiagnosticReport.basedOn","serviceRequestAccessionNumber","Request
-","",0,*,"","","","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0]]}
+","",0,*,"","","","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0]]}
 ","Référence à la demande d'examen contenant l'Accession Number","Details concerning a service requested.","Note: Usually there is one test request for each result, however in some circumstances multiple test requests may be represented using a single test result resource. Note that there are also cases where one request leads to multiple reports.","This allows tracing of authorization for the report and tracking whether proposals/recommendations were acted upon.","","","","","","","",,,,,"",,,,"DiagnosticReport.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-diagnostic-report-imaging-document","DiagnosticReport.status","DiagnosticReport.status","","","",1,1,"Y","Y","Y","code {[]} {[]}
@@ -6093,7 +6093,7 @@ StudyTime","",0,1,"Y","","Y","dateTime {[]} {[]}
 ","Request fulfilled","A list of the diagnostic requests that resulted in this imaging study being performed.","","To support grouped procedures (one imaging study supporting multiple ordered procedures, e.g. chest/abdomen/pelvis CT).","","","","","","","",,,,,"","pattern:$this}
 ","",,"open","ImagingStudy.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"fr-imaging-study-document","ImagingStudy.basedOn:serviceRequestAccessionNumber","ImagingStudy.basedOn","serviceRequestAccessionNumber","","",0,*,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0]]}
+"fr-imaging-study-document","ImagingStudy.basedOn:serviceRequestAccessionNumber","ImagingStudy.basedOn","serviceRequestAccessionNumber","","",0,*,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0]]}
 ","Référence à la demande d'examen contenant l'Accession Number","A list of the diagnostic requests that resulted in this imaging study being performed.","","To support grouped procedures (one imaging study supporting multiple ordered procedures, e.g. chest/abdomen/pelvis CT).","","","","","","","",,,,,"",,,,"ImagingStudy.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-imaging-study-document","ImagingStudy.referrer","ImagingStudy.referrer","","ReferringPhysiciansName
@@ -12095,7 +12095,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","",,"open","Observation.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-observation-radiation-exposure-document","Observation.basedOn:serviceRequestAccessionNumber","Observation.basedOn","serviceRequestAccessionNumber","Fulfills
-","",0,*,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0]]}
+","",0,*,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0]]}
 ","Référence à la demande d'examen contenant l'Accession Number","A plan, proposal or order that is fulfilled in whole or in part by this event.  For example, a MedicationRequest may require a patient to have laboratory test performed before  it is dispensed.","","Allows tracing of authorization for the event and tracking whether proposals/recommendations were acted upon.","","","","","","","",,,,,"",,,,"Observation.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-observation-radiation-exposure-document","Observation.partOf","Observation.partOf","","Container
@@ -18138,7 +18138,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","",,"open","Procedure.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-procedure-imaging-document","Procedure.basedOn:serviceRequestAccessionNumber","Procedure.basedOn","serviceRequestAccessionNumber","fulfills
-","",0,*,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0]]}
+","",0,*,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0]]}
 ","Référence à la demande d'examen contenant l'Accession Number","A reference to a resource that contains details of the request for this procedure.","","","","","","","","","",,,,,"",,,,"Procedure.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "fr-procedure-imaging-document","Procedure.partOf","Procedure.partOf","","container

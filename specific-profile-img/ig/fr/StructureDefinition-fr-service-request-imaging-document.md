@@ -7,7 +7,7 @@ FRServiceRequestImagingDocument profil spécifique permet de porter des demandes
 
 **Utilisations:**
 
-* Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
+* Référence ce Profil: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-service-request-imaging-document)
 
@@ -84,7 +84,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
   "name" : "FRServiceRequestImagingDocument",
   "title" : "ServiceRequest - FR Service Request Imaging Document",
   "status" : "draft",
-  "date" : "2026-07-31T07:56:22+00:00",
+  "date" : "2026-07-31T09:38:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
