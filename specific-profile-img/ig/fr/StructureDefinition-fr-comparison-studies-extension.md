@@ -64,7 +64,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-comparison-s
   "name" : "FRComparisonStudiesExtension",
   "title" : "FR Comparison Studies Extension",
   "status" : "draft",
-  "date" : "2026-07-31T12:59:03+00:00",
+  "date" : "2026-07-31T13:02:34+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
