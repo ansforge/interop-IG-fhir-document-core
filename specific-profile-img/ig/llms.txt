@@ -99,6 +99,7 @@
 * [Procedure - FR Procedure Imaging Document](fr/StructureDefinition-fr-procedure-imaging-document.md)
 * [FR RelatedPerson Document](fr/StructureDefinition-fr-related-person-document.md)
 * [ServiceRequest - FR Service Request Document](fr/StructureDefinition-fr-service-request-document.md)
+* [ServiceRequest - FR Service Request Imaging Document](fr/StructureDefinition-fr-service-request-imaging-document.md)
 * [Specimen - FR Specimen Document](fr/StructureDefinition-fr-specimen-document.md)
 * [Task - FR Task Patient Transport Document](fr/StructureDefinition-fr-task-patient-transport-document.md)
 
@@ -109,6 +110,7 @@
 * [FR Comparison Studies Extension](fr/StructureDefinition-fr-comparison-studies-extension.md)
 * [FR Family Member History Body Site Extension](fr/StructureDefinition-fr-family-member-history-body-site-extension.md)
 * [FR Imaging Procedure Extension](fr/StructureDefinition-fr-imaging-procedure-extension.md)
+* [FR Imaging Request Extension](fr/StructureDefinition-fr-imaging-request-extension.md)
 * [FR Immunization Type Extension](fr/StructureDefinition-fr-immunization-type-extension.md)
 * [FR Interpretation Extension](fr/StructureDefinition-fr-interpretation-extension.md)
 * [FR Medication Administration Sequence Extension](fr/StructureDefinition-fr-medication-administration-sequence-extension.md)

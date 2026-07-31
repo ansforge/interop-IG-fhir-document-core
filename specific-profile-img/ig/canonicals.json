@@ -188,6 +188,13 @@
   "name" : "FRImagingProcedureExtension"
 },
 {
+  "id" : "fr-imaging-request-extension",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-request-extension",
+  "version" : "0.1.0",
+  "name" : "FRImagingRequestExtension"
+},
+{
   "id" : "fr-imaging-study-document",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document",
@@ -550,6 +557,13 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document",
   "version" : "0.1.0",
   "name" : "FRServiceRequestDocument"
+},
+{
+  "id" : "fr-service-request-imaging-document",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document",
+  "version" : "0.1.0",
+  "name" : "FRServiceRequestImagingDocument"
 },
 {
   "id" : "fr-specimen-document",

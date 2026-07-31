@@ -70,6 +70,7 @@ Cette page contient la liste des profils FHIR définis dans le guide **ANS IG Do
 | [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md) | FRProcedureDocument est un profil utilisé pour décrire un acte planifié ou réalisé. |
 | [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md) | FRProcedureImagingDocument permet d'enregistrer les différents paramètres de l’acquisition d’image : acte d'imagerie, localisation anatomique / latéralité / topographie, d'autres paramètres de l'acte |
 | [ServiceRequest - FR Service Request Document](StructureDefinition-fr-service-request-document.md) | FRServiceRequestDocument profil permet de porter des demandes d'examens (analyses biologiques, évaluations, étude d'imagerie, etc…) ou de suivis particuliers à programmer dans le cadre d'un plan de soins. |
+| [ServiceRequest - FR Service Request Imaging Document](StructureDefinition-fr-service-request-imaging-document.md) | FRServiceRequestImagingDocument profil spécifique permet de porter des demandes d'examens d'imagerie. |
 | [Specimen - FR Specimen Document](StructureDefinition-fr-specimen-document.md) | FRSpecimenDocument est un profil utilisé pour décrire le prélèvement et l'échantillon biologique (le matériel). |
 | [Task - FR Task Patient Transport Document](StructureDefinition-fr-task-patient-transport-document.md) | FRTaskPatientTransportDocument permet de décrire le transport d'un patient/usager lors d'un déplacement (entrée ou sortie d'hôpital, ...). |
 

@@ -92,6 +92,64 @@
       ]
     },
     {
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-request-extension",
+      "title": "FR Imaging Request Extension",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-type-extension",
       "title": "FR Immunization Type Extension",
       "types": [
@@ -533,6 +591,10 @@
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document",
         "title": "ServiceRequest - FR Service Request Document"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document",
+        "title": "ServiceRequest - FR Service Request Imaging Document"
       }
     ],
     "Specimen": [
@@ -791,6 +853,9 @@
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension|0.1.0": [
       "DiagnosticReport"
+    ],
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-request-extension|0.1.0": [
+      "ServiceRequest.note"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension|0.1.0": [
       "FamilyMemberHistory.condition"

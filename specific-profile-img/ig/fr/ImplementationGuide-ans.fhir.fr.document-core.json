@@ -11,7 +11,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-07-30T14:41:38+00:00",
+  "date" : "2026-07-31T07:56:22+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1265,6 +1265,18 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/fr-imaging-request-extension"
+      },
+      "name" : "FR Imaging Request Extension",
+      "description" : "Extension permettant de renseigner les notes associées à une demande d’examen d’imagerie, notamment la finalité de l’examen et la justification de la demande.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/fr-immunization-type-extension"
       },
       "name" : "FR Immunization Type Extension",
@@ -1971,6 +1983,19 @@
       },
       "name" : "ServiceRequest - FR Service Request Document",
       "description" : "FRServiceRequestDocument profil permet de porter des demandes d'examens (analyses biologiques, évaluations, étude d'imagerie, etc…) ou de suivis particuliers à programmer dans le cadre d'un plan de soins.",
+      "exampleBoolean" : false,
+      "groupingId" : "Ressources FHIR corps"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-service-request-imaging-document"
+      },
+      "name" : "ServiceRequest - FR Service Request Imaging Document",
+      "description" : "FRServiceRequestImagingDocument profil spécifique permet de porter des demandes d'examens d'imagerie.",
       "exampleBoolean" : false,
       "groupingId" : "Ressources FHIR corps"
     },
