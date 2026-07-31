@@ -6,7 +6,7 @@ Description: "FRServiceRequestImagingDocument profil spécifique permet de porte
 
 
 * note ^slicing.discriminator.type = #value
-* note ^slicing.discriminator.path = "extension('http://hl7.fr/ig/.../StructureDefinition/fr-note-type-extension')"
+* note ^slicing.discriminator.path = "extension('http://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension')"
 * note ^slicing.rules = #open
 
 * note contains
