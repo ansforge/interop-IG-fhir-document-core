@@ -35,7 +35,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-author-time-ex
   "name" : "FRAuthorTimeExtension",
   "title" : "FR Author Time Extension",
   "status" : "draft",
-  "date" : "2026-07-30T08:11:50+00:00",
+  "date" : "2026-08-03T07:00:21+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

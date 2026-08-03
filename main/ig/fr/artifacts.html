@@ -247,7 +247,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#5">Terminologie: Jeux de valeurs (ValueSets)</a>
       </li>
       <li>
-         <a href="#6">Exemple: Exemples d'instances</a>
+         <a href="#6">Terminologie: Systèmes de codes (CodeSystems)</a>
+      </li>
+      <li>
+         <a href="#7">Exemple: Exemples d'instances</a>
       </li>
    </ul>
 </div>
@@ -1034,6 +1037,18 @@ acte d'imagerie, localisation anatomique / latéralité / topographie, d'autres 
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="StructureDefinition-fr-service-request-imaging-document.html"
+                  title="StructureDefinition/fr-service-request-imaging-document">
+                  <span title="StructureDefinition/fr-service-request-imaging-document">ServiceRequest - FR Service Request Imaging Document
+</span>
+               </a>
+            </td>
+            <td>
+<p>FRServiceRequestImagingDocument profil spécifique permet de porter des demandes d'examens d'imagerie.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="StructureDefinition-fr-specimen-document.html"
                   title="StructureDefinition/fr-specimen-document">
                   <span title="StructureDefinition/fr-specimen-document">Specimen - FR Specimen Document
@@ -1230,6 +1245,18 @@ acte d'imagerie, localisation anatomique / latéralité / topographie, d'autres 
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="StructureDefinition-fr-note-type-extension.html"
+                  title="StructureDefinition/fr-note-type-extension">
+                  <span title="StructureDefinition/fr-note-type-extension">FR Note Type Extension
+</span>
+               </a>
+            </td>
+            <td>
+<p>Extension permettant de préciser le type d'information contenu dans une note associée à une demande d'examen d'imagerie.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="StructureDefinition-fr-number-of-frames-extension.html"
                   title="StructureDefinition/fr-number-of-frames-extension">
                   <span title="StructureDefinition/fr-number-of-frames-extension">FR Number of Frames Extension
@@ -1308,6 +1335,17 @@ acte d'imagerie, localisation anatomique / latéralité / topographie, d'autres 
 <table class="grid">
       <col style="width:20%"/>
       <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-fr-vs-note-type.html" title="ValueSet/fr-vs-note-type">
+                  <span title="ValueSet/fr-vs-note-type">FR ValueSet Imaging Note Type
+</span>
+               </a>
+            </td>
+            <td>
+<p>ValueSet définissant les types d'informations pouvant être associés aux notes d'une demande d'examen d'imagerie.</p>
+</td>
+         </tr>
          <tr>
             <td style="column-width:30%">
                <a href="ValueSet-fr-doc-vs-participation-type.html"
@@ -1488,6 +1526,26 @@ Inclut LOINC, ICF, et permet d'autres systèmes si aucun code approprié n'est t
       </tbody>
    </table>
    <a name="6"> </a>
+   <h3>Terminologie: Systèmes de codes (CodeSystems) </h3>
+    <p>Ils définissent les nouveaux systèmes de codes utilisés par les systèmes conformes au présent guide d'implémentation.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-fr-cs-note-type.html"
+                  title="CodeSystem/fr-cs-note-type">
+                  <span title="CodeSystem/fr-cs-note-type">FR CodeSystem Note Type
+</span>
+               </a>
+            </td>
+            <td>
+<p>CodeSystem définissant les types d'informations associés aux notes d'une demande d'examen d'imagerie.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="7"> </a>
    <h3>Exemple: Exemples d'instances </h3>
     <p>Il s'agit d'exemples d'instances qui montrent à quoi peuvent ressembler les données produites et consommées par des systèmes conformes au présent guide d'implémentation.</p>
 <table class="grid">
@@ -1585,8 +1643,8 @@ obligatoires de la ressource Procedure dont la valeur est inconnue ou temporaire
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.fhir.fr.document-core#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Date de génération : 
-  <span title="2026-07-30 08:11:00 +0000">
-    2026-07-30
+  <span title="2026-08-03 07:00:00 +0000">
+    2026-08-03
   </span>
 
           <br/>

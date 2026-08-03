@@ -45,7 +45,7 @@ Obligatoire : 6 éléments
 Cette structure fait référence à ces autres structures:
 
 * [FR Study Instance Uid Identifier Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0)](StructureDefinition-fr-study-instance-uid-identifier-document.md)
-* [ServiceRequest - FR Service Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0)](StructureDefinition-fr-service-request-document.md)
+* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
 * [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
 * [Endpoint - FR Endpoint Wado Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-endpoint-wado-document|0.1.0)](StructureDefinition-fr-endpoint-wado-document.md)
 
@@ -92,7 +92,7 @@ Obligatoire : 6 éléments
 Cette structure fait référence à ces autres structures:
 
 * [FR Study Instance Uid Identifier Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0)](StructureDefinition-fr-study-instance-uid-identifier-document.md)
-* [ServiceRequest - FR Service Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0)](StructureDefinition-fr-service-request-document.md)
+* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
 * [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
 * [Endpoint - FR Endpoint Wado Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-endpoint-wado-document|0.1.0)](StructureDefinition-fr-endpoint-wado-document.md)
 
@@ -126,7 +126,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
   "name" : "FRImagingStudyDocument",
   "title" : "ImagingStudy - FR Imaging study Document",
   "status" : "draft",
-  "date" : "2026-07-30T08:11:50+00:00",
+  "date" : "2026-08-03T07:00:21+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -243,7 +243,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "max" : "*",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
       }]
     },
     {
