@@ -7,7 +7,7 @@ Description: "Extension permettant de préciser le type d'information contenu da
 * ^context.expression = "ServiceRequest.note"
 
 * value[x] only code
-* valueCode from FRValueSetNoteType
+* valueCode from FRValueSetNoteType (required)
 
 
 ValueSet: FRValueSetNoteType
