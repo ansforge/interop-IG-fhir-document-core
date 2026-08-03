@@ -14,7 +14,7 @@ acte d'imagerie, localisation anatomique / latéralité / topographie, d'autres 
 * basedOn ^slicing.discriminator.path = "$this"
 * basedOn ^slicing.rules = #open
 * basedOn contains serviceRequestAccessionNumber 0..*
-* basedOn[serviceRequestAccessionNumber] only Reference(FRServiceRequestDocument)
+* basedOn[serviceRequestAccessionNumber] only Reference(FRServiceRequestImagingDocument)
 * basedOn[serviceRequestAccessionNumber] ^short = "Référence à la demande d'examen contenant l'Accession Number"
 
 * partOf only Reference(FRMedicationAdministrationDocument)

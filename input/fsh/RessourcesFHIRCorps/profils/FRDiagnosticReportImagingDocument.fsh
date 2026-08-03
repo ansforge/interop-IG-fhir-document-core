@@ -18,7 +18,7 @@ Ce document représente le rapport d’un examen d’imagerie. Il constitue la r
 * basedOn ^slicing.discriminator.path = "$this"
 * basedOn ^slicing.rules = #open
 * basedOn contains serviceRequestAccessionNumber 0..*
-* basedOn[serviceRequestAccessionNumber] only Reference(FRServiceRequestDocument)
+* basedOn[serviceRequestAccessionNumber] only Reference(FRServiceRequestImagingDocument)
 * basedOn[serviceRequestAccessionNumber] ^short = "Référence à la demande d'examen contenant l'Accession Number"
 
 * category = $LNC#18748-4 "Imagerie"
