@@ -35,7 +35,7 @@ Cette structure est dérivée de [DeviceUseStatement](http://hl7.org/fhir/R4/dev
 
 ** Résumé **
 
-Must-Support : 5 éléments
+Must-Support : 2 éléments
 
 **Structures**
 
@@ -43,7 +43,10 @@ Cette structure fait référence à ces autres structures:
 
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
+* [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
 * [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
+* [Observation - FR Observation Prevention Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0)](StructureDefinition-fr-observation-prevention-document.md)
+* [Observation - FR Observation ALD Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0)](StructureDefinition-fr-observation-ald-document.md)
 * [Observation - FR Observation Work Related Accident Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0)](StructureDefinition-fr-observation-work-related-accident-document.md)
 
 **Extensions**
@@ -52,12 +55,6 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-not-covered-extension|0.1.0](StructureDefinition-fr-not-covered-extension.md)
-
-**Slices**
-
-Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
-
-* The element 1 is sliced based on the value of DeviceUseStatement.reasonReference
 
  **Vue des éléments clés** 
 
@@ -79,7 +76,7 @@ Cette structure est dérivée de [DeviceUseStatement](http://hl7.org/fhir/R4/dev
 
 ** Résumé **
 
-Must-Support : 5 éléments
+Must-Support : 2 éléments
 
 **Structures**
 
@@ -87,7 +84,10 @@ Cette structure fait référence à ces autres structures:
 
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
+* [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
 * [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
+* [Observation - FR Observation Prevention Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0)](StructureDefinition-fr-observation-prevention-document.md)
+* [Observation - FR Observation ALD Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0)](StructureDefinition-fr-observation-ald-document.md)
 * [Observation - FR Observation Work Related Accident Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0)](StructureDefinition-fr-observation-work-related-accident-document.md)
 
 **Extensions**
@@ -96,12 +96,6 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-not-covered-extension|0.1.0](StructureDefinition-fr-not-covered-extension.md)
-
-**Slices**
-
-Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
-
-* The element 1 is sliced based on the value of DeviceUseStatement.reasonReference
 
  
 
@@ -120,7 +114,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-device-use-s
   "name" : "FRDeviceUseStatementDocument",
   "title" : "DeviceUseStatement - FR Device Use Statement Document",
   "status" : "draft",
-  "date" : "2026-08-03T07:00:21+00:00",
+  "date" : "2026-08-04T07:50:37+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -257,52 +251,14 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-device-use-s
     {
       "id" : "DeviceUseStatement.reasonReference",
       "path" : "DeviceUseStatement.reasonReference",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "resolve().code"
-        }],
-        "rules" : "open"
-      },
       "short" : "Raisons liées à l'utilisation du dispositif médical",
-      "mustSupport" : true
-    },
-    {
-      "id" : "DeviceUseStatement.reasonReference:EnRapportAvecALD",
-      "path" : "DeviceUseStatement.reasonReference",
-      "sliceName" : "EnRapportAvecALD",
-      "short" : "Observation indiquant que l'utilisation est en rapport avec une ALD",
-      "min" : 0,
-      "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "DeviceUseStatement.reasonReference:EnRapportAvecAccidentTravail",
-      "path" : "DeviceUseStatement.reasonReference",
-      "sliceName" : "EnRapportAvecAccidentTravail",
-      "short" : "Observation indiquant que l'utilisation est en rapport avec un accident de travail",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "DeviceUseStatement.reasonReference:EnRapportAvecLaPrevention",
-      "path" : "DeviceUseStatement.reasonReference",
-      "sliceName" : "EnRapportAvecLaPrevention",
-      "short" : "Observation indiquant que l'utilisation est liée à la prévention",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation|4.0.1",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
       }],
       "mustSupport" : true
     }]

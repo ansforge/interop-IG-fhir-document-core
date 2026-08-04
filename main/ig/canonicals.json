@@ -314,13 +314,6 @@
   "name" : "FRNumberOfFramesExtension"
 },
 {
-  "id" : "fr-observation-administration-blood-derivatives-document",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-administration-blood-derivatives-document",
-  "version" : "0.1.0",
-  "name" : "FRObservationAdministrationBloodDerivativesDocument"
-},
-{
   "id" : "fr-observation-ald-document",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document",
@@ -328,18 +321,11 @@
   "name" : "FRObservationALDDocument"
 },
 {
-  "id" : "fr-observation-birth-event-document",
+  "id" : "fr-observation-assessment-document",
   "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-birth-event-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-assessment-document",
   "version" : "0.1.0",
-  "name" : "FRObservationBirthEventDocument"
-},
-{
-  "id" : "fr-observation-blood-product-transfusion-document",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-blood-product-transfusion-document",
-  "version" : "0.1.0",
-  "name" : "FRObservationBloodProductTransfusionDocument"
+  "name" : "FRObservationAssessmentDocument"
 },
 {
   "id" : "fr-observation-contra-indications-document",
@@ -354,13 +340,6 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-laboratory-report-results-document",
   "version" : "0.1.0",
   "name" : "FRObservationLaboratoryReportResultsDocument"
-},
-{
-  "id" : "fr-observation-medical-summary-document",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-medical-summary-document",
-  "version" : "0.1.0",
-  "name" : "FRObservationMedicalSummaryDocument"
 },
 {
   "id" : "fr-observation-microorganism-detection-document",
@@ -424,27 +403,6 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-social-history-document",
   "version" : "0.1.0",
   "name" : "FRObservationSocialHistoryDocument"
-},
-{
-  "id" : "fr-observation-survey-document",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-survey-document",
-  "version" : "0.1.0",
-  "name" : "FRObservationSurveyDocument"
-},
-{
-  "id" : "fr-observation-survey-pannel-document",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-survey-pannel-document",
-  "version" : "0.1.0",
-  "name" : "FRObservationSurveyPannelDocument"
-},
-{
-  "id" : "fr-observation-transfusion-accidents-document",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-transfusion-accidents-document",
-  "version" : "0.1.0",
-  "name" : "FRObservationTransfusionAccidentsDocument"
 },
 {
   "id" : "fr-observation-vital-signs-document",
@@ -515,13 +473,6 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document",
   "version" : "0.1.0",
   "name" : "FRPractitionerRoleDocument"
-},
-{
-  "id" : "fr-pregnancy-history-document",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-pregnancy-history-document",
-  "version" : "0.1.0",
-  "name" : "FRPregnancyHistoryDocument"
 },
 {
   "id" : "fr-procedure-difficulty-extension",

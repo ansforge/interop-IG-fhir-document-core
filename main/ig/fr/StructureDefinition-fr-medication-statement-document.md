@@ -40,7 +40,7 @@ Cette structure est dérivée de [MedicationStatement](http://hl7.org/fhir/R4/me
 
 ** Résumé **
 
-Must-Support : 18 éléments
+Must-Support : 19 éléments
 
 **Structures**
 
@@ -52,6 +52,12 @@ Cette structure fait référence à ces autres structures:
 * [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
 * [SimpleQuantity (http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1)](http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity)
+
+**Extensions**
+
+Cette structure fait référence à ces extensions:
+
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-MedicationStatement.adherence.html)
 
 **Slices**
 
@@ -82,7 +88,7 @@ Cette structure est dérivée de [MedicationStatement](http://hl7.org/fhir/R4/me
 
 ** Résumé **
 
-Must-Support : 18 éléments
+Must-Support : 19 éléments
 
 **Structures**
 
@@ -94,6 +100,12 @@ Cette structure fait référence à ces autres structures:
 * [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
 * [SimpleQuantity (http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1)](http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity)
+
+**Extensions**
+
+Cette structure fait référence à ces extensions:
+
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-MedicationStatement.adherence.html)
 
 **Slices**
 
@@ -119,7 +131,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-s
   "name" : "FRMedicationStatementDocument",
   "title" : "MedicationStatement - FR Medication Statement Document",
   "status" : "draft",
-  "date" : "2026-08-03T07:00:21+00:00",
+  "date" : "2026-08-04T07:50:37+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -238,6 +250,19 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-s
       "id" : "MedicationStatement.note",
       "path" : "MedicationStatement.note",
       "short" : "Permet de décrire les conditions préalables à l'utilisation du médicament.",
+      "mustSupport" : true
+    },
+    {
+      "id" : "MedicationStatement.note.extension:adherence",
+      "path" : "MedicationStatement.note.extension",
+      "sliceName" : "adherence",
+      "short" : "Statut de prise du médicament",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence|0.1.0"]
+      }],
       "mustSupport" : true
     },
     {

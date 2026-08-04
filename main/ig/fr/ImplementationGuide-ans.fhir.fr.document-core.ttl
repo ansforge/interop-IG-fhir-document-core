@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-08-03T07:00:21+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-08-04T07:50:37+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -1834,21 +1834,6 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-pregnancy-history-document> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-pregnancy-history-document" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "List - FR Pregnancy History Document" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRPregnancyHistoryDocument  est une liste contenant soit un événement de naissance, soit une observation sur la grossesse, mais pas les deux." ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-media-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-media-document" ]
        ] ;
@@ -1939,36 +1924,6 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-blood-product-transfusion-document> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-blood-product-transfusion-document" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Blood Product Transfusion Document" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationBloodProductTransfusionDocument permet d'indiquer s'il a eu ou pas transfusion de produit sanguin." ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-administration-blood-derivatives-document> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-administration-blood-derivatives-document" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Administration Blood Derivatives Document" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationAdministrationBloodDerivativesDocument est un profil utilisé pour indiquer s'il y a eu ou pas une administration de dérivés du sang." ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-ald-document" ]
        ] ;
@@ -1984,11 +1939,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-birth-event-document> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-birth-event-document" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-assessment-document> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-assessment-document" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Birth Event Document" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationBirthEventDocument est un profil qui permet de rassembler les observations relatives à une naissance." ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Assessment Document" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationAssessmentDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
      ], [
@@ -2019,21 +1974,6 @@
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Laboratory Report Results Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationLaboratoryReportResultsDocument décrit un résultat d’examen de biologie médicale." ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-medical-summary-document> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-medical-summary-document" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Medical Summary Document" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationMedicalSummaryDocument permet de fournir, sous forme textuelle, une synthèse médicale du séjour." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
      ], [
@@ -2169,51 +2109,6 @@
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Social History Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationSocialHistoryDocument décrit les habitudes de vie du patient (Habitus / Mode de vie)." ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-survey-document> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-survey-document" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Survey Document" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationSurveyDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple)." ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-survey-pannel-document> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-survey-pannel-document" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Survey Pannel Document" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationSurveyPannelDocument permet de rassembler des observations de questionnaires." ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-transfusion-accidents-document> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-transfusion-accidents-document" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Transfusion Accidents Document" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationTransfusionAccidentsDocument est un profil utilisé pour décrire un accident transfusionnel." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
      ], [

@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-specimen-docum
   "name" : "FRSpecimenDocument",
   "title" : "Specimen - FR Specimen Document",
   "status" : "draft",
-  "date" : "2026-08-03T07:00:21+00:00",
+  "date" : "2026-08-04T07:50:37+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -175,6 +175,19 @@ Other representations of profile: [CSV](../StructureDefinition-fr-specimen-docum
       "path" : "Specimen.container.type",
       "short" : "Code du dispositif",
       "min" : 1,
+      "mustSupport" : true
+    },
+    {
+      "id" : "Specimen.container.type.extension:device",
+      "path" : "Specimen.container.type.extension",
+      "sliceName" : "device",
+      "short" : "Dispositif utilisé",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device|0.1.0"]
+      }],
       "mustSupport" : true
     }]
   }

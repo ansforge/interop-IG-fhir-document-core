@@ -72,7 +72,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-procedure-di
   "name" : "FRProcedureDifficultyExtension",
   "title" : "FR Procedure Difficulty Extension",
   "status" : "draft",
-  "date" : "2026-08-03T07:00:21+00:00",
+  "date" : "2026-08-04T07:50:37+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

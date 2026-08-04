@@ -12,7 +12,7 @@
   <name value="FHIRFRDocumentCore"/>
   <title value="FR Document Core (FHIR)"/>
   <status value="draft"/>
-  <date value="2026-08-03T07:00:21+00:00"/>
+  <date value="2026-08-04T07:50:37+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -1314,18 +1314,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/fr-pregnancy-history-document"/>
-      </reference>
-      <name value="List - FR Pregnancy History Document"/>
-      <description value="FRPregnancyHistoryDocument  est une liste contenant soit un événement de naissance, soit une observation sur la grossesse, mais pas les deux."/>
-      <exampleBoolean value="false"/>
-      <groupingId value="Ressources FHIR corps"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/fr-media-document"/>
       </reference>
       <name value="Media - FR Media Document"/>
@@ -1398,30 +1386,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/fr-observation-blood-product-transfusion-document"/>
-      </reference>
-      <name value="Observation - FR Blood Product Transfusion Document"/>
-      <description value="FRObservationBloodProductTransfusionDocument permet d'indiquer s'il a eu ou pas transfusion de produit sanguin."/>
-      <exampleBoolean value="false"/>
-      <groupingId value="Ressources FHIR corps"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/fr-observation-administration-blood-derivatives-document"/>
-      </reference>
-      <name value="Observation - FR Observation Administration Blood Derivatives Document"/>
-      <description value="FRObservationAdministrationBloodDerivativesDocument est un profil utilisé pour indiquer s'il y a eu ou pas une administration de dérivés du sang."/>
-      <exampleBoolean value="false"/>
-      <groupingId value="Ressources FHIR corps"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/fr-observation-ald-document"/>
       </reference>
       <name value="Observation - FR Observation ALD Document"/>
@@ -1434,10 +1398,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/fr-observation-birth-event-document"/>
+        <reference value="StructureDefinition/fr-observation-assessment-document"/>
       </reference>
-      <name value="Observation - FR Observation Birth Event Document"/>
-      <description value="FRObservationBirthEventDocument est un profil qui permet de rassembler les observations relatives à une naissance."/>
+      <name value="Observation - FR Observation Assessment Document"/>
+      <description value="FRObservationAssessmentDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple)."/>
       <exampleBoolean value="false"/>
       <groupingId value="Ressources FHIR corps"/>
     </resource>
@@ -1462,18 +1426,6 @@
       </reference>
       <name value="Observation - FR Observation Laboratory Report Results Document"/>
       <description value="FRObservationLaboratoryReportResultsDocument décrit un résultat d’examen de biologie médicale."/>
-      <exampleBoolean value="false"/>
-      <groupingId value="Ressources FHIR corps"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/fr-observation-medical-summary-document"/>
-      </reference>
-      <name value="Observation - FR Observation Medical Summary Document"/>
-      <description value="FRObservationMedicalSummaryDocument permet de fournir, sous forme textuelle, une synthèse médicale du séjour."/>
       <exampleBoolean value="false"/>
       <groupingId value="Ressources FHIR corps"/>
     </resource>
@@ -1582,42 +1534,6 @@
       </reference>
       <name value="Observation - FR Observation Social History Document"/>
       <description value="FRObservationSocialHistoryDocument décrit les habitudes de vie du patient (Habitus / Mode de vie)."/>
-      <exampleBoolean value="false"/>
-      <groupingId value="Ressources FHIR corps"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/fr-observation-survey-document"/>
-      </reference>
-      <name value="Observation - FR Observation Survey Document"/>
-      <description value="FRObservationSurveyDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple)."/>
-      <exampleBoolean value="false"/>
-      <groupingId value="Ressources FHIR corps"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/fr-observation-survey-pannel-document"/>
-      </reference>
-      <name value="Observation - FR Observation Survey Pannel Document"/>
-      <description value="FRObservationSurveyPannelDocument permet de rassembler des observations de questionnaires."/>
-      <exampleBoolean value="false"/>
-      <groupingId value="Ressources FHIR corps"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/fr-observation-transfusion-accidents-document"/>
-      </reference>
-      <name value="Observation - FR Observation Transfusion Accidents Document"/>
-      <description value="FRObservationTransfusionAccidentsDocument est un profil utilisé pour décrire un accident transfusionnel."/>
       <exampleBoolean value="false"/>
       <groupingId value="Ressources FHIR corps"/>
     </resource>

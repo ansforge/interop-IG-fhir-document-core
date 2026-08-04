@@ -38,7 +38,7 @@ Cette structure est dérivée de [Specimen](http://hl7.org/fhir/R4/specimen.html
 ** Résumé **
 
 Obligatoire : 2 éléments(1 élément obligatoire(s) imbriqué(s))
- Must-Support : 10 éléments
+ Must-Support : 11 éléments
 
 **Structures**
 
@@ -48,6 +48,12 @@ Cette structure fait référence à ces autres structures:
 * [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
+
+**Extensions**
+
+Cette structure fait référence à ces extensions:
+
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-Specimen.con.device.html)
 
  **Vue des éléments clés** 
 
@@ -72,7 +78,7 @@ Cette structure est dérivée de [Specimen](http://hl7.org/fhir/R4/specimen.html
 ** Résumé **
 
 Obligatoire : 2 éléments(1 élément obligatoire(s) imbriqué(s))
- Must-Support : 10 éléments
+ Must-Support : 11 éléments
 
 **Structures**
 
@@ -82,6 +88,12 @@ Cette structure fait référence à ces autres structures:
 * [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
+
+**Extensions**
+
+Cette structure fait référence à ces extensions:
+
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-Specimen.con.device.html)
 
  
 
@@ -100,7 +112,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-specimen-doc
   "name" : "FRSpecimenDocument",
   "title" : "Specimen - FR Specimen Document",
   "status" : "draft",
-  "date" : "2026-08-03T07:00:21+00:00",
+  "date" : "2026-08-04T07:50:37+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -243,6 +255,19 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-specimen-doc
       "path" : "Specimen.container.type",
       "short" : "Code du dispositif",
       "min" : 1,
+      "mustSupport" : true
+    },
+    {
+      "id" : "Specimen.container.type.extension:device",
+      "path" : "Specimen.container.type.extension",
+      "sliceName" : "device",
+      "short" : "Dispositif utilisé",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device|0.1.0"]
+      }],
       "mustSupport" : true
     }]
   }

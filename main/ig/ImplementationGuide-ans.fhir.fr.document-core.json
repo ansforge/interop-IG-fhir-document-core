@@ -11,7 +11,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-08-03T07:00:21+00:00",
+  "date" : "2026-08-04T07:50:37+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1600,19 +1600,6 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/fr-pregnancy-history-document"
-      },
-      "name" : "List - FR Pregnancy History Document",
-      "description" : "FRPregnancyHistoryDocument  est une liste contenant soit un événement de naissance, soit une observation sur la grossesse, mais pas les deux.",
-      "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/fr-media-document"
       },
       "name" : "Media - FR Media Document",
@@ -1691,32 +1678,6 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/fr-observation-blood-product-transfusion-document"
-      },
-      "name" : "Observation - FR Blood Product Transfusion Document",
-      "description" : "FRObservationBloodProductTransfusionDocument permet d'indiquer s'il a eu ou pas transfusion de produit sanguin.",
-      "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-observation-administration-blood-derivatives-document"
-      },
-      "name" : "Observation - FR Observation Administration Blood Derivatives Document",
-      "description" : "FRObservationAdministrationBloodDerivativesDocument est un profil utilisé pour indiquer s'il y a eu ou pas une administration de dérivés du sang.",
-      "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/fr-observation-ald-document"
       },
       "name" : "Observation - FR Observation ALD Document",
@@ -1730,10 +1691,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/fr-observation-birth-event-document"
+        "reference" : "StructureDefinition/fr-observation-assessment-document"
       },
-      "name" : "Observation - FR Observation Birth Event Document",
-      "description" : "FRObservationBirthEventDocument est un profil qui permet de rassembler les observations relatives à une naissance.",
+      "name" : "Observation - FR Observation Assessment Document",
+      "description" : "FRObservationAssessmentDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple).",
       "exampleBoolean" : false,
       "groupingId" : "Ressources FHIR corps"
     },
@@ -1760,19 +1721,6 @@
       },
       "name" : "Observation - FR Observation Laboratory Report Results Document",
       "description" : "FRObservationLaboratoryReportResultsDocument décrit un résultat d’examen de biologie médicale.",
-      "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-observation-medical-summary-document"
-      },
-      "name" : "Observation - FR Observation Medical Summary Document",
-      "description" : "FRObservationMedicalSummaryDocument permet de fournir, sous forme textuelle, une synthèse médicale du séjour.",
       "exampleBoolean" : false,
       "groupingId" : "Ressources FHIR corps"
     },
@@ -1890,45 +1838,6 @@
       },
       "name" : "Observation - FR Observation Social History Document",
       "description" : "FRObservationSocialHistoryDocument décrit les habitudes de vie du patient (Habitus / Mode de vie).",
-      "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-observation-survey-document"
-      },
-      "name" : "Observation - FR Observation Survey Document",
-      "description" : "FRObservationSurveyDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple).",
-      "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-observation-survey-pannel-document"
-      },
-      "name" : "Observation - FR Observation Survey Pannel Document",
-      "description" : "FRObservationSurveyPannelDocument permet de rassembler des observations de questionnaires.",
-      "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-observation-transfusion-accidents-document"
-      },
-      "name" : "Observation - FR Observation Transfusion Accidents Document",
-      "description" : "FRObservationTransfusionAccidentsDocument est un profil utilisé pour décrire un accident transfusionnel.",
       "exampleBoolean" : false,
       "groupingId" : "Ressources FHIR corps"
     },

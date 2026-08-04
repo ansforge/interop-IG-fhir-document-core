@@ -398,20 +398,12 @@
     ],
     "Observation": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-administration-blood-derivatives-document",
-        "title": "Observation - FR Observation Administration Blood Derivatives Document"
-      },
-      {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document",
         "title": "Observation - FR Observation ALD Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-birth-event-document",
-        "title": "Observation - FR Observation Birth Event Document"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-blood-product-transfusion-document",
-        "title": "Observation - FR Blood Product Transfusion Document"
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-assessment-document",
+        "title": "Observation - FR Observation Assessment Document"
       },
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-contra-indications-document",
@@ -420,10 +412,6 @@
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-laboratory-report-results-document",
         "title": "Observation - FR Observation Laboratory Report Results Document"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-medical-summary-document",
-        "title": "Observation - FR Observation Medical Summary Document"
       },
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-microorganism-detection-document",
@@ -460,18 +448,6 @@
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-social-history-document",
         "title": "Observation - FR Observation Social History Document"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-survey-document",
-        "title": "Observation - FR Observation Survey Document"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-survey-pannel-document",
-        "title": "Observation - FR Observation Survey Pannel Document"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-transfusion-accidents-document",
-        "title": "Observation - FR Observation Transfusion Accidents Document"
       },
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-vital-signs-document",
@@ -512,12 +488,6 @@
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document",
         "title": "FR PractitionerRole Document"
-      }
-    ],
-    "List": [
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-pregnancy-history-document",
-        "title": "List - FR Pregnancy History Document"
       }
     ],
     "Procedure": [
@@ -574,6 +544,12 @@
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.dispenserInstruction|0.1.0": [
       "MedicationRequest.dispenseRequest"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence|0.1.0": [
+      "MedicationStatement.note"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device|0.1.0": [
+      "Specimen.container.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/data-absent-reason": [
       "AllergyIntolerance.code",
@@ -846,6 +822,15 @@
       "Medication"
     ],
     "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname|1.0.0-comment-2": [
+      "Medication"
+    ],
+    "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem|1.0.0-comment-2": [
+      "Medication"
+    ],
+    "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance|1.0.0-comment-2": [
+      "Medication.ingredient.strength"
+    ],
+    "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation|1.0.0-comment-2": [
       "Medication"
     ],
     "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-offLabel|1.0.0-comment-2": [

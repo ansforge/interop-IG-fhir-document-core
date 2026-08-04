@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "FRObservationPreventionDocument"] ;
   fhir:StructureDefinition.title [ fhir:value "Observation - FR Observation Prevention Document"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-08-03T07:00:21+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-08-04T07:50:37+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:StructureDefinition.contact [
      fhir:index 0 ;

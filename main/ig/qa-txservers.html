@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for FHIRFRDocumentCore</h1>
- <p>Generated Mon Aug 03 07:07:43 UTC 2026, FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/document-core">https://interop.esante.gouv.fr/ig/fhir/document-core</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/document-core/history.html">history</a>))</p>
+ <p>Generated Tue Aug 04 07:58:03 UTC 2026, FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/document-core">https://interop.esante.gouv.fr/ig/fhir/document-core</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/document-core/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -69,6 +69,13 @@
     <td>[https://smt.esante.gouv.fr/terminologie-cip_ucd]: authoritative = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
+    <td>Candidate server(s) https://tx-nordics.fhir.org/fhir/r4 dropped for http://id.who.int/icd/release/11/mms|1.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>null</td>
+    <td>http://id.who.int/icd/release/11/mms|1.0.0</td>
+    <td>[http://id.who.int/icd/release/11/mms|1.0.0]: authoritative = , candidates=https://tx-nordics.fhir.org/fhir/r4</td>
+  </tr>
+  <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
@@ -81,6 +88,13 @@
     <td>null</td>
     <td>http://id.who.int/icd/release/11/mms|1.0.0</td>
     <td>[http://id.who.int/icd/release/11/mms|1.0.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://tx-nordics.fhir.org/fhir/r4 dropped for http://id.who.int/icd/release/11/mms: no usable copy of the code system found there</td>
+    <td></td>
+    <td>null</td>
+    <td>http://id.who.int/icd/release/11/mms</td>
+    <td>[http://id.who.int/icd/release/11/mms]: authoritative = , candidates=https://tx-nordics.fhir.org/fhir/r4</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -204,7 +218,7 @@
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 2. Code Systems used: </p>
+<p>Use Count: 6. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -275,6 +289,11 @@
     <td></td>
   </tr>
 </table>
+<p>ValueSets fetched:</p>
+<ul>
+  <li>http://hl7.org/fhir/ValueSet/substance-codes</li>
+  <li>http://hl7.org/fhir/ValueSet/unit-of-presentation</li>
+</ul>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
 <p>Use Count: 0. Code Systems used: </p>
@@ -360,5 +379,11 @@
     </td>
   </tr>
 </table>
+<h2>Server: https://tx-nordics.fhir.org/fhir/r4</h2>
+<a href="https://tx-nordics.fhir.org/fhir/r4"></a>
+<p>Use Count: 4. Code Systems used: </p>
+<ul>
+  <li>(None)</li>
+</ul>
 </body>
 </html>
