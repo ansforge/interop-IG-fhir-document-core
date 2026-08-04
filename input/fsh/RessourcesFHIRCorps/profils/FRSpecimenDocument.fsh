@@ -55,3 +55,6 @@ La date et heure de prélèvement doit être renseignée si elle est connue. En 
 * container ^short = "Dispositif utilisé"
 * container.type 1..1 MS
 * container.type ^short = "Code du dispositif"
+// Ajout de l'extension R5 :  ExtensionSpecimen_Container_Device
+  * extension contains $extension-Specimen.container.device named device 0..* MS
+  * extension[device] ^short = "Dispositif utilisé"

@@ -40,3 +40,15 @@ Description: "FRMedicationDocument permet de décrire un médicament ou un vacci
   * strength ^short = "Quantité de substance présente dans le médicament"
     * numerator 1..1 MS
     * denominator 1..1 MS
+    // Ajout de l'extension : Substance concernée
+    * extension contains $ihe-ext-medication-strengthsubstance named basisOfStrengthSubstance 0..1 MS
+    * extension[basisOfStrengthSubstance] ^short = "Substance concernée."
+
+// Ajout des éléments suivants : Substance concernée / Unité de présentation
+* extension contains
+    $ihe-ext-medication-unitofpresentation named unitOfPresentation 0..1 MS and
+    $ihe-ext-medication-sizeofitem named sizeOfItem 0..1 MS
+
+* extension[unitOfPresentation] ^short = "Unité de présentation du produit de santé (comprimé, ampoule, tube). En général, le plus petit objet dénombrable du package.
+EDQM Standard Terms (0.4.0.127.0.16.1.1.2.1) / classe UOP (Unit of Presentation).."
+* extension[sizeOfItem] ^short = "Quantité de produit par unité (ex : 3 ml / 1 flacon)."

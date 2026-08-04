@@ -37,30 +37,10 @@ Description: "FRDeviceRequestDocument représente une demande de dispositif méd
 * codeReference only Reference(Device)
 * codeReference ^short = "Dispositif médical"
 
-// Raison - Slicing
-* reasonReference ^slicing.discriminator.type = #value 
-* reasonReference ^slicing.discriminator.path = "resolve().code"
-* reasonReference ^slicing.rules = #open
+// Raisons liées à l'utilisation du DM
 * reasonReference MS
-* reasonReference ^short = "Raisons liées au DM"
-
-// Slicing des raisons
-* reasonReference contains
-    EnRapportAvecALD 0..1 and
-    EnRapportAvecAccidentTravail 0..1 and
-    EnRapportAvecLaPrevention 0..1
-
-* reasonReference[EnRapportAvecALD] only Reference(FRConditionDocument)
-* reasonReference[EnRapportAvecALD] ^short = "En rapport avec une Affection Longue Durée (ALD)"
-* reasonReference[EnRapportAvecALD]  MS
-
-* reasonReference[EnRapportAvecAccidentTravail] only Reference(FRObservationWorkRelatedAccidentDocument)
-* reasonReference[EnRapportAvecAccidentTravail] ^short = "En rapport avec accident travail"
-* reasonReference[EnRapportAvecAccidentTravail] MS
-
-* reasonReference[EnRapportAvecLaPrevention] only Reference(FRConditionDocument)
-* reasonReference[EnRapportAvecLaPrevention] ^short = "En rapport avec la prévention"
-* reasonReference[EnRapportAvecLaPrevention] MS
+  * ^short = "Raisons liées à l'utilisation du dispositif médical"
+* reasonReference only Reference(Observation or FRConditionDocument or FRObservationPreventionDocument or FRObservationALDDocument or FRObservationWorkRelatedAccidentDocument)
 
 * extension contains FRNotCoveredExtension named notCovered 0..1
 * extension[notCovered] ^short = "DM prescrit n'est remboursable / remboursable"

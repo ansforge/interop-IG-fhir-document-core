@@ -17,6 +17,6 @@ Description: "FRObservationPregnancyHistoryDocument permet de regrouper les obse
 
 * hasMember 1..* MS
   * ^short = "Informations relatives à la grossesse"
-* hasMember only Reference(FRObservationPregnancyDocument or FRObservationBirthEventDocument) 
+* hasMember only Reference(FRObservationPregnancyDocument) 
 
 * value[x] 0..0
