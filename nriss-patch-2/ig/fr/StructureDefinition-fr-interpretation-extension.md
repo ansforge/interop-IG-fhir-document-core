@@ -10,7 +10,7 @@ Extension permettant de spécifier une interprétation.
 
 **Utilisations:**
 
-* Utilise ce/t/te Extension: [FamilyMemberHistory - FR Family Member History Document](StructureDefinition-fr-family-member-history-document.md) and [ServiceRequest - FR Service Request Document](StructureDefinition-fr-service-request-document.md)
+* Utilise ce/t/te Extension: [FamilyMemberHistory - FR Family Member History Document](StructureDefinition-fr-family-member-history-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-interpretation-extension)
 
@@ -72,7 +72,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-interpretati
   "name" : "FRInterpretationExtension",
   "title" : "FR Interpretation Extension",
   "status" : "draft",
-  "date" : "2026-07-27T15:58:47+00:00",
+  "date" : "2026-08-04T07:44:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -100,10 +100,6 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-interpretati
   "context" : [{
     "type" : "element",
     "expression" : "FamilyMemberHistory"
-  },
-  {
-    "type" : "element",
-    "expression" : "ServiceRequest"
   }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1",

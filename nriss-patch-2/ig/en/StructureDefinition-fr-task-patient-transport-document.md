@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-task-patient-t
   "name" : "FRTaskPatientTransportDocument",
   "title" : "Task - FR Task Patient Transport Document",
   "status" : "draft",
-  "date" : "2026-07-27T15:58:47+00:00",
+  "date" : "2026-08-04T07:44:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -143,14 +143,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-task-patient-t
       "max" : "1"
     },
     {
-      "id" : "Task.input:typeMotorisation.type.coding.system",
-      "path" : "Task.input.type.coding.system",
-      "binding" : {
-        "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202606190000"
-      }
-    },
-    {
       "id" : "Task.input:typeMotorisation.type.coding.code",
       "path" : "Task.input.type.coding.code",
       "patternCode" : "GEN-346"
@@ -175,17 +167,13 @@ Other representations of profile: [CSV](../StructureDefinition-fr-task-patient-t
       "max" : "1"
     },
     {
-      "id" : "Task.input:natureTransport.type.coding.system",
-      "path" : "Task.input.type.coding.system",
-      "binding" : {
-        "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202606190000"
+      "id" : "Task.input:natureTransport.type",
+      "path" : "Task.input.type",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "code" : "GEN-345"
+        }]
       }
-    },
-    {
-      "id" : "Task.input:natureTransport.type.coding.code",
-      "path" : "Task.input.type.coding.code",
-      "patternCode" : "GEN-345"
     },
     {
       "id" : "Task.input:natureTransport.value[x]",

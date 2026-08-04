@@ -7,7 +7,8 @@ FRServiceRequestDocument profil permet de porter des demandes d'examens (analyse
 
 **Utilisations:**
 
-* Référence ce Profil: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md)... Show 2 more, [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
+* Dérivé de ce Profil: [ServiceRequest - FR Service Request Imaging Document](StructureDefinition-fr-service-request-imaging-document.md)
+* Référence ce Profil: [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md) and [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-service-request-document)
 
@@ -39,8 +40,8 @@ Cette structure est dérivée de [ServiceRequest](http://hl7.org/fhir/R4/service
 
 ** Résumé **
 
-Obligatoire : 5 éléments
- Must-Support : 10 éléments
+Obligatoire : 2 éléments
+ Must-Support : 9 éléments
 
 **Structures**
 
@@ -52,7 +53,6 @@ Cette structure fait référence à ces autres structures:
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension|0.1.0](StructureDefinition-fr-interpretation-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 
@@ -61,7 +61,6 @@ Cette structure fait référence à ces extensions:
 Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
 
 * The element 1 is sliced based on the value of ServiceRequest.identifier
-* The element 1 is sliced based on the value of ServiceRequest.note
 
  **Vue des éléments clés** 
 
@@ -87,8 +86,8 @@ Cette structure est dérivée de [ServiceRequest](http://hl7.org/fhir/R4/service
 
 ** Résumé **
 
-Obligatoire : 5 éléments
- Must-Support : 10 éléments
+Obligatoire : 2 éléments
+ Must-Support : 9 éléments
 
 **Structures**
 
@@ -100,7 +99,6 @@ Cette structure fait référence à ces autres structures:
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension|0.1.0](StructureDefinition-fr-interpretation-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 
@@ -109,7 +107,6 @@ Cette structure fait référence à ces extensions:
 Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
 
 * The element 1 is sliced based on the value of ServiceRequest.identifier
-* The element 1 is sliced based on the value of ServiceRequest.note
 
  
 
@@ -128,7 +125,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
   "name" : "FRServiceRequestDocument",
   "title" : "ServiceRequest - FR Service Request Document",
   "status" : "draft",
-  "date" : "2026-07-27T15:58:47+00:00",
+  "date" : "2026-08-04T07:44:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -201,25 +198,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       }
     },
     {
-      "id" : "ServiceRequest.extension:interpretation",
-      "path" : "ServiceRequest.extension",
-      "sliceName" : "interpretation",
-      "short" : "Interprétation",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension|0.1.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
       "id" : "ServiceRequest.extension:method",
       "path" : "ServiceRequest.extension",
       "sliceName" : "method",
       "short" : "Méthode",
       "min" : 0,
-      "max" : "1",
+      "max" : "*",
       "type" : [{
         "code" : "Extension",
         "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0"]
@@ -282,7 +266,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       "id" : "ServiceRequest.category",
       "path" : "ServiceRequest.category",
       "short" : "Catégorie de la demande",
-      "min" : 1
+      "mustSupport" : true
     },
     {
       "id" : "ServiceRequest.code",
@@ -294,13 +278,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
     {
       "id" : "ServiceRequest.orderDetail",
       "path" : "ServiceRequest.orderDetail",
-      "max" : "1",
+      "short" : "Informations complémentaires sur la demande d'acte, par exemple : INR cible.",
       "mustSupport" : true
-    },
-    {
-      "id" : "ServiceRequest.orderDetail.coding",
-      "path" : "ServiceRequest.orderDetail.coding",
-      "short" : "Résultat de la demande"
     },
     {
       "id" : "ServiceRequest.occurrence[x]",
@@ -328,43 +307,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
     {
       "id" : "ServiceRequest.note",
       "path" : "ServiceRequest.note",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "text"
-        }],
-        "rules" : "open"
-      },
       "short" : "Justification de la demande d’examen / Finalité de l'examen",
-      "min" : 2
-    },
-    {
-      "id" : "ServiceRequest.note:finaliteExamen",
-      "path" : "ServiceRequest.note",
-      "sliceName" : "finaliteExamen",
-      "short" : "Finalité de l’examen demandé",
-      "min" : 1,
-      "max" : "1",
       "mustSupport" : true
-    },
-    {
-      "id" : "ServiceRequest.note:finaliteExamen.text",
-      "path" : "ServiceRequest.note.text",
-      "short" : "Finalité de l’examen"
-    },
-    {
-      "id" : "ServiceRequest.note:justificationDemande",
-      "path" : "ServiceRequest.note",
-      "sliceName" : "justificationDemande",
-      "short" : "Justification de la demande d’examen",
-      "min" : 1,
-      "max" : "1",
-      "mustSupport" : true
-    },
-    {
-      "id" : "ServiceRequest.note:justificationDemande.text",
-      "path" : "ServiceRequest.note.text",
-      "short" : "Justification de la demande d'examen"
     }]
   }
 }

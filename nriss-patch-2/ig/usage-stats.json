@@ -128,6 +128,13 @@
       ]
     },
     {
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension",
+      "title": "FR Note Type Extension",
+      "types": [
+        "code"
+      ]
+    },
+    {
       "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension",
       "title": "FR Number of Frames Extension",
       "types": [
@@ -533,6 +540,10 @@
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document",
         "title": "ServiceRequest - FR Service Request Document"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document",
+        "title": "ServiceRequest - FR Service Request Imaging Document"
       }
     ],
     "Specimen": [
@@ -793,8 +804,7 @@
       "DiagnosticReport"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension|0.1.0": [
-      "FamilyMemberHistory.condition",
-      "ServiceRequest"
+      "FamilyMemberHistory.condition"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-sequence-extension|0.1.0": [
       "MedicationAdministration.dosage"
@@ -807,6 +817,9 @@
       "DeviceRequest",
       "DeviceUseStatement",
       "MedicationRequest"
+    ],
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension|0.1.0": [
+      "ServiceRequest.note"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0": [
       "ImagingStudy.series.instance"

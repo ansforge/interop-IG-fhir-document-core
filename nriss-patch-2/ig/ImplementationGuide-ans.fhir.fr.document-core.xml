@@ -13,7 +13,7 @@
   <name value="FHIRFRDocumentCore"/>
   <title value="FR Document Core (FHIR)"/>
   <status value="draft"/>
-  <date value="2026-07-27T15:58:47+00:00"/>
+  <date value="2026-08-04T07:44:41+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -923,6 +923,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/fr-cs-note-type"/>
+      </reference>
+      <name value="FR CodeSystem Note Type"/>
+      <description value="CodeSystem définissant les types d'informations associés aux notes d'une demande d'examen d'imagerie."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -1074,6 +1085,17 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/fr-note-type-extension"/>
+      </reference>
+      <name value="FR Note Type Extension"/>
+      <description value="Extension permettant de préciser le type d'information contenu dans une note associée à une demande d'examen d'imagerie."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/fr-number-of-frames-extension"/>
       </reference>
       <name value="FR Number of Frames Extension"/>
@@ -1218,6 +1240,17 @@
       <description value="DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie"/>
       <exampleBoolean value="false"/>
       <groupingId value="Data Type FHIR"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/fr-vs-note-type"/>
+      </reference>
+      <name value="FR ValueSet Imaging Note Type"/>
+      <description value="ValueSet définissant les types d'informations pouvant être associés aux notes d'une demande d'examen d'imagerie."/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1658,6 +1691,18 @@
       </reference>
       <name value="ServiceRequest - FR Service Request Document"/>
       <description value="FRServiceRequestDocument profil permet de porter des demandes d'examens (analyses biologiques, évaluations, étude d'imagerie, etc…) ou de suivis particuliers à programmer dans le cadre d'un plan de soins."/>
+      <exampleBoolean value="false"/>
+      <groupingId value="Ressources FHIR corps"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fr-service-request-imaging-document"/>
+      </reference>
+      <name value="ServiceRequest - FR Service Request Imaging Document"/>
+      <description value="FRServiceRequestImagingDocument profil spécifique permet de porter des demandes d'examens d'imagerie."/>
       <exampleBoolean value="false"/>
       <groupingId value="Ressources FHIR corps"/>
     </resource>

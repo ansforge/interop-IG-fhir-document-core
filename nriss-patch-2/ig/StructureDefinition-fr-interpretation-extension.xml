@@ -18,7 +18,7 @@
   <name value="FRInterpretationExtension"/>
   <title value="FR Interpretation Extension"/>
   <status value="draft"/>
-  <date value="2026-07-27T15:58:47+00:00"/>
+  <date value="2026-08-04T07:44:41+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -46,10 +46,6 @@
   <context>
     <type value="element"/>
     <expression value="FamilyMemberHistory"/>
-  </context>
-  <context>
-    <type value="element"/>
-    <expression value="ServiceRequest"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
