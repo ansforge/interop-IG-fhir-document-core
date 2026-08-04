@@ -24,7 +24,7 @@ Description: "FRTaskPatientTransportDocument permet de décrire le transport d'u
 // Type de motorisation
 * input[typeMotorisation].value[x] only CodeableConcept
 * input[typeMotorisation].valueCodeableConcept from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis
-* input[typeMotorisation].type.coding.code = #GEN-346
+* input[typeMotorisation].type = #GEN-346
 * input[typeMotorisation] ^short = "Type de motorisation"
 
 // Nature du transport
