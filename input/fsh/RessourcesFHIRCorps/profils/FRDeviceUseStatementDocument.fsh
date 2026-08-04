@@ -24,30 +24,10 @@ Description: "FRDeviceUseStatementDocument représente les informations sur un d
 * device only Reference(Device)
 * device ^short = "Dispositif médical"
 
-// Slicing sur reasonReference
-* reasonReference ^slicing.discriminator.type = #value
-* reasonReference ^slicing.discriminator.path = "resolve().code"
-* reasonReference ^slicing.rules = #open
+// Raisons liées à l'utilisation du DM
 * reasonReference MS
-* reasonReference ^short = "Raisons liées à l'utilisation du dispositif médical"
-
-// Définition des slices
-* reasonReference contains
-    EnRapportAvecALD 0..1 and
-    EnRapportAvecAccidentTravail 0..1 and
-    EnRapportAvecLaPrevention 0..1
-
-* reasonReference[EnRapportAvecALD] only Reference(FRConditionDocument)
-* reasonReference[EnRapportAvecALD] ^short = "Observation indiquant que l'utilisation est en rapport avec une ALD"
-* reasonReference[EnRapportAvecALD] MS
-
-* reasonReference[EnRapportAvecAccidentTravail] only Reference(FRObservationWorkRelatedAccidentDocument)
-* reasonReference[EnRapportAvecAccidentTravail] ^short = "Observation indiquant que l'utilisation est en rapport avec un accident de travail"
-* reasonReference[EnRapportAvecAccidentTravail] MS
-
-* reasonReference[EnRapportAvecLaPrevention] only Reference(FRConditionDocument)
-* reasonReference[EnRapportAvecLaPrevention] ^short = "Observation indiquant que l'utilisation est liée à la prévention"
-* reasonReference[EnRapportAvecLaPrevention] MS
+  * ^short = "Raisons liées à l'utilisation du dispositif médical"
+* reasonReference only Reference(Observation or FRConditionDocument or FRObservationPreventionDocument or FRObservationALDDocument or FRObservationWorkRelatedAccidentDocument)
 
 * extension contains FRNotCoveredExtension named notCovered 0..1
 * extension[notCovered] ^short = "DM n'est remboursable / remboursable"

@@ -1,8 +1,8 @@
-Profile: FRObservationSurveyDocument
+Profile: FRObservationAssessmentDocument
 Parent: Observation
-Id: fr-observation-survey-document
-Title: "Observation - FR Observation Survey Document"
-Description: "FRObservationSurveyDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple)."
+Id: fr-observation-assessment-document
+Title: "Observation - FR Observation Assessment Document"
+Description: "FRObservationAssessmentDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple)."
 
 // mettre le bon canonical à partir de HL7 Europe Base and Core FHIR IG
 //* ^extension[$imposeProfile].valueCanonical = Canonical()

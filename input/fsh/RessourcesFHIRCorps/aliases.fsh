@@ -9,6 +9,14 @@ Alias: $workflow-supportingInfo = http://hl7.org/fhir/StructureDefinition/workfl
 Alias: $bodySite = http://hl7.org/fhir/StructureDefinition/bodySite
 Alias: $procedure-method = http://hl7.org/fhir/StructureDefinition/procedure-method
 Alias: $ihe-ext-offLabel = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-offLabel
+
+Alias: $ihe-ext-medication-strengthsubstance = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance
+Alias: $ihe-ext-medication-unitofpresentation = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation
+Alias: $ihe-ext-medication-sizeofitem = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem
+
+
+
+
 // Code Systems
 Alias: $LNC = http://loinc.org
 Alias: $SCT = http://snomed.info/sct
@@ -35,3 +43,5 @@ Alias: $immunization-administredProduct-r5 = http://hl7.org/fhir/5.0/StructureDe
 Alias: $medicationRequest-dispenseRequest-dispenserInstruction-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.dispenserInstruction
 Alias: $medicationAdministration-occurence-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.occurence
 Alias: $immunization-basedOn-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn
+Alias: $extension-MedicationStatement.adherence = http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence
+Alias: $extension-Specimen.container.device = http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device

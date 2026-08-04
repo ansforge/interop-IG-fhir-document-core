@@ -63,3 +63,7 @@ Description: "
 
 * note MS
 * note ^short = "Permet de décrire les conditions préalables à l'utilisation du médicament."
+
+// Ajout de l'extension R5 :  ExtensionMedicationStatement_Adherence
+  * extension contains $extension-MedicationStatement.adherence named adherence 0..* MS
+  * extension[adherence] ^short = "Statut de prise du médicament"
