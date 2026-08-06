@@ -35,7 +35,7 @@ Cette structure est dérivée de [FRServiceRequestDocument](StructureDefinition-
 
 ** Résumé **
 
-Obligatoire : 4 éléments(2 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 4 éléments(3 éléments obligatoire(s) imbriqué(s))
  Must-Support : 6 éléments
  Interdit : 2 éléments
 
@@ -65,7 +65,7 @@ Cette structure est dérivée de [FRServiceRequestDocument](StructureDefinition-
 
 ** Résumé **
 
-Obligatoire : 4 éléments(2 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 4 éléments(3 éléments obligatoire(s) imbriqué(s))
  Must-Support : 6 éléments
  Interdit : 2 éléments
 
@@ -92,7 +92,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
   "name" : "FRServiceRequestImagingDocument",
   "title" : "ServiceRequest - FR Service Request Imaging Document",
   "status" : "draft",
-  "date" : "2026-08-06T08:31:28+00:00",
+  "date" : "2026-08-06T09:04:59+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -148,13 +148,13 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
     {
       "id" : "ServiceRequest.extension",
       "path" : "ServiceRequest.extension",
-      "min" : 2
+      "min" : 1
     },
     {
       "id" : "ServiceRequest.extension:reason",
       "path" : "ServiceRequest.extension",
       "sliceName" : "reason",
-      "min" : 2,
+      "min" : 1,
       "max" : "*",
       "type" : [{
         "code" : "Extension",
@@ -207,7 +207,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       "id" : "ServiceRequest.extension:reason/justificationDemande",
       "path" : "ServiceRequest.extension",
       "sliceName" : "reason/justificationDemande",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "mustSupport" : true
     },

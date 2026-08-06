@@ -7270,7 +7270,7 @@ INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinn
 INFORMATION: Resource: The resource StructureDefinition/fr-service-request-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-service-request-imaging-document.json ==
-ERROR: StructureDefinition.snapshot.element[7]: The slice definition for ServiceRequest.extension has a minimum of 2 but the slices add up to a minimum of 4
+ERROR: StructureDefinition.snapshot.element[7]: The slice definition for ServiceRequest.extension has a minimum of 1 but the slices add up to a minimum of 2
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[29].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[30].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason to 0.1.0
