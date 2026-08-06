@@ -45,3 +45,4 @@ Alias: $medicationAdministration-occurence-r5 = http://hl7.org/fhir/5.0/Structur
 Alias: $immunization-basedOn-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn
 Alias: $extension-MedicationStatement.adherence = http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence
 Alias: $extension-Specimen.container.device = http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device
+Alias: $allergy-intolerance-type-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.type

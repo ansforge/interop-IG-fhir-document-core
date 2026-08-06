@@ -9,8 +9,10 @@ Description: "FRAllergyIntoleranceDocument est un profil utilisé pourdécrire u
 
 * identifier ^short = "Identifiant"
 * type MS
-* type ^short = "Type d'allergie ou d'intolérance"
-* type from FRValueSetAllergyInoleranceTypeDocument (required)
+// Extension officielle xver-r5.r4 (backport AllergyIntolerance.type R5, CodeableConcept, binding preferred) — https://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-profile-AllergyIntolerance.html
+* type.extension contains $allergy-intolerance-type-r5 named type 0..1
+* type.extension[type].valueCodeableConcept from FRValueSetAllergyInoleranceTypeDocument (preferred)
+* type.extension[type] ^short = "Type d'allergie ou d'intolérance"
 * code 1..1 MS
 * code ^short = "agent allergique"
 * code from FRValueSetAllergyCodeDocument (extensible)
