@@ -10,7 +10,7 @@
 
 Profil: [AllergyIntolerance - FR Allergy and intolerance Document](StructureDefinition-fr-allergy-intolerance-document.md)
 
-**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/6.3.0/NamingSystem-uri.html)/urn:uuid:7f0e9c1a-3b2d-4e5f-8a6b-1c2d3e4f5a6b
+**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/6.2.0/NamingSystem-uri.html)/urn:uuid:7f0e9c1a-3b2d-4e5f-8a6b-1c2d3e4f5a6b
 
 **clinicalStatus**: Active
 

@@ -548,6 +548,9 @@
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence|0.1.0": [
       "MedicationStatement.note"
     ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0": [
+      "ServiceRequest"
+    ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device|0.1.0": [
       "Specimen.container.type"
     ],
@@ -793,9 +796,6 @@
       "DeviceRequest",
       "DeviceUseStatement",
       "MedicationRequest"
-    ],
-    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension|0.1.0": [
-      "ServiceRequest.note"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0": [
       "ImagingStudy.series.instance"

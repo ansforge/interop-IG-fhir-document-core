@@ -10,7 +10,7 @@ Extension permettant de préciser le type d'information contenu dans une note as
 
 **Utilisations:**
 
-* Utilise ce/t/te Extension: [ServiceRequest - FR Service Request Imaging Document](StructureDefinition-fr-service-request-imaging-document.md)
+* Ce Extension n'est utilisé par aucun autre profil dans ce guide d'implémentation
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-note-type-extension)
 
@@ -72,7 +72,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-note-type-ex
   "name" : "FRNoteTypeExtension",
   "title" : "FR Note Type Extension",
   "status" : "draft",
-  "date" : "2026-08-04T08:17:33+00:00",
+  "date" : "2026-08-06T12:56:12+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
