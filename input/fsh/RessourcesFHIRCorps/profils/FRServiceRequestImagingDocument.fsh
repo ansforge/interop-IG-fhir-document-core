@@ -8,7 +8,7 @@ Description: "FRServiceRequestImagingDocument profil spécifique permet de porte
 
 * extension[reason] contains
     finaliteExamen 1..1 MS and
-    justificationDemande 1..1 MS
+    justificationDemande 0..1 MS
 
 * extension[reason][finaliteExamen].extension[concept] 1..1 MS
 * extension[reason][finaliteExamen].extension[concept].valueCodeableConcept = FRCSNoteType#finaliteExamen "Finalité de l'examen"
