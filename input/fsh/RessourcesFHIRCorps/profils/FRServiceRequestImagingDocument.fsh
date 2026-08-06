@@ -4,17 +4,17 @@ Id: fr-service-request-imaging-document
 Title: "ServiceRequest - FR Service Request Imaging Document"
 Description: "FRServiceRequestImagingDocument profil spécifique permet de porter des demandes d'examens d'imagerie."
 
+* extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason named reason 0..*
 
-* note ^slicing.discriminator.type = #value
-* note ^slicing.discriminator.path = "extension('http://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension')"
-* note ^slicing.rules = #open
-
-* note contains
+* extension[reason] contains
     finaliteExamen 1..1 MS and
-    justificationDemande 0..1 MS
+    justificationDemande 1..1 MS
 
-* note[finaliteExamen].extension contains FRNoteTypeExtension named noteType 1..1 MS
-* note[finaliteExamen].extension[noteType].valueCode = #finaliteExamen
+* extension[reason][finaliteExamen].extension[concept] 1..1 MS
+* extension[reason][finaliteExamen].extension[concept].valueCodeableConcept = FRCSNoteType#finaliteExamen "Finalité de l'examen"
+* extension[reason][finaliteExamen].extension[concept].valueCodeableConcept.text 1..1 MS
 
-* note[justificationDemande].extension contains FRNoteTypeExtension named noteType 1..1 MS
-* note[justificationDemande].extension[noteType].valueCode = #justificationDemande
+* extension[reason][justificationDemande].extension[concept] 1..1 MS
+* extension[reason][justificationDemande].extension[concept].valueCodeableConcept = FRCSNoteType#justificationDemande "Justification de la demande"
+* extension[reason][justificationDemande].extension[concept].valueCodeableConcept.text 1..1 MS
+
