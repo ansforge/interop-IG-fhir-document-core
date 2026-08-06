@@ -19,11 +19,12 @@ Description: "FRAdverseEventDocument permet de décrire un effet indésirable pr
 * detected 1.. MS
 * detected ^short = "Date de détection de l'effet indésirable"
 
-* suspectEntity MS
+* suspectEntity 1.. MS
+
 * suspectEntity ^short = "Agent soupçonné d’être à l’origine de l’événement indésirable"
 * suspectEntity.instance MS
+* suspectEntity.instance only Reference(FRMedicationAdministrationDocument)
 * suspectEntity.instance ^short = "Médicament, substance incriminée, posologie"
-* suspectEntity.instance only Reference(FRImmunizationDocument or Substance or FRMedicationDocument or FRMedicationAdministrationDocument or FRMedicationStatementDocument)
 
 * resultingCondition MS
 * resultingCondition only Reference(FRConditionDocument)
@@ -36,9 +37,9 @@ Description: "FRAdverseEventDocument permet de décrire un effet indésirable pr
 * suspectEntity.causality.assessment from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis (required)
 * suspectEntity.causality.assessment ^short = "Niveau d'imputabilité"
 
-* seriousness MS
-* seriousness from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis (required)
-* seriousness ^short = "Gravité de l'effet indésirable"
+* severity 1.. MS
+* severity from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis (required)
+* severity ^short = "Gravité de l'effet indésirable"
 
 * outcome MS
 * outcome from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis (required)
