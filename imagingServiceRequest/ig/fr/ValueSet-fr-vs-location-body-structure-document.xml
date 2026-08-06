@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="fr-vs-location-body-structure-document"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : EnsembleValeurs fr-vs-location-body-structure-document</b></p><a name="fr-vs-location-body-structure-document"> </a><a name="hcfr-vs-location-body-structure-document"> </a><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Importe tous les codes contenu dans <a href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMED CT Body Structures</a></li><li>Importe tous les codes contenu dans <a href="http://hl7.org/fhir/R4/valueset-approach-site-codes.html">SNOMED CT Anatomical Structure for Administration Site Codes</a></li></ul></div>
+  </text>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-location-body-structure-document"/>
+  <version value="0.1.0"/>
+  <name value="FRValueSetLocationBodyStructureDocument"/>
+  <title value="ValueSet – FR ValueSet Localisation anatomique et voie d'abord"/>
+  <status value="draft"/>
+  <date value="2026-08-06T08:31:28+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <contact>
+    <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Codes SNOMED CT autorisés pour décrire une localisation anatomique ou une voie d'abord.&#xA;Inclut :&#xA;- Les structures anatomiques pour body site : http://hl7.org/fhir/ValueSet/body-site&#xA;- Les structures anatomiques pour voie d'abord (approach-site-codes) : http://hl7.org/fhir/ValueSet/approach-site-codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <valueSet value="http://hl7.org/fhir/ValueSet/body-site|4.0.1"/>
+    </include>
+    <include>
+      <valueSet value="http://hl7.org/fhir/ValueSet/approach-site-codes|4.0.1"/>
+    </include>
+  </compose>
+</ValueSet>
