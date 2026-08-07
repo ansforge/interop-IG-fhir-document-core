@@ -13,7 +13,7 @@ Alias: $JDV_J141-RoleClass-CISIS = https://mos.esante.gouv.fr/NOS/JDV_J141-RoleC
 Alias: $jdv-type-systeme-cisis = https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-systeme-cisis
 Alias: $jdv-j368-categorie-etablissement-cisis = https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis
 Alias: $jdv-role-informateur-cisis = https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis
-
+Alias: $jdv-section-document-cisis = https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis
 // TRE 
 Alias: $TRE_R66-CategorieEtablissement = https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement
 Alias: $TRE_G13-OrientationParticuliere = https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere
@@ -33,3 +33,6 @@ Alias: $TRE_A13-HL7ParticipationType = https://mos.esante.gouv.fr/NOS/TRE_A13-HL
 
 // extensions R5
 Alias: $sexForClinicalUse = http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse
+
+// extensions
+Alias: $note = http://hl7.org/fhir/StructureDefinition/note
