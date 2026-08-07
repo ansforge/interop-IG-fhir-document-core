@@ -132,10 +132,15 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 
 * section 1..*
 // Binder section.code sur le ValueSet
-* section.code from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis
+* section.code 1..1
+* section.code from $jdv-section-document-cisis
 * section.title 1..1
 * section.text 1..1
 * section obeys comp-4
+
+* section.extension contains $note named section-note 0..*
+* section.extension[section-note] ^short = "Commentaires supplémentaires pour chaque section."
+* section.extension[section-note] ^definition = "Permet de porter des commentaires dans chaque section."
 
 /// INVARIANTS
 Invariant: comp-1
