@@ -35,7 +35,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-number-of-fram
   "name" : "FRNumberOfFramesExtension",
   "title" : "FR Number of Frames Extension",
   "status" : "draft",
-  "date" : "2026-08-07T08:15:28+00:00",
+  "date" : "2026-08-07T09:41:31+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
