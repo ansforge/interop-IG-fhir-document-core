@@ -7,7 +7,7 @@ FRObservationALDDocument permet d'indiquer si l'élément auquel elle est associ
 
 **Utilisations:**
 
-* Référence ce Profil: [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md)
+* Référence ce Profil: [DeviceRequest - FR Device request Document](StructureDefinition-fr-device-request-document.md), [DeviceUseStatement - FR Device Use Statement Document](StructureDefinition-fr-device-use-statement-document.md) and [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-observation-ald-document)
 
@@ -78,7 +78,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
   "name" : "FRObservationALDDocument",
   "title" : "Observation - FR Observation ALD Document",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

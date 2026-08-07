@@ -108,7 +108,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-task-patient
   "name" : "FRTaskPatientTransportDocument",
   "title" : "Task - FR Task Patient Transport Document",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -219,9 +219,13 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-task-patient
       "max" : "1"
     },
     {
-      "id" : "Task.input:typeMotorisation.type.coding.code",
-      "path" : "Task.input.type.coding.code",
-      "patternCode" : "GEN-346"
+      "id" : "Task.input:typeMotorisation.type",
+      "path" : "Task.input.type",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "code" : "GEN-346"
+        }]
+      }
     },
     {
       "id" : "Task.input:typeMotorisation.value[x]",

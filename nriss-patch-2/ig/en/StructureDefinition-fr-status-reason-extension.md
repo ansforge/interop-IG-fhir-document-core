@@ -10,7 +10,7 @@ Extension permettant d'indiquer le motif du statut métier d'une évaluation.
 
 **Usages:**
 
-* Use this Extension: [Observation - FR Observation Survey Document](StructureDefinition-fr-observation-survey-document.md)
+* Use this Extension: [Observation - FR Observation Assessment Document](StructureDefinition-fr-observation-assessment-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-status-reason-extension.json)
 
@@ -35,7 +35,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-status-reason-
   "name" : "FRStatusReasonExtension",
   "title" : "FR Status Reason Extension",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

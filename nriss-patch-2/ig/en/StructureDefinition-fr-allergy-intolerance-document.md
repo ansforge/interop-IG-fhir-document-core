@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-allergy-intole
   "name" : "FRAllergyIntoleranceDocument",
   "title" : "AllergyIntolerance - FR Allergy and intolerance Document",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -95,10 +95,42 @@ Other representations of profile: [CSV](../StructureDefinition-fr-allergy-intole
     {
       "id" : "AllergyIntolerance.type",
       "path" : "AllergyIntolerance.type",
+      "mustSupport" : true
+    },
+    {
+      "id" : "AllergyIntolerance.type.extension",
+      "path" : "AllergyIntolerance.type.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      }
+    },
+    {
+      "id" : "AllergyIntolerance.type.extension:type",
+      "path" : "AllergyIntolerance.type.extension",
+      "sliceName" : "type",
       "short" : "Type d'allergie ou d'intolérance",
-      "mustSupport" : true,
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.type|0.1.0"]
+      }]
+    },
+    {
+      "id" : "AllergyIntolerance.type.extension:type.extension",
+      "path" : "AllergyIntolerance.type.extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "AllergyIntolerance.type.extension:type.value[x]",
+      "path" : "AllergyIntolerance.type.extension.value[x]",
       "binding" : {
-        "strength" : "required",
+        "strength" : "preferred",
         "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-intolerance-type-document|0.1.0"
       }
     },

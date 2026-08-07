@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-device-request
   "name" : "FRDeviceRequestDocument",
   "title" : "DeviceRequest - FR Device request Document",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -225,52 +225,14 @@ Other representations of profile: [CSV](../StructureDefinition-fr-device-request
     {
       "id" : "DeviceRequest.reasonReference",
       "path" : "DeviceRequest.reasonReference",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "resolve().code"
-        }],
-        "rules" : "open"
-      },
-      "short" : "Raisons liées au DM",
-      "mustSupport" : true
-    },
-    {
-      "id" : "DeviceRequest.reasonReference:EnRapportAvecALD",
-      "path" : "DeviceRequest.reasonReference",
-      "sliceName" : "EnRapportAvecALD",
-      "short" : "En rapport avec une Affection Longue Durée (ALD)",
-      "min" : 0,
-      "max" : "1",
+      "short" : "Raisons liées à l'utilisation du dispositif médical",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "DeviceRequest.reasonReference:EnRapportAvecAccidentTravail",
-      "path" : "DeviceRequest.reasonReference",
-      "sliceName" : "EnRapportAvecAccidentTravail",
-      "short" : "En rapport avec accident travail",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "DeviceRequest.reasonReference:EnRapportAvecLaPrevention",
-      "path" : "DeviceRequest.reasonReference",
-      "sliceName" : "EnRapportAvecLaPrevention",
-      "short" : "En rapport avec la prévention",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation|4.0.1",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
       }],
       "mustSupport" : true
     }]

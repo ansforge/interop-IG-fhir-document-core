@@ -35,7 +35,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-sta
   "name" : "FRMedicationStatementDocument",
   "title" : "MedicationStatement - FR Medication Statement Document",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -154,6 +154,19 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-sta
       "id" : "MedicationStatement.note",
       "path" : "MedicationStatement.note",
       "short" : "Permet de décrire les conditions préalables à l'utilisation du médicament.",
+      "mustSupport" : true
+    },
+    {
+      "id" : "MedicationStatement.note.extension:adherence",
+      "path" : "MedicationStatement.note.extension",
+      "sliceName" : "adherence",
+      "short" : "Statut de prise du médicament",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence|0.1.0"]
+      }],
       "mustSupport" : true
     },
     {

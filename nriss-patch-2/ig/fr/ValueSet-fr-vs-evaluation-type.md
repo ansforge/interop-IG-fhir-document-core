@@ -7,7 +7,7 @@ Codes autorisés pour indiquer le type d'évaluation. Inclut LOINC, ICF, et perm
 
  **References** 
 
-* [Observation - FR Observation Survey Document](StructureDefinition-fr-observation-survey-document.md)
+* [Observation - FR Observation Assessment Document](StructureDefinition-fr-observation-assessment-document.md)
 
 ### Définition logique (CLD)
 
@@ -32,7 +32,7 @@ Codes autorisés pour indiquer le type d'évaluation. Inclut LOINC, ICF, et perm
   "name" : "FRValueSetEvaluationTypeDocument",
   "title" : "ValueSet – FR ValueSet Type d'évaluation",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

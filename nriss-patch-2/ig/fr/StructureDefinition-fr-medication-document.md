@@ -38,7 +38,7 @@ Cette structure est dérivée de [Medication](http://hl7.org/fhir/R4/medication.
 ** Résumé **
 
 Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 12 éléments
+ Must-Support : 15 éléments
 
 **Structures**
 
@@ -53,6 +53,9 @@ Cette structure fait référence à ces extensions:
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-productname.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-classification|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-classification.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-characteristic|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-characteristic.html)
+* [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-unitofpresentation.html)
+* [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-sizeofitem.html)
+* [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-strengthsubstance.html)
 
 **Slices**
 
@@ -83,7 +86,7 @@ Cette structure est dérivée de [Medication](http://hl7.org/fhir/R4/medication.
 ** Résumé **
 
 Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 12 éléments
+ Must-Support : 15 éléments
 
 **Structures**
 
@@ -98,6 +101,9 @@ Cette structure fait référence à ces extensions:
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-productname.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-classification|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-classification.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-characteristic|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-characteristic.html)
+* [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-unitofpresentation.html)
+* [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-sizeofitem.html)
+* [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-strengthsubstance.html)
 
 **Slices**
 
@@ -122,7 +128,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
   "name" : "FRMedicationDocument",
   "title" : "Medication - FR Medication Document",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -222,6 +228,32 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
       }]
     },
     {
+      "id" : "Medication.extension:unitOfPresentation",
+      "path" : "Medication.extension",
+      "sliceName" : "unitOfPresentation",
+      "short" : "Unité de présentation du produit de santé (comprimé, ampoule, tube). En général, le plus petit objet dénombrable du package.\nEDQM Standard Terms (0.4.0.127.0.16.1.1.2.1) / classe UOP (Unit of Presentation)..",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation|1.0.0-comment-2"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Medication.extension:sizeOfItem",
+      "path" : "Medication.extension",
+      "sliceName" : "sizeOfItem",
+      "short" : "Quantité de produit par unité (ex : 3 ml / 1 flacon).",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem|1.0.0-comment-2"]
+      }],
+      "mustSupport" : true
+    },
+    {
       "id" : "Medication.code",
       "path" : "Medication.code",
       "short" : "Code du produit de santé",
@@ -295,6 +327,19 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
       "id" : "Medication.ingredient.strength",
       "path" : "Medication.ingredient.strength",
       "short" : "Quantité de substance présente dans le médicament",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Medication.ingredient.strength.extension:basisOfStrengthSubstance",
+      "path" : "Medication.ingredient.strength.extension",
+      "sliceName" : "basisOfStrengthSubstance",
+      "short" : "Substance concernée.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance|1.0.0-comment-2"]
+      }],
       "mustSupport" : true
     },
     {

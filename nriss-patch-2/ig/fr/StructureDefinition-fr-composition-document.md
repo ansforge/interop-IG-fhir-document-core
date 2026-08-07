@@ -40,7 +40,7 @@ Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fh
 
 ** Résumé **
 
-Obligatoire : 21 éléments(11 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 20 éléments(11 éléments obligatoire(s) imbriqué(s))
  Must-Support : 5 éléments
 
 **Structures**
@@ -95,7 +95,7 @@ Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fh
 
 ** Résumé **
 
-Obligatoire : 21 éléments(11 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 20 éléments(11 éléments obligatoire(s) imbriqué(s))
  Must-Support : 5 éléments
 
 **Structures**
@@ -143,7 +143,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -569,8 +569,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.relatesTo",
       "path" : "Composition.relatesTo",
-      "short" : "Document de référence",
-      "min" : 1
+      "short" : "Document de référence"
     },
     {
       "id" : "Composition.relatesTo.target[x]",

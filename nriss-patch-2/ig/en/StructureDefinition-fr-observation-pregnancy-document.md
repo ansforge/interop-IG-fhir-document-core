@@ -7,7 +7,7 @@ FRObservationPregnancyDocument permet d'apporter des informations relatives aux 
 
 **Usages:**
 
-* Refer to this Profile: [Observation - FR Observation Birth Event Document](StructureDefinition-fr-observation-birth-event-document.md), [Observation - FR Observation Pregnancy History Document](StructureDefinition-fr-observation-pregnancy-history-document.md), [FR Patient History Extension](StructureDefinition-fr-patient-history-extension.md) and [List - FR Pregnancy History Document](StructureDefinition-fr-pregnancy-history-document.md)
+* Refer to this Profile: [Observation - FR Observation Pregnancy History Document](StructureDefinition-fr-observation-pregnancy-history-document.md) and [FR Patient History Extension](StructureDefinition-fr-patient-history-extension.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-observation-pregnancy-document.json)
 
@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-pr
   "name" : "FRObservationPregnancyDocument",
   "title" : "Observation - FR Observation Pregnancy Document",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

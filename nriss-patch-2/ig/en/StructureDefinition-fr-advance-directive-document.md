@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-advance-direct
   "name" : "FRAdvanceDirectiveDocument",
   "title" : "Consent - FR Advance directive Document",
   "status" : "draft",
-  "date" : "2026-08-04T07:44:41+00:00",
+  "date" : "2026-08-07T09:15:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
