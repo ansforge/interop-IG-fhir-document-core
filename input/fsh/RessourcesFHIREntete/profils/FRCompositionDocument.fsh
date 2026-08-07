@@ -112,7 +112,6 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * event[principalEvent].extension[performer] 1..1 
 * event[principalEvent].extension[performer] ^short = "Exécutant de l'évènement documenté principal"
 
-* relatesTo 1..*
 * relatesTo ^short = "Document de référence"
 * relatesTo.target[x] only Identifier or Reference(FRCompositionDocument)
 * relatesTo.targetIdentifier.type 1..1
