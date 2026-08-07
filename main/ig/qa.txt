@@ -1,9 +1,9 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 540, warn = 161, info = 6703
-IG Publisher Version: 2.3.0
-Generated Thu Aug 06 13:03:58 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
+err = 539, warn = 161, info = 6707
+IG Publisher Version: 2.3.0 Out of date - current version is 2.3.1
+Generated Fri Aug 07 08:22:51 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 467 / 3 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 3 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/CodeSystem-fr-cs-note-type : 0 / 3 / 2
@@ -13,13 +13,13 @@ Generated Thu Aug 06 13:03:58 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.docum
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-actor-extension : 0 / 1 / 39
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-advance-directive-document : 2 / 1 / 94
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-adverse-event-document : 2 / 1 / 63
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-allergy-intolerance-document : 1 / 0 / 61
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-allergy-intolerance-document : 0 / 0 / 66
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-author-time-extension : 0 / 1 / 8
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-body-structure-document : 0 / 1 / 29
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-bundle-document : 0 / 10 / 410
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-care-plan-document : 0 / 1 / 81
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-comparison-studies-extension : 0 / 1 / 10
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-composition-document : 3 / 1 / 361
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-composition-document : 3 / 1 / 360
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-condition-document : 0 / 2 / 70
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-device-auteur-document : 0 / 1 / 83
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-device-request-document : 0 / 1 / 102
@@ -871,7 +871,6 @@ INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinn
 INFORMATION: Resource: The resource StructureDefinition/fr-adverse-event-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-adverse-event-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-allergy-intolerance-document.json ==
-ERROR: AllergyIntolerance - FR Allergy and intolerance Document.AllergyIntolerance.type: Binding https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-intolerance-type-document is not a subset of binding http://hl7.org/fhir/ValueSet/allergy-intolerance-type|4.0.1 because The codes '56840009,609396006' are not in the base valueset
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/AllergyIntolerance to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/AllergyIntolerance to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/AllergyIntolerance to 4.0.1
@@ -893,44 +892,49 @@ INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[12].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-intolerance-type-document to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[15].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-code to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[16].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[16].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[15].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.type to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[19].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-intolerance-type-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[21].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[23].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-code to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[24].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[24].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[31].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[32].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[33].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-substance to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-intolerance-type-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-code to 0.1.0
-INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[12].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-substance to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[39].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[41].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-substance to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.differential.element[6].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.type to 0.1.0
+INFORMATION: StructureDefinition.differential.element[8].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-intolerance-type-document to 0.1.0
+INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-code to 0.1.0
+INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
+INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
+INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-substance to 0.1.0
+INFORMATION: StructureDefinition/fr-allergy-intolerance-document: StructureDefinition.snapshot.element[20].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
 INFORMATION: Resource: The resource StructureDefinition/fr-allergy-intolerance-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-fr-author-time-extension.json ==
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
@@ -1845,7 +1849,6 @@ INFORMATION: StructureDefinition.differential.element[76].constraint[0].source: 
 INFORMATION: StructureDefinition.differential.element[77].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis to 20260619134042
 ERROR: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'data entry person' for http://terminology.hl7.org/CodeSystem/v3-ParticipationType#ENT. Valid display is 'Transcripteur du contenu à partir d'une autre forme' (fr-FR) (for the language(s) 'fr-FR')
 ERROR: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[52].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'informant' for http://terminology.hl7.org/CodeSystem/v3-ParticipationType#INF. Valid display is 'Informateur' (fr-FR) (for the language(s) 'fr-FR')
-INFORMATION: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[133].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
 INFORMATION: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[136].pattern.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#107903-7 for language(s) 'fr-FR'. The display is 'Clinical note' which is a valid display for the default language
 INFORMATION: Resource: The resource StructureDefinition/fr-composition-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document'): The Implementation Guide contains no examples for this profile
