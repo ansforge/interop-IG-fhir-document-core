@@ -5,5 +5,5 @@ Description: "ValueSet contenant les codes SNOMED CT autorisés pour les types d
 
 * include http://hl7.org/fhir/allergy-intolerance-type#allergy "allergie"
 * include http://hl7.org/fhir/allergy-intolerance-type#intolerance "intolerance"
-* include http://snomed.info/sct#56840009 "idiosyncrasie"
-* include http://snomed.info/sct#609396006 "hypersensibilité non allergique"
+* include $SCT#56840009 "idiosyncrasie"
+* include $SCT#609396006 "hypersensibilité non allergique"
