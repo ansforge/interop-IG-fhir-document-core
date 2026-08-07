@@ -1,0 +1,38 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "fr-vs-edqm-document",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet fr-vs-edqm-document</b></p><a name=\"en-fr-vs-edqm-document\"> </a><a name=\"en-hcfr-vs-edqm-document\"> </a><ul><li>Include all codes defined in <a href=\"https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-terminologie-standardterms.html\"><code>https://smt.esante.gouv.fr/terminologie-standardterms</code></a><span title=\"Version is explicitly stated to be 2026-01-30\"> version &#x1F4CD;2026-01-30</span></li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document",
+  "version" : "0.1.0",
+  "name" : "FRValueSetEDQMDocument",
+  "title" : "ValueSet - FR ValueSet EDQM Document",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-08-07T10:30:17+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "ValueSet basé sur le CodeSystem EDQM fourni par SMT.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-standardterms",
+      "version" : "2026-01-30"
+    }]
+  }
+}
