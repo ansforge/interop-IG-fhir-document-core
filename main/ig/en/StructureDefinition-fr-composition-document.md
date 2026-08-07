@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:41:31+00:00",
+  "date" : "2026-08-07T12:53:43+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -641,8 +641,22 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       }]
     },
     {
+      "id" : "Composition.section.extension:section-note",
+      "path" : "Composition.section.extension",
+      "sliceName" : "section-note",
+      "short" : "Commentaires supplémentaires pour chaque section.",
+      "definition" : "Permet de porter des commentaires dans chaque section.",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/note|5.3.0"]
+      }]
+    },
+    {
       "id" : "Composition.section.code",
       "path" : "Composition.section.code",
+      "min" : 1,
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260619134042"

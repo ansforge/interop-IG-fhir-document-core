@@ -40,7 +40,7 @@ Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fh
 
 ** Résumé **
 
-Obligatoire : 20 éléments(11 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 21 éléments(11 éléments obligatoire(s) imbriqué(s))
  Must-Support : 5 éléments
 
 **Structures**
@@ -63,6 +63,7 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension|0.1.0](StructureDefinition-fr-author-time-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0](StructureDefinition-fr-performer-event-extension.md)
+* [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
 
 **Slices**
 
@@ -95,7 +96,7 @@ Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fh
 
 ** Résumé **
 
-Obligatoire : 20 éléments(11 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 21 éléments(11 éléments obligatoire(s) imbriqué(s))
  Must-Support : 5 éléments
 
 **Structures**
@@ -118,6 +119,7 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension|0.1.0](StructureDefinition-fr-author-time-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0](StructureDefinition-fr-performer-event-extension.md)
+* [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
 
 **Slices**
 
@@ -143,7 +145,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:41:31+00:00",
+  "date" : "2026-08-07T12:53:43+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -751,8 +753,22 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       }]
     },
     {
+      "id" : "Composition.section.extension:section-note",
+      "path" : "Composition.section.extension",
+      "sliceName" : "section-note",
+      "short" : "Commentaires supplémentaires pour chaque section.",
+      "definition" : "Permet de porter des commentaires dans chaque section.",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/note|5.3.0"]
+      }]
+    },
+    {
       "id" : "Composition.section.code",
       "path" : "Composition.section.code",
+      "min" : 1,
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260619134042"

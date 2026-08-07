@@ -1,9 +1,9 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 539, warn = 161, info = 6707
+err = 539, warn = 161, info = 6711
 IG Publisher Version: 2.3.0 Out of date - current version is 2.3.1
-Generated Fri Aug 07 09:49:17 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
+Generated Fri Aug 07 13:01:00 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 467 / 3 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 3 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/CodeSystem-fr-cs-note-type : 0 / 3 / 2
@@ -19,7 +19,7 @@ Generated Fri Aug 07 09:49:17 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.docum
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-bundle-document : 0 / 10 / 410
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-care-plan-document : 0 / 1 / 81
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-comparison-studies-extension : 0 / 1 / 10
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-composition-document : 3 / 1 / 360
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-composition-document : 3 / 1 / 364
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-condition-document : 0 / 2 / 70
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-device-auteur-document : 0 / 1 / 83
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-device-request-document : 0 / 1 / 102
@@ -1804,12 +1804,14 @@ INFORMATION: StructureDefinition.snapshot.element[248].constraint[1].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[249].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ChangeMade to 1.1.0
 INFORMATION: StructureDefinition.snapshot.element[249].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[249].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[250].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/note to 5.3.0
 INFORMATION: StructureDefinition.snapshot.element[250].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[250].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[251].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[251].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[252].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[252].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis to 20260619134042
 INFORMATION: StructureDefinition.snapshot.element[253].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[253].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis to 20260619134042
 INFORMATION: StructureDefinition.snapshot.element[254].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[255].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[256].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -1817,6 +1819,7 @@ INFORMATION: StructureDefinition.snapshot.element[257].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[258].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[259].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[260].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[261].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[1].pattern[x]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[4].constraint[0].source: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
@@ -1846,7 +1849,8 @@ INFORMATION: StructureDefinition.differential.element[52].type[1].targetProfile[
 INFORMATION: StructureDefinition.differential.element[69].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[74].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[76].constraint[0].source: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[77].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis to 20260619134042
+INFORMATION: StructureDefinition.differential.element[77].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/note to 5.3.0
+INFORMATION: StructureDefinition.differential.element[78].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis to 20260619134042
 ERROR: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'data entry person' for http://terminology.hl7.org/CodeSystem/v3-ParticipationType#ENT. Valid display is 'Transcripteur du contenu à partir d'une autre forme' (fr-FR) (for the language(s) 'fr-FR')
 ERROR: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[52].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'informant' for http://terminology.hl7.org/CodeSystem/v3-ParticipationType#INF. Valid display is 'Informateur' (fr-FR) (for the language(s) 'fr-FR')
 INFORMATION: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[136].pattern.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#107903-7 for language(s) 'fr-FR'. The display is 'Clinical note' which is a valid display for the default language
