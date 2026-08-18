@@ -1,0 +1,38 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "fr-vs-location-body-structure-document",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-vs-location-body-structure-document</b></p><a name=\"fr-vs-location-body-structure-document\"> </a><a name=\"hcfr-vs-location-body-structure-document\"> </a><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Importe tous les codes contenu dans <a href=\"http://hl7.org/fhir/R4/valueset-body-site.html\">SNOMED CT Body Structures</a></li><li>Importe tous les codes contenu dans <a href=\"http://hl7.org/fhir/R4/valueset-approach-site-codes.html\">SNOMED CT Anatomical Structure for Administration Site Codes</a></li></ul></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet fr-vs-location-body-structure-document</b></p><a name=\"en-fr-vs-location-body-structure-document\"> </a><a name=\"en-hcfr-vs-location-body-structure-document\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"http://hl7.org/fhir/R4/valueset-body-site.html\">SNOMED CT Body Structures</a></li><li>Import all the codes that are contained in <a href=\"http://hl7.org/fhir/R4/valueset-approach-site-codes.html\">SNOMED CT Anatomical Structure for Administration Site Codes</a></li></ul></div></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-location-body-structure-document",
+  "version" : "0.1.0",
+  "name" : "FRValueSetLocationBodyStructureDocument",
+  "title" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
+  "status" : "draft",
+  "date" : "2026-08-18T09:30:09+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Codes SNOMED CT autorisés pour décrire une localisation anatomique ou une voie d'abord.\nInclut :\n- Les structures anatomiques pour body site : http://hl7.org/fhir/ValueSet/body-site\n- Les structures anatomiques pour voie d'abord (approach-site-codes) : http://hl7.org/fhir/ValueSet/approach-site-codes",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://hl7.org/fhir/ValueSet/body-site|4.0.1"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/ValueSet/approach-site-codes|4.0.1"]
+    }]
+  }
+}
