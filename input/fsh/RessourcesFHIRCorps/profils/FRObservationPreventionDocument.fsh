@@ -6,7 +6,7 @@ Description: "FRObservationPreventionDocument permet d'indiquer si l'élément a
 
 * code ^short = "Type de l'observation"
 * code MS
-* code = https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis#GEN-295 "En rapport avec la prévention"
+* code = https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis#GEN-295 "En rapport avec la prevention"
 * value[x] only boolean
 * valueBoolean 1..1 MS
 * value[x] ^short = """	

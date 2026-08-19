@@ -1,4 +1,4 @@
-ValueSet: FRValueSetParticipationType
+ValueSet: FrValueSetParticipationTypeInformationRecipient
 Id: fr-doc-vs-participation-type
 Title: "FR ValueSet Participation Type"
 Description: "Type de participation : destinataire"

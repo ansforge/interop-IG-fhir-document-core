@@ -19,7 +19,7 @@ de l'arrêt ou du refus de traitement ou d'acte médicaux.»"
 
 * scope MS
 * scope ^short = "Consent de type directive anticipée"
-* scope = $consentscope#adr "Advance Directive"
+* scope = $consentscope#adr "Advanced Care Directive"
 
 * provision MS
 * provision.code ^short = "Type de la directive anticipée"
