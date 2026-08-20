@@ -4,7 +4,7 @@
   "language" : "fr",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-vs-edqm-form-document</b></p><a name=\"fr-vs-edqm-form-document\"> </a><a name=\"hcfr-vs-edqm-form-document\"> </a><ul><li>Include codes provenant de<a href=\"https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-terminologie-standardterms.html\"><code>https://smt.esante.gouv.fr/terminologie-standardterms</code></a><span title=\"La version est explicitement indiquée comme étant 2026-01-30\"> version &#x1F4CD;2026-01-30</span> où concept  est-un PDF (Forme galénique)</li></ul></div>"
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-vs-edqm-form-document</b></p><a name=\"fr-vs-edqm-form-document\"> </a><a name=\"hcfr-vs-edqm-form-document\"> </a><ul><li>Include codes provenant de<a href=\"https://interop.esante.gouv.fr/terminologies/1.12.0/CodeSystem-terminologie-standardterms.html\"><code>https://smt.esante.gouv.fr/terminologie-standardterms</code></a><span title=\"La version est explicitement indiquée comme étant 2026-01-30\"> version &#x1F4CD;2026-01-30</span> où concept  est-un PDF (Forme galénique)</li></ul></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-form-document",
   "version" : "0.1.0",
@@ -12,7 +12,7 @@
   "title" : "ValueSet - FR ValueSet EDQM Form Document",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-19T10:06:59+00:00",
+  "date" : "2026-08-20T14:37:13+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

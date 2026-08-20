@@ -40,7 +40,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "name" : "FRValueSetAllergyCodeDocument",
   "title" : "ValueSet – FR ValueSet Allergy Code Document",
   "status" : "draft",
-  "date" : "2026-08-19T10:06:59+00:00",
+  "date" : "2026-08-20T14:37:13+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -69,7 +69,7 @@ No Expansion for this valueset (Unsupported Code System Version)
       "system" : "http://id.who.int/icd/release/11/mms"
     },
     {
-      "valueSet" : ["https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis|20260619134043"]
+      "valueSet" : ["https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis|20260716085853"]
     },
     {
       "system" : "https://smt.esante.gouv.fr/terminologie-sms",

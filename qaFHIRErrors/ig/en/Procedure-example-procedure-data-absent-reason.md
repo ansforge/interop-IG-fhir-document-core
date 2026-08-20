@@ -10,13 +10,13 @@
 
 Profile: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
 
-**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/5.5.0/NamingSystem-uri.html)/urn:uuid:a1b2c3d4-e5f6-7890-abcd-ef1234567890
+**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/6.3.0/NamingSystem-uri.html)/urn:uuid:a1b2c3d4-e5f6-7890-abcd-ef1234567890
 
 **status**: Unknown
 
 **code**: Acte réalisé inconnu : utilisation de l'extension data-absent-reason avec code 'unknown'
 
-**subject**: [Exemple Patient](Patient/exemple-1-patient)
+**subject**: `urn:uuid:ba499de3-aeae-43c3-82cb-0ba2718cfa55`
 
 **performed**: Absent because : temp-unknown
 
@@ -44,8 +44,7 @@ Profile: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-do
     "text" : "Acte réalisé inconnu : utilisation de l'extension data-absent-reason avec code 'unknown'"
   },
   "subject" : {
-    "reference" : "Patient/exemple-1-patient",
-    "display" : "Exemple Patient"
+    "reference" : "urn:uuid:ba499de3-aeae-43c3-82cb-0ba2718cfa55"
   },
   "_performedDateTime" : {
     "extension" : [{

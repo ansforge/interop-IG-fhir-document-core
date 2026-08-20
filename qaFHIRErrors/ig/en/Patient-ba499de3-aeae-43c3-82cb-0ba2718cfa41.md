@@ -59,7 +59,7 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, DoB: 1979-03-28 ( NIR définitif (use:
       "extension" : [{
         "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code",
         "valueCoding" : {
-          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune",
+          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
           "code" : "01006"
         }
       }],
@@ -121,14 +121,14 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, DoB: 1979-03-28 ( NIR définitif (use:
   "contact" : [{
     "relationship" : [{
       "coding" : [{
-        "system" : "https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
         "code" : "SIS",
         "display" : "Soeur"
       }]
     },
     {
       "coding" : [{
-        "system" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-patient-contact-role",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
         "code" : "ECON",
         "display" : "Personne à prévenir en cas d'urgence"
       }]

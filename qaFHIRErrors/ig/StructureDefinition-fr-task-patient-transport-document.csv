@@ -66,7 +66,7 @@ In most cases, Tasks will have an intent of ""order"".","","","","","","","","",
 ","routine | urgent | asap | stat","Indicates how quickly the Task should be addressed with respect to other requests.","","Used to identify the service level expected while performing a task.","","If missing, this task should be performed with normal priority","","","","","",,"required","The task's priority.","http://hl7.org/fhir/ValueSet/request-priority|4.0.1","",,,,"Task.priority",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.priority",".priorityCode","FiveWs.grade"
 "Task.code","Task.code","","","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Mode de transport (Ambulance publique, Taxi, VSL, …)","A name or code (or both) briefly describing what the task involves.","The title (eg ""My Tasks"", ""Outstanding Tasks for Patient X"") should go into the code.","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis|20260619134043","",,,,"Task.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Mode de transport (Ambulance publique, Taxi, VSL, …)","A name or code (or both) briefly describing what the task involves.","The title (eg ""My Tasks"", ""Outstanding Tasks for Patient X"") should go into the code.","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis|20260716085853","",,,,"Task.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.code, Event.code",".code","FiveWs.what[x]"
 "Task.description","Task.description","","","",0,1,"","","Y","string {[]} {[]}
 ","Human-readable explanation of task","A free-text description of what is to be performed.","","","","","","","","","",,,,,"",,,,"Task.description",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -211,7 +211,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 </valueCodeableConcept>","","","",,"example","Codes to identify types of input parameters.  These will typically be specific to a particular workflow.  E.g. ""Comparison source"", ""Applicable consent"", ""Concomitent Medications"", etc.","","",,,,"Task.input.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","???"
 "Task.input:typeMotorisation.value[x]","Task.input.value[x]","","","",1,1,"","","","CodeableConcept {[]} {[]}
-","Content to use in performing the task","The value of the input parameter as a basic type.","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis|20260619134042","",,,,"Task.input.value[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Content to use in performing the task","The value of the input parameter as a basic type.","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis|20260716085852","",,,,"Task.input.value[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","???"
 "Task.input:natureTransport","Task.input","natureTransport","Supporting Information
 ","",1,1,"","","","BackboneElement {[]} {[]}

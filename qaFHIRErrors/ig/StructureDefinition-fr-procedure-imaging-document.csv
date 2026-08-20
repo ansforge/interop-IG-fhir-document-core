@@ -149,7 +149,7 @@ Cancelled Reason","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","Code de l'acte d'imagerie","The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. ""Laparoscopic Appendectomy"").","Aussi utilisé pour indiquer qu'il n'y a pas d'acte ou qu'on ne sait pas s'il y en a.
 Si l'acte n'est pas trouvé dans CCAM, utiliser le code NCIT 'C25218' (Intervention)
 et décrire l'acte en texte libre dans la partie narrative.
-Pour les actes chirurgicaux inconnus, utiliser jdv-absent-or-unknown-procedure-cisis.","0..1 to account for primarily narrative only resources.","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis|20260619134041","",,,,"Procedure.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Pour les actes chirurgicaux inconnus, utiliser jdv-absent-or-unknown-procedure-cisis.","0..1 to account for primarily narrative only resources.","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis|20260716085851","",,,,"Procedure.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code",".code","FiveWs.what[x]","OBR-44/OBR-45"
 "Procedure.subject","Procedure.subject","","patient
 ","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0], CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0]]}
