@@ -22,7 +22,7 @@ Usage: #example
 * status = #unknown
 
 // Patient
-* subject = Reference(urn:uuid:ba499de3-aeae-43c3-82cb-0ba2718cfa55)
+* subject = Reference(exemple-1-patient)
 
 // Code de l'acte (liaison extensible)
 // L'acte réalisé est inconnu → extension data-absent-reason avec code "unknown"

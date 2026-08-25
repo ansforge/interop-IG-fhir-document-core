@@ -25,7 +25,7 @@ Usage: #example
 * code.extension.valueCode = #unknown
 
 // Patient
-* patient = Reference(urn:uuid:ba499de3-aeae-43c3-82cb-0ba2718cfa41)
+* patient = Reference(exemple-patient)
 
 // Date de début d'identification de l'allergie ou de l'intolérance
 * onsetPeriod.start = "2021-12-04"
@@ -111,6 +111,7 @@ Title: "Example Patient - AllergyIntolerance avec Data Absent Reason"
 * contact[0].relationship[RelationType].coding[0].system = "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"
 * contact[0].relationship[RelationType].coding[0].code = #SIS
 * contact[0].relationship[RelationType].coding[0].display = "Soeur"
+
 * contact[0].relationship[Role].coding[0].system = "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"
 * contact[0].relationship[Role].coding[0].code = #ECON
 * contact[0].relationship[Role].coding[0].display = "Personne à prévenir en cas d'urgence"
