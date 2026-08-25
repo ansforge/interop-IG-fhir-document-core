@@ -1,15 +1,15 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 17, warn = 170, info = 6742
+err = 19, warn = 170, info = 6742
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 4 / 5 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 0 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/CodeSystem-fr-cs-note-type : 0 / 3 / 2
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.document-core : 0 / 5 / 6
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41 : 1 / 3 / 5
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55 : 1 / 3 / 5
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41 : 2 / 3 / 5
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55 : 2 / 3 / 5
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Procedure-example-procedure-data-absent-reason : 0 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-accession-number-identifier-document : 0 / 1 / 12
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-actor-extension : 0 / 1 / 39
@@ -138,7 +138,8 @@ INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.meta.profile[
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.extension[0].extension[0].value.ofType(Coding): Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445|2.1.0
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.name[0].extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260716085852), and a coding from this value set is required) (codes = https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass#ECON)
+ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[1].coding[0].display: Wrong Display Name 'Personne à prévenir en cas d'urgence' for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON. There are no valid display names found for language(s) 'fr-FR'. Default display is 'emergency contact'
+ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260716085852), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON)
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.meta.profile[1]: Profile reference 'https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.json ==
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.meta.profile[1]: A definition could not be found for Canonical URL 'https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document'
@@ -147,7 +148,8 @@ INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.meta.profile[
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.extension[0].extension[0].value.ofType(Coding): Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445|2.1.0
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.name[0].extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260716085852), and a coding from this value set is required) (codes = https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass#ECON)
+ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[1].coding[0].display: Wrong Display Name 'Personne à prévenir en cas d'urgence' for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON. There are no valid display names found for language(s) 'fr-FR'. Default display is 'emergency contact'
+ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260716085852), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON)
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.meta.profile[1]: Profile reference 'https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Procedure-example-procedure-data-absent-reason.json ==
 == fsh-generated/resources/StructureDefinition-fr-accession-number-identifier-document.json ==

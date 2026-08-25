@@ -34,7 +34,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-patient-ins-do
   "name" : "FRPatientINSDocument",
   "title" : "FR Patient INS Document",
   "status" : "draft",
-  "date" : "2026-08-25T13:09:33+00:00",
+  "date" : "2026-08-25T13:40:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -108,7 +108,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-patient-ins-do
       "id" : "Patient.contact.relationship:Role.coding.system",
       "path" : "Patient.contact.relationship.coding.system",
       "min" : 1,
-      "patternUri" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"
+      "patternUri" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
     },
     {
       "id" : "Patient.contact.relationship:RelationType",

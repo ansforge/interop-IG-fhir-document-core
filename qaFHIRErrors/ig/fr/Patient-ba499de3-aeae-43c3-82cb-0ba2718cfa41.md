@@ -128,7 +128,7 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, Date de Naissance :1979-03-28 ( NIR dé
     },
     {
       "coding" : [{
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
         "code" : "ECON",
         "display" : "Personne à prévenir en cas d'urgence"
       }]
