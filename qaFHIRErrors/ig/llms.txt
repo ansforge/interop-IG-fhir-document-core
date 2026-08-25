@@ -20,8 +20,8 @@
 
 ### ValueSets
 
-* [FR ValueSet Participation Type](fr/ValueSet-fr-doc-vs-participation-type-participant.md)
-* [FR ValueSet Participation Type](fr/ValueSet-fr-doc-vs-participation-type.md)
+* [FR ValueSet Participation Type Participant](fr/ValueSet-fr-doc-vs-participation-type-participant.md)
+* [FR ValueSet Participation Type Information Recipient](fr/ValueSet-fr-doc-vs-participation-type.md)
 * [Fr ValueSet RolePriseCharge](fr/ValueSet-fr-doc-vs-role-prise-charge.md)
 * [ValueSet - FR ValueSet Actor Type Document](fr/ValueSet-fr-vs-actor-type-document.md)
 * [ValueSet – FR ValueSet Allergy Code Document](fr/ValueSet-fr-vs-allergy-code.md)

@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-08-20T14:37:13+00:00",
+  "date" : "2026-08-25T08:25:54+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1162,6 +1162,22 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Procedure-example-procedure-data-absent-reason.html"
+      }],
+      "reference" : {
+        "reference" : "Procedure/example-procedure-data-absent-reason"
+      },
+      "name" : "Example - Procedure avec Data Absent Reason",
+      "description" : "Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments\nobligatoires de la ressource Procedure dont la valeur est inconnue ou temporairement indisponible.\n\nCas d'usage illustrés :\n- `code` : l'acte est inconnu → extension `data-absent-reason` avec code `unknown`\n  (liaison extensible → l'extension peut se substituer au codage)\n- `performedDateTime` : la date de l'acte est temporairement indisponible → extension `data-absent-reason` avec code `temp-unknown`\n- `status` : le statut est inconnu → code d'exception `unknown` du ValueSet `event-status`\n  (liaison required → on utilise directement le code d'exception du ValueSet, pas l'extension)",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
       },
       {
@@ -1171,7 +1187,7 @@
       "reference" : {
         "reference" : "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41"
       },
-      "name" : "Example - Patient",
+      "name" : "Example Patient - AllergyIntolerance avec Data Absent Reason",
       "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"
     },
     {
@@ -1186,24 +1202,8 @@
       "reference" : {
         "reference" : "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55"
       },
-      "name" : "Example - Patient",
+      "name" : "Example Patient - Procedure avec Data Absent Reason",
       "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Procedure"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "Procedure-example-procedure-data-absent-reason.html"
-      }],
-      "reference" : {
-        "reference" : "Procedure/example-procedure-data-absent-reason"
-      },
-      "name" : "Example - Procedure avec Data Absent Reason",
-      "description" : "Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments\nobligatoires de la ressource Procedure dont la valeur est inconnue ou temporairement indisponible.\n\nCas d'usage illustrés :\n- `code` : l'acte est inconnu → extension `data-absent-reason` avec code `unknown`\n  (liaison extensible → l'extension peut se substituer au codage)\n- `performedDateTime` : la date de l'acte est temporairement indisponible → extension `data-absent-reason` avec code `temp-unknown`\n- `status` : le statut est inconnu → code d'exception `unknown` du ValueSet `event-status`\n  (liaison required → on utilise directement le code d'exception du ValueSet, pas l'extension)",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0"
     },
     {
       "extension" : [{
@@ -1776,7 +1776,7 @@
       "reference" : {
         "reference" : "ValueSet/fr-doc-vs-participation-type"
       },
-      "name" : "FR ValueSet Participation Type",
+      "name" : "FR ValueSet Participation Type Information Recipient",
       "description" : "Type de participation : destinataire",
       "exampleBoolean" : false
     },
@@ -1792,7 +1792,7 @@
       "reference" : {
         "reference" : "ValueSet/fr-doc-vs-participation-type-participant"
       },
-      "name" : "FR ValueSet Participation Type",
+      "name" : "FR ValueSet Participation Type Participant",
       "description" : "Type de participation : participant",
       "exampleBoolean" : false
     },

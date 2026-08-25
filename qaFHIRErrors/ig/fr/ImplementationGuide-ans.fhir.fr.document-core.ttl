@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-08-20T14:37:13+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-08-25T08:25:54+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -1250,13 +1250,30 @@
        fhir:Element.extension [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Procedure" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Procedure/example-procedure-data-absent-reason> ;
+         fhir:Reference.reference [ fhir:value "Procedure/example-procedure-data-absent-reason" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - Procedure avec Data Absent Reason" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments\nobligatoires de la ressource Procedure dont la valeur est inconnue ou temporairement indisponible.\n\nCas d'usage illustrés :\n- `code` : l'acte est inconnu → extension `data-absent-reason` avec code `unknown`\n  (liaison extensible → l'extension peut se substituer au codage)\n- `performedDateTime` : la date de l'acte est temporairement indisponible → extension `data-absent-reason` avec code `temp-unknown`\n- `status` : le statut est inconnu → code d'exception `unknown` du ValueSet `event-status`\n  (liaison required → on utilise directement le code d'exception du ValueSet, pas l'extension)" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0" ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0>
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41> ;
          fhir:Reference.reference [ fhir:value "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - Patient" ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Patient - AllergyIntolerance avec Data Absent Reason" ] ;
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0" ;
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0>
@@ -1272,27 +1289,10 @@
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55> ;
          fhir:Reference.reference [ fhir:value "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - Patient" ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Patient - Procedure avec Data Absent Reason" ] ;
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0" ;
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0>
-       ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "Procedure" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Procedure/example-procedure-data-absent-reason> ;
-         fhir:Reference.reference [ fhir:value "Procedure/example-procedure-data-absent-reason" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - Procedure avec Data Absent Reason" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments\nobligatoires de la ressource Procedure dont la valeur est inconnue ou temporairement indisponible.\n\nCas d'usage illustrés :\n- `code` : l'acte est inconnu → extension `data-absent-reason` avec code `unknown`\n  (liaison extensible → l'extension peut se substituer au codage)\n- `performedDateTime` : la date de l'acte est temporairement indisponible → extension `data-absent-reason` avec code `temp-unknown`\n- `status` : le statut est inconnu → code d'exception `unknown` du ValueSet `event-status`\n  (liaison required → on utilise directement le code d'exception du ValueSet, pas l'extension)" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0" ;
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0>
        ]
      ], [
        fhir:index -1 ;
@@ -1796,7 +1796,7 @@
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-doc-vs-participation-type" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Participation Type" ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Participation Type Information Recipient" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type de participation : destinataire" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -1810,7 +1810,7 @@
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-doc-vs-participation-type-participant" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Participation Type" ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Participation Type Participant" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type de participation : participant" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [

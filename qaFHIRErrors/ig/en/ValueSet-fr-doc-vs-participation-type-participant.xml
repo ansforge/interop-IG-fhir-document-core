@@ -12,10 +12,10 @@
   <url value="https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant"/>
   <version value="0.1.0"/>
   <name value="FrValueSetParticipationTypeParticipant"/>
-  <title value="FR ValueSet Participation Type"/>
+  <title value="FR ValueSet Participation Type Participant"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2026-08-20T14:37:13+00:00"/>
+  <date value="2026-08-25T08:25:54+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>

@@ -1,6 +1,6 @@
-# Example - Patient - FR Document Core (FHIR) v0.1.0
+# Example Patient - Procedure avec Data Absent Reason - FR Document Core (FHIR) v0.1.0
 
-## Example Patient: Example - Patient
+## Example Patient: Example Patient - Procedure avec Data Absent Reason
 
 -------
 

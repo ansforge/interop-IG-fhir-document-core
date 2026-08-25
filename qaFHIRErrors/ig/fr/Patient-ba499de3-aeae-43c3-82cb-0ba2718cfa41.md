@@ -1,6 +1,6 @@
-# Example - Patient - FR Document Core (FHIR) v0.1.0
+# Example Patient - AllergyIntolerance avec Data Absent Reason - FR Document Core (FHIR) v0.1.0
 
-## Exemple Patient: Example - Patient
+## Exemple Patient: Example Patient - AllergyIntolerance avec Data Absent Reason
 
 -------
 

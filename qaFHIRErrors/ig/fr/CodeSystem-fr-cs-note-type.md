@@ -26,7 +26,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "name" : "FRCSNoteType",
   "title" : "FR CodeSystem Note Type",
   "status" : "draft",
-  "date" : "2026-08-20T14:37:13+00:00",
+  "date" : "2026-08-25T08:25:54+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
