@@ -108,11 +108,9 @@ Title: "Example Patient - AllergyIntolerance avec Data Absent Reason"
  
 // Contact 1
 * contact[0].name.text = "Sophie NESSI"
-* contact[0].relationship[RelationType].coding[0].system = "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"
 * contact[0].relationship[RelationType].coding[0].code = #SIS
 * contact[0].relationship[RelationType].coding[0].display = "Soeur"
 
-* contact[0].relationship[Role].coding[0].system = "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"
 * contact[0].relationship[Role].coding[0].code = #ECON
 * contact[0].relationship[Role].coding[0].display = "Personne à prévenir en cas d'urgence"
  
