@@ -110,8 +110,10 @@ Title: "Example Patient - Procedure avec Data Absent Reason"
 * contact[0].name.text = "Sophie NESSI"
 * contact[0].relationship[RelationType].coding[0].code = #SIS
 * contact[0].relationship[RelationType].coding[0].display = "Soeur"
+* contact[0].relationship[RelationType].coding[0].system = "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"
 * contact[0].relationship[Role].coding[0].code = #ECON
 * contact[0].relationship[Role].coding[0].display = "Personne à prévenir en cas d'urgence"
+* contact[0].relationship[Role].coding[0].system = "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
  
 * contact[0].name[0].family = "NESSI"
 * contact[0].address.text = "12 rue des Lilas, 75012 Paris"
