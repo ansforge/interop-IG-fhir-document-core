@@ -1,16 +1,16 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 25, warn = 170, info = 6720
+err = 17, warn = 170, info = 6742
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 4 / 5 / 0
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 1 / 0 / 1
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 0 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/CodeSystem-fr-cs-note-type : 0 / 3 / 2
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.document-core : 0 / 5 / 6
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41 : 4 / 3 / 5
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55 : 4 / 3 / 5
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Procedure-example-procedure-data-absent-reason : 1 / 0 / 1
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41 : 1 / 3 / 5
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55 : 1 / 3 / 5
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/Procedure-example-procedure-data-absent-reason : 0 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-accession-number-identifier-document : 0 / 1 / 12
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-actor-extension : 0 / 1 / 39
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-advance-directive-document : 0 / 1 / 94
@@ -73,7 +73,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.document-core#$-- (canonical = h
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-organization-document : 0 / 9 / 310
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-patient-document : 0 / 1 / 207
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-patient-history-extension : 0 / 1 / 20
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-patient-ins-document : 0 / 0 / 264
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-patient-ins-document : 0 / 0 / 286
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-performer-event-extension : 0 / 1 / 11
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-practitioner-document : 0 / 2 / 349
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-practitionerRole-document : 0 / 4 / 170
@@ -115,7 +115,6 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 4: An HTML fragment from the set [globals-table.xhtml, globals-table.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 5: An HTML fragment from the set [expansion-params.xhtml, expansion-params.xhtml] is not included anywhere in the produced implementation guide
 == fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.json ==
-ERROR: AllergyIntolerance/example-allergy-intolerance-data-absent-reason: AllergyIntolerance.patient: Unable to resolve resource with reference 'urn:uuid:ba499de3-aeae-43c3-82cb-0ba2718cfa41'
 == fsh-generated/resources/CodeSystem-fr-cs-note-type.json ==
 INFORMATION: CodeSystem/fr-cs-note-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/fr-cs-note-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
@@ -139,10 +138,7 @@ INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.meta.profile[
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.extension[0].extension[0].value.ofType(Coding): Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445|2.1.0
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.name[0].extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[0]: Slicing cannot be evaluated: Could not match discriminator (coding.system) for slice Patient.contact.relationship:Role in profile https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0 - the discriminator [coding.system] does not have fixed value, binding or existence assertions
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[1]: Slicing cannot be evaluated: Could not match discriminator (coding.system) for slice Patient.contact.relationship:Role in profile https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0 - the discriminator [coding.system] does not have fixed value, binding or existence assertions
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[0]: Slicing cannot be evaluated: Could not match discriminator (coding.system) for slice Patient.contact.relationship:RelationType in profile https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0 - the discriminator [coding.system] does not have fixed value, binding or existence assertions
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[1]: Slicing cannot be evaluated: Could not match discriminator (coding.system) for slice Patient.contact.relationship:RelationType in profile https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0 - the discriminator [coding.system] does not have fixed value, binding or existence assertions
+ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260716085852), and a coding from this value set is required) (codes = https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass#ECON)
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.meta.profile[1]: Profile reference 'https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.json ==
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.meta.profile[1]: A definition could not be found for Canonical URL 'https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document'
@@ -151,13 +147,9 @@ INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.meta.profile[
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.extension[0].extension[0].value.ofType(Coding): Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445|2.1.0
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.name[0].extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[0]: Slicing cannot be evaluated: Could not match discriminator (coding.system) for slice Patient.contact.relationship:Role in profile https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0 - the discriminator [coding.system] does not have fixed value, binding or existence assertions
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[1]: Slicing cannot be evaluated: Could not match discriminator (coding.system) for slice Patient.contact.relationship:Role in profile https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0 - the discriminator [coding.system] does not have fixed value, binding or existence assertions
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[0]: Slicing cannot be evaluated: Could not match discriminator (coding.system) for slice Patient.contact.relationship:RelationType in profile https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0 - the discriminator [coding.system] does not have fixed value, binding or existence assertions
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[1]: Slicing cannot be evaluated: Could not match discriminator (coding.system) for slice Patient.contact.relationship:RelationType in profile https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0 - the discriminator [coding.system] does not have fixed value, binding or existence assertions
+ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260716085852), and a coding from this value set is required) (codes = https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass#ECON)
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.meta.profile[1]: Profile reference 'https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Procedure-example-procedure-data-absent-reason.json ==
-ERROR: Procedure/example-procedure-data-absent-reason: Procedure.subject: Unable to resolve resource with reference 'urn:uuid:ba499de3-aeae-43c3-82cb-0ba2718cfa55'
 == fsh-generated/resources/StructureDefinition-fr-accession-number-identifier-document.json ==
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Identifier to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -5852,45 +5844,67 @@ INFORMATION: StructureDefinition.snapshot.element[160].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[160].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/patient-contactrelationship to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[161].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[161].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis to 20260716085852
-INFORMATION: StructureDefinition.snapshot.element[162].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[162].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS to 20200424120000
-INFORMATION: StructureDefinition.snapshot.element[163].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[163].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[164].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point to 2.1.0
-INFORMATION: StructureDefinition.snapshot.element[164].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/ContactPoint to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[164].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[165].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[163].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[164].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[166].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[167].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Organization to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[166].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[167].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[168].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[169].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[170].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[171].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[171].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[172].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[172].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[173].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[173].binding.extension[0].value[x]: Pinned the version of http://hl7.org/fhir/ValueSet/all-languages to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[173].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/languages to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[174].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[175].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[173].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS to 20200424120000
 INFORMATION: StructureDefinition.snapshot.element[175].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[176].type[0].targetProfile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization to 2.1.0
+INFORMATION: StructureDefinition.snapshot.element[175].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[176].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[177].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[178].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[178].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[179].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[179].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[180].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[180].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[181].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Patient to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[181].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/RelatedPerson to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[181].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[182].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[183].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[184].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[185].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[185].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[186].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point to 2.1.0
+INFORMATION: StructureDefinition.snapshot.element[186].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/ContactPoint to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[186].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[187].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[188].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[189].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Organization to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[189].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[190].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[191].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[193].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[193].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[194].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[194].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[195].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[195].binding.extension[0].value[x]: Pinned the version of http://hl7.org/fhir/ValueSet/all-languages to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[195].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/languages to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[196].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[197].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[197].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[198].type[0].targetProfile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization to 2.1.0
+INFORMATION: StructureDefinition.snapshot.element[198].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[199].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[201].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[201].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[202].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[202].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[203].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Patient to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[203].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/RelatedPerson to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[203].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[204].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[0].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse to 5.3.0
 INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS to 20200424120000
-INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[4].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document to 0.1.0
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS to 20200424120000
+INFORMATION: StructureDefinition.differential.element[5].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document to 0.1.0
+INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document to 0.1.0
 INFORMATION: Resource: The resource StructureDefinition/fr-patient-ins-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-fr-performer-event-extension.json ==
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1

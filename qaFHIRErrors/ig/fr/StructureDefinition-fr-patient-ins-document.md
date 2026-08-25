@@ -39,7 +39,7 @@ Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhi
 
 ** Résumé **
 
-Obligatoire : 0 élément(1 élément obligatoire(s) imbriqué(s))
+Obligatoire : 0 élément(3 éléments obligatoire(s) imbriqué(s))
 
 **Structures**
 
@@ -76,7 +76,7 @@ Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhi
 
 ** Résumé **
 
-Obligatoire : 0 élément(1 élément obligatoire(s) imbriqué(s))
+Obligatoire : 0 élément(3 éléments obligatoire(s) imbriqué(s))
 
 **Structures**
 
@@ -108,7 +108,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
   "name" : "FRPatientINSDocument",
   "title" : "FR Patient INS Document",
   "status" : "draft",
-  "date" : "2026-08-25T08:25:54+00:00",
+  "date" : "2026-08-25T13:09:33+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -179,6 +179,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
       }
     },
     {
+      "id" : "Patient.contact.relationship:Role.coding.system",
+      "path" : "Patient.contact.relationship.coding.system",
+      "min" : 1,
+      "patternUri" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"
+    },
+    {
       "id" : "Patient.contact.relationship:RelationType",
       "path" : "Patient.contact.relationship",
       "sliceName" : "RelationType",
@@ -186,6 +192,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
         "strength" : "required",
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS|20200424120000"
       }
+    },
+    {
+      "id" : "Patient.contact.relationship:RelationType.coding.system",
+      "path" : "Patient.contact.relationship.coding.system",
+      "min" : 1,
+      "patternUri" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"
     },
     {
       "id" : "Patient.contact.name",

@@ -19,7 +19,7 @@
   fhir:StructureDefinition.name [ fhir:value "FRDiagnosticReportBIOChapterDocument"] ;
   fhir:StructureDefinition.title [ fhir:value "DiagnosticReport - FR Diagnostic Report BIO chapter Document"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-08-25T08:25:54+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-08-25T13:09:33+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:StructureDefinition.contact [
      fhir:index -1 ;
