@@ -39,7 +39,7 @@ Usage: #example
 Instance: exemple-patient
 InstanceOf: FRPatientINSDocument
 Usage: #example
-Title: "Example - Patient"
+Title: "Example Patient - AllergyIntolerance avec Data Absent Reason"
 * meta.profile = "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document"
 * id = "ba499de3-aeae-43c3-82cb-0ba2718cfa41"
 // Identifiant INS

@@ -1,6 +1,6 @@
 ValueSet: FrValueSetParticipationTypeParticipant
 Id: fr-doc-vs-participation-type-participant
-Title: "FR ValueSet Participation Type"
+Title: "FR ValueSet Participation Type Participant"
 Description: "Type de participation : participant"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 
