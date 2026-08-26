@@ -45,30 +45,30 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationType"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-diagnostic-report-imaging-document.html" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-diagnostic-report-document.html" : "DiagnosticReport - FR Diagnostic Report Document",
-    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
     "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
-    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
-    "StructureDefinition-fr-actor-extension.html" : "FR Actor Extension",
-    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-device-use-statement-document.html" : "DeviceUseStatement - FR Device Use Statement Document",
-    "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
+    "StructureDefinition-fr-diagnostic-report-document.html" : "DiagnosticReport - FR Diagnostic Report Document",
     "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
-    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-device-use-statement-document.html" : "DeviceUseStatement - FR Device Use Statement Document",
+    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
+    "StructureDefinition-fr-actor-extension.html" : "FR Actor Extension",
+    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-diagnostic-report-imaging-document.html" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
     "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
-    "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document"
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
+    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
+    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
+    "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-code",
@@ -122,10 +122,10 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-standardterms"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
-    "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document",
     "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document"
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-form-document",
@@ -178,8 +178,8 @@
     "uses" : {
     },
     "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
-    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document",
-    "StructureDefinition-fr-immunization-recommendation-document.html" : "ImmunizationRecommendation - FR Immunization Recommendation Document"
+    "StructureDefinition-fr-immunization-recommendation-document.html" : "ImmunizationRecommendation - FR Immunization Recommendation Document",
+    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type",

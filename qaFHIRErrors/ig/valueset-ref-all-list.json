@@ -11,9 +11,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.95"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
     "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document"
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/address-type",
@@ -55,10 +55,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.97"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
-    "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document",
     "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document"
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -73,10 +73,10 @@
     "uses" : {
     },
     "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
-    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
+    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
     "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
     "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
-    "StructureDefinition-fr-patient-document.html" : "FR Patient Document"
+    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/adverse-event-actuality",
@@ -216,8 +216,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.346"],
     "uses" : {
     },
-    "ValueSet-fr-vs-location-body-structure-document.html" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document"
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "ValueSet-fr-vs-location-body-structure-document.html" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -231,32 +231,32 @@
     "sources" : ["2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
-    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-device-use-statement-document.html" : "DeviceUseStatement - FR Device Use Statement Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
+    "StructureDefinition-fr-imaging-study-document.html" : "ImagingStudy - FR Imaging study Document",
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
     "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
-    "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "ValueSet-fr-vs-location-body-structure-document.html" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
     "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
     "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-specimen-document.html" : "Specimen - FR Specimen Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-device-use-statement-document.html" : "DeviceUseStatement - FR Device Use Statement Document",
     "StructureDefinition-fr-family-member-history-body-site-extension.html" : "FR Family Member History Body Site Extension",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "ValueSet-fr-vs-location-body-structure-document.html" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-specimen-document.html" : "Specimen - FR Specimen Document",
+    "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
     "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
     "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
-    "StructureDefinition-fr-imaging-study-document.html" : "ImagingStudy - FR Imaging study Document",
-    "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document"
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/bodystructure-code",
@@ -410,12 +410,12 @@
     "sources" : ["2.16.840.1.113883.4.642.3.232"],
     "uses" : {
     },
+    "StructureDefinition-fr-care-plan-document.html" : "CarePlan - FR Care Plan Document",
     "StructureDefinition-fr-diagnostic-report-imaging-document.html" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
     "StructureDefinition-fr-diagnostic-report-document.html" : "DiagnosticReport - FR Diagnostic Report Document",
-    "StructureDefinition-fr-care-plan-document.html" : "CarePlan - FR Care Plan Document",
-    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
+    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
     "StructureDefinition-fr-allergy-intolerance-document.html" : "AllergyIntolerance - FR Allergy and intolerance Document",
-    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document"
+    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/common-tags",
@@ -429,15 +429,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.79"],
     "uses" : {
     },
-    "StructureDefinition-fr-encounter-care-document.html" : "FR Encounter Care Document",
-    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
+    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
     "StructureDefinition-fr-organization-document.html" : "FR Organization Document",
     "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
-    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
-    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
+    "StructureDefinition-fr-encounter-care-document.html" : "FR Encounter Care Document",
+    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
     "StructureDefinition-fr-location-document.html" : "FR Location Document",
-    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
     "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
+    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
+    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
     "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document"
   },
   {
@@ -495,11 +495,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.161"],
     "uses" : {
     },
+    "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
+    "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
     "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
     "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
     "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document",
-    "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
-    "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
     "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document"
   },
   {
@@ -687,9 +687,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.71"],
     "uses" : {
     },
-    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
     "StructureDefinition-fr-organization-document.html" : "FR Organization Document",
-    "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document"
+    "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
+    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -703,9 +703,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.73"],
     "uses" : {
     },
-    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
     "StructureDefinition-fr-organization-document.html" : "FR Organization Document",
-    "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document"
+    "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
+    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -733,22 +733,22 @@
     "sources" : ["2.16.840.1.113883.4.642.3.5"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
-    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document"
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
@@ -762,10 +762,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.512"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
     "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
-    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document",
-    "StructureDefinition-fr-location-document.html" : "FR Location Document"
+    "StructureDefinition-fr-location-document.html" : "FR Location Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
+    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -955,9 +955,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.981"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
     "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document"
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
@@ -1136,8 +1136,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.109"],
     "uses" : {
     },
-    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
     "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
+    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
     "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document"
   },
   {
@@ -1224,15 +1224,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
+    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
+    "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
+    "StructureDefinition-fr-accession-number-identifier-document.html" : "FR Accession Number Identifier Document",
     "StructureDefinition-fr-organization-document.html" : "FR Organization Document",
     "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
-    "StructureDefinition-fr-accession-number-identifier-document.html" : "FR Accession Number Identifier Document",
-    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
     "StructureDefinition-fr-study-instance-uid-identifier-document.html" : "FR Study Instance Uid Identifier Document",
-    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
-    "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
-    "StructureDefinition-fr-patient-document.html" : "FR Patient Document"
+    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
+    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
+    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -1246,17 +1246,17 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-fr-encounter-care-document.html" : "FR Encounter Care Document",
-    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
+    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
+    "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
+    "StructureDefinition-fr-accession-number-identifier-document.html" : "FR Accession Number Identifier Document",
     "StructureDefinition-fr-organization-document.html" : "FR Organization Document",
     "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
-    "StructureDefinition-fr-accession-number-identifier-document.html" : "FR Accession Number Identifier Document",
-    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
     "StructureDefinition-fr-study-instance-uid-identifier-document.html" : "FR Study Instance Uid Identifier Document",
+    "StructureDefinition-fr-encounter-care-document.html" : "FR Encounter Care Document",
+    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
     "StructureDefinition-fr-location-document.html" : "FR Location Document",
-    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
-    "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
     "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
+    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
     "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document"
   },
   {
@@ -1468,63 +1468,63 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-diagnostic-report-imaging-document.html" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
-    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-care-plan-document.html" : "CarePlan - FR Care Plan Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
-    "StructureDefinition-fr-device-use-statement-document.html" : "DeviceUseStatement - FR Device Use Statement Document",
-    "StructureDefinition-fr-immunization-recommendation-document.html" : "ImmunizationRecommendation - FR Immunization Recommendation Document",
-    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
-    "StructureDefinition-fr-advance-directive-document.html" : "Consent - FR Advance directive Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
-    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
-    "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
-    "StructureDefinition-fr-location-document.html" : "FR Location Document",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
-    "StructureDefinition-fr-endpoint-wado-document.html" : "Endpoint - FR Endpoint Wado Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
-    "StructureDefinition-fr-specimen-document.html" : "Specimen - FR Specimen Document",
-    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document",
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
-    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-organization-document.html" : "FR Organization Document",
     "StructureDefinition-fr-imaging-study-document.html" : "ImagingStudy - FR Imaging study Document",
-    "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
-    "StructureDefinition-fr-encounter-care-document.html" : "FR Encounter Care Document",
-    "StructureDefinition-fr-diagnostic-report-document.html" : "DiagnosticReport - FR Diagnostic Report Document",
-    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
     "StructureDefinition-fr-task-patient-transport-document.html" : "Task - FR Task Patient Transport Document",
-    "StructureDefinition-fr-device-auteur-document.html" : "FR Device Document",
-    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document",
-    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
-    "StructureDefinition-fr-bundle-document.html" : "FR Bundle Document",
-    "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
-    "StructureDefinition-fr-document-reference-document.html" : "DocumentReference - FR Document reference Document",
-    "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document",
-    "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
-    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
-    "StructureDefinition-fr-body-structure-document.html" : "BodyStructure - FR Body Structure Document",
-    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
     "StructureDefinition-fr-adverse-event-document.html" : "AdverseEvent - FR adverse event Document",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
+    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
+    "StructureDefinition-fr-location-document.html" : "FR Location Document",
+    "StructureDefinition-fr-allergy-intolerance-document.html" : "AllergyIntolerance - FR Allergy and intolerance Document",
+    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
+    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
+    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document",
+    "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
+    "StructureDefinition-fr-organization-document.html" : "FR Organization Document",
+    "StructureDefinition-fr-diagnostic-report-document.html" : "DiagnosticReport - FR Diagnostic Report Document",
+    "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
+    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
+    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-diagnostic-report-imaging-document.html" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
+    "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
+    "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
+    "StructureDefinition-fr-document-reference-document.html" : "DocumentReference - FR Document reference Document",
+    "StructureDefinition-fr-bundle-document.html" : "FR Bundle Document",
+    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
+    "StructureDefinition-fr-immunization-recommendation-document.html" : "ImmunizationRecommendation - FR Immunization Recommendation Document",
     "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
     "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
-    "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
-    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
-    "StructureDefinition-fr-allergy-intolerance-document.html" : "AllergyIntolerance - FR Allergy and intolerance Document"
+    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-device-use-statement-document.html" : "DeviceUseStatement - FR Device Use Statement Document",
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
+    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document",
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document",
+    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
+    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
+    "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
+    "StructureDefinition-fr-encounter-care-document.html" : "FR Encounter Care Document",
+    "StructureDefinition-fr-body-structure-document.html" : "BodyStructure - FR Body Structure Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-endpoint-wado-document.html" : "Endpoint - FR Endpoint Wado Document",
+    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
+    "StructureDefinition-fr-specimen-document.html" : "Specimen - FR Specimen Document",
+    "StructureDefinition-fr-care-plan-document.html" : "CarePlan - FR Care Plan Document",
+    "StructureDefinition-fr-advance-directive-document.html" : "Consent - FR Advance directive Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-device-auteur-document.html" : "FR Device Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -1538,8 +1538,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.423"],
     "uses" : {
     },
-    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
-    "StructureDefinition-fr-patient-document.html" : "FR Patient Document"
+    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
+    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -1721,11 +1721,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.96"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
-    "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
     "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
     "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
-    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document"
+    "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
+    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
@@ -1739,11 +1739,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.375"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document",
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
     "StructureDefinition-fr-care-plan-document.html" : "CarePlan - FR Care Plan Document",
     "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document"
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
+    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",
@@ -1925,10 +1925,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1024"],
     "uses" : {
     },
-    "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
-    "StructureDefinition-fr-advance-directive-document.html" : "Consent - FR Advance directive Document",
     "StructureDefinition-fr-document-reference-document.html" : "DocumentReference - FR Document reference Document",
-    "StructureDefinition-fr-endpoint-wado-document.html" : "Endpoint - FR Endpoint Wado Document"
+    "StructureDefinition-fr-advance-directive-document.html" : "Consent - FR Advance directive Document",
+    "StructureDefinition-fr-endpoint-wado-document.html" : "Endpoint - FR Endpoint Wado Document",
+    "StructureDefinition-fr-media-document.html" : "Media - FR Media Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/name-use",
@@ -1944,9 +1944,9 @@
     },
     "StructureDefinition-fr-human-name-document.html" : "FR Human Name Document",
     "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
-    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
+    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
     "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
-    "StructureDefinition-fr-patient-document.html" : "FR Patient Document"
+    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -1960,22 +1960,22 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
-    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document"
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -1989,20 +1989,20 @@
     "sources" : ["2.16.840.1.113883.4.642.3.396"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
-    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document"
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -2016,22 +2016,22 @@
     "sources" : ["2.16.840.1.113883.4.642.3.399"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
-    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document"
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -2045,16 +2045,16 @@
     "sources" : ["2.16.840.1.113883.4.642.3.395"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
     "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
     "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document"
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -2068,22 +2068,22 @@
     "sources" : ["2.16.840.1.113883.4.642.3.400"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
-    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document"
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
@@ -2097,8 +2097,8 @@
     "sources" : ["2.16.840.1.113883.3.88.12.80.62"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document"
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/organization-type",
@@ -2126,9 +2126,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.152"],
     "uses" : {
     },
-    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document",
     "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
-    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document"
+    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
+    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -2142,8 +2142,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1130"],
     "uses" : {
     },
-    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
-    "StructureDefinition-fr-patient-document.html" : "FR Patient Document"
+    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
+    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/performer-role",
@@ -2157,9 +2157,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.433"],
     "uses" : {
     },
+    "StructureDefinition-fr-task-patient-transport-document.html" : "Task - FR Task Patient Transport Document",
     "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
     "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
-    "StructureDefinition-fr-task-patient-transport-document.html" : "Task - FR Task Patient Transport Document",
     "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document"
   },
   {
@@ -2189,8 +2189,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.427"],
     "uses" : {
     },
-    "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
     "StructureDefinition-fr-care-plan-document.html" : "CarePlan - FR Care Plan Document",
+    "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
     "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document"
   },
   {
@@ -2250,10 +2250,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.432"],
     "uses" : {
     },
-    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
-    "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
     "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
     "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
+    "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
+    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
     "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document"
   },
   {
@@ -2339,22 +2339,22 @@
     "sources" : ["2.16.840.1.113883.4.642.3.407"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
-    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document"
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -2368,22 +2368,22 @@
     "sources" : ["2.16.840.1.113883.4.642.3.397"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
-    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
-    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
-    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-prevention-document.html" : "Observation - FR Observation Prevention Document",
     "StructureDefinition-fr-observation-radiation-exposure-document.html" : "Observation - FR Observation Radiation Exposure Document",
-    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document"
+    "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
+    "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-observation-pregnancy-history-document.html" : "Observation - FR Observation Pregnancy History Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-observation-pain-score-document.html" : "Observation - FR Observation Pain Score Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-observation-ald-document.html" : "Observation - FR Observation ALD Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-observation-social-history-document.html" : "Observation - FR Observation Social History Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
@@ -2427,9 +2427,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.113"],
     "uses" : {
     },
-    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document",
     "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
-    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document"
+    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
+    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/request-priority",
@@ -2443,11 +2443,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.115"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
-    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document",
-    "StructureDefinition-fr-task-patient-transport-document.html" : "Task - FR Task Patient Transport Document",
     "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
-    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document"
+    "StructureDefinition-fr-task-patient-transport-document.html" : "Task - FR Task Patient Transport Document",
+    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
+    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -2461,10 +2461,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.111"],
     "uses" : {
     },
-    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document",
-    "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
     "StructureDefinition-fr-care-plan-document.html" : "CarePlan - FR Care Plan Document",
-    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document"
+    "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
+    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
+    "StructureDefinition-fr-device-request-document.html" : "DeviceRequest - FR Device request Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -2478,13 +2478,13 @@
     "sources" : ["2.16.840.1.113883.4.642.3.27"],
     "uses" : {
     },
+    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
     "StructureDefinition-fr-diagnostic-report-imaging-document.html" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
     "StructureDefinition-fr-diagnostic-report-document.html" : "DiagnosticReport - FR Diagnostic Report Document",
-    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
+    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
     "StructureDefinition-fr-location-document.html" : "FR Location Document",
     "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
-    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document",
-    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document"
+    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/route-codes",
@@ -2531,17 +2531,17 @@
     "sources" : ["2.16.840.1.113883.4.642.3.47"],
     "uses" : {
     },
-    "StructureDefinition-fr-encounter-care-document.html" : "FR Encounter Care Document",
-    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
+    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
     "StructureDefinition-fr-organization-document.html" : "FR Organization Document",
     "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
-    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
-    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
-    "StructureDefinition-fr-location-document.html" : "FR Location Document",
-    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
-    "StructureDefinition-fr-advance-directive-document.html" : "Consent - FR Advance directive Document",
-    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
     "StructureDefinition-fr-document-reference-document.html" : "DocumentReference - FR Document reference Document",
+    "StructureDefinition-fr-encounter-care-document.html" : "FR Encounter Care Document",
+    "StructureDefinition-fr-advance-directive-document.html" : "Consent - FR Advance directive Document",
+    "StructureDefinition-fr-practitioner-document.html" : "FR Practitioner Document",
+    "StructureDefinition-fr-location-document.html" : "FR Location Document",
+    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
+    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
+    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
     "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document"
   },
   {
@@ -2947,8 +2947,8 @@
     "sources" : ["2.16.840.1.113883.1.11.16621"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document"
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-ConfidentialityClassification",
@@ -3019,8 +3019,8 @@
     "sources" : ["2.16.840.1.113883.1.11.19377"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document"
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-encounter-discharge-disposition",
@@ -3112,8 +3112,8 @@
     "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-marital-status"],
     "uses" : {
     },
-    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
-    "StructureDefinition-fr-patient-document.html" : "FR Patient Document"
+    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
+    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type",
@@ -3139,8 +3139,8 @@
     "https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique"],
     "uses" : {
     },
-    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
-    "StructureDefinition-fr-patient-document.html" : "FR Patient Document"
+    "StructureDefinition-fr-patient-document.html" : "FR Patient Document",
+    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-patient-gender-INS",
@@ -3281,30 +3281,30 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationType"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-diagnostic-report-imaging-document.html" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
-    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document",
-    "StructureDefinition-fr-diagnostic-report-document.html" : "DiagnosticReport - FR Diagnostic Report Document",
-    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
     "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
-    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
-    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
-    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
-    "StructureDefinition-fr-actor-extension.html" : "FR Actor Extension",
-    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-device-use-statement-document.html" : "DeviceUseStatement - FR Device Use Statement Document",
-    "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
+    "StructureDefinition-fr-diagnostic-report-document.html" : "DiagnosticReport - FR Diagnostic Report Document",
     "StructureDefinition-fr-service-request-document.html" : "ServiceRequest - FR Service Request Document",
-    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
+    "StructureDefinition-fr-service-request-imaging-document.html" : "ServiceRequest - FR Service Request Imaging Document",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-device-use-statement-document.html" : "DeviceUseStatement - FR Device Use Statement Document",
+    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
+    "StructureDefinition-fr-actor-extension.html" : "FR Actor Extension",
+    "StructureDefinition-fr-encounter-document.html" : "Encounter - FR Encounter Document",
+    "StructureDefinition-fr-observation-assessment-document.html" : "Observation - FR Observation Assessment Document",
+    "StructureDefinition-fr-diagnostic-report-imaging-document.html" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
     "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
-    "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document"
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
+    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
+    "StructureDefinition-fr-diagnostic-report-bio-chapter-document.html" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
+    "StructureDefinition-fr-media-document.html" : "Media - FR Media Document",
+    "StructureDefinition-fr-procedure-document.html" : "Procedure - FR Procedure Document",
+    "StructureDefinition-fr-procedure-imaging-document.html" : "Procedure - FR Procedure Imaging Document",
+    "StructureDefinition-fr-observation-vital-signs-panel-document.html" : "Observation - FR Observation Vital Signs Panel Document"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-code",
@@ -3358,10 +3358,10 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-standardterms"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
-    "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document",
     "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
-    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document"
+    "StructureDefinition-fr-medication-dispense-document.html" : "MedicationDispense - FR Medication Dispense Document",
+    "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document",
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-form-document",
@@ -3414,8 +3414,8 @@
     "uses" : {
     },
     "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
-    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document",
-    "StructureDefinition-fr-immunization-recommendation-document.html" : "ImmunizationRecommendation - FR Immunization Recommendation Document"
+    "StructureDefinition-fr-immunization-recommendation-document.html" : "ImmunizationRecommendation - FR Immunization Recommendation Document",
+    "StructureDefinition-fr-medication-document.html" : "Medication - FR Medication Document"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type",
@@ -3611,8 +3611,8 @@
     "sources" : ["1.2.250.1.213.3.3.16"],
     "uses" : {
     },
-    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document",
-    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document"
+    "StructureDefinition-fr-patient-ins-document.html" : "FR Patient INS Document",
+    "StructureDefinition-fr-related-person-document.html" : "FR RelatedPerson Document"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J128-TypeCarte-RASS/FHIR/JDV-J128-TypeCarte-RASS",
@@ -3742,8 +3742,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.124"],
     "uses" : {
     },
-    "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document",
-    "StructureDefinition-fr-composition-document.html" : "FR Composition Document"
+    "StructureDefinition-fr-composition-document.html" : "FR Composition Document",
+    "StructureDefinition-fr-practitionerRole-document.html" : "FR PractitionerRole Document"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J73-MetierPharmacien-RASS/FHIR/JDV-J73-MetierPharmacien-RASS",
@@ -4095,8 +4095,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.172"],
     "uses" : {
     },
-    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document",
-    "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document"
+    "StructureDefinition-fr-condition-document.html" : "Condition - FR Condition Document",
+    "StructureDefinition-fr-family-member-history-document.html" : "FamilyMemberHistory - FR Family Member History Document"
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis",
@@ -4241,8 +4241,8 @@
     "sources" : ["2.16.840.1.113883.1.11.19709"],
     "uses" : {
     },
-    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document",
-    "StructureDefinition-fr-immunization-type-extension.html" : "FR Immunization Type Extension"
+    "StructureDefinition-fr-immunization-type-extension.html" : "FR Immunization Type Extension",
+    "StructureDefinition-fr-immunization-document.html" : "Immunization - FR Immunization Document"
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis",
@@ -4256,15 +4256,15 @@
     "sources" : ["2.16.840.1.113883.1.11.78"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-interpretation-extension.html" : "FR Interpretation Extension",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
-    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
     "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-vital-signs-document.html" : "Observation - FR Observation Vital Signs Document",
     "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
-    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document"
+    "StructureDefinition-fr-interpretation-extension.html" : "FR Interpretation Extension",
+    "StructureDefinition-fr-observation-laboratory-report-results-document.html" : "Observation - FR Observation Laboratory Report Results Document",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document"
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis",
@@ -4278,13 +4278,13 @@
     "sources" : ["2.16.840.1.113883.1.11.14079"],
     "uses" : {
     },
-    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
-    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document",
-    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
     "StructureDefinition-fr-observation-multiresistant-microorganism-document.html" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
-    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
     "StructureDefinition-fr-observation-work-related-accident-document.html" : "Observation - FR Observation Work Related Accident Document",
-    "StructureDefinition-fr-method-extension.html" : "FR Method Extension"
+    "StructureDefinition-fr-method-extension.html" : "FR Method Extension",
+    "StructureDefinition-fr-observation-contra-indications-document.html" : "Observation - FR Observation Contra Indications Document",
+    "StructureDefinition-fr-observation-result-document.html" : "Observation - FR Observation Result Document",
+    "StructureDefinition-fr-observation-pregnancy-document.html" : "Observation - FR Observation Pregnancy Document",
+    "StructureDefinition-fr-observation-microorganism-detection-document.html" : "Observation - FR Observation Microorganism Detection Document"
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis",
@@ -4312,9 +4312,9 @@
     "sources" : ["1.2.250.1.213.1.1.5.686"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document",
+    "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document",
     "StructureDefinition-fr-medication-administration-document.html" : "MedicationAdministration - FR Medication Administration Document",
-    "StructureDefinition-fr-medication-statement-document.html" : "MedicationStatement - FR Medication Statement Document"
+    "StructureDefinition-fr-medication-request-document.html" : "MedicationRequest - FR Medication Request Document"
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis",
@@ -4456,8 +4456,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.688"],
     "uses" : {
     },
-    "StructureDefinition-fr-body-structure-document.html" : "BodyStructure - FR Body Structure Document",
-    "StructureDefinition-fr-imaging-study-document.html" : "ImagingStudy - FR Imaging study Document"
+    "StructureDefinition-fr-imaging-study-document.html" : "ImagingStudy - FR Imaging study Document",
+    "StructureDefinition-fr-body-structure-document.html" : "BodyStructure - FR Body Structure Document"
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis",
