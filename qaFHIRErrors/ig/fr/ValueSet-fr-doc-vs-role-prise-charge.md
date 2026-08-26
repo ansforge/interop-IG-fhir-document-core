@@ -36,7 +36,7 @@ Pour les professions 41 (Assistant de service social) et 99 (Acteur caractéris�
   "title" : "Fr ValueSet RolePriseCharge",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-25T14:52:49+00:00",
+  "date" : "2026-08-26T13:43:53+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
