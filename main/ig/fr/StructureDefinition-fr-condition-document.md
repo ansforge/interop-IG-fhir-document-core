@@ -38,7 +38,7 @@ Cette structure est dérivée de [Condition](http://hl7.org/fhir/R4/condition.ht
 ** Résumé **
 
 Obligatoire : 4 éléments
- Must-Support : 12 éléments
+ Must-Support : 13 éléments
 
 **Structures**
 
@@ -85,7 +85,7 @@ Cette structure est dérivée de [Condition](http://hl7.org/fhir/R4/condition.ht
 ** Résumé **
 
 Obligatoire : 4 éléments
- Must-Support : 12 éléments
+ Must-Support : 13 éléments
 
 **Structures**
 
@@ -126,7 +126,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-condition-do
   "name" : "FRConditionDocument",
   "title" : "Condition - FR Condition Document",
   "status" : "draft",
-  "date" : "2026-08-07T12:53:43+00:00",
+  "date" : "2026-09-03T14:46:57+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -258,7 +258,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-condition-do
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis|20260619134043"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis|20260716085853"
       }
     },
     {
@@ -317,7 +317,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-condition-do
       "max" : "1",
       "type" : [{
         "code" : "dateTime"
-      }]
+      }],
+      "mustSupport" : true
     },
     {
       "id" : "Condition.abatement[x]",
@@ -351,7 +352,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-condition-do
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis|20260716085852"
       }
     },
     {

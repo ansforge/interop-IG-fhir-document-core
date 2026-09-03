@@ -52,15 +52,20 @@
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.94"}
-    h3,h4,h5,h6{--heading-prefix:"7.94"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.95"}
+    h3,h4,h5,h6{--heading-prefix:"7.95"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
         <!-- Placeholder for child template header declarations -->
-<div id="family-nav">
-    <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-  </div>
+<div id="family-nav" style="display: flex; flex-direction: column;">
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/>
+  </a>
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/cda" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the CDA website" src="assets/images/cda-logo-www.png"/>
+  </a>
+</div>
   <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
     <a id="hl7-logo" data-no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
     <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
@@ -285,13 +290,13 @@
   &lt;<a href="http://hl7.org/fhir/R4/resource.html#Procedure.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;fr&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Procedure.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
-    &lt;div xml:lang=&quot;fr&quot; lang=&quot;fr&quot;&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;French&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Narratif généré : Procédure example-procedure-data-absent-reason&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;example-procedure-data-absent-reason&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-procedure-data-absent-reason&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profil: &lt;a href=&quot;StructureDefinition-fr-procedure-document.html&quot;&gt;Procedure - FR Procedure Document&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;a href=&quot;http://terminology.hl7.org/6.2.0/NamingSystem-uri.html&quot; title=&quot;As defined by RFC 3986 (http://www.ietf.org/rfc/rfc3986.txt)(with many schemes defined in many RFCs). For OIDs and UUIDs, use the URN form (urn:oid:(note: lowercase) and urn:uuid:). See http://www.ietf.org/rfc/rfc3001.txt and http://www.ietf.org/rfc/rfc4122.txt 
+    &lt;div xml:lang=&quot;fr&quot; lang=&quot;fr&quot;&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;French&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Narratif généré : Procédure example-procedure-data-absent-reason&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;example-procedure-data-absent-reason&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-procedure-data-absent-reason&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profil: &lt;a href=&quot;StructureDefinition-fr-procedure-document.html&quot;&gt;Procedure - FR Procedure Document&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;a href=&quot;http://terminology.hl7.org/5.0.0/NamingSystem-uri.html&quot; title=&quot;As defined by RFC 3986 (http://www.ietf.org/rfc/rfc3986.txt)(with many schemes defined in many RFCs). For OIDs and UUIDs, use the URN form (urn:oid:(note: lowercase) and urn:uuid:). See http://www.ietf.org/rfc/rfc3001.txt and http://www.ietf.org/rfc/rfc4122.txt 
 
 This oid is used as an identifier II.root to indicate the the extension is an absolute URI (technically, an IRI). Typically, this is used for OIDs and GUIDs. Note that when this OID is used with OIDs and GUIDs, the II.extension should start with urn:oid or urn:uuid: 
 
 Note that this OID is created to aid with interconversion between CDA and FHIR - FHIR uses urn:ietf:rfc:3986 as equivalent to this OID. URIs as identifiers appear more commonly in FHIR.
 
-This OID may also be used in CD.codeSystem.&quot;&gt;Uniform Resource Identifier (URI)&lt;/a&gt;/urn:uuid:a1b2c3d4-e5f6-7890-abcd-ef1234567890&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Unknown&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes :&quot;&gt;Acte réalisé inconnu : utilisation de l'extension data-absent-reason avec code 'unknown'&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;Patient/exemple-patient&quot;&gt;Exemple Patient&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performed&lt;/b&gt;: Absent because : temp-unknown&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+This OID may also be used in CD.codeSystem.&quot;&gt;URI&lt;/a&gt;/urn:uuid:a1b2c3d4-e5f6-7890-abcd-ef1234567890&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Unknown&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes :&quot;&gt;Acte réalisé inconnu : utilisation de l'extension data-absent-reason avec code 'unknown'&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.html&quot;&gt;DOMINIQUE MARIE-LOUISE PAT-TROIS  Female, Date de Naissance :1979-03-28 ( NIR définitif (use: official, ))&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performed&lt;/b&gt;: Absent because : temp-unknown&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Procedure.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.identifier">identifier</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:ietf:rfc:3986&quot;/&gt;
@@ -306,9 +311,8 @@ This OID may also be used in CD.codeSystem.&quot;&gt;Uniform Resource Identifier
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>
           <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Acte réalisé inconnu : utilisation de l'extension data-absent-reason avec code 'unknown'&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.code">code</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.subject">subject</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/exemple-patient&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Exemple Patient&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.subject">subject</a>&gt;<a href="Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.subject">subject</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.performed_x_">performedDateTime</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#dateTime.extension">extension</a>
@@ -370,8 +374,8 @@ This OID may also be used in CD.codeSystem.&quot;&gt;Uniform Resource Identifier
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.fhir.fr.document-core#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Date de génération : 
-  <span title="2026-08-07 12:53:00 +0000">
-    2026-08-07
+  <span title="2026-09-03 14:46:00 +0000">
+    2026-09-03
   </span>
 
           <br/>

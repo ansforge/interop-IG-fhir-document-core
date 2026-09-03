@@ -556,7 +556,14 @@
   "type" : "ValueSet",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type",
   "version" : "0.1.0",
-  "name" : "FRValueSetParticipationType"
+  "name" : "FrValueSetParticipationTypeInformationRecipient"
+},
+{
+  "id" : "fr-doc-vs-participation-type-participant",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant",
+  "version" : "0.1.0",
+  "name" : "FrValueSetParticipationTypeParticipant"
 },
 {
   "id" : "fr-doc-vs-role-prise-charge",

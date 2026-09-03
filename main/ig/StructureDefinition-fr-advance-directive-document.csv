@@ -44,7 +44,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
   <coding>
     <system value=""http://terminology.hl7.org/CodeSystem/consentscope""/>
     <code value=""adr""/>
-    <display value=""Advance Directive""/>
+    <display value=""Advanced Care Directive""/>
   </coding>
 </valueCodeableConcept>","","","",,"extensible","The four anticipated uses for the Consent Resource.","http://hl7.org/fhir/ValueSet/consent-scope|4.0.1","",,,,"Consent.scope",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
@@ -215,7 +215,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","e.g. Resource Type, Profile, CDA, etc.","The class of information covered by this rule. The type can be a FHIR resource type, a profile on a type, or a CDA document, or some other type that indicates what sort of information the consent relates to.","Multiple types are or'ed together. The intention of the contentType element is that the codes refer to profiles or document types defined in a standard or an implementation guide somewhere.","","","","","","","","",,"extensible","The class (type) of information a consent rule covers.","http://hl7.org/fhir/ValueSet/consent-content-class|4.0.1","",,,,"Consent.provision.class",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Consent.provision.code","Consent.provision.code","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
-","Type de la directive anticipée","If this code is found in an instance, then the rule applies.","Typical use of this is a Document code with class = CDA.","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis|20260619134043","",,,,"Consent.provision.code",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Type de la directive anticipée","If this code is found in an instance, then the rule applies.","Typical use of this is a Document code with class = CDA.","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis|20260716085853","",,,,"Consent.provision.code",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Consent.provision.dataPeriod","Consent.provision.dataPeriod","","","",0,1,"","","Y","Period {[]} {[]}
 ","Timeframe for data controlled by this rule","Clinical or Operational Relevant period of time that bounds the data controlled by this rule.","This has a different sense to the Consent.period - that is when the consent agreement holds. This is the time period of the data that is controlled by the agreement.","","","","","","","","",,,,,"",,,,"Consent.provision.dataPeriod",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

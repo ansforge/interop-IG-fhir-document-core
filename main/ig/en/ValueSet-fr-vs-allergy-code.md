@@ -21,7 +21,7 @@ Jeu de valeurs permettant de coder l’agent responsable d’une allergie :
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+No Expansion for this valueset (Unsupported Code System Version)
 
 -------
 
@@ -40,7 +40,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "FRValueSetAllergyCodeDocument",
   "title" : "ValueSet – FR ValueSet Allergy Code Document",
   "status" : "draft",
-  "date" : "2026-08-07T12:53:43+00:00",
+  "date" : "2026-09-03T14:46:57+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -60,7 +60,7 @@ No Expansion for this valueset (Unknown Code System)
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2026-07-01"
+      "version" : "2026-08-02"
     },
     {
       "system" : "https://smt.esante.gouv.fr/terminologie-cip_ucd"
@@ -69,11 +69,11 @@ No Expansion for this valueset (Unknown Code System)
       "system" : "http://id.who.int/icd/release/11/mms"
     },
     {
-      "valueSet" : ["https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis|20260619134043"]
+      "valueSet" : ["https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis|20260716085853"]
     },
     {
       "system" : "https://smt.esante.gouv.fr/terminologie-sms",
-      "version" : "2026-07"
+      "version" : "2026-08"
     }]
   }
 }

@@ -49,15 +49,20 @@
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.86"}
-    h3,h4,h5,h6{--heading-prefix:"7.86"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.87"}
+    h3,h4,h5,h6{--heading-prefix:"7.87"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
         <!-- Placeholder for child template header declarations -->
-<div id="family-nav">
-    <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-  </div>
+<div id="family-nav" style="display: flex; flex-direction: column;">
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/>
+  </a>
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/cda" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the CDA website" src="assets/images/cda-logo-www.png"/>
+  </a>
+</div>
   <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
     <a id="hl7-logo" data-no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
     <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
@@ -292,7 +297,7 @@
           
 
             à partir de 
-2026-08-07
+2026-09-03
 
           
         
@@ -340,19 +345,19 @@
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Définition logique (CLD)</h3>
 <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="fr-vs-allergy-code"> </a><a name="hcfr-vs-allergy-code"> </a><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p>
-<ul><li>Inclut tous les codes définis dans <a href="https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-terminologie-bdpm.html"><code>https://smt.esante.gouv.fr/terminologie-bdpm</code></a><span title="La version est explicitement indiquée comme étant 2026-07-01"> version &#x1F4CD;2026-07-01</span></li>
+<ul><li>Inclut tous les codes définis dans <a href="https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-terminologie-bdpm.html"><code>https://smt.esante.gouv.fr/terminologie-bdpm</code></a><span title="La version est explicitement indiquée comme étant 2026-08-02"> version &#x1F4CD;2026-08-02</span></li>
 <li>Inclut tous les codes définis dans <code>https://smt.esante.gouv.fr/terminologie-cip_ucd</code><span title="La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé"> version non précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span></li>
 <li>Inclut tous les codes définis dans <a href="http://terminology.hl7.org/6.3.0/CodeSystem-ICD11MMS.html"><code>http://id.who.int/icd/release/11/mms</code></a><span title="La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé"> version non précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span></li>
-<li>Importe tous les codes contenu dans <a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-allergie-vaccin-cisis.html">JDV Allergie Vaccin CISIS</a></li>
-<li>Inclut tous les codes définis dans <a href="https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-terminologie-sms.html"><code>https://smt.esante.gouv.fr/terminologie-sms</code></a><span title="La version est explicitement indiquée comme étant 2026-07"> version &#x1F4CD;2026-07</span></li></ul></div>
+<li>Importe tous les codes contenu dans <a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-allergie-vaccin-cisis.html">JDV Allergie Vaccin CISIS</a></li>
+<li>Inclut tous les codes définis dans <a href="https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-terminologie-sms.html"><code>https://smt.esante.gouv.fr/terminologie-sms</code></a><span title="La version est explicitement indiquée comme étant 2026-08"> version &#x1F4CD;2026-08</span></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px" title="No Expansion for this valueset (Unknown Code System&lt;!-- [Error from https://smt.esante.gouv.fr/fhir: Error: [8cd32885-0023-4bb0-acbd-a2caa4ef8fc7]: Could not find the code system https://smt.esante.gouv.fr/terminologie-cip_ucd|2026-07
-Information: X-Request-Id: b67fb245-faed-4b83-922b-7b2c918395c9] --&gt;)">No Expansion for this valueset (Unknown Code System<!-- [Error from https://smt.esante.gouv.fr/fhir: Error: [8cd32885-0023-4bb0-acbd-a2caa4ef8fc7]: Could not find the code system https://smt.esante.gouv.fr/terminologie-cip_ucd|2026-07
-Information: X-Request-Id: b67fb245-faed-4b83-922b-7b2c918395c9] -->)</p>
+  <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px" title="No Expansion for this valueset (Unsupported Code System Version&lt;!-- [Error from https://smt.esante.gouv.fr/fhir: Error: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-bdpm' version '2026-08-02' could not be found, so the value set cannot be expanded. Valid versions: 2026-09-01
+Information: X-Request-Id: f607d978-af25-4d39-8585-05bdc7f1cf4e] --&gt;)">No Expansion for this valueset (Unsupported Code System Version<!-- [Error from https://smt.esante.gouv.fr/fhir: Error: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-bdpm' version '2026-08-02' could not be found, so the value set cannot be expanded. Valid versions: 2026-09-01
+Information: X-Request-Id: f607d978-af25-4d39-8585-05bdc7f1cf4e] -->)</p>
 
 
   <hr/>
@@ -415,8 +420,8 @@ Information: X-Request-Id: b67fb245-faed-4b83-922b-7b2c918395c9] -->)</p>
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.fhir.fr.document-core#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Date de génération : 
-  <span title="2026-08-07 12:53:00 +0000">
-    2026-08-07
+  <span title="2026-09-03 14:46:00 +0000">
+    2026-09-03
   </span>
 
           <br/>

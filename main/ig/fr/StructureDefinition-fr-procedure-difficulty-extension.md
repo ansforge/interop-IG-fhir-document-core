@@ -72,7 +72,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-procedure-di
   "name" : "FRProcedureDifficultyExtension",
   "title" : "FR Procedure Difficulty Extension",
   "status" : "draft",
-  "date" : "2026-08-07T12:53:43+00:00",
+  "date" : "2026-09-03T14:46:57+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -130,7 +130,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-procedure-di
       }],
       "binding" : {
         "strength" : "example",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-difficulte-cisis|20260420150251"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-difficulte-cisis|20260716085853"
       }
     }]
   }

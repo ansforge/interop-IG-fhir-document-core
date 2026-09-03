@@ -16,6 +16,8 @@ Codes issus de la Base de Données Publique des Médicaments (BDPM) pour identif
 
 ### Expansion
 
+No Expansion for this valueset (Unsupported Code System Version)
+
 -------
 
  [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -33,7 +35,7 @@ Codes issus de la Base de Données Publique des Médicaments (BDPM) pour identif
   "name" : "FRValueSetVaccineCodeCISDocument",
   "title" : "ValueSet – FR ValueSet Codes vaccins CIS (BDPM)",
   "status" : "draft",
-  "date" : "2026-08-07T12:53:43+00:00",
+  "date" : "2026-09-03T14:46:57+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -53,7 +55,7 @@ Codes issus de la Base de Données Publique des Médicaments (BDPM) pour identif
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2026-07-01"
+      "version" : "2026-08-02"
     }]
   }
 }

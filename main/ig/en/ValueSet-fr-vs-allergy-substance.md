@@ -32,7 +32,7 @@ Jeu de valeurs permettant de coder la substance responsable d’une allergie
   "name" : "FRValueSetAllergySubstanceDocument",
   "title" : "ValueSet – FR ValueSet Allergy Substance Document",
   "status" : "draft",
-  "date" : "2026-08-07T12:53:43+00:00",
+  "date" : "2026-09-03T14:46:57+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -52,7 +52,7 @@ Jeu de valeurs permettant de coder la substance responsable d’une allergie
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-sms",
-      "version" : "2026-07"
+      "version" : "2026-08"
     }]
   }
 }

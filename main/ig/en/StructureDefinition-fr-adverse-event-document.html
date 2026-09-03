@@ -56,9 +56,14 @@
       <div class="container">  <!-- container -->
 
         <!-- Placeholder for child template header declarations -->
-<div id="family-nav">
-    <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-  </div>
+<div id="family-nav" style="display: flex; flex-direction: column;">
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/>
+  </a>
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/cda" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the CDA website" src="assets/images/cda-logo-www.png"/>
+  </a>
+</div>
   <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
     <a id="hl7-logo" data-no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
     <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
@@ -321,7 +326,7 @@ AdverseEvent - FR adverse event Document
           
 
             as of 
-2026-08-07
+2026-09-03
 
           
         
@@ -431,7 +436,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ae" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.subject" title="This subject or group impacted by the event." data-no-external="true">subject</a><a name="k-AdverseEvent.subject"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
@@ -456,12 +461,12 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aj" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.outcome" title="Describes the type of outcome from the adverse event." data-no-external="true">outcome</a><a name="k-AdverseEvent.outcome"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ak" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img onClick="tableRowAction(this)" src="tbl_vjoin_end-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.suspectEntity" title="Describes the entity that is suspected to have caused the adverse event." data-no-external="true">suspectEntity</a><a name="k-AdverseEvent.suspectEntity"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td>
@@ -495,8 +500,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7daba9f5-e20d-450d-bf54-41116da4680f
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7abb7cb1-7f2a-4e92-be46-07524510fbd0
 document.getElementById('cbfr-adverse-event-documentK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-adverse-event-documentK'), 'binding', document.getElementById('cbfr-adverse-event-documentK-binding').checked, document.getElementById('ppfr-adverse-event-documentK'));
 document.getElementById('cbfr-adverse-event-documentK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -551,12 +556,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentK'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -566,12 +571,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentK'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -581,12 +586,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentK'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -596,12 +601,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentK'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
 </table>
@@ -716,7 +721,7 @@ filterDesc(document.getElementById('fr-adverse-event-documentK'), 'obligation', 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="ab" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.date" data-no-external="true">date</a><a name="AdverseEvent.date"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
@@ -736,12 +741,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentK'), 'obligation', 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="af" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.outcome" data-no-external="true">outcome</a><a name="AdverseEvent.outcome"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ag" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img onClick="tableRowAction(this)" src="tbl_vjoin_end-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.suspectEntity" data-no-external="true">suspectEntity</a><a name="AdverseEvent.suspectEntity"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">*</span></td>
@@ -761,8 +766,8 @@ filterDesc(document.getElementById('fr-adverse-event-documentK'), 'obligation', 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7daba9f5-e20d-450d-bf54-41116da4680f
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7abb7cb1-7f2a-4e92-be46-07524510fbd0
 document.getElementById('cbfr-adverse-event-documentD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-adverse-event-documentD'), 'binding', document.getElementById('cbfr-adverse-event-documentD-binding').checked, document.getElementById('ppfr-adverse-event-documentD'));
 document.getElementById('cbfr-adverse-event-documentD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -804,12 +809,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentD'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -819,12 +824,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentD'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -834,12 +839,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentD'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -849,12 +854,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentD'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
 </table>
@@ -935,7 +940,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a11." data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.event" title="This element defines the specific type of event that occurred or that was prevented from occurring." data-no-external="true">event</a><a name="s-AdverseEvent.event"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
@@ -985,12 +990,12 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a21." data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.outcome" title="Describes the type of outcome from the adverse event." data-no-external="true">outcome</a><a name="s-AdverseEvent.outcome"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="a22." data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.recorder" title="Information on who recorded the adverse event.  May be the patient or a practitioner." data-no-external="true">recorder</a><a name="s-AdverseEvent.recorder"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
@@ -1054,7 +1059,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="a24.ee" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.suspectEntity.causality.productRelatedness" title="AdverseEvent.suspectEntity.causalityProductRelatedness." data-no-external="true">productRelatedness</a><a name="s-AdverseEvent.suspectEntity.causality.productRelatedness"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
@@ -1085,7 +1090,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/researchstudy.html">ResearchStudy</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">AdverseEvent.study<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7daba9f5-e20d-450d-bf54-41116da4680f
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7abb7cb1-7f2a-4e92-be46-07524510fbd0
 document.getElementById('cbfr-adverse-event-documentS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-adverse-event-documentS'), 'binding', document.getElementById('cbfr-adverse-event-documentS-binding').checked, document.getElementById('ppfr-adverse-event-documentS'));
 document.getElementById('cbfr-adverse-event-documentS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1156,12 +1161,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentS'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1201,12 +1206,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentS'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1216,12 +1221,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentS'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1231,12 +1236,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentS'), 'obligation', 
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1486,7 +1491,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ae" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.subject" title="This subject or group impacted by the event." data-no-external="true">subject</a><a name="ka-AdverseEvent.subject"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
@@ -1511,12 +1516,12 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aj" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.outcome" title="Describes the type of outcome from the adverse event." data-no-external="true">outcome</a><a name="ka-AdverseEvent.outcome"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ak" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img onClick="tableRowAction(this)" src="tbl_vjoin_end-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.suspectEntity" title="Describes the entity that is suspected to have caused the adverse event." data-no-external="true">suspectEntity</a><a name="ka-AdverseEvent.suspectEntity"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td>
@@ -1550,8 +1555,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7daba9f5-e20d-450d-bf54-41116da4680f
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7abb7cb1-7f2a-4e92-be46-07524510fbd0
 document.getElementById('cbfr-adverse-event-documentKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-adverse-event-documentKA'), 'binding', document.getElementById('cbfr-adverse-event-documentKA-binding').checked, document.getElementById('ppfr-adverse-event-documentKA'));
 document.getElementById('cbfr-adverse-event-documentKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1605,12 +1610,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentKA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1620,12 +1625,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentKA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1635,12 +1640,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentKA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1650,12 +1655,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentKA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
 </table>
@@ -1770,7 +1775,7 @@ filterDesc(document.getElementById('fr-adverse-event-documentKA'), 'obligation',
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="ab" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.date" data-no-external="true">date</a><a name="a-AdverseEvent.date"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
@@ -1790,12 +1795,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentKA'), 'obligation',
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="af" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.outcome" data-no-external="true">outcome</a><a name="a-AdverseEvent.outcome"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ag" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img onClick="tableRowAction(this)" src="tbl_vjoin_end-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.suspectEntity" data-no-external="true">suspectEntity</a><a name="a-AdverseEvent.suspectEntity"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">*</span></td>
@@ -1815,8 +1820,8 @@ filterDesc(document.getElementById('fr-adverse-event-documentKA'), 'obligation',
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7daba9f5-e20d-450d-bf54-41116da4680f
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7abb7cb1-7f2a-4e92-be46-07524510fbd0
 document.getElementById('cbfr-adverse-event-documentDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-adverse-event-documentDA'), 'binding', document.getElementById('cbfr-adverse-event-documentDA-binding').checked, document.getElementById('ppfr-adverse-event-documentDA'));
 document.getElementById('cbfr-adverse-event-documentDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1855,12 +1860,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentDA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1870,12 +1875,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentDA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1885,12 +1890,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentDA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -1900,12 +1905,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentDA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 0.5" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
 </table>
@@ -1986,7 +1991,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type d'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis" class="binding">JdvOrigineEffetIndesirableCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a11." data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.event" title="This element defines the specific type of event that occurred or that was prevented from occurring." data-no-external="true">event</a><a name="sa-AdverseEvent.event"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
@@ -2036,12 +2041,12 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gravité de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis" class="binding">JdvGraviteCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a21." data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.outcome" title="Describes the type of outcome from the adverse event." data-no-external="true">outcome</a><a name="sa-AdverseEvent.outcome"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Évolution de l'effet indésirable<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis" class="binding">JdvEvolutionCisis (20260716085852)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="a22." data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.recorder" title="Information on who recorded the adverse event.  May be the patient or a practitioner." data-no-external="true">recorder</a><a name="sa-AdverseEvent.recorder"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
@@ -2105,7 +2110,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: #D50000" title="This element must be supported">S</span><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260619134042)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Niveau d'imputabilité<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html" title="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis" class="binding">JdvImputabiliteCisis (20260716085851)</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="a24.ee" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-fr-adverse-event-document-definitions.html#AdverseEvent.suspectEntity.causality.productRelatedness" title="AdverseEvent.suspectEntity.causalityProductRelatedness." data-no-external="true">productRelatedness</a><a name="sa-AdverseEvent.suspectEntity.causality.productRelatedness"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
@@ -2136,7 +2141,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/researchstudy.html">ResearchStudy</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">AdverseEvent.study<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7daba9f5-e20d-450d-bf54-41116da4680f
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7abb7cb1-7f2a-4e92-be46-07524510fbd0
 document.getElementById('cbfr-adverse-event-documentSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-adverse-event-documentSA'), 'binding', document.getElementById('cbfr-adverse-event-documentSA-binding').checked, document.getElementById('ppfr-adverse-event-documentSA'));
 document.getElementById('cbfr-adverse-event-documentSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -2205,12 +2210,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentSA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-origine-effet-indesirable-cisis.html">JDV Origine Effet Indesirable CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -2250,12 +2255,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentSA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-gravite-cisis.html">JDV Gravite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -2265,12 +2270,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentSA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-evolution-cisis.html">JDV Evolution CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260716085852" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085852">&#x1F4CD;20260716085852</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -2280,12 +2285,12 @@ filterDesc(document.getElementById('fr-adverse-event-documentSA'), 'obligation',
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
     </td>
     <td>
-      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
-      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260619134042" title="Click to copy URL" class="btn-copy"></button>
+      <a style="opacity: 1.0" href="https://interop.esante.gouv.fr/terminologies/1.13.0/ValueSet-jdv-imputabilite-cisis.html">JDV Imputabilite CISIS</a>
+      <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260716085851" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is explicitly stated to be 20260619134042">&#x1F4CD;20260619134042</td>
+    <td title="Version is explicitly stated to be 20260716085851">&#x1F4CD;20260716085851</td>
     <td>
-      <a href="https://interop.esante.gouv.fr/terminologies/1.11.1">Terminologies  de Santé v1.11</a>
+      <a href="https://interop.esante.gouv.fr/terminologies/1.13.0">Terminologies  de Santé v1.13</a>
     </td>
   </tr>
   <tr>
@@ -2559,8 +2564,8 @@ Summary
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Package ans.fhir.fr.document-core#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-08-07 12:53:00 +0000">
-    2026-08-07
+  <span title="2026-09-03 14:46:00 +0000">
+    2026-09-03
   </span>
 
           <br/>

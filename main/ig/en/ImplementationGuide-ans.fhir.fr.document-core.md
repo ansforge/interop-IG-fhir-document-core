@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-08-07T12:53:43+00:00",
+  "date" : "2026-09-03T14:46:57+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -88,7 +88,7 @@
     "id" : "ans_fr_terminologies",
     "uri" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
     "packageId" : "ans.fr.terminologies",
-    "version" : "1.11.1"
+    "version" : "1.13.0"
   }],
   "definition" : {
     "extension" : [{
@@ -270,7 +270,7 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-liquid"
+        "valueString" : "path-liquid-template"
       },
       {
         "url" : "value",
@@ -281,7 +281,7 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-liquid"
+        "valueString" : "path-liquid-template"
       },
       {
         "url" : "value",
@@ -676,7 +676,7 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "path-liquid"
+        "valueCode" : "path-liquid-template"
       },
       {
         "url" : "value",
@@ -687,7 +687,7 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "path-liquid"
+        "valueCode" : "path-liquid-template"
       },
       {
         "url" : "value",
@@ -894,15 +894,15 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "grouping" : [{
-      "id" : "Ressources FHIR entête",
+      "id" : "ressources-fhir-entete",
       "name" : "Profils FHIR entête"
     },
     {
-      "id" : "Ressources FHIR corps",
+      "id" : "ressources-fhir-corps",
       "name" : "Profils FHIR corps"
     },
     {
-      "id" : "Data Type FHIR",
+      "id" : "data-type-fhir",
       "name" : "Data Type Profiles"
     }],
     "resource" : [{
@@ -920,7 +920,7 @@
       "name" : "AdverseEvent - FR adverse event Document",
       "description" : "FRAdverseEventDocument permet de décrire un effet indésirable prévisible lié à un médicament",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -937,7 +937,7 @@
       "name" : "AllergyIntolerance - FR Allergy and intolerance Document",
       "description" : "FRAllergyIntoleranceDocument est un profil utilisé pourdécrire une allergie ou une hypersensibilité non allergique ou une intolérance ou une idiosyncrasie.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -954,7 +954,7 @@
       "name" : "BodyStructure - FR Body Structure Document",
       "description" : "FRBodyStructureDocument permet de préciser les modificateurs topographiques associés à une localisation anatomique.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -971,7 +971,7 @@
       "name" : "CarePlan - FR Care Plan Document",
       "description" : "FRCarePlanDocument est un profil permettant d’enregistrer une référence à un traitement dans un plan de traitement.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -988,7 +988,7 @@
       "name" : "Condition - FR Condition Document",
       "description" : "FRConditionDocument est un profil utilisé pour décrire un problème du patient (une pathologie par exemple).",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1005,7 +1005,7 @@
       "name" : "Consent - FR Advance directive Document",
       "description" : "FRAdvanceDirectiveDocument permet  d’indiquer si les directives anticipées du patient.\nArticle L1111-11 du Code de la Santé Publique : \n« Toute personne majeure peut rédiger des directives anticipées pour le cas où elle serait un \njour hors d'état d'exprimer sa volonté. Ces directives anticipées expriment la volonté de la personne \nrelative à sa fin de vie en ce qui concerne les conditions de la poursuite, de la limitation, \nde l'arrêt ou du refus de traitement ou d'acte médicaux.»",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1022,7 +1022,7 @@
       "name" : "DeviceRequest - FR Device request Document",
       "description" : "FRDeviceRequestDocument représente une demande de dispositif médical (DM) qui n’a pas encore été dispensé.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1039,7 +1039,7 @@
       "name" : "DeviceUseStatement - FR Device Use Statement Document",
       "description" : "FRDeviceUseStatementDocument représente les informations sur un dispositif médical",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1056,7 +1056,7 @@
       "name" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
       "description" : "FRDiagnosticReportBIOChapterDocument utilisé pour représenter un CR de biologie",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1073,7 +1073,7 @@
       "name" : "DiagnosticReport - FR Diagnostic Report Document",
       "description" : "FRDiagnosticReportDocument est un profil permettant de regrouper les types des résultats classés par type d’examens (BIO, IMG, etc…).",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1090,7 +1090,7 @@
       "name" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
       "description" : "Le profil FRDiagnosticReportImagingDocument est dédié aux comptes rendus d’imagerie.\nCe document représente le rapport d’un examen d’imagerie. Il constitue la ressource principale qui fait référence à l’ensemble des données produites lors de l’examen d’imagerie.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1107,7 +1107,7 @@
       "name" : "DocumentReference - FR Document reference Document",
       "description" : "FRDocumentReferenceDocument restreint pour les documents PDF.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1124,7 +1124,7 @@
       "name" : "Encounter - FR Encounter Document",
       "description" : "FREncounterDocument est un profil permettant de conserver les modalités d'une rencontre du patient. Il peut s'agir d'une rencontre passée ou à venir",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1141,7 +1141,7 @@
       "name" : "Endpoint - FR Endpoint Wado Document",
       "description" : "FREndpointWadoDocument permet d'enregistrer les références Wado, les types de média et le type de connection IHE IID",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1178,6 +1178,36 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41.html"
+      }],
+      "reference" : {
+        "reference" : "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41"
+      },
+      "name" : "Example Patient - AllergyIntolerance avec Data Absent Reason",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.html"
+      }],
+      "reference" : {
+        "reference" : "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55"
+      },
+      "name" : "Example Patient - Procedure avec Data Absent Reason",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       },
       {
@@ -1190,7 +1220,7 @@
       "name" : "FamilyMemberHistory - FR Family Member History Document",
       "description" : "FRFamilyMemberHistoryDocument est un profil utilisé pour apporter des informations complémentaires relatives aux membres de la famille du patient (pathologies, etc…).",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1207,7 +1237,7 @@
       "name" : "FR Accession Number Identifier Document",
       "description" : "DataType définissant l'Accession Number d'une demande d'examen. Il s'agit d'un identifiant unique attribué à chaque demande d'examen.",
       "exampleBoolean" : false,
-      "groupingId" : "Data Type FHIR"
+      "groupingId" : "data-type-fhir"
     },
     {
       "extension" : [{
@@ -1256,7 +1286,7 @@
       "name" : "FR Bundle Document",
       "description" : "Ce profil permet d’assembler les éléments de l’en-tête et du corps d’un document.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1305,7 +1335,7 @@
       "name" : "FR Composition Document",
       "description" : "Ce profil est utilisé pour représenter un document médical.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1322,7 +1352,7 @@
       "name" : "FR Device Document",
       "description" : "Ce profil représente le système auteur du document.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1339,7 +1369,7 @@
       "name" : "FR Encounter Care Document",
       "description" : "Ce profil représente l'association du document à une prise en charge.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1372,7 +1402,7 @@
       "name" : "FR Human Name Document",
       "description" : "Ce profil correspond au type de données HumanName utilisé dans le document.",
       "exampleBoolean" : false,
-      "groupingId" : "Data Type FHIR"
+      "groupingId" : "data-type-fhir"
     },
     {
       "extension" : [{
@@ -1437,7 +1467,7 @@
       "name" : "FR Location Document",
       "description" : "Ce profil représente le lieu de la prise en charge.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1534,7 +1564,7 @@
       "name" : "FR Organization Document",
       "description" : "Ce profil représente la structure pour le compte de laquelle intervient le professionnel.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1551,7 +1581,7 @@
       "name" : "FR Patient Document",
       "description" : "Ce profil représente le patient concerné par le document.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1584,7 +1614,7 @@
       "name" : "FR Patient INS Document",
       "description" : "Ce profil représente le patient concerné par le document.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1617,7 +1647,7 @@
       "name" : "FR Practitioner Document",
       "description" : "Ce profil permet de décrire un professionnel de santé dans le cadre d'un document médical",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1634,7 +1664,7 @@
       "name" : "FR PractitionerRole Document",
       "description" : "Ce profil représente les professionnels de santé et leurs rôles dans le cadre d'un document médical.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1683,7 +1713,7 @@
       "name" : "FR RelatedPerson Document",
       "description" : "Ce profil représente l'informateur non professionnel.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR entête"
+      "groupingId" : "ressources-fhir-entete"
     },
     {
       "extension" : [{
@@ -1716,7 +1746,7 @@
       "name" : "FR Study Instance Uid Identifier Document",
       "description" : "DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie",
       "exampleBoolean" : false,
-      "groupingId" : "Data Type FHIR"
+      "groupingId" : "data-type-fhir"
     },
     {
       "extension" : [{
@@ -1746,8 +1776,24 @@
       "reference" : {
         "reference" : "ValueSet/fr-doc-vs-participation-type"
       },
-      "name" : "FR ValueSet Participation Type",
+      "name" : "FR ValueSet Participation Type Information Recipient",
       "description" : "Type de participation : destinataire",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-doc-vs-participation-type-participant.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/fr-doc-vs-participation-type-participant"
+      },
+      "name" : "FR ValueSet Participation Type Participant",
+      "description" : "Type de participation : participant",
       "exampleBoolean" : false
     },
     {
@@ -1781,7 +1827,7 @@
       "name" : "ImagingStudy - FR Imaging study Document",
       "description" : "FRImagingStudyDocument (DICOM Part 20 - Study Act) contient les informations DICOM d’un examen d’imagerie réalisé sur un patient.\nL’examen est composé d'une ou de plusieurs séries d’images médicales.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1798,7 +1844,7 @@
       "name" : "Immunization - FR Immunization Document",
       "description" : "FRImmunizationDocument permet de décrire l'administration d'un vaccin. \n - Il permet également de décrire pourquoi un vaccin n'a pas été réalisé.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1815,7 +1861,7 @@
       "name" : "ImmunizationRecommendation - FR Immunization Recommendation Document",
       "description" : "FRImmunizationRecommendationDocument permet de décrire une vaccination prévue ou proposée.\n - Une vaccination proposée est une proposition qui est utilisée dans la prise de décisions (elle peut apparaître comme une contribution ou un résultat provenant de l'aide à la décision clinique). \n - Une vaccination prévue dépend d'un plan accepté et à venir.\n - Ce profil hérite de la structuration, des contraintes et des vocabulaires définis dans le profil FRVaccinationDocument.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1832,7 +1878,7 @@
       "name" : "Media - FR Media Document",
       "description" : "FRMediaDocument permet de positionner une image de type gif, jpeg, png ou bm. Elle est encodée en base 64",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1849,7 +1895,7 @@
       "name" : "Medication - FR Medication Document",
       "description" : "FRMedicationDocument permet de décrire un médicament ou un vaccin.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1866,7 +1912,7 @@
       "name" : "MedicationAdministration - FR Medication Administration Document",
       "description" : "\n - FRMedicationAdministrationDocument permert de décrire les modalités d'administration d'un médicament au patient.\n - Il permet de décrire notamment le médicament, le mode d'administration, la quantité, la durée et la fréquence d'administration.\n - Si le traitement est en attente d’administration c’est-à dire qu’il a été prescrit.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1883,7 +1929,7 @@
       "name" : "MedicationDispense - FR Medication Dispense Document",
       "description" : "FRMedicationDispenseDocument permet de décrire un traitement dispensé avec notamment le médicament dispensé, la quantité et la référence de la prescription.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1900,7 +1946,7 @@
       "name" : "MedicationRequest - FR Medication Request Document",
       "description" : "FRMedicationRequestDocument permet de décrire un traitement prescrit avec notamment le médicament, le mode d’administration, la quantité, la durée et la fréquence d'administration.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1917,7 +1963,7 @@
       "name" : "MedicationStatement - FR Medication Statement Document",
       "description" : "\n - FRMedicationStatementDocument permet de décrire les modalités d'administration d'un médicament au patient.\n - Il permet de décrire notamment le médicament, le mode d'administration, la quantité, la durée et la fréquence d'administration.\n - Si le traitement a déjà été administré ou si information rapporté par le patient ou si aucun traitement.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1934,7 +1980,7 @@
       "name" : "Observation - FR Observation ALD Document",
       "description" : "FRObservationALDDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une affection longue durée (ALD).",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1951,7 +1997,7 @@
       "name" : "Observation - FR Observation Assessment Document",
       "description" : "FRObservationAssessmentDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple).",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1968,7 +2014,7 @@
       "name" : "Observation - FR Observation Contra Indications Document",
       "description" : "FRObservationContraIndicationsDocument permet d'apporter des informations relatives aux contre-indications médicales du patient dans le cadre d'un examen d'imagerie.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -1985,7 +2031,7 @@
       "name" : "Observation - FR Observation Laboratory Report Results Document",
       "description" : "FRObservationLaboratoryReportResultsDocument décrit un résultat d’examen de biologie médicale.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2002,7 +2048,7 @@
       "name" : "Observation - FR Observation Microorganism Detection Document",
       "description" : "FRObservationMicroorganismDetectionDocument permet d'indiquer si une recherche de micro-organismes multirésistants ou émergents a été effectuée ou pas.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2019,7 +2065,7 @@
       "name" : "Observation - FR Observation Multiresistant Microorganisms Identification Document",
       "description" : "FRObservationMultiresistantMicroorganismsIdentificationDocument permet de décrire sous forme textuelle les micro-organismes identifiés.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2036,7 +2082,7 @@
       "name" : "Observation - FR Observation Pain Score Document",
       "description" : "FRObservationPainScoreDocument permet d'enregistrer l'évaluation du patient de sa douleur sur une échelle de 1 à 10.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2053,7 +2099,7 @@
       "name" : "Observation - FR Observation Pregnancy Document",
       "description" : "FRObservationPregnancyDocument permet d'apporter des informations relatives aux grossesses actuelle ou passées.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2070,7 +2116,7 @@
       "name" : "Observation - FR Observation Pregnancy History Document",
       "description" : "FRObservationPregnancyHistoryDocument permet de regrouper les observations relatives à un épisode de grossesse.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2087,7 +2133,7 @@
       "name" : "Observation - FR Observation Prevention Document",
       "description" : "FRObservationPreventionDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une prévention.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2104,7 +2150,7 @@
       "name" : "Observation - FR Observation Radiation Exposure Document",
       "description" : "FRObservationRadiationExposureDocument permet d'enregistrer les informations relatives à l’exposition du patient aux rayonnements et les informations de radioprotection.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2121,7 +2167,7 @@
       "name" : "Observation - FR Observation Result Document",
       "description" : "FRObservationResultDocument permet d'indiquer le résultat observé.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2138,7 +2184,7 @@
       "name" : "Observation - FR Observation Social History Document",
       "description" : "FRObservationSocialHistoryDocument décrit les habitudes de vie du patient (Habitus / Mode de vie).",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2155,7 +2201,7 @@
       "name" : "Observation - FR Observation Vital Signs Document",
       "description" : "\n - FRObservationVitalSignsDocument permet d'indiquer les informations détaillées relatives à une mesure clinique spécifique.\n - Il est basée sur la ressource Observation qu'elle spécialise en portant des contraintes sur les vocabulaires des éléments 'code' et 'value'.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2172,7 +2218,7 @@
       "name" : "Observation - FR Observation Vital Signs Panel Document",
       "description" : "FRObservationVitalSignsPanelDocument permet de regrouper des informations relatives aux mesures cliniques du patient.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2189,7 +2235,7 @@
       "name" : "Observation - FR Observation Work Related Accident Document",
       "description" : "FRObservationWorkRelatedAccidentDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec un accident du travail / une maladie professionnelle.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2206,7 +2252,7 @@
       "name" : "Procedure - FR Procedure Document",
       "description" : "FRProcedureDocument est un profil utilisé pour décrire un acte planifié ou réalisé.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2223,7 +2269,7 @@
       "name" : "Procedure - FR Procedure Imaging Document",
       "description" : "FRProcedureImagingDocument permet d'enregistrer les différents paramètres de l’acquisition d’image :\nacte d'imagerie, localisation anatomique / latéralité / topographie, d'autres paramètres de l'acte",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2240,7 +2286,7 @@
       "name" : "ServiceRequest - FR Service Request Document",
       "description" : "FRServiceRequestDocument profil permet de porter des demandes d'examens (analyses biologiques, évaluations, étude d'imagerie, etc…) ou de suivis particuliers à programmer dans le cadre d'un plan de soins.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2257,7 +2303,7 @@
       "name" : "ServiceRequest - FR Service Request Imaging Document",
       "description" : "FRServiceRequestImagingDocument profil spécifique permet de porter des demandes d'examens d'imagerie.",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2274,7 +2320,7 @@
       "name" : "Specimen - FR Specimen Document",
       "description" : "FRSpecimenDocument est un profil utilisé pour décrire le prélèvement et l'échantillon biologique (le matériel).",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{
@@ -2291,7 +2337,7 @@
       "name" : "Task - FR Task Patient Transport Document",
       "description" : "FRTaskPatientTransportDocument permet de décrire le transport d'un patient/usager lors d'un déplacement (entrée ou sortie d'hôpital, ...).",
       "exampleBoolean" : false,
-      "groupingId" : "Ressources FHIR corps"
+      "groupingId" : "ressources-fhir-corps"
     },
     {
       "extension" : [{

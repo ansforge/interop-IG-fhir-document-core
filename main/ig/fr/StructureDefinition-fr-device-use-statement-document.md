@@ -114,7 +114,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-device-use-s
   "name" : "FRDeviceUseStatementDocument",
   "title" : "DeviceUseStatement - FR Device Use Statement Document",
   "status" : "draft",
-  "date" : "2026-08-07T12:53:43+00:00",
+  "date" : "2026-09-03T14:46:57+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

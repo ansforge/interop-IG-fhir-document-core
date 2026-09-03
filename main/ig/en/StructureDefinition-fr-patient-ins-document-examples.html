@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title> - FR Document Core (FHIR) v0.1.0</title>
+    <title>FR Patient INS Document - FR Document Core (FHIR) v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -50,15 +50,20 @@
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"7.8"}
+    h3,h4,h5,h6{--heading-prefix:"7.8"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
         <!-- Placeholder for child template header declarations -->
-<div id="family-nav">
-    <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-  </div>
+<div id="family-nav" style="display: flex; flex-direction: column;">
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/>
+  </a>
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/cda" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the CDA website" src="assets/images/cda-logo-www.png"/>
+  </a>
+</div>
   <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
     <a id="hl7-logo" data-no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
     <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
@@ -190,11 +195,15 @@
     <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>FR Patient INS Document</b></li>
 
           <span style="float: var(--ig-right);">
 
+            <a href="StructureDefinition-fr-patient-ins-document-testing.html">&lt; prev</a> | 
+
             <a href="#bottom">bottom</a>
+
+          | <a href="StructureDefinition-fr-patient-ins-document.profile.xml.html">next &gt;</a>
 
           </span>
 
@@ -249,6 +258,16 @@
 
 
 
+  
+    
+      <li class="active">
+        <a href="#">Examples</a>
+      </li>
+    
+  
+
+
+
 
   
     <li>
@@ -287,7 +306,7 @@
           
 
             as of 
-2026-08-07
+2026-09-03
 
           
         
@@ -306,8 +325,25 @@
 
 
 
-  <p><b>No examples are currently available for the fr-patient-ins-document Profile.</b></p>
+  <p>Examples for the fr-patient-ins-document Profile.</p>
 
+  <table style="grid">
+    <tbody>
+      
+        <tr>
+          <td>
+            <a href="Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41.html">Example Patient - AllergyIntolerance avec Data Absent Reason</a>
+          </td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.html">Example Patient - Procedure avec Data Absent Reason</a>
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
 
 
 <!-- insert notes if present -->
@@ -340,7 +376,7 @@
             <tr>
               <td style="text-align:var(--ig-left);">&#xA0;
 
-                <span style="visibility:hidden">&lt; prev</span>
+                <a href="StructureDefinition-fr-patient-ins-document-testing.html">&lt; prev</a>
 
               </td>
               <td style="text-align:center">
@@ -348,7 +384,7 @@
               </td>
               <td style="text-align:var(--ig-right);">&#xA0;
 
-                <span style="visibility:hidden">next ></span>
+                <a href="StructureDefinition-fr-patient-ins-document.profile.xml.html">next ></a>
 
               </td>
             </tr>
@@ -364,8 +400,8 @@
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Package ans.fhir.fr.document-core#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-08-07 12:53:00 +0000">
-    2026-08-07
+  <span title="2026-09-03 14:46:00 +0000">
+    2026-09-03
   </span>
 
           <br/>

@@ -524,7 +524,7 @@ Le namespace est défini à partir de la racine d'identification (gérée par l'
 ",".participation[typeCode=DST]","PV1-37"
 "Encounter.hospitalization.dischargeDisposition","Encounter.hospitalization.dischargeDisposition","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Modalité de sortie du patient lors de la rencontre: 
-Valeur provenant du jdv-modalite-sortie-cisis ou autre JDV spécifique à un volet","Category or kind of location after discharge.","","","","","","","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-cisis|20260619134043","",,,,"Encounter.hospitalization.dischargeDisposition",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Valeur provenant du jdv-modalite-sortie-cisis ou autre JDV spécifique à un volet","Category or kind of location after discharge.","","","","","","","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-cisis|20260716085852","",,,,"Encounter.hospitalization.dischargeDisposition",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".dischargeDispositionCode","PV1-36"
 "Encounter.location","Encounter.location","","","",0,1,"Y","","","BackboneElement {[]} {[]}
 ","Lieu d'exécution","List of locations where  the patient has been during this encounter.","Virtual encounters can be recorded in the Encounter by specifying a location reference to a location of type ""kind"" such as ""client's home"" and an encounter.class = ""virtual"".","","","","","","","","",,,,,"",,,,"Encounter.location",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

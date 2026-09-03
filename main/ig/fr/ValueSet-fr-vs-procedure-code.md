@@ -37,7 +37,7 @@ Si aucun code approprié n’est disponible, l’acte peut être décrit en text
   "name" : "FRValueSetProcedureCodeDocument",
   "title" : "ValueSet – FR ValueSet Codes d’actes",
   "status" : "draft",
-  "date" : "2026-08-07T12:53:43+00:00",
+  "date" : "2026-09-03T14:46:57+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -57,7 +57,7 @@ Si aucun code approprié n’est disponible, l’acte peut être décrit en text
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-ccam",
-      "version" : "v83.00"
+      "version" : "v84.00"
     },
     {
       "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
@@ -66,7 +66,7 @@ Si aucun code approprié n’est disponible, l’acte peut être décrit en text
       }]
     },
     {
-      "valueSet" : ["https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis|20260619134042"]
+      "valueSet" : ["https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis|20260716085852"]
     }]
   }
 }

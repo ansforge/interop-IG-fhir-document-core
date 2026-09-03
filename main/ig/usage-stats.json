@@ -593,6 +593,9 @@
     "http://hl7.org/fhir/StructureDefinition/organization-period|5.3.0": [
       "Organization"
     ],
+    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
+      "Patient"
+    ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.3.0": [
       "Patient"
     ],
@@ -677,6 +680,9 @@
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-estimated-discharge-date|2.1.0": [
       "Encounter"
     ],
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability": [
+      "Patient"
+    ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability|2.1.0": [
       "Patient"
     ],
@@ -688,6 +694,9 @@
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name|2.1.0": [
       "Organization"
+    ],
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name": [
+      "Patient.name"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name|2.1.0": [
       "Patient.name"
