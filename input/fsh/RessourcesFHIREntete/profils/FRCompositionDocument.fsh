@@ -38,17 +38,18 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * extension[informant].extension[party].valueReference only Reference(FRPractitionerRoleDocument or FRRelatedPersonDocument or FRPatientINSDocument or FRPatientDocument)
 
 // information-recipient-extension
+* extension[information-recipient] ^short = "Destinataire prévu du document."
 * extension[information-recipient].extension[type] 1..1 
 * extension[information-recipient].extension[type] ^short = "Type de participation : destinataire"
-* extension[information-recipient].extension[type].valueCodeableConcept from FRValueSetParticipationType
-* extension[information-recipient].extension[party] ^short = "Destinataire prévu du document."
+* extension[information-recipient].extension[type].valueCodeableConcept from FrValueSetParticipationTypeInformationRecipient
+* extension[information-recipient].extension[party] ^short = "Destinataire"
 * extension[information-recipient].extension[party].valueReference only Reference(FRPractitionerRoleDocument)
 
 // participant-extension
 * extension[participant] ^short = "Participant, différent de l'auteur, du responsable, de l'opérateur de saisie, de l'informateur ou du destinataire."
 * extension[participant].extension[type] 1..1 
 * extension[participant].extension[type] ^short = "Type de participation"
-* extension[participant].extension[type].valueCodeableConcept from $JDV_J144-ParticipationType-CISIS (required)
+* extension[participant].extension[type].valueCodeableConcept from FrValueSetParticipationTypeParticipant (required)
 * extension[participant].extension[function] 0..1 
 * extension[participant].extension[function] ^short = "Précision sur le rôle fonctionnel"
 * extension[participant].extension[function].valueCodeableConcept from $JDV_J47-FunctionCode-CISIS (required)
