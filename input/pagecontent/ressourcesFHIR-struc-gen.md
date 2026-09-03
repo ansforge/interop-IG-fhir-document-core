@@ -107,13 +107,13 @@ Pour être conforme aux exigences françaises de l'entête, un document FHIR DOI
 Les ressources référencées dans l'entête du document DOIVENT également respecter les profils français spécifiques :
 
 * **[FRPatientINSDocument](StructureDefinition-fr-patient-ins-document.html)** ou **[FRPatientDocument](StructureDefinition-fr-patient-document.html)** : profil du patient/usager
-* **[FRPractitionerRoleDocument](StructureDefinition-fr-practitionerrole-document.html)** : profil de la situation d'exercice d'un professionnel de santé
+* **[FRPractitionerRoleDocument](StructureDefinition-fr-practitionerRole-document.html)** : profil de la situation d'exercice d'un professionnel de santé
 * **[FRPractitionerDocument](StructureDefinition-fr-practitioner-document.html)** : profil du professionnel de santé
 * **[FROrganizationDocument](StructureDefinition-fr-organization-document.html)** : profil de l'organisation/structure
 * **[FRDeviceAuteurDocument](StructureDefinition-fr-device-auteur-document.html)** : profil du dispositif auteur (si applicable)
 * **[FREncounterCareDocument](StructureDefinition-fr-encounter-care-document.html)** : profil de la prise en charge
 * **[FRLocationDocument](StructureDefinition-fr-location-document.html)** : profil du lieu d'exercice
-* **[FRRelatedPersonDocument](StructureDefinition-fr-relatedperson-document.html)** : profil d'une personne en relation avec le patient (si applicable)
+* **[FRRelatedPersonDocument](StructureDefinition-fr-related-person-document.html)** : profil d'une personne en relation avec le patient (si applicable)
 
 Ces profils portent les exigences complémentaires et spécifiques au contexte français, notamment :
 
@@ -278,7 +278,7 @@ En pratique, de nombreux ValueSets ou terminologies ne prévoient pas de code d'
 
 > **Exemples d'instances : Allergies et Procédures** :
 >
-> - L'instance [example-allergy-intolerance-data-absent-reason](AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html) illustre l'usage de l'extension `data-absent-reason` sur les éléments obligatoires du profil [FRAllergyIntoleranceDocument](StructureDefinition-fr-allergie-intolerance-document.html) lorsque la valeur est inconnue ou temporairement indisponible.
+> - L'instance [example-allergy-intolerance-data-absent-reason](AllergyIntolerance-example-allergy-intolerance-data-absent-reason.html) illustre l'usage de l'extension `data-absent-reason` sur les éléments obligatoires du profil [FRAllergyIntoleranceDocument](StructureDefinition-fr-allergy-intolerance-document.html) lorsque la valeur est inconnue ou temporairement indisponible.
 > - L'instance [example-procedure-data-absent-reason](Procedure-example-procedure-data-absent-reason.html) illustre les deux cas de figure sur le profil [FRProcedureDocument](StructureDefinition-fr-procedure-document.html) :
 >   - **`extension data-absent-reason`** pour les données codées à partir d'un codeSystem/valueSet non obligatoire (`example`, `preferred` ou `extensible`) : éléments `code`, `performedDateTime`
 >   - **`code d'exception natif`**  du ValueSet `event-status`(`unknown`) pour les données codées à partir d'un codeSystem/valueSet obligatoire (`required`) : élément `status`
