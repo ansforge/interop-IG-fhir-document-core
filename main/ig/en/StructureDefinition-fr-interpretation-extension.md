@@ -35,7 +35,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-interpretation
   "name" : "FRInterpretationExtension",
   "title" : "FR Interpretation Extension",
   "status" : "draft",
-  "date" : "2026-09-03T14:46:57+00:00",
+  "date" : "2026-09-04T09:26:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

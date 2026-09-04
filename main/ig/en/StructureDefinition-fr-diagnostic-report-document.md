@@ -8,7 +8,7 @@ FRDiagnosticReportDocument est un profil permettant de regrouper les types des r
 **Usages:**
 
 * Derived from this Profile: [DiagnosticReport - FR Diagnostic Report BIO chapter Document](StructureDefinition-fr-diagnostic-report-bio-chapter-document.md) and [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md)
-* Refer to this Profile: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
+* Refer to this Profile: [FR Composition Document](StructureDefinition-fr-composition-document.md) and [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-diagnostic-report-document.json)
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
   "name" : "FRDiagnosticReportDocument",
   "title" : "DiagnosticReport - FR Diagnostic Report Document",
   "status" : "draft",
-  "date" : "2026-09-03T14:46:57+00:00",
+  "date" : "2026-09-04T09:26:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

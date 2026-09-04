@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-09-03T14:46:57+00:00",
+  "date" : "2026-09-04T09:26:41+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -92,7 +92,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
         }],
         "description" : "Modèle du document et version du modèle",
         "rules" : "open"
-      }
+      },
+      "short" : "Modèle du document et version du modèle."
     },
     {
       "id" : "Composition.meta.profile:canonical",
@@ -117,7 +118,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "id" : "Composition.extension:R5-Composition-version",
       "path" : "Composition.extension",
       "sliceName" : "R5-Composition-version",
-      "short" : "Version du document",
+      "short" : "Numéro de version du document.",
       "min" : 1,
       "constraint" : [{
         "key" : "comp-1",
@@ -130,7 +131,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.extension:data-enterer",
       "path" : "Composition.extension",
-      "sliceName" : "data-enterer"
+      "sliceName" : "data-enterer",
+      "short" : "Opérateur de saisie"
     },
     {
       "id" : "Composition.extension:data-enterer.extension",
@@ -197,7 +199,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.extension:information-recipient",
       "path" : "Composition.extension",
-      "sliceName" : "information-recipient"
+      "sliceName" : "information-recipient",
+      "short" : "Destinataire prévu du document."
     },
     {
       "id" : "Composition.extension:information-recipient.extension:type",
@@ -231,7 +234,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.extension:participant",
       "path" : "Composition.extension",
-      "sliceName" : "participant"
+      "sliceName" : "participant",
+      "short" : "Participant, différent de l'auteur, du responsable, de l'opérateur de saisie, de l'informateur ou du destinataire."
     },
     {
       "id" : "Composition.extension:participant.extension",
@@ -297,6 +301,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       }]
     },
     {
+      "id" : "Composition.extension:consent",
+      "path" : "Composition.extension",
+      "sliceName" : "consent",
+      "short" : "Consentement associé au document."
+    },
+    {
       "id" : "Composition.extension:basedOn",
       "path" : "Composition.extension",
       "sliceName" : "basedOn"
@@ -311,9 +321,29 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       }]
     },
     {
+      "id" : "Composition.extension:diagnosticReport",
+      "path" : "Composition.extension",
+      "sliceName" : "diagnosticReport",
+      "short" : "Pièces jointes",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference|1.3.0"]
+      }]
+    },
+    {
+      "id" : "Composition.extension:diagnosticReport.value[x]",
+      "path" : "Composition.extension.value[x]",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-document|0.1.0"]
+      }]
+    },
+    {
       "id" : "Composition.identifier",
       "path" : "Composition.identifier",
-      "short" : "Identifiant lot de versions",
+      "short" : "Identifiant du lot de versions du même document.",
       "min" : 1,
       "mustSupport" : true
     },
@@ -346,6 +376,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.encounter",
       "path" : "Composition.encounter",
+      "short" : "Association du document à une prise en charge.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -356,7 +387,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.date",
       "path" : "Composition.date",
-      "short" : "Date de création"
+      "short" : "Date de création du document."
     },
     {
       "id" : "Composition.author",
@@ -396,7 +427,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.confidentiality",
       "path" : "Composition.confidentiality",
-      "short" : "Niveau de confidentialité",
+      "short" : "Niveau de confidentialité du document.",
       "min" : 1,
       "mustSupport" : true
     },
@@ -459,7 +490,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.relatesTo",
       "path" : "Composition.relatesTo",
-      "short" : "Document de référence"
+      "short" : "Document de référence (à remplacer, transformé, …)."
     },
     {
       "id" : "Composition.relatesTo.target[x]",
@@ -564,6 +595,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
         }],
         "rules" : "open"
       },
+      "short" : "Evènement documenté et notamment le cadre d'exercice.",
       "min" : 1
     },
     {
@@ -582,6 +614,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "id" : "Composition.event.extension:performer",
       "path" : "Composition.event.extension",
       "sliceName" : "performer",
+      "short" : "Exécutant de l'évènement documenté",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -627,6 +660,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.event:principalEvent.period",
       "path" : "Composition.event.period",
+      "short" : "Date et heure de l’évènement documenté principal",
       "min" : 1
     },
     {
