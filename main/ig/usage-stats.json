@@ -530,6 +530,9 @@
     ]
   },
   "usage": {
+    "http://hl7.eu/fhir/StructureDefinition/medication-package-type|1.3.0": [
+      "Medication"
+    ],
     "http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference|1.3.0": [
       "Composition"
     ],
@@ -835,6 +838,9 @@
       "Medication"
     ],
     "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-classification|1.0.0-comment-2": [
+      "Medication"
+    ],
+    "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device|1.0.0-comment-2": [
       "Medication"
     ],
     "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname|1.0.0-comment-2": [

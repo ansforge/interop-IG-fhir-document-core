@@ -38,7 +38,7 @@ Cette structure est dérivée de [Medication](http://hl7.org/fhir/R4/medication.
 ** Résumé **
 
 Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 15 éléments
+ Must-Support : 17 éléments
 
 **Structures**
 
@@ -55,6 +55,8 @@ Cette structure fait référence à ces extensions:
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-characteristic|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-characteristic.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-unitofpresentation.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-sizeofitem.html)
+* [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-device.html)
+* [http://hl7.eu/fhir/StructureDefinition/medication-package-type|1.3.0](http://hl7.eu/fhir/extensions/1.3.0/StructureDefinition-medication-package-type.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-strengthsubstance.html)
 
 **Slices**
@@ -86,7 +88,7 @@ Cette structure est dérivée de [Medication](http://hl7.org/fhir/R4/medication.
 ** Résumé **
 
 Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 15 éléments
+ Must-Support : 17 éléments
 
 **Structures**
 
@@ -103,6 +105,8 @@ Cette structure fait référence à ces extensions:
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-characteristic|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-characteristic.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-unitofpresentation.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-sizeofitem.html)
+* [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-device.html)
+* [http://hl7.eu/fhir/StructureDefinition/medication-package-type|1.3.0](http://hl7.eu/fhir/extensions/1.3.0/StructureDefinition-medication-package-type.html)
 * [https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance|1.0.0-comment-2](https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2/StructureDefinition-ihe-ext-medication-strengthsubstance.html)
 
 **Slices**
@@ -128,7 +132,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
   "name" : "FRMedicationDocument",
   "title" : "Medication - FR Medication Document",
   "status" : "draft",
-  "date" : "2026-09-04T09:26:41+00:00",
+  "date" : "2026-09-04T11:53:23+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -250,6 +254,32 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
       "type" : [{
         "code" : "Extension",
         "profile" : ["https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem|1.0.0-comment-2"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Medication.extension:device",
+      "path" : "Medication.extension",
+      "sliceName" : "device",
+      "short" : "Dispositif d'administration inclus dans le produit. Les dispositifs qui ne sont pas contenus dans le conditionnement du médicament ne sont pas pris en compte.",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device|1.0.0-comment-2"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Medication.extension:packageType",
+      "path" : "Medication.extension",
+      "sliceName" : "packageType",
+      "short" : "Conditionnement primaire (ampoule, plaquette,…) EDQM Standard Terms (0.4.0.127.0.16.1.1.2.1) / classe CON (Récipient).",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.eu/fhir/StructureDefinition/medication-package-type|1.3.0"]
       }],
       "mustSupport" : true
     },
