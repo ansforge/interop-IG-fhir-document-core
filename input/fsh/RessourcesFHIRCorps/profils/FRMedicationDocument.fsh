@@ -24,8 +24,8 @@ Description: "FRMedicationDocument permet de décrire un médicament ou un vacci
 * extension contains $ihe-ext-medication-classification named classification 0..* MS
 * extension[classification] ^short = "Classification ATC."
  // Extension IHE pour les caractéristiques du médicament
-* extension contains $ihe-ext-medication-characteristic named conditionnement  0..*
-* extension[conditionnement] ^short = "Présentation / conditionnement."
+* extension contains $ihe-ext-medication-characteristic named characteristic  0..*
+* extension[characteristic] ^short = "Caractéristique du médicament."
 
 * ingredient
   * itemCodeableConcept MS

@@ -36,17 +36,18 @@ Description: "FRServiceRequestDocument profil permet de porter des demandes d'ex
 * bodySite ^short = "Cible"
 * bodySite from http://hl7.org/fhir/ValueSet/body-site (extensible)
 
-* extension contains FRMethodExtension named method 0..*
+* extension contains FRMethodExtension named method 0..* and
+     FRActorExtension named author 0..1 and 
+     http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason named reason 0..*
+
 * extension[method] MS
 * extension[method] ^short = "Méthode"
-
-* requester MS
-* requester ^short = "Prescripteur"
-
-* extension contains FRActorExtension named author 0..1
 * extension[author] ^short = "Auteur de la demande"
 * extension[author].extension[type].valueCode = #AUT
 * extension[author].extension[actor].valueReference only Reference(FRPractitionerRoleDocument or Device or FRDeviceAuteurDocument or FROrganizationDocument or FRRelatedPersonDocument or FRPatientINSDocument or FRPatientDocument)
+
+* requester MS
+* requester ^short = "Prescripteur"
 
 * note MS
 * note ^short = "Justification de la demande d’examen / Finalité de l'examen"

@@ -4,8 +4,6 @@ Id: fr-service-request-imaging-document
 Title: "ServiceRequest - FR Service Request Imaging Document"
 Description: "FRServiceRequestImagingDocument profil spécifique permet de porter des demandes d'examens d'imagerie."
 
-* extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason named reason 0..*
-
 * extension[reason] contains
     finaliteExamen 1..1 MS and
     justificationDemande 0..1 MS

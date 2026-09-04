@@ -5,6 +5,7 @@ Title: "FR Composition Document"
 Description: "Ce profil est utilisé pour représenter un document médical."
 
 //Composition.meta.profile : templateId
+* meta.profile ^short = "Modèle du document et version du modèle."
 * meta.profile ^slicing.discriminator.type = #value
 * meta.profile ^slicing.discriminator.path = "$this"
 * meta.profile ^slicing.rules = #open
@@ -13,10 +14,16 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * meta.profile[canonical] = Canonical(fr-composition-document)
 
 * extension[R5-Composition-version] 1..1
-* extension[R5-Composition-version] ^short = "Version du document"
+* extension[R5-Composition-version] ^short = "Numéro de version du document."
 * extension[R5-Composition-version] obeys comp-1
 
+// diagnosticReportReference-extension Europe
+* extension contains $composition-diagnosticReportReference named diagnosticReport 0..1
+* extension[diagnosticReport] ^short = "Pièces jointes"
+* extension[diagnosticReport].value[x] only Reference(FRDiagnosticReportDocument)
+
 // data-enterer-extension
+* extension[data-enterer] ^short = "Opérateur de saisie"
 * extension[data-enterer].extension[type] 1..1
 * extension[data-enterer].extension[type] ^short = "Type de participation : opérateur de saisie"
 * extension[data-enterer].extension[time] 1..1
@@ -31,16 +38,18 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * extension[informant].extension[party].valueReference only Reference(FRPractitionerRoleDocument or FRRelatedPersonDocument or FRPatientINSDocument or FRPatientDocument)
 
 // information-recipient-extension
+* extension[information-recipient] ^short = "Destinataire prévu du document."
 * extension[information-recipient].extension[type] 1..1 
 * extension[information-recipient].extension[type] ^short = "Type de participation : destinataire"
-* extension[information-recipient].extension[type].valueCodeableConcept from FRValueSetParticipationType
+* extension[information-recipient].extension[type].valueCodeableConcept from FrValueSetParticipationTypeInformationRecipient
 * extension[information-recipient].extension[party] ^short = "Destinataire"
 * extension[information-recipient].extension[party].valueReference only Reference(FRPractitionerRoleDocument)
 
 // participant-extension
+* extension[participant] ^short = "Participant, différent de l'auteur, du responsable, de l'opérateur de saisie, de l'informateur ou du destinataire."
 * extension[participant].extension[type] 1..1 
 * extension[participant].extension[type] ^short = "Type de participation"
-* extension[participant].extension[type].valueCodeableConcept from $JDV_J144-ParticipationType-CISIS (required)
+* extension[participant].extension[type].valueCodeableConcept from FrValueSetParticipationTypeParticipant (required)
 * extension[participant].extension[function] 0..1 
 * extension[participant].extension[function] ^short = "Précision sur le rôle fonctionnel"
 * extension[participant].extension[function].valueCodeableConcept from $JDV_J47-FunctionCode-CISIS (required)
@@ -55,8 +64,11 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * extension[basedOn].valueReference only Reference(ServiceRequest)
 * extension[basedOn].valueReference ^short = "Association du document à une prescription"
 
+// Consent extension
+* extension[consent] ^short = "Consentement associé au document."
+
 * language 1..1 MS
-* identifier ^short = "Identifiant lot de versions"
+* identifier ^short = "Identifiant du lot de versions du même document."
 * identifier 1..1 MS
 * status MS
 * status ^short = "Statut du document"
@@ -71,9 +83,9 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * subject only Reference(FRPatientINSDocument or FRPatientDocument)
 * subject.reference 1.. MS
 * date MS
-* date ^short = "Date de création"
+* date ^short = "Date de création du document."
 * confidentiality 1..1 MS
-* confidentiality ^short = "Niveau de confidentialité"
+* confidentiality ^short = "Niveau de confidentialité du document."
 * author MS
 * author ^short = "Auteur du document"
 * author ^definition = "author permet d’enregistrer un auteur du document. Un document peut avoir un ou plusieurs auteurs. Un professionnel de santé auteur d'un document est toujours dans une situation d'exercice donnée (FRPractitionerRoleDocument)."
@@ -96,10 +108,11 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * attester[professional_attester] ^short = "Professionnel attestant la validité du contenu du document"
 
 * event 1..*
+* event ^short = "Evènement documenté et notamment le cadre d'exercice."
 * event.detail 0..1
 * event.period ^short = "Date et heure de l’évènement documenté"
 * event.extension contains fr-performer-event-extension named performer 0..1
-
+* event.extension[performer] ^short = "Exécutant de l'évènement documenté"
 // Slicing event : évènement documenté principal 
 * event ^slicing.discriminator.type = #value
 * event ^slicing.discriminator.path = "$this"
@@ -108,11 +121,12 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * event contains principalEvent 1..1
 * event[principalEvent] ^short = "Evènement documenté principal"
 * event[principalEvent].period 1..1 
+* event[principalEvent].period ^short = "Date et heure de l’évènement documenté principal"
 * event[principalEvent].detail 0..1
 * event[principalEvent].extension[performer] 1..1 
 * event[principalEvent].extension[performer] ^short = "Exécutant de l'évènement documenté principal"
 
-* relatesTo ^short = "Document de référence"
+* relatesTo ^short = "Document de référence (à remplacer, transformé, …)."
 * relatesTo.target[x] only Identifier or Reference(FRCompositionDocument)
 * relatesTo.targetIdentifier.type 1..1
 * relatesTo.targetIdentifier.system 1..1
@@ -128,6 +142,7 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * custodian ^short = "Structure chargée de la conservation du document"
 * custodian only Reference(FROrganizationDocument)
 * encounter 1..1 MS
+* encounter ^short = "Association du document à une prise en charge."
 * encounter only Reference(FREncounterCareDocument)
 
 * section 1..*
