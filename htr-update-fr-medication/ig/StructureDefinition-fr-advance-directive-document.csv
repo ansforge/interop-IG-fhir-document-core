@@ -44,7 +44,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
   <coding>
     <system value=""http://terminology.hl7.org/CodeSystem/consentscope""/>
     <code value=""adr""/>
-    <display value=""Advance Directive""/>
+    <display value=""Advanced Care Directive""/>
   </coding>
 </valueCodeableConcept>","","","",,"extensible","The four anticipated uses for the Consent Resource.","http://hl7.org/fhir/ValueSet/consent-scope|4.0.1","",,,,"Consent.scope",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

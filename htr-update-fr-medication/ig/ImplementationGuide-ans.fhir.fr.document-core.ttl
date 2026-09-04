@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-08-27T08:28:14+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-04T09:33:44+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -126,15 +126,15 @@
        fhir:link <https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies>
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "ans.fr.terminologies" ] ;
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.12.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.13.0" ]
   ], [
      fhir:index 8 ;
-     fhir:Element.id [ fhir:value "hl7_fhir_eu_extensions_r4" ] ;
+     fhir:Element.id [ fhir:value "hl7_fhir_eu_extensions" ] ;
      fhir:ImplementationGuide.dependsOn.uri [
        fhir:value "http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions" ;
        fhir:link <http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions>
      ] ;
-     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.eu.extensions.r4" ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.eu.extensions" ] ;
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.3.0" ]
   ] ;
   fhir:ImplementationGuide.definition [
@@ -1016,15 +1016,15 @@
      ] ;
      fhir:ImplementationGuide.definition.grouping [
        fhir:index 0 ;
-       fhir:Element.id [ fhir:value "Ressources FHIR entête" ] ;
+       fhir:Element.id [ fhir:value "ressources-fhir-entete" ] ;
        fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Profils FHIR entête" ]
      ], [
        fhir:index 1 ;
-       fhir:Element.id [ fhir:value "Ressources FHIR corps" ] ;
+       fhir:Element.id [ fhir:value "ressources-fhir-corps" ] ;
        fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Profils FHIR corps" ]
      ], [
        fhir:index 2 ;
-       fhir:Element.id [ fhir:value "Data Type FHIR" ] ;
+       fhir:Element.id [ fhir:value "data-type-fhir" ] ;
        fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Data Type Profiles" ]
      ] ;
      fhir:ImplementationGuide.definition.resource [
@@ -1041,7 +1041,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AdverseEvent - FR adverse event Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRAdverseEventDocument permet de décrire un effet indésirable prévisible lié à un médicament" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 1 ;
        fhir:Element.extension [
@@ -1056,7 +1056,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AllergyIntolerance - FR Allergy and intolerance Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRAllergyIntoleranceDocument est un profil utilisé pourdécrire une allergie ou une hypersensibilité non allergique ou une intolérance ou une idiosyncrasie." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 2 ;
        fhir:Element.extension [
@@ -1071,7 +1071,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BodyStructure - FR Body Structure Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRBodyStructureDocument permet de préciser les modificateurs topographiques associés à une localisation anatomique." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 3 ;
        fhir:Element.extension [
@@ -1086,7 +1086,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CarePlan - FR Care Plan Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRCarePlanDocument est un profil permettant d’enregistrer une référence à un traitement dans un plan de traitement." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 4 ;
        fhir:Element.extension [
@@ -1101,7 +1101,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Condition - FR Condition Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRConditionDocument est un profil utilisé pour décrire un problème du patient (une pathologie par exemple)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 5 ;
        fhir:Element.extension [
@@ -1116,7 +1116,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Consent - FR Advance directive Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRAdvanceDirectiveDocument permet  d’indiquer si les directives anticipées du patient.\nArticle L1111-11 du Code de la Santé Publique : \n« Toute personne majeure peut rédiger des directives anticipées pour le cas où elle serait un \njour hors d'état d'exprimer sa volonté. Ces directives anticipées expriment la volonté de la personne \nrelative à sa fin de vie en ce qui concerne les conditions de la poursuite, de la limitation, \nde l'arrêt ou du refus de traitement ou d'acte médicaux.»" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 6 ;
        fhir:Element.extension [
@@ -1131,7 +1131,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DeviceRequest - FR Device request Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRDeviceRequestDocument représente une demande de dispositif médical (DM) qui n’a pas encore été dispensé." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 7 ;
        fhir:Element.extension [
@@ -1146,7 +1146,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DeviceUseStatement - FR Device Use Statement Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRDeviceUseStatementDocument représente les informations sur un dispositif médical" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 8 ;
        fhir:Element.extension [
@@ -1161,7 +1161,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DiagnosticReport - FR Diagnostic Report BIO chapter Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRDiagnosticReportBIOChapterDocument utilisé pour représenter un CR de biologie" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 9 ;
        fhir:Element.extension [
@@ -1176,7 +1176,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DiagnosticReport - FR Diagnostic Report Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRDiagnosticReportDocument est un profil permettant de regrouper les types des résultats classés par type d’examens (BIO, IMG, etc…)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 10 ;
        fhir:Element.extension [
@@ -1191,7 +1191,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DiagnosticReport - FR Diagnostic Report Imaging Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Le profil FRDiagnosticReportImagingDocument est dédié aux comptes rendus d’imagerie.\nCe document représente le rapport d’un examen d’imagerie. Il constitue la ressource principale qui fait référence à l’ensemble des données produites lors de l’examen d’imagerie." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 11 ;
        fhir:Element.extension [
@@ -1206,7 +1206,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DocumentReference - FR Document reference Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRDocumentReferenceDocument restreint pour les documents PDF." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 12 ;
        fhir:Element.extension [
@@ -1221,7 +1221,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter - FR Encounter Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FREncounterDocument est un profil permettant de conserver les modalités d'une rencontre du patient. Il peut s'agir d'une rencontre passée ou à venir" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 13 ;
        fhir:Element.extension [
@@ -1236,7 +1236,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Endpoint - FR Endpoint Wado Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FREndpointWadoDocument permet d'enregistrer les références Wado, les types de média et le type de connection IHE IID" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
        fhir:index 14 ;
        fhir:Element.extension [
@@ -1276,6 +1276,38 @@
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41> ;
+         fhir:Reference.reference [ fhir:value "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Patient - AllergyIntolerance avec Data Absent Reason" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0" ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0>
+       ]
+     ], [
+       fhir:index 17 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55> ;
+         fhir:Reference.reference [ fhir:value "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Patient - Procedure avec Data Absent Reason" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0" ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0>
+       ]
+     ], [
+       fhir:index 18 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1285,9 +1317,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FamilyMemberHistory - FR Family Member History Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRFamilyMemberHistoryDocument est un profil utilisé pour apporter des informations complémentaires relatives aux membres de la famille du patient (pathologies, etc…)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 17 ;
+       fhir:index 19 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1300,9 +1332,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Accession Number Identifier Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "DataType définissant l'Accession Number d'une demande d'examen. Il s'agit d'un identifiant unique attribué à chaque demande d'examen." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Data Type FHIR" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "data-type-fhir" ]
      ], [
-       fhir:index 18 ;
+       fhir:index 20 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1316,7 +1348,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant de représenter un acteur impliqué dans le document avec son type et sa référence." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19 ;
+       fhir:index 21 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1330,7 +1362,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'ajouter un horodatage (TS) à l'élément author d'une Composition." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 20 ;
+       fhir:index 22 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1343,9 +1375,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Bundle Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil permet d’assembler les éléments de l’en-tête et du corps d’un document." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 21 ;
+       fhir:index 23 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1359,7 +1391,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "CodeSystem définissant les types d'informations associés aux notes d'une demande d'examen d'imagerie." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 22 ;
+       fhir:index 24 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1373,7 +1405,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Examen de comparaison radiologique" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 23 ;
+       fhir:index 25 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1386,9 +1418,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Composition Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil est utilisé pour représenter un document médical." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 24 ;
+       fhir:index 26 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1401,9 +1433,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Device Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil représente le système auteur du document." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 25 ;
+       fhir:index 27 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1416,9 +1448,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Encounter Care Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil représente l'association du document à une prise en charge." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 26 ;
+       fhir:index 28 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1432,7 +1464,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'indiquer la localisation anatomique d'une condition dans antécédents familiaux" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 27 ;
+       fhir:index 29 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1445,9 +1477,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Human Name Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil correspond au type de données HumanName utilisé dans le document." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Data Type FHIR" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "data-type-fhir" ]
      ], [
-       fhir:index 28 ;
+       fhir:index 30 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1461,7 +1493,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Imaging procedure used for the imaging acquisition" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 29 ;
+       fhir:index 31 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1475,7 +1507,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant de représenter le type de vaccination (ex: INITIMMUNIZ, BOOSTER, IMMUNIZ)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 30 ;
+       fhir:index 32 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1489,7 +1521,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant de spécifier une interprétation." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 31 ;
+       fhir:index 33 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1502,9 +1534,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Location Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil représente le lieu de la prise en charge." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 32 ;
+       fhir:index 34 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1518,7 +1550,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'indiquer l’ordre d’une prise dans le cadre d’un schéma de traitement comportant des dosages progressifs ou fractionnés dans le contexte de MedicationAdministration. La valeur est un entier (integer) représentant le numéro de séquence de l’administration." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 33 ;
+       fhir:index 35 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1532,7 +1564,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d’indiquer la méthode utilisée : techniques biologiques (ex. : titration, agglutination…), techniques d’imagerie dans les demandes d'examen (ultrasound, tomographie, IRM…), des méthodes de mesure spécifiques, etc." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 34 ;
+       fhir:index 36 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1546,7 +1578,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'indiquer si le traitement est non remboursable." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 35 ;
+       fhir:index 37 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1560,7 +1592,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant de préciser le type d'information contenu dans une note associée à une demande d'examen d'imagerie." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 36 ;
+       fhir:index 38 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1574,7 +1606,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d’indiquer le nombre de cadres référencés dans une instance ImagingStudy, conforme aux exigences du modèle logique Xt-EHR." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 37 ;
+       fhir:index 39 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1587,9 +1619,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Organization Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil représente la structure pour le compte de laquelle intervient le professionnel." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 38 ;
+       fhir:index 40 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1602,9 +1634,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Patient Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil représente le patient concerné par le document." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 39 ;
+       fhir:index 41 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1618,7 +1650,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Historique médical du patient pertinent pour l'examen d'imagerie" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 40 ;
+       fhir:index 42 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1631,9 +1663,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Patient INS Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil représente le patient concerné par le document." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 41 ;
+       fhir:index 43 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1647,7 +1679,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'ajouter l'exécutant de l'évènement documenté. Ajout d'un performer à l'élément event d'une Composition." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 42 ;
+       fhir:index 44 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1660,9 +1692,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Practitioner Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil permet de décrire un professionnel de santé dans le cadre d'un document médical" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 43 ;
+       fhir:index 45 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1675,9 +1707,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR PractitionerRole Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil représente les professionnels de santé et leurs rôles dans le cadre d'un document médical." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 44 ;
+       fhir:index 46 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1691,7 +1723,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'indiquer la difficulté perçue ou mesurée d'un acte." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 45 ;
+       fhir:index 47 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1705,7 +1737,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d’indiquer d'indique la priorité clinique de l’observation." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 46 ;
+       fhir:index 48 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1718,9 +1750,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR RelatedPerson Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil représente l'informateur non professionnel." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR entête" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
      ], [
-       fhir:index 47 ;
+       fhir:index 49 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1734,7 +1766,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'indiquer le motif du statut métier d'une évaluation." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 48 ;
+       fhir:index 50 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1747,9 +1779,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Study Instance Uid Identifier Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Data Type FHIR" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "data-type-fhir" ]
      ], [
-       fhir:index 49 ;
+       fhir:index 51 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1763,7 +1795,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet définissant les types d'informations pouvant être associés aux notes d'une demande d'examen d'imagerie." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 50 ;
+       fhir:index 52 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1773,11 +1805,25 @@
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-doc-vs-participation-type" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Participation Type" ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Participation Type Information Recipient" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type de participation : destinataire" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 51 ;
+       fhir:index 53 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/fr-doc-vs-participation-type-participant" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Participation Type Participant" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type de participation : participant" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 54 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1791,7 +1837,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pour les professions 41 (Assistant de service social) et 99 (Acteur caractérisé par son rôle)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 52 ;
+       fhir:index 55 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1804,9 +1850,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ImagingStudy - FR Imaging study Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRImagingStudyDocument (DICOM Part 20 - Study Act) contient les informations DICOM d’un examen d’imagerie réalisé sur un patient.\nL’examen est composé d'une ou de plusieurs séries d’images médicales." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 53 ;
+       fhir:index 56 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1819,9 +1865,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Immunization - FR Immunization Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRImmunizationDocument permet de décrire l'administration d'un vaccin. \n - Il permet également de décrire pourquoi un vaccin n'a pas été réalisé." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 54 ;
+       fhir:index 57 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1834,9 +1880,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ImmunizationRecommendation - FR Immunization Recommendation Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRImmunizationRecommendationDocument permet de décrire une vaccination prévue ou proposée.\n - Une vaccination proposée est une proposition qui est utilisée dans la prise de décisions (elle peut apparaître comme une contribution ou un résultat provenant de l'aide à la décision clinique). \n - Une vaccination prévue dépend d'un plan accepté et à venir.\n - Ce profil hérite de la structuration, des contraintes et des vocabulaires définis dans le profil FRVaccinationDocument." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 55 ;
+       fhir:index 58 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1849,9 +1895,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Media - FR Media Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRMediaDocument permet de positionner une image de type gif, jpeg, png ou bm. Elle est encodée en base 64" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 56 ;
+       fhir:index 59 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1864,9 +1910,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication - FR Medication Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRMedicationDocument permet de décrire un médicament ou un vaccin." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 57 ;
+       fhir:index 60 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1879,9 +1925,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedicationAdministration - FR Medication Administration Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "\n - FRMedicationAdministrationDocument permert de décrire les modalités d'administration d'un médicament au patient.\n - Il permet de décrire notamment le médicament, le mode d'administration, la quantité, la durée et la fréquence d'administration.\n - Si le traitement est en attente d’administration c’est-à dire qu’il a été prescrit." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 58 ;
+       fhir:index 61 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1894,9 +1940,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedicationDispense - FR Medication Dispense Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRMedicationDispenseDocument permet de décrire un traitement dispensé avec notamment le médicament dispensé, la quantité et la référence de la prescription." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 59 ;
+       fhir:index 62 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1909,9 +1955,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedicationRequest - FR Medication Request Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRMedicationRequestDocument permet de décrire un traitement prescrit avec notamment le médicament, le mode d’administration, la quantité, la durée et la fréquence d'administration." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 60 ;
+       fhir:index 63 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1924,9 +1970,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedicationStatement - FR Medication Statement Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "\n - FRMedicationStatementDocument permet de décrire les modalités d'administration d'un médicament au patient.\n - Il permet de décrire notamment le médicament, le mode d'administration, la quantité, la durée et la fréquence d'administration.\n - Si le traitement a déjà été administré ou si information rapporté par le patient ou si aucun traitement." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 61 ;
+       fhir:index 64 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1939,9 +1985,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation ALD Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationALDDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une affection longue durée (ALD)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 62 ;
+       fhir:index 65 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1954,9 +2000,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Assessment Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationAssessmentDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 63 ;
+       fhir:index 66 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1969,9 +2015,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Contra Indications Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationContraIndicationsDocument permet d'apporter des informations relatives aux contre-indications médicales du patient dans le cadre d'un examen d'imagerie." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 64 ;
+       fhir:index 67 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1984,9 +2030,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Laboratory Report Results Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationLaboratoryReportResultsDocument décrit un résultat d’examen de biologie médicale." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 65 ;
+       fhir:index 68 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1999,9 +2045,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Microorganism Detection Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationMicroorganismDetectionDocument permet d'indiquer si une recherche de micro-organismes multirésistants ou émergents a été effectuée ou pas." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 66 ;
+       fhir:index 69 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2014,9 +2060,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Multiresistant Microorganisms Identification Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationMultiresistantMicroorganismsIdentificationDocument permet de décrire sous forme textuelle les micro-organismes identifiés." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 67 ;
+       fhir:index 70 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2029,9 +2075,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Pain Score Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationPainScoreDocument permet d'enregistrer l'évaluation du patient de sa douleur sur une échelle de 1 à 10." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 68 ;
+       fhir:index 71 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2044,9 +2090,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Pregnancy Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationPregnancyDocument permet d'apporter des informations relatives aux grossesses actuelle ou passées." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 69 ;
+       fhir:index 72 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2059,9 +2105,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Pregnancy History Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationPregnancyHistoryDocument permet de regrouper les observations relatives à un épisode de grossesse." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 70 ;
+       fhir:index 73 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2074,9 +2120,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Prevention Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationPreventionDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec une prévention." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 71 ;
+       fhir:index 74 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2089,9 +2135,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Radiation Exposure Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationRadiationExposureDocument permet d'enregistrer les informations relatives à l’exposition du patient aux rayonnements et les informations de radioprotection." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 72 ;
+       fhir:index 75 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2104,9 +2150,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Result Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationResultDocument permet d'indiquer le résultat observé." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 73 ;
+       fhir:index 76 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2119,9 +2165,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Social History Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationSocialHistoryDocument décrit les habitudes de vie du patient (Habitus / Mode de vie)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 74 ;
+       fhir:index 77 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2134,9 +2180,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Vital Signs Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "\n - FRObservationVitalSignsDocument permet d'indiquer les informations détaillées relatives à une mesure clinique spécifique.\n - Il est basée sur la ressource Observation qu'elle spécialise en portant des contraintes sur les vocabulaires des éléments 'code' et 'value'." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 75 ;
+       fhir:index 78 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2149,9 +2195,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Vital Signs Panel Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationVitalSignsPanelDocument permet de regrouper des informations relatives aux mesures cliniques du patient." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 76 ;
+       fhir:index 79 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2164,9 +2210,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Work Related Accident Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRObservationWorkRelatedAccidentDocument permet d'indiquer si l'élément auquel elle est associée est en rapport avec un accident du travail / une maladie professionnelle." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 77 ;
+       fhir:index 80 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2179,9 +2225,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Procedure - FR Procedure Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRProcedureDocument est un profil utilisé pour décrire un acte planifié ou réalisé." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 78 ;
+       fhir:index 81 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2194,9 +2240,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Procedure - FR Procedure Imaging Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRProcedureImagingDocument permet d'enregistrer les différents paramètres de l’acquisition d’image :\nacte d'imagerie, localisation anatomique / latéralité / topographie, d'autres paramètres de l'acte" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 79 ;
+       fhir:index 82 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2209,9 +2255,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ServiceRequest - FR Service Request Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRServiceRequestDocument profil permet de porter des demandes d'examens (analyses biologiques, évaluations, étude d'imagerie, etc…) ou de suivis particuliers à programmer dans le cadre d'un plan de soins." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 80 ;
+       fhir:index 83 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2224,9 +2270,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ServiceRequest - FR Service Request Imaging Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRServiceRequestImagingDocument profil spécifique permet de porter des demandes d'examens d'imagerie." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 81 ;
+       fhir:index 84 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2239,9 +2285,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Specimen - FR Specimen Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRSpecimenDocument est un profil utilisé pour décrire le prélèvement et l'échantillon biologique (le matériel)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 82 ;
+       fhir:index 85 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2254,9 +2300,9 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Task - FR Task Patient Transport Document" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "FRTaskPatientTransportDocument permet de décrire le transport d'un patient/usager lors d'un déplacement (entrée ou sortie d'hôpital, ...)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
-       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Ressources FHIR corps" ]
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-corps" ]
      ], [
-       fhir:index 83 ;
+       fhir:index 86 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2270,7 +2316,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Jeu de valeurs pour les types d'acteurs." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 84 ;
+       fhir:index 87 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2284,7 +2330,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet contenant les codes SNOMED CT autorisés pour les types d'allergies et d'intolérances" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 85 ;
+       fhir:index 88 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2298,7 +2344,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet basé sur le CodeSystem EDQM fourni par SMT." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 86 ;
+       fhir:index 89 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2312,7 +2358,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet basé sur le CodeSystem EDQM fourni par SMT. classe PDF (forme galénique)." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 87 ;
+       fhir:index 90 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2326,7 +2372,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Systèmes autorisés pour les autres codifications." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 88 ;
+       fhir:index 91 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2340,7 +2386,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Jeu de valeurs permettant de coder l’agent responsable d’une allergie :\n- Médicaments : CIP ou UCD\n- Substances : SMS\n- Aliments : CIM-11 Chapitre X Extensions – Allergènes ou substances non médicinales\n- Agents environnementaux ou physiques : idem CIM-11 Chapitre X Extensions\n- Allergènes pouvant induire une contre-indication vaccinale : jdv-allergie-vaccin-cisis" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 89 ;
+       fhir:index 92 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2354,7 +2400,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Jeu de valeurs permettant de coder la substance responsable d’une allergie" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 90 ;
+       fhir:index 93 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2368,7 +2414,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes autorisés pour indiquer un acte.\nInclut :\n- Terminologie CCAM\n- NCIT (code C25218 : 'Intervention') si l'acte n'est pas trouvé dans CCAM\n- CISIS jdv-absent-or-unknown-procedure-cisis pour actes chirurgicaux inconnus ou absents.\n\nSi aucun code approprié n’est disponible, l’acte peut être décrit en texte libre." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 91 ;
+       fhir:index 94 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2382,7 +2428,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes issus de la Base de Données Publique des Médicaments (BDPM) pour identifier les vaccins par leur code CIS." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 92 ;
+       fhir:index 95 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -2396,7 +2442,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes SNOMED CT autorisés pour décrire une localisation anatomique ou une voie d'abord.\nInclut :\n- Les structures anatomiques pour body site : http://hl7.org/fhir/ValueSet/body-site\n- Les structures anatomiques pour voie d'abord (approach-site-codes) : http://hl7.org/fhir/ValueSet/approach-site-codes" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 93 ;
+       fhir:index 96 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;

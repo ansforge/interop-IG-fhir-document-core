@@ -55,6 +55,7 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.reason.html)
 
 **Slices**
 
@@ -101,6 +102,7 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.reason.html)
 
 **Slices**
 
@@ -125,7 +127,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
   "name" : "FRServiceRequestDocument",
   "title" : "ServiceRequest - FR Service Request Document",
   "status" : "draft",
-  "date" : "2026-08-27T08:28:14+00:00",
+  "date" : "2026-09-04T09:33:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -231,6 +233,17 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       "id" : "ServiceRequest.extension:author.extension:type.value[x]",
       "path" : "ServiceRequest.extension.extension.value[x]",
       "patternCode" : "AUT"
+    },
+    {
+      "id" : "ServiceRequest.extension:reason",
+      "path" : "ServiceRequest.extension",
+      "sliceName" : "reason",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0"]
+      }]
     },
     {
       "id" : "ServiceRequest.identifier",

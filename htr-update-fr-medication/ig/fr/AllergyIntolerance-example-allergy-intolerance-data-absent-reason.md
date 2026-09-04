@@ -10,7 +10,7 @@
 
 Profil: [AllergyIntolerance - FR Allergy and intolerance Document](StructureDefinition-fr-allergy-intolerance-document.md)
 
-**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/7.1.0/NamingSystem-uri.html)/urn:uuid:7f0e9c1a-3b2d-4e5f-8a6b-1c2d3e4f5a6b
+**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/7.3.0/NamingSystem-uri.html)/urn:uuid:7f0e9c1a-3b2d-4e5f-8a6b-1c2d3e4f5a6b
 
 **clinicalStatus**: Active
 
@@ -18,7 +18,7 @@ Profil: [AllergyIntolerance - FR Allergy and intolerance Document](StructureDefi
 
 **code**: Agent allergique inconnu
 
-**patient**: [Exemple Patient](Patient/exemple-patient)
+**patient**: [DOMINIQUE MARIE-LOUISE PAT-TROIS Female, Date de Naissance :1979-03-28 ( NIR définitif (use: official, ))](Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41.md)
 
 **onset**: 2021-12-04 --> (en cours)
 
@@ -66,8 +66,7 @@ Profil: [AllergyIntolerance - FR Allergy and intolerance Document](StructureDefi
     "text" : "Agent allergique inconnu"
   },
   "patient" : {
-    "reference" : "Patient/exemple-patient",
-    "display" : "Exemple Patient"
+    "reference" : "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41"
   },
   "onsetPeriod" : {
     "start" : "2021-12-04"

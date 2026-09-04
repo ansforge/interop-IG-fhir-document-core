@@ -20,8 +20,6 @@ Si aucun code approprié n’est disponible, l’acte peut être décrit en text
 
 ### Expansion
 
-No Expansion for this valueset (Unsupported Code System Version)
-
 -------
 
  [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -39,7 +37,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "name" : "FRValueSetProcedureCodeDocument",
   "title" : "ValueSet – FR ValueSet Codes d’actes",
   "status" : "draft",
-  "date" : "2026-08-27T08:28:14+00:00",
+  "date" : "2026-09-04T09:33:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -59,7 +57,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-ccam",
-      "version" : "v83.00"
+      "version" : "v84.00"
     },
     {
       "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",

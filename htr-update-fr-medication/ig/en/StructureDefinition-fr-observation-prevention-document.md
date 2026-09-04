@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-pr
   "name" : "FRObservationPreventionDocument",
   "title" : "Observation - FR Observation Prevention Document",
   "status" : "draft",
-  "date" : "2026-08-27T08:28:14+00:00",
+  "date" : "2026-09-04T09:33:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -98,7 +98,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-pr
         "coding" : [{
           "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
           "code" : "GEN-295",
-          "display" : "En rapport avec la prévention"
+          "display" : "En rapport avec la prevention"
         }]
       },
       "mustSupport" : true

@@ -4,7 +4,7 @@
   "language" : "fr",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-vs-edqm-document</b></p><a name=\"fr-vs-edqm-document\"> </a><a name=\"hcfr-vs-edqm-document\"> </a><ul><li>Include tous les codes définis dans <a href=\"https://interop.esante.gouv.fr/terminologies/1.12.0/CodeSystem-terminologie-standardterms.html\"><code>https://smt.esante.gouv.fr/terminologie-standardterms</code></a><span title=\"La version est explicitement indiquée comme étant 2026-01-30\"> version &#x1F4CD;2026-01-30</span></li></ul></div>"
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-vs-edqm-document</b></p><a name=\"fr-vs-edqm-document\"> </a><a name=\"hcfr-vs-edqm-document\"> </a><ul><li>Include tous les codes définis dans <a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-terminologie-standardterms.html\"><code>https://smt.esante.gouv.fr/terminologie-standardterms</code></a><span title=\"La version est explicitement indiquée comme étant 2026-01-30\"> version &#x1F4CD;2026-01-30</span></li></ul></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document",
   "version" : "0.1.0",
@@ -12,7 +12,7 @@
   "title" : "ValueSet - FR ValueSet EDQM Document",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-27T08:28:14+00:00",
+  "date" : "2026-09-04T09:33:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

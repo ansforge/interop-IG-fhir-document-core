@@ -137,7 +137,7 @@ OR < 272379006 |Event|","PRB-3",".value","FiveWs.what[x]","246090004"
 Age {[]} {[]}Period {[]} {[]}Range {[]} {[]}string {[]} {[]}","Estimated or actual date,  date-time, or age","Estimated or actual date or date-time  the condition began, in the opinion of the clinician.","Age is generally used when the patient reports an age at which the Condition began to occur.","","","","","","","","",,,,,"","type:$this}
 ","",,"open","Condition.onset[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.occurrence[x]","PRB-16",".effectiveTime.low or .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=""age at onset""].value","FiveWs.init"
-"Condition.onset[x]:onsetDateTime","Condition.onset[x]","onsetDateTime","","",0,1,"","","Y","dateTime {[]} {[]}
+"Condition.onset[x]:onsetDateTime","Condition.onset[x]","onsetDateTime","","",0,1,"Y","","Y","dateTime {[]} {[]}
 ","Date de début du problème","Estimated or actual date or date-time  the condition began, in the opinion of the clinician.","Age is generally used when the patient reports an age at which the Condition began to occur.","","","","","","","","",,,,,"",,,,"Condition.onset[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.occurrence[x]","PRB-16",".effectiveTime.low or .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=""age at onset""].value","FiveWs.init"
 "Condition.abatement[x]","Condition.abatement[x]","","","",0,1,"Y","","","dateTime {[]} {[]}

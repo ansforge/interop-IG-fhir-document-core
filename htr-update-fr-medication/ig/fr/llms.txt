@@ -3,14 +3,14 @@
 ## Pages
 
 * [Accueil](index.md)
-* [Corps d'un document](ressourcesFHIR-corps.md)
-* [Sécurité](securite.md)
 * [Structure générale document](ressourcesFHIR-struc-gen.md)
+* [Autres Ressources](autres_ressources.md)
+* [Corps d'un document](ressourcesFHIR-corps.md)
+* [Entête document](ressourcesFHIR-entete.md)
+* [Sécurité](securite.md)
 * [Résumé des artefacts](artifacts.md)
 * [Informations sur la traduction](translationinfo.md)
-* [Autres Ressources](autres_ressources.md)
 * [Téléchargements et usages](downloads.md)
-* [Entête document](ressourcesFHIR-entete.md)
 
 ## Resources
 
@@ -20,7 +20,8 @@
 
 ### ValueSets
 
-* [FR ValueSet Participation Type](ValueSet-fr-doc-vs-participation-type.md)
+* [FR ValueSet Participation Type Participant](ValueSet-fr-doc-vs-participation-type-participant.md)
+* [FR ValueSet Participation Type Information Recipient](ValueSet-fr-doc-vs-participation-type.md)
 * [Fr ValueSet RolePriseCharge](ValueSet-fr-doc-vs-role-prise-charge.md)
 * [ValueSet - FR ValueSet Actor Type Document](ValueSet-fr-vs-actor-type-document.md)
 * [ValueSet – FR ValueSet Allergy Code Document](ValueSet-fr-vs-allergy-code.md)
@@ -128,4 +129,6 @@
 ### Examples
 
 * [example-allergy-intolerance-data-absent-reason (AllergyIntolerance)](AllergyIntolerance-example-allergy-intolerance-data-absent-reason.md)
+* [ba499de3-aeae-43c3-82cb-0ba2718cfa41 (Patient)](Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41.md)
+* [ba499de3-aeae-43c3-82cb-0ba2718cfa55 (Patient)](Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.md)
 * [example-procedure-data-absent-reason (Procedure)](Procedure-example-procedure-data-absent-reason.md)

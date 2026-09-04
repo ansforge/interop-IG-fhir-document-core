@@ -1,6 +1,6 @@
-# FR ValueSet Participation Type - FR Document Core (FHIR) v0.1.0
+# FR ValueSet Participation Type Information Recipient - FR Document Core (FHIR) v0.1.0
 
-## ValueSet: FR ValueSet Participation Type 
+## ValueSet: FR ValueSet Participation Type Information Recipient 
 
  
 Type de participation : destinataire 
@@ -32,11 +32,11 @@ Type de participation : destinataire
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type",
   "version" : "0.1.0",
-  "name" : "FRValueSetParticipationType",
-  "title" : "FR ValueSet Participation Type",
+  "name" : "FrValueSetParticipationTypeInformationRecipient",
+  "title" : "FR ValueSet Participation Type Information Recipient",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-27T08:28:14+00:00",
+  "date" : "2026-09-04T09:33:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

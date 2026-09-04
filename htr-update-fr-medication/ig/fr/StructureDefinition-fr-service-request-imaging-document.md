@@ -39,12 +39,6 @@ Obligatoire : 4 éléments(3 éléments obligatoire(s) imbriqué(s))
  Must-Support : 6 éléments
  Interdit : 2 éléments
 
-**Extensions**
-
-Cette structure fait référence à ces extensions:
-
-* [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.reason.html)
-
  **Vue des éléments clés** 
 
 #### Bindings terminologiques
@@ -69,12 +63,6 @@ Obligatoire : 4 éléments(3 éléments obligatoire(s) imbriqué(s))
  Must-Support : 6 éléments
  Interdit : 2 éléments
 
-**Extensions**
-
-Cette structure fait référence à ces extensions:
-
-* [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.reason.html)
-
  
 
 Autres représentations du profil : [CSV](../StructureDefinition-fr-service-request-imaging-document.csv), [Excel](../StructureDefinition-fr-service-request-imaging-document.xlsx), [Schematron](../StructureDefinition-fr-service-request-imaging-document.sch) 
@@ -92,7 +80,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
   "name" : "FRServiceRequestImagingDocument",
   "title" : "ServiceRequest - FR Service Request Imaging Document",
   "status" : "draft",
-  "date" : "2026-08-27T08:28:14+00:00",
+  "date" : "2026-09-04T09:33:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -154,12 +142,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       "id" : "ServiceRequest.extension:reason",
       "path" : "ServiceRequest.extension",
       "sliceName" : "reason",
-      "min" : 1,
-      "max" : "*",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0"]
-      }]
+      "min" : 1
     },
     {
       "id" : "ServiceRequest.extension:reason/finaliteExamen",

@@ -132,7 +132,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
   "name" : "FRMedicationDocument",
   "title" : "Medication - FR Medication Document",
   "status" : "draft",
-  "date" : "2026-08-27T08:28:14+00:00",
+  "date" : "2026-09-04T09:33:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -220,10 +220,10 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
       "mustSupport" : true
     },
     {
-      "id" : "Medication.extension:conditionnement",
+      "id" : "Medication.extension:characteristic",
       "path" : "Medication.extension",
-      "sliceName" : "conditionnement",
-      "short" : "Présentation / conditionnement.",
+      "sliceName" : "characteristic",
+      "short" : "Caractéristique du médicament.",
       "min" : 0,
       "max" : "*",
       "type" : [{

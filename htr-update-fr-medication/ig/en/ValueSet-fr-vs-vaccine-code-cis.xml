@@ -4,14 +4,14 @@
   <id value="fr-vs-vaccine-code-cis"/>
   <language value="en"/>
   <text>
-    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet fr-vs-vaccine-code-cis</b></p><a name="en-fr-vs-vaccine-code-cis"> </a><a name="en-hcfr-vs-vaccine-code-cis"> </a><ul><li>Include all codes defined in <a href="https://interop.esante.gouv.fr/terminologies/1.12.0/CodeSystem-terminologie-bdpm.html"><code>https://smt.esante.gouv.fr/terminologie-bdpm</code></a><span title="Version is explicitly stated to be 2026-07-01"> version &#x1F4CD;2026-07-01</span></li></ul></div>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet fr-vs-vaccine-code-cis</b></p><a name="en-fr-vs-vaccine-code-cis"> </a><a name="en-hcfr-vs-vaccine-code-cis"> </a><ul><li>Include all codes defined in <a href="https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-terminologie-bdpm.html"><code>https://smt.esante.gouv.fr/terminologie-bdpm</code></a><span title="Version is explicitly stated to be 2026-08-02"> version &#x1F4CD;2026-08-02</span></li></ul></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-vaccine-code-cis"/>
   <version value="0.1.0"/>
   <name value="FRValueSetVaccineCodeCISDocument"/>
   <title value="ValueSet – FR ValueSet Codes vaccins CIS (BDPM)"/>
   <status value="draft"/>
-  <date value="2026-08-27T08:28:14+00:00"/>
+  <date value="2026-09-04T09:33:44+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -31,7 +31,7 @@
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/terminologie-bdpm"/>
-      <version value="2026-07-01"/>
+      <version value="2026-08-02"/>
     </include>
   </compose>
 </ValueSet>
