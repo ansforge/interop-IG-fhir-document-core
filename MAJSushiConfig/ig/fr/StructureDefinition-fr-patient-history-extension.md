@@ -59,12 +59,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-hist
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-patient-history-extension",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-history-extension",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-history-extension",
   "version" : "0.1.0",
   "name" : "FRPatientHistoryExtension",
   "title" : "FR Patient History Extension",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -111,19 +111,19 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-hist
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-history-extension"
+      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-history-extension"
     },
     {
       "id" : "Extension.value[x]",
       "path" : "Extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pregnancy-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-contra-indications-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document|0.1.0",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-contra-indications-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
         "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
       }]
     }]
   }

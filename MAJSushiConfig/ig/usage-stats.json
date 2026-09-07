@@ -5,7 +5,7 @@
   "jurisdiction": "FR",
   "extensions": [
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension",
       "title": "FR Actor Extension",
       "types": [
         "code",
@@ -64,63 +64,63 @@
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-author-time-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension",
       "title": "FR Author Time Extension",
       "types": [
         "dateTime"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-comparison-studies-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-comparison-studies-extension",
       "title": "FR Comparison Studies Extension",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-family-member-history-body-site-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension",
       "title": "FR Family Member History Body Site Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-procedure-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension",
       "title": "FR Imaging Procedure Extension",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-type-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-type-extension",
       "title": "FR Immunization Type Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-interpretation-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension",
       "title": "FR Interpretation Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-sequence-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-sequence-extension",
       "title": "FR Medication Administration Sequence Extension",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-method-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension",
       "title": "FR Method Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-not-covered-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-not-covered-extension",
       "title": "FR Not Covered Extension",
       "types": [
         "boolean",
@@ -128,28 +128,28 @@
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-note-type-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension",
       "title": "FR Note Type Extension",
       "types": [
         "code"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-number-of-frames-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension",
       "title": "FR Number of Frames Extension",
       "types": [
         "integer"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-history-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-history-extension",
       "title": "FR Patient History Extension",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-performer-event-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension",
       "title": "FR Performer Event Extension",
       "types": [
         "base64Binary",
@@ -206,21 +206,21 @@
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-difficulty-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-difficulty-extension",
       "title": "FR Procedure Difficulty Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-priority-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-priority-extension",
       "title": "FR Procedure Priority Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-status-reason-extension",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-status-reason-extension",
       "title": "FR Status Reason Extension",
       "types": [
         "CodeableConcept"
@@ -230,301 +230,301 @@
   "profiles": {
     "Consent": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-advance-directive-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-advance-directive-document",
         "title": "Consent - FR Advance directive Document"
       }
     ],
     "AdverseEvent": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-adverse-event-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-adverse-event-document",
         "title": "AdverseEvent - FR adverse event Document"
       }
     ],
     "AllergyIntolerance": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-allergy-intolerance-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-allergy-intolerance-document",
         "title": "AllergyIntolerance - FR Allergy and intolerance Document"
       }
     ],
     "BodyStructure": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-body-structure-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document",
         "title": "BodyStructure - FR Body Structure Document"
       }
     ],
     "Bundle": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-bundle-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-bundle-document",
         "title": "FR Bundle Document"
       }
     ],
     "CarePlan": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-care-plan-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-care-plan-document",
         "title": "CarePlan - FR Care Plan Document"
       }
     ],
     "Composition": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-composition-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document",
         "title": "FR Composition Document"
       }
     ],
     "Condition": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document",
         "title": "Condition - FR Condition Document"
       }
     ],
     "Device": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document",
         "title": "FR Device Document"
       }
     ],
     "DeviceRequest": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-request-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-request-document",
         "title": "DeviceRequest - FR Device request Document"
       }
     ],
     "DeviceUseStatement": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-use-statement-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-use-statement-document",
         "title": "DeviceUseStatement - FR Device Use Statement Document"
       }
     ],
     "DiagnosticReport": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-diagnostic-report-bio-chapter-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-bio-chapter-document",
         "title": "DiagnosticReport - FR Diagnostic Report BIO chapter Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-diagnostic-report-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-document",
         "title": "DiagnosticReport - FR Diagnostic Report Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-diagnostic-report-imaging-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-imaging-document",
         "title": "DiagnosticReport - FR Diagnostic Report Imaging Document"
       }
     ],
     "DocumentReference": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-document-reference-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document",
         "title": "DocumentReference - FR Document reference Document"
       }
     ],
     "Encounter": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-encounter-care-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document",
         "title": "FR Encounter Care Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-encounter-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document",
         "title": "Encounter - FR Encounter Document"
       }
     ],
     "Endpoint": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-endpoint-wado-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-endpoint-wado-document",
         "title": "Endpoint - FR Endpoint Wado Document"
       }
     ],
     "FamilyMemberHistory": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-family-member-history-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-document",
         "title": "FamilyMemberHistory - FR Family Member History Document"
       }
     ],
     "ImagingStudy": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-study-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document",
         "title": "ImagingStudy - FR Imaging study Document"
       }
     ],
     "Immunization": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-document",
         "title": "Immunization - FR Immunization Document"
       }
     ],
     "ImmunizationRecommendation": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-recommendation-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-recommendation-document",
         "title": "ImmunizationRecommendation - FR Immunization Recommendation Document"
       }
     ],
     "Location": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-location-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document",
         "title": "FR Location Document"
       }
     ],
     "Media": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-media-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-media-document",
         "title": "Media - FR Media Document"
       }
     ],
     "MedicationAdministration": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document",
         "title": "MedicationAdministration - FR Medication Administration Document"
       }
     ],
     "MedicationDispense": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-dispense-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-dispense-document",
         "title": "MedicationDispense - FR Medication Dispense Document"
       }
     ],
     "Medication": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document",
         "title": "Medication - FR Medication Document"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document",
         "title": "MedicationRequest - FR Medication Request Document"
       }
     ],
     "MedicationStatement": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-statement-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-statement-document",
         "title": "MedicationStatement - FR Medication Statement Document"
       }
     ],
     "Observation": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-ald-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document",
         "title": "Observation - FR Observation ALD Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-assessment-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-assessment-document",
         "title": "Observation - FR Observation Assessment Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-contra-indications-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-contra-indications-document",
         "title": "Observation - FR Observation Contra Indications Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-laboratory-report-results-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-laboratory-report-results-document",
         "title": "Observation - FR Observation Laboratory Report Results Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-microorganism-detection-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-microorganism-detection-document",
         "title": "Observation - FR Observation Microorganism Detection Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-multiresistant-microorganism-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-multiresistant-microorganism-document",
         "title": "Observation - FR Observation Multiresistant Microorganisms Identification Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pain-score-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pain-score-document",
         "title": "Observation - FR Observation Pain Score Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pregnancy-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-document",
         "title": "Observation - FR Observation Pregnancy Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pregnancy-history-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-history-document",
         "title": "Observation - FR Observation Pregnancy History Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-prevention-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document",
         "title": "Observation - FR Observation Prevention Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-radiation-exposure-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-radiation-exposure-document",
         "title": "Observation - FR Observation Radiation Exposure Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-result-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-result-document",
         "title": "Observation - FR Observation Result Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-social-history-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-social-history-document",
         "title": "Observation - FR Observation Social History Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-vital-signs-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-vital-signs-document",
         "title": "Observation - FR Observation Vital Signs Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-vital-signs-panel-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-vital-signs-panel-document",
         "title": "Observation - FR Observation Vital Signs Panel Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-work-related-accident-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document",
         "title": "Observation - FR Observation Work Related Accident Document"
       }
     ],
     "Organization": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-organization-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document",
         "title": "FR Organization Document"
       }
     ],
     "Patient": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document",
         "title": "FR Patient Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document",
         "title": "FR Patient INS Document"
       }
     ],
     "Practitioner": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitioner-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document",
         "title": "FR Practitioner Document"
       }
     ],
     "PractitionerRole": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document",
         "title": "FR PractitionerRole Document"
       }
     ],
     "Procedure": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document",
         "title": "Procedure - FR Procedure Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-imaging-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document",
         "title": "Procedure - FR Procedure Imaging Document"
       }
     ],
     "RelatedPerson": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-related-person-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document",
         "title": "FR RelatedPerson Document"
       }
     ],
     "ServiceRequest": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document",
         "title": "ServiceRequest - FR Service Request Document"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document",
         "title": "ServiceRequest - FR Service Request Imaging Document"
       }
     ],
     "Specimen": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-specimen-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document",
         "title": "Specimen - FR Specimen Document"
       }
     ],
     "Task": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-task-patient-transport-document",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-task-patient-transport-document",
         "title": "Task - FR Task Patient Transport Document"
       }
     ]
@@ -770,7 +770,7 @@
     "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-smartcard|1.1.0": [
       "Practitioner"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0": [
       "Condition",
       "DeviceUseStatement",
       "DiagnosticReport.resultsInterpreter",
@@ -783,49 +783,49 @@
       "Procedure",
       "ServiceRequest"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-author-time-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension|0.1.0": [
       "Composition.author"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-comparison-studies-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-comparison-studies-extension|0.1.0": [
       "DiagnosticReport"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-family-member-history-body-site-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension|0.1.0": [
       "FamilyMemberHistory.condition"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-procedure-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension|0.1.0": [
       "DiagnosticReport"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-interpretation-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension|0.1.0": [
       "FamilyMemberHistory.condition"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-sequence-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-sequence-extension|0.1.0": [
       "MedicationAdministration.dosage"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-method-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0": [
       "FamilyMemberHistory.condition",
       "ServiceRequest"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-not-covered-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-not-covered-extension|0.1.0": [
       "DeviceRequest",
       "DeviceUseStatement",
       "MedicationRequest"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0": [
       "ImagingStudy.series.instance"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-history-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-history-extension|0.1.0": [
       "DiagnosticReport"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-performer-event-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0": [
       "Composition.event"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-difficulty-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-difficulty-extension|0.1.0": [
       "Procedure"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-priority-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-priority-extension|0.1.0": [
       "Procedure"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-status-reason-extension|0.1.0": [
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-status-reason-extension|0.1.0": [
       "Observation.status"
     ],
     "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-characteristic|1.0.0-comment-2": [

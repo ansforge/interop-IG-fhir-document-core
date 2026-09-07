@@ -27,12 +27,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-dis
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-dispense-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-dispense-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-dispense-document",
   "version" : "0.1.0",
   "name" : "FRMedicationDispenseDocument",
   "title" : "MedicationDispense - FR Medication Dispense Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -99,7 +99,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-dis
       },
       {
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -110,7 +110,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-dis
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-dis
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -152,7 +152,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-dis
       "path" : "MedicationDispense.quantity.unit",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-edqm-document|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document|0.1.0"
       }
     },
     {

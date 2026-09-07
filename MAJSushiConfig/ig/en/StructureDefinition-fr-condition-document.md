@@ -27,12 +27,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-condition-docu
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-condition-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document",
   "version" : "0.1.0",
   "name" : "FRConditionDocument",
   "title" : "Condition - FR Condition Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-condition-docu
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -134,7 +134,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-condition-docu
       "path" : "Condition.extension.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
     },
     {
@@ -195,8 +195,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-condition-docu
       "short" : "Patient concerné",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -266,7 +266,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-condition-docu
       "path" : "Condition.evidence.detail",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-document-reference-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document|0.1.0"]
       }]
     },
     {

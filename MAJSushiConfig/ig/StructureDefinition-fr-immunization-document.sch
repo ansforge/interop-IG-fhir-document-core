@@ -12,8 +12,8 @@
   <sch:pattern>
     <sch:title>f:Immunization</sch:title>
     <sch:rule context="f:Immunization">
-      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension']) &gt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension']) &gt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

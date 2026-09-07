@@ -41,22 +41,22 @@ Must-Support : 9 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Device Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document|0.1.0)](StructureDefinition-fr-device-auteur-document.md)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [FR RelatedPerson Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-related-person-document|0.1.0)](StructureDefinition-fr-related-person-document.md)
-* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
-* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
-* [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
+* [FR Device Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0)](StructureDefinition-fr-device-auteur-document.md)
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [FR RelatedPerson Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0)](StructureDefinition-fr-related-person-document.md)
+* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
+* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
+* [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
 * [DiagnosticReport (http://hl7.org/fhir/StructureDefinition/DiagnosticReport|4.0.1)](http://hl7.org/fhir/R4/diagnosticreport.html)
 * [Procedure (http://hl7.org/fhir/StructureDefinition/Procedure|4.0.1)](http://hl7.org/fhir/R4/procedure.html)
-* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
+* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
 
 **Extensions**
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 
  **Vue des éléments clés** 
 
@@ -84,22 +84,22 @@ Must-Support : 9 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Device Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document|0.1.0)](StructureDefinition-fr-device-auteur-document.md)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [FR RelatedPerson Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-related-person-document|0.1.0)](StructureDefinition-fr-related-person-document.md)
-* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
-* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
-* [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
+* [FR Device Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0)](StructureDefinition-fr-device-auteur-document.md)
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [FR RelatedPerson Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0)](StructureDefinition-fr-related-person-document.md)
+* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
+* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
+* [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
 * [DiagnosticReport (http://hl7.org/fhir/StructureDefinition/DiagnosticReport|4.0.1)](http://hl7.org/fhir/R4/diagnosticreport.html)
 * [Procedure (http://hl7.org/fhir/StructureDefinition/Procedure|4.0.1)](http://hl7.org/fhir/R4/procedure.html)
-* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
+* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
 
 **Extensions**
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 
  
 
@@ -113,12 +113,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-media-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-media-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-media-document",
   "version" : "0.1.0",
   "name" : "FRMediaDocument",
   "title" : "Media - FR Media Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -202,7 +202,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -225,8 +225,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
       "path" : "Media.extension.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
     },
     {
@@ -238,7 +238,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -261,10 +261,10 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
       "path" : "Media.extension.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-related-person-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
       }]
     },
     {
@@ -276,7 +276,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -299,12 +299,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
       "path" : "Media.extension.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-related-person-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-organization-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
       }]
     },
     {
@@ -331,8 +331,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
       "short" : "Patient ou specimen concerné par l'image",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-specimen-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -350,7 +350,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -373,9 +373,9 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-media-docume
       "path" : "Media.operator.extension.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-organization-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0"]
       }]
     },
     {

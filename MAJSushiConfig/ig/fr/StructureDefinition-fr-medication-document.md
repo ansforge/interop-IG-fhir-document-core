@@ -44,7 +44,7 @@ Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
 
 Cette structure fait référence à ces autres structures:
 
-* [Medication - FR Medication Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document|0.1.0)](StructureDefinition-fr-medication-document.md)
+* [Medication - FR Medication Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document|0.1.0)](StructureDefinition-fr-medication-document.md)
 
 **Extensions**
 
@@ -92,7 +92,7 @@ Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
 
 Cette structure fait référence à ces autres structures:
 
-* [Medication - FR Medication Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document|0.1.0)](StructureDefinition-fr-medication-document.md)
+* [Medication - FR Medication Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document|0.1.0)](StructureDefinition-fr-medication-document.md)
 
 **Extensions**
 
@@ -123,12 +123,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document",
   "version" : "0.1.0",
   "name" : "FRMedicationDocument",
   "title" : "Medication - FR Medication Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -265,7 +265,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
       "path" : "Medication.code.coding",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-medication-translation-document|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-medication-translation-document|0.1.0"
       }
     },
     {
@@ -274,7 +274,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-edqm-form-document|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-form-document|0.1.0"
       }
     },
     {
@@ -319,7 +319,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document|0.1.0"]
       }],
       "mustSupport" : true
     },

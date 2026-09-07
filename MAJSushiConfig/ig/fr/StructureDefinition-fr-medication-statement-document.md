@@ -46,10 +46,10 @@ Must-Support : 19 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
-* [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
-* [Medication - FR Medication Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document|0.1.0)](StructureDefinition-fr-medication-document.md)
-* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
+* [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
+* [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
+* [Medication - FR Medication Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document|0.1.0)](StructureDefinition-fr-medication-document.md)
+* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
 * [SimpleQuantity (http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1)](http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity)
 
@@ -94,10 +94,10 @@ Must-Support : 19 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
-* [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
-* [Medication - FR Medication Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document|0.1.0)](StructureDefinition-fr-medication-document.md)
-* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
+* [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
+* [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
+* [Medication - FR Medication Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document|0.1.0)](StructureDefinition-fr-medication-document.md)
+* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
 * [SimpleQuantity (http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1)](http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity)
 
@@ -126,12 +126,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-s
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-statement-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-statement-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-statement-document",
   "version" : "0.1.0",
   "name" : "FRMedicationStatementDocument",
   "title" : "MedicationStatement - FR Medication Statement Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -190,7 +190,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-s
       "short" : "Prescription",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
       }]
     },
     {
@@ -198,7 +198,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-s
       "path" : "MedicationStatement.partOf",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
       }]
     },
     {
@@ -222,7 +222,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-s
       },
       {
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -241,7 +241,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-s
       "short" : "Motif du traitement",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document|0.1.0",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
         "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"]
       }],
       "mustSupport" : true
@@ -316,7 +316,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-s
       "binding" : {
         "strength" : "required",
         "description" : "EDQM - Standard terms / classe ROA (0.4.0.127.0.16.1.1.2.1)",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-edqm-document|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document|0.1.0"
       }
     },
     {

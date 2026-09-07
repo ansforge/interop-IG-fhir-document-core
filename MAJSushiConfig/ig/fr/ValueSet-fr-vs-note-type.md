@@ -27,12 +27,12 @@ ValueSet définissant les types d'informations pouvant être associés aux notes
 {
   "resourceType" : "ValueSet",
   "id" : "fr-vs-note-type",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-note-type",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type",
   "version" : "0.1.0",
   "name" : "FRValueSetNoteType",
   "title" : "FR ValueSet Imaging Note Type",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -51,7 +51,7 @@ ValueSet définissant les types d'informations pouvant être associés aux notes
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/CodeSystem/fr-cs-note-type",
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type",
       "version" : "0.1.0"
     }]
   }

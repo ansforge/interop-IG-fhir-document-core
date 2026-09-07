@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55> a fhir:Patient ;
+<https://interop.esante.gouv.fr/ig/fhir/document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "ba499de3-aeae-43c3-82cb-0ba2718cfa55"] ;
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document" ;
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document" ;
        fhir:index 0 ;
-       fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document>
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document>
      ], [
        fhir:value "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document" ;
        fhir:index 1 ;
@@ -152,7 +152,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55.ttl> a owl:Ontology ;
+<https://interop.esante.gouv.fr/ig/fhir/document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

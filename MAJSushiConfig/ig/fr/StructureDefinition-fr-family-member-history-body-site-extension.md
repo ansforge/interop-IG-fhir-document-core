@@ -67,12 +67,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-family-membe
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-family-member-history-body-site-extension",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-family-member-history-body-site-extension",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension",
   "version" : "0.1.0",
   "name" : "FRFamilyMemberHistoryBodySiteExtension",
   "title" : "FR Family Member History Body Site Extension",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -119,7 +119,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-family-membe
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-family-member-history-body-site-extension"
+      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension"
     },
     {
       "id" : "Extension.value[x]",

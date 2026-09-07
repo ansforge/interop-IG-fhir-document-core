@@ -44,13 +44,13 @@ Obligatoire : 7 éléments(2 éléments obligatoire(s) imbriqué(s))
 
 Cette structure fait référence à ces autres structures:
 
-* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
-* [ImagingStudy - FR Imaging study Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-study-document|0.1.0)](StructureDefinition-fr-imaging-study-document.md)
-* [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
-* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
-* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [BodyStructure - FR Body Structure Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-body-structure-document|0.1.0)](StructureDefinition-fr-body-structure-document.md)
+* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
+* [ImagingStudy - FR Imaging study Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0)](StructureDefinition-fr-imaging-study-document.md)
+* [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
+* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
+* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [BodyStructure - FR Body Structure Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0)](StructureDefinition-fr-body-structure-document.md)
 * [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
 
 **Extensions**
@@ -97,13 +97,13 @@ Obligatoire : 7 éléments(2 éléments obligatoire(s) imbriqué(s))
 
 Cette structure fait référence à ces autres structures:
 
-* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
-* [ImagingStudy - FR Imaging study Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-study-document|0.1.0)](StructureDefinition-fr-imaging-study-document.md)
-* [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
-* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
-* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [BodyStructure - FR Body Structure Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-body-structure-document|0.1.0)](StructureDefinition-fr-body-structure-document.md)
+* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
+* [ImagingStudy - FR Imaging study Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0)](StructureDefinition-fr-imaging-study-document.md)
+* [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
+* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
+* [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [BodyStructure - FR Body Structure Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0)](StructureDefinition-fr-body-structure-document.md)
 * [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
 
 **Extensions**
@@ -133,12 +133,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-observation-radiation-exposure-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-radiation-exposure-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-radiation-exposure-document",
   "version" : "0.1.0",
   "name" : "FRObservationRadiationExposureDocument",
   "title" : "Observation - FR Observation Radiation Exposure Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -254,7 +254,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "max" : "*",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
       }]
     },
     {
@@ -279,7 +279,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-study-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -292,7 +292,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -315,8 +315,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -353,7 +353,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -382,7 +382,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "path" : "Observation.bodySite.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-body-structure-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0"]
       }]
     },
     {

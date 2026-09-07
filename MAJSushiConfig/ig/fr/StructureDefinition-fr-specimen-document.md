@@ -45,9 +45,9 @@ Obligatoire : 2 éléments(1 élément obligatoire(s) imbriqué(s))
 Cette structure fait référence à ces autres structures:
 
 * [Substance (http://hl7.org/fhir/StructureDefinition/Substance|4.0.1)](http://hl7.org/fhir/R4/substance.html)
-* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
+* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
 
 **Extensions**
 
@@ -85,9 +85,9 @@ Obligatoire : 2 éléments(1 élément obligatoire(s) imbriqué(s))
 Cette structure fait référence à ces autres structures:
 
 * [Substance (http://hl7.org/fhir/StructureDefinition/Substance|4.0.1)](http://hl7.org/fhir/R4/substance.html)
-* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
+* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
 
 **Extensions**
 
@@ -107,12 +107,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-specimen-doc
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-specimen-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-specimen-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document",
   "version" : "0.1.0",
   "name" : "FRSpecimenDocument",
   "title" : "Specimen - FR Specimen Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -199,7 +199,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-specimen-doc
       "path" : "Specimen.parent",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-specimen-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0"]
       }]
     },
     {
@@ -213,8 +213,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-specimen-doc
       "short" : "Organisation prélevante",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitioner-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0"]
       }]
     },
     {

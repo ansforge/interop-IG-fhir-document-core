@@ -59,12 +59,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-proc
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-imaging-procedure-extension",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-procedure-extension",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension",
   "version" : "0.1.0",
   "name" : "FRImagingProcedureExtension",
   "title" : "FR Imaging Procedure Extension",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -111,14 +111,14 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-proc
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-procedure-extension"
+      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension"
     },
     {
       "id" : "Extension.value[x]",
       "path" : "Extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0"]
       }]
     }]
   }

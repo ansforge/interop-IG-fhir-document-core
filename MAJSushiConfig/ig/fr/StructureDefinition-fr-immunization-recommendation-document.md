@@ -48,8 +48,8 @@ Obligatoire : 1 élément(3 éléments obligatoire(s) imbriqué(s))
 
 Cette structure fait référence à ces autres structures:
 
-* [Immunization - FR Immunization Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-document|0.1.0)](StructureDefinition-fr-immunization-document.md)
-* [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
+* [Immunization - FR Immunization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-document|0.1.0)](StructureDefinition-fr-immunization-document.md)
+* [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
 
 **Slices**
 
@@ -87,8 +87,8 @@ Obligatoire : 1 élément(3 éléments obligatoire(s) imbriqué(s))
 
 Cette structure fait référence à ces autres structures:
 
-* [Immunization - FR Immunization Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-document|0.1.0)](StructureDefinition-fr-immunization-document.md)
-* [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
+* [Immunization - FR Immunization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-document|0.1.0)](StructureDefinition-fr-immunization-document.md)
+* [MedicationRequest - FR Medication Request Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0)](StructureDefinition-fr-medication-request-document.md)
 
 **Slices**
 
@@ -109,12 +109,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-immunization
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-immunization-recommendation-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-recommendation-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-recommendation-document",
   "version" : "0.1.0",
   "name" : "FRImmunizationRecommendationDocument",
   "title" : "ImmunizationRecommendation - FR Immunization Recommendation Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -199,7 +199,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-immunization
       "max" : "1",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-vaccine-code-cis|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-vaccine-code-cis|0.1.0"
       }
     },
     {
@@ -210,7 +210,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-immunization
       "max" : "*",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-medication-translation-document|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-medication-translation-document|0.1.0"
       }
     },
     {
@@ -272,7 +272,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-immunization
       "path" : "ImmunizationRecommendation.recommendation.supportingImmunization",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-document|0.1.0"]
       }]
     },
     {
@@ -281,7 +281,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-immunization
       "short" : "Prescription",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
       }]
     }]
   }

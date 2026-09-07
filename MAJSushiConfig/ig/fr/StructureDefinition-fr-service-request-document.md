@@ -47,14 +47,14 @@ Obligatoire : 2 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Accession Number Identifier Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0)](StructureDefinition-fr-accession-number-identifier-document.md)
+* [FR Accession Number Identifier Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0)](StructureDefinition-fr-accession-number-identifier-document.md)
 
 **Extensions**
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 * [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.reason.html)
 
 **Slices**
@@ -94,14 +94,14 @@ Obligatoire : 2 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Accession Number Identifier Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0)](StructureDefinition-fr-accession-number-identifier-document.md)
+* [FR Accession Number Identifier Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0)](StructureDefinition-fr-accession-number-identifier-document.md)
 
 **Extensions**
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 * [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.reason.html)
 
 **Slices**
@@ -122,12 +122,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-service-request-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document",
   "version" : "0.1.0",
   "name" : "FRServiceRequestDocument",
   "title" : "ServiceRequest - FR Service Request Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -184,7 +184,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
         "severity" : "error",
         "human" : "L'intention doit être order, plan ou proposal.",
         "expression" : "intent = 'order' or intent = 'plan' or intent = 'proposal'",
-        "source" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-document|0.1.0"
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0"
       }]
     },
     {
@@ -208,7 +208,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-method-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -221,7 +221,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -266,7 +266,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       "max" : "1",
       "type" : [{
         "code" : "Identifier",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0"]
       }]
     },
     {

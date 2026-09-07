@@ -27,12 +27,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-encounter-docu
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-encounter-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-encounter-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document",
   "version" : "0.1.0",
   "name" : "FREncounterDocument",
   "title" : "Encounter - FR Encounter Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -84,7 +84,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-encounter-docu
         "severity" : "error",
         "human" : "Le statut de la rencontre doit être 'finished' (rencontre réalisée), 'planned' (rencontre planifiée) ou 'proposed' (rencontre prévue mais non confirmée).",
         "expression" : "status = 'finished' or status = 'planned' or status = 'proposed'",
-        "source" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-encounter-document|0.1.0"
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document|0.1.0"
       }]
     },
     {
@@ -115,8 +115,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-encounter-docu
       "path" : "Encounter.subject",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
       }]
     },
     {
@@ -134,7 +134,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-encounter-docu
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -156,7 +156,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-encounter-docu
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -178,7 +178,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-encounter-docu
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-encounter-docu
       "path" : "Encounter.location.location",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-location-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document|0.1.0"]
       }]
     }]
   }

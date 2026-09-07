@@ -43,7 +43,7 @@ Obligatoire : 2 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [Observation - FR Observation Pregnancy Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pregnancy-document|0.1.0)](StructureDefinition-fr-observation-pregnancy-document.md)
+* [Observation - FR Observation Pregnancy Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-document|0.1.0)](StructureDefinition-fr-observation-pregnancy-document.md)
 
  **Vue des éléments clés** 
 
@@ -73,7 +73,7 @@ Obligatoire : 2 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [Observation - FR Observation Pregnancy Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pregnancy-document|0.1.0)](StructureDefinition-fr-observation-pregnancy-document.md)
+* [Observation - FR Observation Pregnancy Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-document|0.1.0)](StructureDefinition-fr-observation-pregnancy-document.md)
 
  
 
@@ -87,12 +87,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-observation-pregnancy-history-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pregnancy-history-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-history-document",
   "version" : "0.1.0",
   "name" : "FRObservationPregnancyHistoryDocument",
   "title" : "Observation - FR Observation Pregnancy History Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -203,7 +203,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pregnancy-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-document|0.1.0"]
       }],
       "mustSupport" : true
     }]

@@ -27,12 +27,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-diagnostic-report-imaging-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-diagnostic-report-imaging-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-imaging-document",
   "version" : "0.1.0",
   "name" : "FRDiagnosticReportImagingDocument",
   "title" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -73,7 +73,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
   "kind" : "resource",
   "abstract" : false,
   "type" : "DiagnosticReport",
-  "baseDefinition" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-diagnostic-report-document|0.1.0",
+  "baseDefinition" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-document|0.1.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -101,7 +101,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-comparison-studies-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-comparison-studies-extension|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -114,7 +114,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-history-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-history-extension|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -127,7 +127,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-procedure-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -157,7 +157,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "max" : "*",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
       }]
     },
     {
@@ -191,7 +191,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "short" : "Patient concerné par le compte-rendu d'imagerie",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"]
       }]
     },
     {
@@ -214,7 +214,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "max" : "*",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-organization-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
       }]
     },
     {
@@ -247,7 +247,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-result-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-result-document|0.1.0"]
       }]
     },
     {
@@ -260,7 +260,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-result-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-result-document|0.1.0"]
       }]
     },
     {
@@ -269,7 +269,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "short" : "Acte d'imagerie associé au compte-rendu",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-study-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0"]
       }]
     },
     {

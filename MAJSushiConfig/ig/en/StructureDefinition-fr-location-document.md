@@ -28,12 +28,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-location-docum
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-location-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-location-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document",
   "version" : "0.1.0",
   "name" : "FRLocationDocument",
   "title" : "FR Location Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

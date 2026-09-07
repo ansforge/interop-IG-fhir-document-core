@@ -10,7 +10,7 @@
 
 Profil: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
 
-**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/5.5.0/NamingSystem-uri.html)/urn:uuid:a1b2c3d4-e5f6-7890-abcd-ef1234567890
+**identifier**: [Uniform Resource Identifier (URI)](http://terminology.hl7.org/7.3.0/NamingSystem-uri.html)/urn:uuid:a1b2c3d4-e5f6-7890-abcd-ef1234567890
 
 **status**: Unknown
 
@@ -29,7 +29,7 @@ Profil: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-doc
   "resourceType" : "Procedure",
   "id" : "example-procedure-data-absent-reason",
   "meta" : {
-    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-document"]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document"]
   },
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",

@@ -30,12 +30,12 @@ Codes SNOMED CT autorisés pour décrire une localisation anatomique ou une voie
 {
   "resourceType" : "ValueSet",
   "id" : "fr-vs-location-body-structure-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-location-body-structure-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-location-body-structure-document",
   "version" : "0.1.0",
   "name" : "FRValueSetLocationBodyStructureDocument",
   "title" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

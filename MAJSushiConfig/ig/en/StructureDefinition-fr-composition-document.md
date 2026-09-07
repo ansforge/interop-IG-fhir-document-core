@@ -28,12 +28,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-composition-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-composition-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document",
   "version" : "0.1.0",
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -100,7 +100,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "sliceName" : "canonical",
       "min" : 0,
       "max" : "1",
-      "patternCanonical" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-composition-document|0.1.0"
+      "patternCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"
     },
     {
       "id" : "Composition.language",
@@ -124,7 +124,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
         "severity" : "error",
         "human" : "La valeur de l'extension versionNumber doit être un entier.",
         "expression" : "value.matches('^[0-9]+$')",
-        "source" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-composition-document|0.1.0"
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"
       }]
     },
     {
@@ -162,7 +162,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "path" : "Composition.extension.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
     },
     {
@@ -188,10 +188,10 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "path" : "Composition.extension.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-related-person-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
       }]
     },
     {
@@ -211,7 +211,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "path" : "Composition.extension.extension.value[x]",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-doc-vs-participation-type|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type|0.1.0"
       }
     },
     {
@@ -225,7 +225,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "path" : "Composition.extension.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
     },
     {
@@ -250,7 +250,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "path" : "Composition.extension.extension.value[x]",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-doc-vs-participation-type-participant|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant|0.1.0"
       }
     },
     {
@@ -285,7 +285,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
         "severity" : "error",
         "human" : "La valeur du PractitionerRole.code dans l'extension[party]' doit être 'PROV' ou 'AGNT'.",
         "expression" : "value.resolve().code.coding.code.contains('PROV') or value.resolve().code.coding.code.contains('AGNT')",
-        "source" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-composition-document|0.1.0"
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"
       }]
     },
     {
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "path" : "Composition.extension.extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
     },
     {
@@ -333,8 +333,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "short" : "Patient / Usager",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
       }]
     },
     {
@@ -349,7 +349,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-encounter-care-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -365,10 +365,10 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "definition" : "author permet d’enregistrer un auteur du document. Un document peut avoir un ou plusieurs auteurs. Un professionnel de santé auteur d'un document est toujours dans une situation d'exercice donnée (FRPractitionerRoleDocument).",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0"]
       }]
     },
     {
@@ -384,7 +384,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-author-time-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension|0.1.0"]
       }]
     },
     {
@@ -423,7 +423,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
     },
     {
@@ -443,7 +443,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
     },
     {
@@ -453,7 +453,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-organization-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
       }]
     },
     {
@@ -469,7 +469,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       },
       {
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-composition-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"]
       }]
     },
     {
@@ -586,7 +586,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-performer-event-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0"]
       }]
     },
     {
@@ -621,7 +621,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-performer-event-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0"]
       }]
     },
     {
@@ -637,7 +637,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
         "severity" : "error",
         "human" : "Une section ne peut pas contenir à la fois des entrées et des sous-sections.",
         "expression" : "not(exists(f:entry) and exists(f:section))",
-        "source" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-composition-document|0.1.0"
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"
       }]
     },
     {

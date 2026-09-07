@@ -40,7 +40,7 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, DoB: 1979-03-28 ( NIR définitif (use:
   "resourceType" : "Patient",
   "id" : "ba499de3-aeae-43c3-82cb-0ba2718cfa55",
   "meta" : {
-    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document",
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document",
     "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document"]
   },
   "extension" : [{

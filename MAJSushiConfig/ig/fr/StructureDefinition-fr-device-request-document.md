@@ -42,18 +42,18 @@ Must-Support : 9 éléments
 Cette structure fait référence à ces autres structures:
 
 * [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
-* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
-* [Observation - FR Observation Prevention Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-prevention-document|0.1.0)](StructureDefinition-fr-observation-prevention-document.md)
-* [Observation - FR Observation ALD Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-ald-document|0.1.0)](StructureDefinition-fr-observation-ald-document.md)
-* [Observation - FR Observation Work Related Accident Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0)](StructureDefinition-fr-observation-work-related-accident-document.md)
+* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
+* [Observation - FR Observation Prevention Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0)](StructureDefinition-fr-observation-prevention-document.md)
+* [Observation - FR Observation ALD Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0)](StructureDefinition-fr-observation-ald-document.md)
+* [Observation - FR Observation Work Related Accident Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0)](StructureDefinition-fr-observation-work-related-accident-document.md)
 
 **Extensions**
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-not-covered-extension|0.1.0](StructureDefinition-fr-not-covered-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-not-covered-extension|0.1.0](StructureDefinition-fr-not-covered-extension.md)
 
 **Slices**
 
@@ -90,18 +90,18 @@ Must-Support : 9 éléments
 Cette structure fait référence à ces autres structures:
 
 * [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
+* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [Observation (http://hl7.org/fhir/StructureDefinition/Observation|4.0.1)](http://hl7.org/fhir/R4/observation.html)
-* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
-* [Observation - FR Observation Prevention Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-prevention-document|0.1.0)](StructureDefinition-fr-observation-prevention-document.md)
-* [Observation - FR Observation ALD Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-ald-document|0.1.0)](StructureDefinition-fr-observation-ald-document.md)
-* [Observation - FR Observation Work Related Accident Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0)](StructureDefinition-fr-observation-work-related-accident-document.md)
+* [Condition - FR Condition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0)](StructureDefinition-fr-condition-document.md)
+* [Observation - FR Observation Prevention Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0)](StructureDefinition-fr-observation-prevention-document.md)
+* [Observation - FR Observation ALD Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0)](StructureDefinition-fr-observation-ald-document.md)
+* [Observation - FR Observation Work Related Accident Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0)](StructureDefinition-fr-observation-work-related-accident-document.md)
 
 **Extensions**
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-not-covered-extension|0.1.0](StructureDefinition-fr-not-covered-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-not-covered-extension|0.1.0](StructureDefinition-fr-not-covered-extension.md)
 
 **Slices**
 
@@ -123,12 +123,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-device-reque
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-device-request-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-request-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-request-document",
   "version" : "0.1.0",
   "name" : "FRDeviceRequestDocument",
   "title" : "DeviceRequest - FR Device request Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -202,7 +202,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-device-reque
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-not-covered-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-not-covered-extension|0.1.0"]
       }]
     },
     {
@@ -314,7 +314,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-device-reque
       "short" : "Prescripteur",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -325,10 +325,10 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-device-reque
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation|4.0.1",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-prevention-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-ald-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document|0.1.0"]
       }],
       "mustSupport" : true
     }]

@@ -27,12 +27,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-bundle-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-bundle-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-bundle-document",
   "version" : "0.1.0",
   "name" : "FRBundleDocument",
   "title" : "FR Bundle Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -84,7 +84,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
         "severity" : "error",
         "human" : "Un Bundle DOIT inclure une et une seule ressource Composition.",
         "expression" : "entry.resource.ofType(Composition).count() = 1",
-        "source" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-bundle-document|0.1.0"
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-bundle-document|0.1.0"
       }]
     },
     {
@@ -140,7 +140,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "path" : "Bundle.entry.resource",
       "type" : [{
         "code" : "Composition",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-composition-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"]
       }]
     },
     {
@@ -155,8 +155,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "path" : "Bundle.entry.resource",
       "type" : [{
         "code" : "Patient",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
-        "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
       }]
     },
     {
@@ -171,7 +171,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "path" : "Bundle.entry.resource",
       "type" : [{
         "code" : "PractitionerRole",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
     },
     {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "path" : "Bundle.entry.resource",
       "type" : [{
         "code" : "Practitioner",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitioner-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0"]
       }]
     },
     {
@@ -201,7 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "path" : "Bundle.entry.resource",
       "type" : [{
         "code" : "Organization",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-organization-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
       }]
     },
     {
@@ -216,7 +216,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "path" : "Bundle.entry.resource",
       "type" : [{
         "code" : "Device",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0"]
       }]
     },
     {
@@ -231,7 +231,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "path" : "Bundle.entry.resource",
       "type" : [{
         "code" : "Encounter",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-encounter-care-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0"]
       }]
     },
     {
@@ -246,7 +246,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "path" : "Bundle.entry.resource",
       "type" : [{
         "code" : "Location",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-location-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document|0.1.0"]
       }]
     },
     {
@@ -261,7 +261,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "path" : "Bundle.entry.resource",
       "type" : [{
         "code" : "RelatedPerson",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-related-person-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0"]
       }]
     }]
   }

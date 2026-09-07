@@ -67,12 +67,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-note-type-ex
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-note-type-extension",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-note-type-extension",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension",
   "version" : "0.1.0",
   "name" : "FRNoteTypeExtension",
   "title" : "FR Note Type Extension",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -119,7 +119,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-note-type-ex
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-note-type-extension"
+      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension"
     },
     {
       "id" : "Extension.value[x]",
@@ -129,7 +129,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-note-type-ex
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-note-type|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type|0.1.0"
       }
     }]
   }

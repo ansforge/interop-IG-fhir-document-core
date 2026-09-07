@@ -9,12 +9,12 @@
   "resourceType" : "ImplementationGuide",
   "id" : "ans.fr.fhir.document.core",
   "language" : "fr",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ImplementationGuide/ans.fr.fhir.document.core",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fr.fhir.document.core",
   "version" : "0.1.0",
   "name" : "FRFHIRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -340,7 +340,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/history.html"
+        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/document-core/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -746,7 +746,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/history.html"
+        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/document-core/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1157,7 +1157,7 @@
       },
       "name" : "Example - AllergyIntolerance avec Data Absent Reason",
       "description" : "Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments\nobligatoires de la ressource AllergyIntolerance dont la valeur est inconnue ou\ntemporairement indisponible.\n\nCas d'usage illustrés :\n- `code` : l'agent allergique est inconnu → code `unknown`\n- `reaction.manifestation` : la manifestation clinique est inconnue → code `unknown`",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-allergy-intolerance-document|0.1.0"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-allergy-intolerance-document|0.1.0"
     },
     {
       "extension" : [{
@@ -1173,7 +1173,7 @@
       },
       "name" : "Example - Procedure avec Data Absent Reason",
       "description" : "Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments\nobligatoires de la ressource Procedure dont la valeur est inconnue ou temporairement indisponible.\n\nCas d'usage illustrés :\n- `code` : l'acte est inconnu → extension `data-absent-reason` avec code `unknown`\n  (liaison extensible → l'extension peut se substituer au codage)\n- `performedDateTime` : la date de l'acte est temporairement indisponible → extension `data-absent-reason` avec code `temp-unknown`\n- `status` : le statut est inconnu → code d'exception `unknown` du ValueSet `event-status`\n  (liaison required → on utilise directement le code d'exception du ValueSet, pas l'extension)",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-document|0.1.0"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0"
     },
     {
       "extension" : [{
@@ -1188,7 +1188,7 @@
         "reference" : "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41"
       },
       "name" : "Example Patient - AllergyIntolerance avec Data Absent Reason",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"
     },
     {
       "extension" : [{
@@ -1203,7 +1203,7 @@
         "reference" : "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55"
       },
       "name" : "Example Patient - Procedure avec Data Absent Reason",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"
     },
     {
       "extension" : [{

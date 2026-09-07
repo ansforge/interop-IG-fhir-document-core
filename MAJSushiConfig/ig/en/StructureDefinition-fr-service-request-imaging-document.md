@@ -27,12 +27,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-service-request-imaging-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document",
   "version" : "0.1.0",
   "name" : "FRServiceRequestImagingDocument",
   "title" : "ServiceRequest - FR Service Request Imaging Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -78,7 +78,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
   "kind" : "resource",
   "abstract" : false,
   "type" : "ServiceRequest",
-  "baseDefinition" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-document|0.1.0",
+  "baseDefinition" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       "path" : "ServiceRequest.extension.extension.value[x]",
       "patternCodeableConcept" : {
         "coding" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/CodeSystem/fr-cs-note-type",
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type",
           "code" : "finaliteExamen",
           "display" : "Finalité de l'examen"
         }]
@@ -168,7 +168,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       "path" : "ServiceRequest.extension.extension.value[x]",
       "patternCodeableConcept" : {
         "coding" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/CodeSystem/fr-cs-note-type",
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type",
           "code" : "justificationDemande",
           "display" : "Justification de la demande"
         }]

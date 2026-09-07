@@ -45,8 +45,8 @@ Obligatoire : 0 élément(3 éléments obligatoire(s) imbriqué(s))
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Human Name Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-human-name-document|0.1.0)](StructureDefinition-fr-human-name-document.md)
-* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
+* [FR Human Name Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document|0.1.0)](StructureDefinition-fr-human-name-document.md)
+* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
 
 **Extensions**
 
@@ -82,8 +82,8 @@ Obligatoire : 0 élément(3 éléments obligatoire(s) imbriqué(s))
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Human Name Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-human-name-document|0.1.0)](StructureDefinition-fr-human-name-document.md)
-* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
+* [FR Human Name Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document|0.1.0)](StructureDefinition-fr-human-name-document.md)
+* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
 
 **Extensions**
 
@@ -103,12 +103,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-patient-ins-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document",
   "version" : "0.1.0",
   "name" : "FRPatientINSDocument",
   "title" : "FR Patient INS Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -205,7 +205,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
       "min" : 1,
       "type" : [{
         "code" : "HumanName",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-human-name-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document|0.1.0"]
       }]
     },
     {
@@ -213,7 +213,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
       "path" : "Patient.generalPractitioner",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitioner-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0"]
       }]
     }]
   }

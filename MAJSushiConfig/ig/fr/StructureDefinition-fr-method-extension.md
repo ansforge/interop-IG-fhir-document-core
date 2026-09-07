@@ -67,12 +67,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-method-exten
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-method-extension",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-method-extension",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension",
   "version" : "0.1.0",
   "name" : "FRMethodExtension",
   "title" : "FR Method Extension",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -123,7 +123,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-method-exten
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-method-extension"
+      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension"
     },
     {
       "id" : "Extension.value[x]",

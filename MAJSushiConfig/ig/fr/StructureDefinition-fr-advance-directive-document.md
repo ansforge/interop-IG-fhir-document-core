@@ -43,7 +43,7 @@ Must-Support : 6 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [DocumentReference - FR Document reference Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-document-reference-document|0.1.0)](StructureDefinition-fr-document-reference-document.md)
+* [DocumentReference - FR Document reference Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document|0.1.0)](StructureDefinition-fr-document-reference-document.md)
 
 **Slices**
 
@@ -79,7 +79,7 @@ Must-Support : 6 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [DocumentReference - FR Document reference Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-document-reference-document|0.1.0)](StructureDefinition-fr-document-reference-document.md)
+* [DocumentReference - FR Document reference Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document|0.1.0)](StructureDefinition-fr-document-reference-document.md)
 
 **Slices**
 
@@ -99,12 +99,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-advance-dire
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-advance-directive-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-advance-directive-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-advance-directive-document",
   "version" : "0.1.0",
   "name" : "FRAdvanceDirectiveDocument",
   "title" : "Consent - FR Advance directive Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -199,7 +199,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-advance-dire
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-document-reference-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document|0.1.0"]
       }],
       "mustSupport" : true
     },

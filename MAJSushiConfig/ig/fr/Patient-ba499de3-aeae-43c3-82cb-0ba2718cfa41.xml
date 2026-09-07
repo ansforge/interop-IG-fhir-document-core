@@ -3,7 +3,7 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="ba499de3-aeae-43c3-82cb-0ba2718cfa41"/>
   <meta>
-    <profile value="https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document"/>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document"/>
     <profile value="https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document"/>
   </meta>
   <language value="fr"/>

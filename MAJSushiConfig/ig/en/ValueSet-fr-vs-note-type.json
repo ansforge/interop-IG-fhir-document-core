@@ -4,14 +4,14 @@
   "language" : "en",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet fr-vs-note-type</b></p><a name=\"en-fr-vs-note-type\"> </a><a name=\"en-hcfr-vs-note-type\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-fr-cs-note-type.html\"><code>https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/CodeSystem/fr-cs-note-type</code></a><span title=\"Version is explicitly stated to be 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div>"
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet fr-vs-note-type</b></p><a name=\"en-fr-vs-note-type\"> </a><a name=\"en-hcfr-vs-note-type\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-fr-cs-note-type.html\"><code>https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type</code></a><span title=\"Version is explicitly stated to be 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div>"
   },
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-note-type",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type",
   "version" : "0.1.0",
   "name" : "FRValueSetNoteType",
   "title" : "FR ValueSet Imaging Note Type",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -30,7 +30,7 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/CodeSystem/fr-cs-note-type",
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type",
       "version" : "0.1.0"
     }]
   }

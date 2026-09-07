@@ -30,12 +30,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-sta
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-statement-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-statement-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-statement-document",
   "version" : "0.1.0",
   "name" : "FRMedicationStatementDocument",
   "title" : "MedicationStatement - FR Medication Statement Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-sta
       "short" : "Prescription",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document|0.1.0"]
       }]
     },
     {
@@ -102,7 +102,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-sta
       "path" : "MedicationStatement.partOf",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
       }]
     },
     {
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-sta
       },
       {
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -145,7 +145,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-sta
       "short" : "Motif du traitement",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document|0.1.0",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
         "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"]
       }],
       "mustSupport" : true
@@ -220,7 +220,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-sta
       "binding" : {
         "strength" : "required",
         "description" : "EDQM - Standard terms / classe ROA (0.4.0.127.0.16.1.1.2.1)",
-        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-edqm-document|0.1.0"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document|0.1.0"
       }
     },
     {

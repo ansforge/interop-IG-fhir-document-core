@@ -4,16 +4,16 @@
   <id value="ans.fr.fhir.document.core"/>
   <language value="fr"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : ImplementationGuide ans.fr.fhir.document.core</b></p><a name="ans.fr.fhir.document.core"> </a><a name="hcans.fr.fhir.document.core"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : fr</p></div><h2>FRFHIRDocumentCore</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ImplementationGuide/ans.fr.fhir.document.core</pre><div><p>Volet FHIR du guide d'implémentation Document Core.</p>
-</div></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fr.fhir.document.core</b></p><a name="en-ans.fr.fhir.document.core"> </a><a name="en-hcans.fr.fhir.document.core"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr</p></div><h2>FRFHIRDocumentCore</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ImplementationGuide/ans.fr.fhir.document.core</pre><div><p>Volet FHIR du guide d'implémentation Document Core.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : ImplementationGuide ans.fr.fhir.document.core</b></p><a name="ans.fr.fhir.document.core"> </a><a name="hcans.fr.fhir.document.core"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : fr</p></div><h2>FRFHIRDocumentCore</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fr.fhir.document.core</pre><div><p>Volet FHIR du guide d'implémentation Document Core.</p>
+</div></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fr.fhir.document.core</b></p><a name="en-ans.fr.fhir.document.core"> </a><a name="en-hcans.fr.fhir.document.core"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr</p></div><h2>FRFHIRDocumentCore</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fr.fhir.document.core</pre><div><p>Volet FHIR du guide d'implémentation Document Core.</p>
 </div></div></div>
   </text>
-  <url value="https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ImplementationGuide/ans.fr.fhir.document.core"/>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fr.fhir.document.core"/>
   <version value="0.1.0"/>
   <name value="FRFHIRDocumentCore"/>
   <title value="FR Document Core (FHIR)"/>
   <status value="draft"/>
-  <date value="2026-09-07T10:09:50+00:00"/>
+  <date value="2026-09-07T10:25:29+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -261,7 +261,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/history.html"/>
+        <valueString value="https://interop.esante.gouv.fr/ig/fhir/document-core/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -557,7 +557,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/history.html"/>
+        <valueString value="https://interop.esante.gouv.fr/ig/fhir/document-core/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -850,7 +850,7 @@
       </reference>
       <name value="Example - AllergyIntolerance avec Data Absent Reason"/>
       <description value="Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments&#xA;obligatoires de la ressource AllergyIntolerance dont la valeur est inconnue ou&#xA;temporairement indisponible.&#xA;&#xA;Cas d'usage illustrés :&#xA;- `code` : l'agent allergique est inconnu → code `unknown`&#xA;- `reaction.manifestation` : la manifestation clinique est inconnue → code `unknown`"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-allergy-intolerance-document|0.1.0"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-allergy-intolerance-document|0.1.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -861,7 +861,7 @@
       </reference>
       <name value="Example - Procedure avec Data Absent Reason"/>
       <description value="Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments&#xA;obligatoires de la ressource Procedure dont la valeur est inconnue ou temporairement indisponible.&#xA;&#xA;Cas d'usage illustrés :&#xA;- `code` : l'acte est inconnu → extension `data-absent-reason` avec code `unknown`&#xA;  (liaison extensible → l'extension peut se substituer au codage)&#xA;- `performedDateTime` : la date de l'acte est temporairement indisponible → extension `data-absent-reason` avec code `temp-unknown`&#xA;- `status` : le statut est inconnu → code d'exception `unknown` du ValueSet `event-status`&#xA;  (liaison required → on utilise directement le code d'exception du ValueSet, pas l'extension)"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-document|0.1.0"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -871,7 +871,7 @@
         <reference value="Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41"/>
       </reference>
       <name value="Example Patient - AllergyIntolerance avec Data Absent Reason"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -881,7 +881,7 @@
         <reference value="Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55"/>
       </reference>
       <name value="Example Patient - Procedure avec Data Absent Reason"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

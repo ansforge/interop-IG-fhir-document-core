@@ -28,12 +28,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-service-request-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document",
   "version" : "0.1.0",
   "name" : "FRServiceRequestDocument",
   "title" : "ServiceRequest - FR Service Request Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -90,7 +90,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
         "severity" : "error",
         "human" : "L'intention doit être order, plan ou proposal.",
         "expression" : "intent = 'order' or intent = 'plan' or intent = 'proposal'",
-        "source" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-document|0.1.0"
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0"
       }]
     },
     {
@@ -114,7 +114,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-method-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0"]
       }],
       "mustSupport" : true
     },
@@ -127,7 +127,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0"]
       }]
     },
     {
@@ -172,7 +172,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       "max" : "1",
       "type" : [{
         "code" : "Identifier",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0"]
       }]
     },
     {

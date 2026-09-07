@@ -1,6 +1,6 @@
 {
   "codeSystems" : [{
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/CodeSystem/fr-cs-note-type",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FRCSNoteType",

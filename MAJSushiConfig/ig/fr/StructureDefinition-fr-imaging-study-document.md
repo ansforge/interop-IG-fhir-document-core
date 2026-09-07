@@ -44,16 +44,16 @@ Obligatoire : 6 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Study Instance Uid Identifier Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0)](StructureDefinition-fr-study-instance-uid-identifier-document.md)
-* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
-* [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
-* [Endpoint - FR Endpoint Wado Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-endpoint-wado-document|0.1.0)](StructureDefinition-fr-endpoint-wado-document.md)
+* [FR Study Instance Uid Identifier Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0)](StructureDefinition-fr-study-instance-uid-identifier-document.md)
+* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
+* [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
+* [Endpoint - FR Endpoint Wado Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-endpoint-wado-document|0.1.0)](StructureDefinition-fr-endpoint-wado-document.md)
 
 **Extensions**
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0](StructureDefinition-fr-number-of-frames-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0](StructureDefinition-fr-number-of-frames-extension.md)
 
 **Slices**
 
@@ -91,16 +91,16 @@ Obligatoire : 6 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Study Instance Uid Identifier Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0)](StructureDefinition-fr-study-instance-uid-identifier-document.md)
-* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
-* [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
-* [Endpoint - FR Endpoint Wado Document (https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-endpoint-wado-document|0.1.0)](StructureDefinition-fr-endpoint-wado-document.md)
+* [FR Study Instance Uid Identifier Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0)](StructureDefinition-fr-study-instance-uid-identifier-document.md)
+* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
+* [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
+* [Endpoint - FR Endpoint Wado Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-endpoint-wado-document|0.1.0)](StructureDefinition-fr-endpoint-wado-document.md)
 
 **Extensions**
 
 Cette structure fait référence à ces extensions:
 
-* [https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0](StructureDefinition-fr-number-of-frames-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0](StructureDefinition-fr-number-of-frames-extension.md)
 
 **Slices**
 
@@ -121,12 +121,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-imaging-study-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-study-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document",
   "version" : "0.1.0",
   "name" : "FRImagingStudyDocument",
   "title" : "ImagingStudy - FR Imaging study Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -202,7 +202,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "max" : "*",
       "type" : [{
         "code" : "Identifier",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0"]
       }]
     },
     {
@@ -243,7 +243,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "max" : "*",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
       }]
     },
     {
@@ -258,7 +258,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "short" : "Technique d'imagerie",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0"]
       }]
     },
     {
@@ -299,7 +299,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "short" : "Référence WADO",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-endpoint-wado-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-endpoint-wado-document|0.1.0"]
       }]
     },
     {
@@ -355,7 +355,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension|0.1.0"]
       }]
     },
     {

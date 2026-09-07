@@ -27,12 +27,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-so
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-observation-social-history-document",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-social-history-document",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-social-history-document",
   "version" : "0.1.0",
   "name" : "FRObservationSocialHistoryDocument",
   "title" : "Observation - FR Observation Social History Document",
   "status" : "draft",
-  "date" : "2026-09-07T10:09:50+00:00",
+  "date" : "2026-09-07T10:25:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-so
         "severity" : "error",
         "human" : "Un résultat est obligatoire : soit via value[x], soit via component.value[x] lorsque le code est 'autre élément social' (LOINC 11345-6).",
         "expression" : "(\n   code.coding.where(system='http://loinc.org' and code='11345-6').exists() and component.value.exists() and value.empty()\n ) or (\n   code.coding.where(system='http://loinc.org' and code='11345-6').empty() and value.exists() and component.value.empty()\n )",
-        "source" : "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-social-history-document|0.1.0"
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-social-history-document|0.1.0"
       }]
     },
     {

@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ImplementationGuide/ans.fr.fhir.document.core> a fhir:ImplementationGuide ;
+<https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fr.fhir.document.core> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "ans.fr.fhir.document.core"] ;
   fhir:Resource.language [ fhir:value "fr"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.fhir.document.core</b></p><a name=\"ans.fr.fhir.document.core\"> </a><a name=\"hcans.fr.fhir.document.core\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr</p></div><h2>FRFHIRDocumentCore</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ImplementationGuide/ans.fr.fhir.document.core</pre><div><p>Volet FHIR du guide d'implémentation Document Core.</p>\n</div></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.fhir.document.core</b></p><a name=\"en-ans.fr.fhir.document.core\"> </a><a name=\"en-hcans.fr.fhir.document.core\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr</p></div><h2>FRFHIRDocumentCore</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ImplementationGuide/ans.fr.fhir.document.core</pre><div><p>Volet FHIR du guide d'implémentation Document Core.</p>\n</div></div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.fhir.document.core</b></p><a name=\"ans.fr.fhir.document.core\"> </a><a name=\"hcans.fr.fhir.document.core\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr</p></div><h2>FRFHIRDocumentCore</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fr.fhir.document.core</pre><div><p>Volet FHIR du guide d'implémentation Document Core.</p>\n</div></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.fhir.document.core</b></p><a name=\"en-ans.fr.fhir.document.core\"> </a><a name=\"en-hcans.fr.fhir.document.core\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr</p></div><h2>FRFHIRDocumentCore</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fr.fhir.document.core</pre><div><p>Volet FHIR du guide d'implémentation Document Core.</p>\n</div></div></div>"
   ] ;
-  fhir:ImplementationGuide.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ImplementationGuide/ans.fr.fhir.document.core"] ;
+  fhir:ImplementationGuide.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fr.fhir.document.core"] ;
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"] ;
   fhir:ImplementationGuide.name [ fhir:value "FRFHIRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-07T10:09:50+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-07T10:25:29+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -402,7 +402,7 @@
        ], [
          fhir:index 1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -565,7 +565,7 @@
        fhir:index 36 ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters" ] ;
        fhir:Extension.valueReference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/Parameters/expansion-parameters> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Parameters/expansion-parameters> ;
          fhir:Reference.reference [ fhir:value "Parameters/expansion-parameters" ]
        ]
      ], [
@@ -845,7 +845,7 @@
        ], [
          fhir:index 1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -1026,7 +1026,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-adverse-event-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-adverse-event-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-adverse-event-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AdverseEvent - FR adverse event Document" ] ;
@@ -1041,7 +1041,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-allergy-intolerance-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-allergy-intolerance-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-allergy-intolerance-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AllergyIntolerance - FR Allergy and intolerance Document" ] ;
@@ -1056,7 +1056,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-body-structure-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-body-structure-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BodyStructure - FR Body Structure Document" ] ;
@@ -1071,7 +1071,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-care-plan-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-care-plan-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-care-plan-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CarePlan - FR Care Plan Document" ] ;
@@ -1086,7 +1086,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-condition-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-condition-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Condition - FR Condition Document" ] ;
@@ -1101,7 +1101,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-advance-directive-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-advance-directive-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-advance-directive-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Consent - FR Advance directive Document" ] ;
@@ -1116,7 +1116,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-request-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-request-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-device-request-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DeviceRequest - FR Device request Document" ] ;
@@ -1131,7 +1131,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-use-statement-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-use-statement-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-device-use-statement-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DeviceUseStatement - FR Device Use Statement Document" ] ;
@@ -1146,7 +1146,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-diagnostic-report-bio-chapter-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-bio-chapter-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-diagnostic-report-bio-chapter-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DiagnosticReport - FR Diagnostic Report BIO chapter Document" ] ;
@@ -1161,7 +1161,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-diagnostic-report-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-diagnostic-report-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DiagnosticReport - FR Diagnostic Report Document" ] ;
@@ -1176,7 +1176,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-diagnostic-report-imaging-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-imaging-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-diagnostic-report-imaging-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DiagnosticReport - FR Diagnostic Report Imaging Document" ] ;
@@ -1191,7 +1191,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-document-reference-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-document-reference-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DocumentReference - FR Document reference Document" ] ;
@@ -1206,7 +1206,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-encounter-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-encounter-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter - FR Encounter Document" ] ;
@@ -1221,7 +1221,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-endpoint-wado-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-endpoint-wado-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-endpoint-wado-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Endpoint - FR Endpoint Wado Document" ] ;
@@ -1236,14 +1236,14 @@
          fhir:Extension.valueString [ fhir:value "AllergyIntolerance" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/AllergyIntolerance/example-allergy-intolerance-data-absent-reason> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/AllergyIntolerance/example-allergy-intolerance-data-absent-reason> ;
          fhir:Reference.reference [ fhir:value "AllergyIntolerance/example-allergy-intolerance-data-absent-reason" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - AllergyIntolerance avec Data Absent Reason" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments\nobligatoires de la ressource AllergyIntolerance dont la valeur est inconnue ou\ntemporairement indisponible.\n\nCas d'usage illustrés :\n- `code` : l'agent allergique est inconnu → code `unknown`\n- `reaction.manifestation` : la manifestation clinique est inconnue → code `unknown`" ] ;
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-allergy-intolerance-document|0.1.0" ;
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-allergy-intolerance-document|0.1.0>
+         fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-allergy-intolerance-document|0.1.0" ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-allergy-intolerance-document|0.1.0>
        ]
      ], [
        fhir:index 15 ;
@@ -1253,14 +1253,14 @@
          fhir:Extension.valueString [ fhir:value "Procedure" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/Procedure/example-procedure-data-absent-reason> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Procedure/example-procedure-data-absent-reason> ;
          fhir:Reference.reference [ fhir:value "Procedure/example-procedure-data-absent-reason" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - Procedure avec Data Absent Reason" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple illustrant l'usage de l'extension `data-absent-reason` sur les éléments\nobligatoires de la ressource Procedure dont la valeur est inconnue ou temporairement indisponible.\n\nCas d'usage illustrés :\n- `code` : l'acte est inconnu → extension `data-absent-reason` avec code `unknown`\n  (liaison extensible → l'extension peut se substituer au codage)\n- `performedDateTime` : la date de l'acte est temporairement indisponible → extension `data-absent-reason` avec code `temp-unknown`\n- `status` : le statut est inconnu → code d'exception `unknown` du ValueSet `event-status`\n  (liaison required → on utilise directement le code d'exception du ValueSet, pas l'extension)" ] ;
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-document|0.1.0" ;
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-document|0.1.0>
+         fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0" ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document|0.1.0>
        ]
      ], [
        fhir:index 16 ;
@@ -1270,13 +1270,13 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41> ;
          fhir:Reference.reference [ fhir:value "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Patient - AllergyIntolerance avec Data Absent Reason" ] ;
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0" ;
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0>
+         fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0" ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0>
        ]
      ], [
        fhir:index 17 ;
@@ -1286,13 +1286,13 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55> ;
          fhir:Reference.reference [ fhir:value "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Patient - Procedure avec Data Absent Reason" ] ;
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0" ;
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document|0.1.0>
+         fhir:value "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0" ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0>
        ]
      ], [
        fhir:index 18 ;
@@ -1302,7 +1302,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-family-member-history-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-family-member-history-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FamilyMemberHistory - FR Family Member History Document" ] ;
@@ -1317,7 +1317,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-accession-number-identifier-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-accession-number-identifier-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Accession Number Identifier Document" ] ;
@@ -1332,7 +1332,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-actor-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-actor-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Actor Extension" ] ;
@@ -1346,7 +1346,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-author-time-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-author-time-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Author Time Extension" ] ;
@@ -1360,7 +1360,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-bundle-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-bundle-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-bundle-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Bundle Document" ] ;
@@ -1375,7 +1375,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/CodeSystem/fr-cs-note-type> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/fr-cs-note-type" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR CodeSystem Note Type" ] ;
@@ -1389,7 +1389,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-comparison-studies-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-comparison-studies-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-comparison-studies-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Comparison Studies Extension" ] ;
@@ -1403,7 +1403,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-composition-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-composition-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Composition Document" ] ;
@@ -1418,7 +1418,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-device-auteur-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-device-auteur-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Device Document" ] ;
@@ -1433,7 +1433,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-encounter-care-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-encounter-care-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Encounter Care Document" ] ;
@@ -1448,7 +1448,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-family-member-history-body-site-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-family-member-history-body-site-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Family Member History Body Site Extension" ] ;
@@ -1462,7 +1462,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-human-name-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-human-name-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Human Name Document" ] ;
@@ -1477,7 +1477,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-procedure-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-imaging-procedure-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Imaging Procedure Extension" ] ;
@@ -1491,7 +1491,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-type-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-type-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-immunization-type-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Immunization Type Extension" ] ;
@@ -1505,7 +1505,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-interpretation-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-interpretation-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Interpretation Extension" ] ;
@@ -1519,7 +1519,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-location-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-location-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Location Document" ] ;
@@ -1534,7 +1534,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-sequence-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-sequence-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-medication-administration-sequence-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Medication Administration Sequence Extension" ] ;
@@ -1548,7 +1548,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-method-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-method-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Method Extension" ] ;
@@ -1562,7 +1562,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-not-covered-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-not-covered-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-not-covered-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Not Covered Extension" ] ;
@@ -1576,7 +1576,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-note-type-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-note-type-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-note-type-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Note Type Extension" ] ;
@@ -1590,7 +1590,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-number-of-frames-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-number-of-frames-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Number of Frames Extension" ] ;
@@ -1604,7 +1604,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-organization-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-organization-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Organization Document" ] ;
@@ -1619,7 +1619,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-patient-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Patient Document" ] ;
@@ -1634,7 +1634,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-history-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-history-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-patient-history-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Patient History Extension" ] ;
@@ -1648,7 +1648,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-patient-ins-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-patient-ins-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Patient INS Document" ] ;
@@ -1663,7 +1663,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-performer-event-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-performer-event-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Performer Event Extension" ] ;
@@ -1677,7 +1677,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitioner-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-practitioner-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Practitioner Document" ] ;
@@ -1692,7 +1692,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-practitionerRole-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-practitionerRole-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR PractitionerRole Document" ] ;
@@ -1707,7 +1707,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-difficulty-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-difficulty-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-procedure-difficulty-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Procedure Difficulty Extension" ] ;
@@ -1721,7 +1721,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-priority-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-priority-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-procedure-priority-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Procedure Priority Extension" ] ;
@@ -1735,7 +1735,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-related-person-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-related-person-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR RelatedPerson Document" ] ;
@@ -1750,7 +1750,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-status-reason-extension> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-status-reason-extension> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-status-reason-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Status Reason Extension" ] ;
@@ -1764,7 +1764,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-study-instance-uid-identifier-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-study-instance-uid-identifier-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Study Instance Uid Identifier Document" ] ;
@@ -1779,7 +1779,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-note-type> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-note-type> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-note-type" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Imaging Note Type" ] ;
@@ -1793,7 +1793,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-doc-vs-participation-type> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-doc-vs-participation-type" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Participation Type Information Recipient" ] ;
@@ -1807,7 +1807,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-doc-vs-participation-type-participant> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-doc-vs-participation-type-participant" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR ValueSet Participation Type Participant" ] ;
@@ -1821,7 +1821,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-doc-vs-role-prise-charge> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-role-prise-charge> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-doc-vs-role-prise-charge" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Fr ValueSet RolePriseCharge" ] ;
@@ -1835,7 +1835,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-imaging-study-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-imaging-study-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ImagingStudy - FR Imaging study Document" ] ;
@@ -1850,7 +1850,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-immunization-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Immunization - FR Immunization Document" ] ;
@@ -1865,7 +1865,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-immunization-recommendation-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-recommendation-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-immunization-recommendation-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ImmunizationRecommendation - FR Immunization Recommendation Document" ] ;
@@ -1880,7 +1880,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-media-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-media-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-media-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Media - FR Media Document" ] ;
@@ -1895,7 +1895,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-medication-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medication - FR Medication Document" ] ;
@@ -1910,7 +1910,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-administration-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-medication-administration-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedicationAdministration - FR Medication Administration Document" ] ;
@@ -1925,7 +1925,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-dispense-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-dispense-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-medication-dispense-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedicationDispense - FR Medication Dispense Document" ] ;
@@ -1940,7 +1940,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-request-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-medication-request-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedicationRequest - FR Medication Request Document" ] ;
@@ -1955,7 +1955,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-medication-statement-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-statement-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-medication-statement-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedicationStatement - FR Medication Statement Document" ] ;
@@ -1970,7 +1970,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-ald-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-ald-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation ALD Document" ] ;
@@ -1985,7 +1985,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-assessment-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-assessment-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-assessment-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Assessment Document" ] ;
@@ -2000,7 +2000,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-contra-indications-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-contra-indications-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-contra-indications-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Contra Indications Document" ] ;
@@ -2015,7 +2015,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-laboratory-report-results-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-laboratory-report-results-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-laboratory-report-results-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Laboratory Report Results Document" ] ;
@@ -2030,7 +2030,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-microorganism-detection-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-microorganism-detection-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-microorganism-detection-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Microorganism Detection Document" ] ;
@@ -2045,7 +2045,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-multiresistant-microorganism-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-multiresistant-microorganism-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-multiresistant-microorganism-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Multiresistant Microorganisms Identification Document" ] ;
@@ -2060,7 +2060,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pain-score-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pain-score-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-pain-score-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Pain Score Document" ] ;
@@ -2075,7 +2075,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pregnancy-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-pregnancy-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Pregnancy Document" ] ;
@@ -2090,7 +2090,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-pregnancy-history-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-history-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-pregnancy-history-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Pregnancy History Document" ] ;
@@ -2105,7 +2105,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-prevention-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-prevention-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Prevention Document" ] ;
@@ -2120,7 +2120,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-radiation-exposure-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-radiation-exposure-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-radiation-exposure-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Radiation Exposure Document" ] ;
@@ -2135,7 +2135,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-result-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-result-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-result-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Result Document" ] ;
@@ -2150,7 +2150,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-social-history-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-social-history-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-social-history-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Social History Document" ] ;
@@ -2165,7 +2165,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-vital-signs-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-vital-signs-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-vital-signs-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Vital Signs Document" ] ;
@@ -2180,7 +2180,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-vital-signs-panel-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-vital-signs-panel-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-vital-signs-panel-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Vital Signs Panel Document" ] ;
@@ -2195,7 +2195,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-observation-work-related-accident-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-observation-work-related-accident-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - FR Observation Work Related Accident Document" ] ;
@@ -2210,7 +2210,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-procedure-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Procedure - FR Procedure Document" ] ;
@@ -2225,7 +2225,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-procedure-imaging-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-procedure-imaging-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Procedure - FR Procedure Imaging Document" ] ;
@@ -2240,7 +2240,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-service-request-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ServiceRequest - FR Service Request Document" ] ;
@@ -2255,7 +2255,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-service-request-imaging-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-service-request-imaging-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ServiceRequest - FR Service Request Imaging Document" ] ;
@@ -2270,7 +2270,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-specimen-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-specimen-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Specimen - FR Specimen Document" ] ;
@@ -2285,7 +2285,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/StructureDefinition/fr-task-patient-transport-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-task-patient-transport-document> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-task-patient-transport-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Task - FR Task Patient Transport Document" ] ;
@@ -2300,7 +2300,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-actor-type-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-actor-type-document> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-actor-type-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet - FR ValueSet Actor Type Document" ] ;
@@ -2314,7 +2314,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-allergy-intolerance-type-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-intolerance-type-document> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-allergy-intolerance-type-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet - FR ValueSet Allergy Intolerance Type Document" ] ;
@@ -2328,7 +2328,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-edqm-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-edqm-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet - FR ValueSet EDQM Document" ] ;
@@ -2342,7 +2342,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-edqm-form-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-form-document> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-edqm-form-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet - FR ValueSet EDQM Form Document" ] ;
@@ -2356,7 +2356,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-medication-translation-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-medication-translation-document> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-medication-translation-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet - FR ValueSet Medication Translation Document" ] ;
@@ -2370,7 +2370,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-allergy-code> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-code> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-allergy-code" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet – FR ValueSet Allergy Code Document" ] ;
@@ -2384,7 +2384,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-allergy-substance> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-allergy-substance> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-allergy-substance" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet – FR ValueSet Allergy Substance Document" ] ;
@@ -2398,7 +2398,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-procedure-code> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-procedure-code> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-procedure-code" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet – FR ValueSet Codes d’actes" ] ;
@@ -2412,7 +2412,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-vaccine-code-cis> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-vaccine-code-cis> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-vaccine-code-cis" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet – FR ValueSet Codes vaccins CIS (BDPM)" ] ;
@@ -2426,7 +2426,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-location-body-structure-document> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-location-body-structure-document> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-location-body-structure-document" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet – FR ValueSet Localisation anatomique et voie d'abord" ] ;
@@ -2440,7 +2440,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ValueSet/fr-vs-evaluation-type> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-evaluation-type> ;
          fhir:Reference.reference [ fhir:value "ValueSet/fr-vs-evaluation-type" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet – FR ValueSet Type d'évaluation" ] ;
@@ -2608,7 +2608,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/fhir-document-core/ImplementationGuide/ans.fr.fhir.document.core.ttl> a owl:Ontology ;
+<https://interop.esante.gouv.fr/ig/fhir/document-core/ImplementationGuide/ans.fr.fhir.document.core.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
