@@ -93,7 +93,7 @@ Id: fr-patient-history-extension
 Description: "Historique médical du patient pertinent pour l'examen d'imagerie"
 Context: DiagnosticReport
 //* value[x] only Reference(Resource)
-* value[x] only Reference(FRObservationPregnancyDocument or FRObservationContraIndicationsImagingDocument or FRConditionDocument or Observation or FRDeviceAuteurDocument or FRMedicationAdministrationDocument)
+* value[x] only Reference(FRObservationPregnancyDocument or FRObservationContraIndicationsImagingDocument or FRConditionDocument or Observation or Device or FRMedicationAdministrationDocument)
 
 Extension: FRImagingProcedureExtension
 Title: "FR Imaging Procedure Extension"
