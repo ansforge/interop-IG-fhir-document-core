@@ -36,3 +36,6 @@ Alias: $sexForClinicalUse = http://hl7.org/fhir/StructureDefinition/patient-sexP
 
 // extensions
 Alias: $note = http://hl7.org/fhir/StructureDefinition/note
+
+// extensions Eu
+Alias: $composition-diagnosticReportReference = http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference

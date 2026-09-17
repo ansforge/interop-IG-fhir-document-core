@@ -52,3 +52,11 @@ Description: "FRMedicationDocument permet de décrire un médicament ou un vacci
 * extension[unitOfPresentation] ^short = "Unité de présentation du produit de santé (comprimé, ampoule, tube). En général, le plus petit objet dénombrable du package.
 EDQM Standard Terms (0.4.0.127.0.16.1.1.2.1) / classe UOP (Unit of Presentation).."
 * extension[sizeOfItem] ^short = "Quantité de produit par unité (ex : 3 ml / 1 flacon)."
+
+// Extensions européennes : Device et PackageType
+* extension contains
+    $ihe-ext-medication-device named device 0..* MS and
+    $eu-medication-package-type named packageType 0..1 MS
+
+* extension[device] ^short = "Dispositif d'administration inclus dans le produit. Les dispositifs qui ne sont pas contenus dans le conditionnement du médicament ne sont pas pris en compte."
+* extension[packageType] ^short = "Conditionnement primaire (ampoule, plaquette,…) EDQM Standard Terms (0.4.0.127.0.16.1.1.2.1) / classe CON (Récipient)."

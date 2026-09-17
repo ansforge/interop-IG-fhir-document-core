@@ -12,6 +12,7 @@ Title: "FR Bundle Document"
 Description: "Ce profil permet d’assembler les éléments de l’en-tête et du corps d’un document."
 * obeys bdle-document-1
 * identifier 1..
+* identifier ^short = "Identifiant unique du document"
 * type = #document
 * timestamp 1..1
 

@@ -13,6 +13,8 @@ Alias: $ihe-ext-offLabel = https://profiles.ihe.net/PHARM/MPD/StructureDefinitio
 Alias: $ihe-ext-medication-strengthsubstance = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-strengthsubstance
 Alias: $ihe-ext-medication-unitofpresentation = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation
 Alias: $ihe-ext-medication-sizeofitem = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem
+Alias: $ihe-ext-medication-device = https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device
+Alias: $eu-medication-package-type = http://hl7.eu/fhir/StructureDefinition/medication-package-type
 
 
 
