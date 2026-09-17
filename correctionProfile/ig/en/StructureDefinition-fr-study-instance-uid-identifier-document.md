@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-study-instance
   "name" : "FRStudyInstanceUidIdentifierDocument",
   "title" : "FR Study Instance Uid Identifier Document",
   "status" : "draft",
-  "date" : "2026-09-16T12:57:50+00:00",
+  "date" : "2026-09-17T15:33:46+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -72,9 +72,29 @@ Other representations of profile: [CSV](../StructureDefinition-fr-study-instance
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
-      "id" : "Identifier.type.coding.code",
-      "path" : "Identifier.type.coding.code",
-      "patternCode" : "0020000D"
+      "id" : "Identifier.type.coding",
+      "path" : "Identifier.type.coding",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "Identifier.type.coding:dcm",
+      "path" : "Identifier.type.coding",
+      "sliceName" : "dcm",
+      "min" : 1,
+      "max" : "1",
+      "patternCoding" : {
+        "system" : "http://dicom.nema.org/resources/ontology/DCM",
+        "code" : "110180",
+        "display" : "Study Instance UID"
+      }
     },
     {
       "id" : "Identifier.system",

@@ -35,7 +35,13 @@ Cette structure est dérivée de [Identifier](http://hl7.org/fhir/R4/datatypes.h
 
 ** Résumé **
 
-Obligatoire : 1 élément
+Obligatoire : 1 élément(2 éléments obligatoire(s) imbriqué(s))
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of Identifier.type.coding
 
  **Vue des éléments clés** 
 
@@ -57,7 +63,13 @@ Cette structure est dérivée de [Identifier](http://hl7.org/fhir/R4/datatypes.h
 
 ** Résumé **
 
-Obligatoire : 1 élément
+Obligatoire : 1 élément(2 éléments obligatoire(s) imbriqué(s))
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of Identifier.type.coding
 
  
 
@@ -76,7 +88,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-study-instan
   "name" : "FRStudyInstanceUidIdentifierDocument",
   "title" : "FR Study Instance Uid Identifier Document",
   "status" : "draft",
-  "date" : "2026-09-16T12:57:50+00:00",
+  "date" : "2026-09-17T15:33:46+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -116,9 +128,29 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-study-instan
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
-      "id" : "Identifier.type.coding.code",
-      "path" : "Identifier.type.coding.code",
-      "patternCode" : "0020000D"
+      "id" : "Identifier.type.coding",
+      "path" : "Identifier.type.coding",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "Identifier.type.coding:dcm",
+      "path" : "Identifier.type.coding",
+      "sliceName" : "dcm",
+      "min" : 1,
+      "max" : "1",
+      "patternCoding" : {
+        "system" : "http://dicom.nema.org/resources/ontology/DCM",
+        "code" : "110180",
+        "display" : "Study Instance UID"
+      }
     },
     {
       "id" : "Identifier.system",

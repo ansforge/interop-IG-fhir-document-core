@@ -18,6 +18,17 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>f:ImagingStudy/f:basedOn</sch:title>
+    <sch:rule context="f:ImagingStudy/f:basedOn">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:reference) &lt;= 1">reference: maximum cardinality of 'reference' is 1</sch:assert>
+      <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>
+      <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
+      <sch:assert test="count(f:identifier) &lt;= 1">identifier: maximum cardinality of 'identifier' is 1</sch:assert>
+      <sch:assert test="count(f:display) &lt;= 1">display: maximum cardinality of 'display' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>f:ImagingStudy/f:series</sch:title>
     <sch:rule context="f:ImagingStudy/f:series">
       <sch:assert test="count(f:laterality) &gt;= 1">laterality: minimum cardinality of 'laterality' is 1</sch:assert>

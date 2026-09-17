@@ -7,7 +7,7 @@ FRObservationRadiationExposureDocument permet d'enregistrer les informations rel
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-observation-radiation-exposure-document.json)
 
@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-ra
   "name" : "FRObservationRadiationExposureDocument",
   "title" : "Observation - FR Observation Radiation Exposure Document",
   "status" : "draft",
-  "date" : "2026-09-16T12:57:50+00:00",
+  "date" : "2026-09-17T15:33:46+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -93,46 +93,14 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-ra
     {
       "id" : "Observation.identifier",
       "path" : "Observation.identifier",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "type"
-        }],
-        "description" : "Identifiant de l'exposition aux radiations",
-        "ordered" : false,
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "Observation.identifier:radiationUID",
-      "path" : "Observation.identifier",
-      "sliceName" : "radiationUID",
-      "short" : "Radiation Exposures UID",
-      "min" : 0,
-      "max" : "*",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.identifier:radiationUID.type.coding.code",
-      "path" : "Observation.identifier.type.coding.code",
-      "patternCode" : "00083010"
-    },
-    {
-      "id" : "Observation.identifier:radiationUID.system",
-      "path" : "Observation.identifier.system",
-      "patternUri" : "urn:dicom:uid"
-    },
-    {
-      "id" : "Observation.identifier:radiationUID.value",
-      "path" : "Observation.identifier.value",
-      "min" : 1
+      "short" : "Identifiant de l'exposition aux radiations"
     },
     {
       "id" : "Observation.basedOn",
       "path" : "Observation.basedOn",
       "slicing" : {
         "discriminator" : [{
-          "type" : "pattern",
+          "type" : "type",
           "path" : "$this"
         }],
         "rules" : "open"
@@ -152,55 +120,62 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-ra
       }]
     },
     {
+      "id" : "Observation.basedOn:serviceRequestAccessionNumber.identifier",
+      "path" : "Observation.basedOn.identifier",
+      "min" : 1,
+      "type" : [{
+        "code" : "Identifier",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0"]
+      }]
+    },
+    {
       "id" : "Observation.partOf",
       "path" : "Observation.partOf",
+      "short" : "Ressources liées à cette exposition aux radiations (administration de produits radiopharmaceutiques, techniques d'imagerie)",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Observation.code",
+      "path" : "Observation.code",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.code.coding",
+      "path" : "Observation.code.coding",
       "slicing" : {
         "discriminator" : [{
-          "type" : "type",
-          "path" : "reference"
+          "type" : "value",
+          "path" : "code"
+        },
+        {
+          "type" : "value",
+          "path" : "system"
         }],
-        "description" : "Ressources liées à cette exposition aux radiations",
+        "ordered" : false,
         "rules" : "open"
       },
       "min" : 1
     },
     {
-      "id" : "Observation.partOf:imagingStudyRef",
-      "path" : "Observation.partOf",
-      "sliceName" : "imagingStudyRef",
-      "short" : "Imaging study associé à cette exposition aux radiations",
+      "id" : "Observation.code.coding:radiationDose",
+      "path" : "Observation.code.coding",
+      "sliceName" : "radiationDose",
       "min" : 1,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0"]
-      }],
-      "mustSupport" : true
+      "max" : "1"
     },
     {
-      "id" : "Observation.partOf:medicationAdministrationRef",
-      "path" : "Observation.partOf",
-      "sliceName" : "medicationAdministrationRef",
-      "short" : "Référence à l'administration du radiopharmaceutique associée à cette exposition aux radiations",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
-      }],
-      "mustSupport" : true
+      "id" : "Observation.code.coding:radiationDose.system",
+      "path" : "Observation.code.coding.system",
+      "fixedUri" : "http://loinc.org"
     },
     {
-      "id" : "Observation.code",
-      "path" : "Observation.code",
-      "patternCodeableConcept" : {
-        "coding" : [{
-          "system" : "http://loinc.org",
-          "code" : "73569-6",
-          "display" : "Exposition aux rayonnements et informations de radioprotection"
-        }]
-      },
-      "mustSupport" : true
+      "id" : "Observation.code.coding:radiationDose.code",
+      "path" : "Observation.code.coding.code",
+      "fixedCode" : "73569-6"
     },
     {
       "id" : "Observation.subject",
@@ -256,28 +231,11 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-ra
       "path" : "Observation.bodySite",
       "short" : "Localisation anatomique en SNOMED CT",
       "min" : 1,
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.bodySite.extension:precisionTopographique",
-      "path" : "Observation.bodySite.extension",
-      "sliceName" : "precisionTopographique",
-      "short" : "Modificateurs topographiques",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/procedure-targetBodyStructure|5.3.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.bodySite.extension:precisionTopographique.value[x]",
-      "path" : "Observation.bodySite.extension.value[x]",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0"]
-      }]
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/body-site|4.0.1"
+      }
     },
     {
       "id" : "Observation.device",
@@ -288,6 +246,15 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-ra
         "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Device|4.0.1"]
       }],
       "mustSupport" : true
+    },
+    {
+      "id" : "Observation.derivedFrom",
+      "path" : "Observation.derivedFrom",
+      "short" : "Étude d'imagerie à partir de laquelle cette observation est dérivée",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0"]
+      }]
     },
     {
       "id" : "Observation.component",

@@ -7,7 +7,7 @@ FRServiceRequestImagingDocument profil spécifique permet de porter des demandes
 
 **Usages:**
 
-* Refer to this Profile: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
+* Refer to this Profile: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md) and [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-service-request-imaging-document.json)
 
@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
   "name" : "FRServiceRequestImagingDocument",
   "title" : "ServiceRequest - FR Service Request Imaging Document",
   "status" : "draft",
-  "date" : "2026-09-16T12:57:50+00:00",
+  "date" : "2026-09-17T15:33:46+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -179,6 +179,52 @@ Other representations of profile: [CSV](../StructureDefinition-fr-service-reques
       "path" : "ServiceRequest.extension.extension.value[x].text",
       "min" : 1,
       "mustSupport" : true
+    },
+    {
+      "id" : "ServiceRequest.category",
+      "path" : "ServiceRequest.category",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "type",
+          "path" : "$this"
+        }],
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "ServiceRequest.category:imagerie",
+      "path" : "ServiceRequest.category",
+      "sliceName" : "imagerie",
+      "short" : "Catégorie de la demande d'examen d'imagerie",
+      "min" : 1,
+      "max" : "1",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "363679005"
+        }]
+      }
+    },
+    {
+      "id" : "ServiceRequest.code",
+      "path" : "ServiceRequest.code",
+      "short" : "Examen d'imagerie prescrit",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis|20260716085851"
+      }
+    },
+    {
+      "id" : "ServiceRequest.supportingInfo.extension:codeableConcept",
+      "path" : "ServiceRequest.supportingInfo.extension",
+      "sliceName" : "codeableConcept",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo|0.1.0"]
+      }]
     }]
   }
 }

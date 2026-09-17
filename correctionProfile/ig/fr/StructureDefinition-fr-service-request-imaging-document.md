@@ -7,7 +7,7 @@ FRServiceRequestImagingDocument profil spécifique permet de porter des demandes
 
 **Utilisations:**
 
-* Référence ce Profil: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
+* Référence ce Profil: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md) and [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-service-request-imaging-document)
 
@@ -27,6 +27,8 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 Cette structure est dérivée de [FRServiceRequestDocument](StructureDefinition-fr-service-request-document.md) 
 
+#### Bindings terminologiques (différentiel)
+
 #### Bindings terminologiques
 
 #### Contraintes
@@ -35,9 +37,21 @@ Cette structure est dérivée de [FRServiceRequestDocument](StructureDefinition-
 
 ** Résumé **
 
-Obligatoire : 4 éléments(3 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 6 éléments(3 éléments obligatoire(s) imbriqué(s))
  Must-Support : 6 éléments
  Interdit : 2 éléments
+
+**Extensions**
+
+Cette structure fait référence à ces extensions:
+
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.supportingInfo.html)
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of ServiceRequest.category
 
  **Vue des éléments clés** 
 
@@ -49,6 +63,8 @@ Obligatoire : 4 éléments(3 éléments obligatoire(s) imbriqué(s))
 
 Cette structure est dérivée de [FRServiceRequestDocument](StructureDefinition-fr-service-request-document.md) 
 
+#### Bindings terminologiques (différentiel)
+
  **Vue d'ensembleView** 
 
 #### Bindings terminologiques
@@ -59,9 +75,21 @@ Cette structure est dérivée de [FRServiceRequestDocument](StructureDefinition-
 
 ** Résumé **
 
-Obligatoire : 4 éléments(3 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 6 éléments(3 éléments obligatoire(s) imbriqué(s))
  Must-Support : 6 éléments
  Interdit : 2 éléments
+
+**Extensions**
+
+Cette structure fait référence à ces extensions:
+
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.supportingInfo.html)
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of ServiceRequest.category
 
  
 
@@ -80,7 +108,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
   "name" : "FRServiceRequestImagingDocument",
   "title" : "ServiceRequest - FR Service Request Imaging Document",
   "status" : "draft",
-  "date" : "2026-09-16T12:57:50+00:00",
+  "date" : "2026-09-17T15:33:46+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -227,6 +255,52 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       "path" : "ServiceRequest.extension.extension.value[x].text",
       "min" : 1,
       "mustSupport" : true
+    },
+    {
+      "id" : "ServiceRequest.category",
+      "path" : "ServiceRequest.category",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "type",
+          "path" : "$this"
+        }],
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "ServiceRequest.category:imagerie",
+      "path" : "ServiceRequest.category",
+      "sliceName" : "imagerie",
+      "short" : "Catégorie de la demande d'examen d'imagerie",
+      "min" : 1,
+      "max" : "1",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "363679005"
+        }]
+      }
+    },
+    {
+      "id" : "ServiceRequest.code",
+      "path" : "ServiceRequest.code",
+      "short" : "Examen d'imagerie prescrit",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis|20260716085851"
+      }
+    },
+    {
+      "id" : "ServiceRequest.supportingInfo.extension:codeableConcept",
+      "path" : "ServiceRequest.supportingInfo.extension",
+      "sliceName" : "codeableConcept",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo|0.1.0"]
+      }]
     }]
   }
 }

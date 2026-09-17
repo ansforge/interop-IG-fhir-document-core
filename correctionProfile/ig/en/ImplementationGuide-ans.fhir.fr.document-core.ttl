@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-16T12:57:50+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-17T15:33:46+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -127,6 +127,15 @@
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "ans.fr.terminologies" ] ;
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.13.0" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Element.id [ fhir:value "hl7_fhir_eu_extensions" ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions" ;
+       fhir:link <http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.eu.extensions" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.3.0" ]
   ] ;
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -1415,6 +1424,34 @@
        fhir:Element.extension [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-composition-extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Composition Extension" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition du rapport d'imagerie" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-conclusion-extension> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-conclusion-extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Conclusion Extension" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Conclusions cliniques et interprétations du rapport d'imagerie" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1459,6 +1496,20 @@
        fhir:Element.extension [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-finding-extension> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-finding-extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Finding Extension" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Résultats et observations cliniques de l'examen d'imagerie" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
          fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1481,7 +1532,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-imaging-procedure-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Imaging Procedure Extension" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Imaging procedure used for the imaging acquisition" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Technique d'imagerie utilisée pour l'acquisition des images" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
@@ -1771,6 +1822,20 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "data-type-fhir" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/fr-value-set-imaging-report-type-document" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Value Set Imaging Report Type Document" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type de document d'imagerie (CR d'imagerie médicale, CR de médecine nucléaire)" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
        fhir:Element.extension [

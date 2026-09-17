@@ -78,10 +78,31 @@
       ]
     },
     {
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension",
+      "title": "FR Composition Extension",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-conclusion-extension",
+      "title": "FR Conclusion Extension",
+      "types": [
+        "string"
+      ]
+    },
+    {
       "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension",
       "title": "FR Family Member History Body Site Extension",
       "types": [
         "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-finding-extension",
+      "title": "FR Finding Extension",
+      "types": [
+        "Reference"
       ]
     },
     {
@@ -530,6 +551,12 @@
     ]
   },
   "usage": {
+    "http://hl7.eu/fhir/StructureDefinition/medication-package-type|1.3.0": [
+      "Medication"
+    ],
+    "http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference|1.3.0": [
+      "Composition"
+    ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.type|0.1.0": [
       "AllergyIntolerance.type"
     ],
@@ -553,6 +580,9 @@
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0": [
       "ServiceRequest"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo|0.1.0": [
+      "ServiceRequest.supportingInfo"
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device|0.1.0": [
       "Specimen.container.type"
@@ -606,7 +636,6 @@
       "Procedure"
     ],
     "http://hl7.org/fhir/StructureDefinition/procedure-targetBodyStructure|5.3.0": [
-      "Observation.bodySite",
       "Procedure.bodySite"
     ],
     "http://hl7.org/fhir/StructureDefinition/regex": [
@@ -789,8 +818,17 @@
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-comparison-studies-extension|0.1.0": [
       "DiagnosticReport"
     ],
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0": [
+      "DiagnosticReport"
+    ],
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-conclusion-extension|0.1.0": [
+      "DiagnosticReport"
+    ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension|0.1.0": [
       "FamilyMemberHistory.condition"
+    ],
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-finding-extension|0.1.0": [
+      "DiagnosticReport"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension|0.1.0": [
       "DiagnosticReport"
@@ -832,6 +870,9 @@
       "Medication"
     ],
     "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-classification|1.0.0-comment-2": [
+      "Medication"
+    ],
+    "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-device|1.0.0-comment-2": [
       "Medication"
     ],
     "https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname|1.0.0-comment-2": [
