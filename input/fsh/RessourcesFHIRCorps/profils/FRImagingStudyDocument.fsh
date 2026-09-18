@@ -1,3 +1,4 @@
+// extension Europeenne extension:anatomical-region non ajoutée
 Profile: FRImagingStudyDocument
 Parent: ImagingStudy
 Id: fr-imaging-study-document
@@ -19,12 +20,12 @@ L’examen est composé d'une ou de plusieurs séries d’images médicales."
 
 // référence à la demande d'examen d'imagerie contenant l'Accession Number comme identifiant
 * basedOn MS
-* basedOn ^slicing.discriminator.type = #pattern  
+* basedOn ^slicing.discriminator.type = #type  
 * basedOn ^slicing.discriminator.path = "$this"
 * basedOn ^slicing.rules = #open
 * basedOn contains serviceRequestAccessionNumber 0..*
-* basedOn[serviceRequestAccessionNumber] only Reference(FRServiceRequestImagingDocument)
 * basedOn[serviceRequestAccessionNumber] ^short = "Référence à la demande d'examen contenant l'Accession Number"
+* insert ImagingStudyImagingReference( serviceRequestAccessionNumber )
 
 * numberOfSeries MS
 * numberOfSeries ^short = "Nombre de séries"
