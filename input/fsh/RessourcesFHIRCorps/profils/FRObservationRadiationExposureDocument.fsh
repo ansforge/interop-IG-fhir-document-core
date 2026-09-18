@@ -4,33 +4,40 @@ Id: fr-observation-radiation-exposure-document
 Title: "Observation - FR Observation Radiation Exposure Document"
 Description: "FRObservationRadiationExposureDocument permet d'enregistrer les informations relatives à l’exposition du patient aux rayonnements et les informations de radioprotection."
 
-* identifier ^short = "Identifiant de l'exposition aux radiations"
+* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.path = "type"
+* identifier ^slicing.rules = #open
+* identifier ^slicing.ordered = false
+* identifier ^slicing.description = "Identifiant de l'exposition aux radiations"
+
+* identifier contains radiationUID 0..* MS
+* identifier[radiationUID].type.coding.code = #00083010 // Irradiation Event UID
+* identifier[radiationUID].system = "urn:dicom:uid"
+* identifier[radiationUID].value 1..1
+* identifier[radiationUID] ^short = "Radiation Exposures UID"
 
 // référence à la demande d'examen d'imagerie contenant l'Accession Number comme identifiant
 * basedOn MS
-* basedOn ^slicing.discriminator.type = #type  
+* basedOn ^slicing.discriminator.type = #pattern  
 * basedOn ^slicing.discriminator.path = "$this"
 * basedOn ^slicing.rules = #open
 * basedOn contains serviceRequestAccessionNumber 0..*
+* basedOn[serviceRequestAccessionNumber] only Reference(FRServiceRequestImagingDocument)
 * basedOn[serviceRequestAccessionNumber] ^short = "Référence à la demande d'examen contenant l'Accession Number"
-* insert serviceRequestAccessionNumber( serviceRequestAccessionNumber )
 
-* partOf ^short = "Ressources liées à cette exposition aux radiations (administration de produits radiopharmaceutiques, techniques d'imagerie)" 
-* partOf only Reference(FRMedicationAdministrationDocument or FRProcedureImagingDocument)
+* partOf ^slicing.discriminator.type = #type
+* partOf ^slicing.discriminator.path = "reference"
+* partOf ^slicing.rules = #open
+* partOf ^slicing.description = "Ressources liées à cette exposition aux radiations" 
+
+* partOf contains imagingStudyRef 1..1 MS and medicationAdministrationRef 0..1 MS
+* partOf[imagingStudyRef] only Reference(FRImagingStudyDocument)
+* partOf[imagingStudyRef] ^short = "Imaging study associé à cette exposition aux radiations"
+* partOf[medicationAdministrationRef] only Reference(FRMedicationAdministrationDocument)
+* partOf[medicationAdministrationRef] ^short = "Référence à l'administration du radiopharmaceutique associée à cette exposition aux radiations"
 
 * code MS
-  * coding 1..*
-    * ^slicing.discriminator[+].type = #value
-    * ^slicing.discriminator[=].path = "code"
-    * ^slicing.discriminator[+].type = #value
-    * ^slicing.discriminator[=].path = "system"
-    * ^slicing.ordered = false
-    * ^slicing.rules = #open
-  * coding contains radiationDose 1..1
-  * coding[radiationDose].system
-    * ^fixedUri = $LNC
-  * coding[radiationDose].code
-    * ^fixedCode = #73569-6
+* code = $LNC#73569-6 "Exposition aux rayonnements et informations de radioprotection"
 
 * subject 1..1 MS
 * subject only Reference(FRPatientINSDocument or FRPatientDocument)
@@ -42,7 +49,9 @@ Description: "FRObservationRadiationExposureDocument permet d'enregistrer les in
 
 * bodySite 1..1 MS
 * bodySite ^short = "Localisation anatomique en SNOMED CT"
-* bodySite from http://hl7.org/fhir/ValueSet/body-site (extensible)
+* bodySite.extension contains http://hl7.org/fhir/StructureDefinition/procedure-targetBodyStructure named precisionTopographique 0..1 MS
+* bodySite.extension[precisionTopographique] ^short = "Modificateurs topographiques"
+* bodySite.extension[precisionTopographique].valueReference only Reference(FRBodyStructureDocument) 
 
 // Mesures quantitatives telles que les mesures linéaires, les mesures de surface, de volume et numériques
 * component ^short = "Mesures quantitatives liées à l'exposition aux rayonnements"
@@ -56,9 +65,6 @@ Description: "FRObservationRadiationExposureDocument permet d'enregistrer les in
 * device MS
 * device only Reference(Device)
 * device ^short = "Modalité d’irradiation utilisée pour l’exposition aux rayonnements"
-
-* derivedFrom ^short = "Étude d'imagerie à partir de laquelle cette observation est dérivée"
-* derivedFrom only Reference(FRImagingStudyDocument)
 
 // Irradiation Authorizing Person
 * performer ^slicing.discriminator.type = #type

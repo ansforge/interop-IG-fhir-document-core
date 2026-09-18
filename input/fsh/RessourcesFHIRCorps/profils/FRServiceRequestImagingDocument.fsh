@@ -16,15 +16,3 @@ Description: "FRServiceRequestImagingDocument profil spécifique permet de porte
 * extension[reason][justificationDemande].extension[concept].valueCodeableConcept = FRCSNoteType#justificationDemande "Justification de la demande"
 * extension[reason][justificationDemande].extension[concept].valueCodeableConcept.text 1..1 MS
 
-* category ^slicing.discriminator.type = #type  
-* category ^slicing.discriminator.path = "$this"
-* category ^slicing.rules = #open
-* category contains imagerie 1..1
-* category[imagerie] ^short = "Catégorie de la demande d'examen d'imagerie"
-* category[imagerie] = $SCT#363679005
-
-* code ^short = "Examen d'imagerie prescrit"
-* code from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis
-
-* supportingInfo.extension contains 
-    http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo named codeableConcept 0..*
