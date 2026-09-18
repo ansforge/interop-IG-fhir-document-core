@@ -9,15 +9,4 @@ Description: "DataType définissant l’UID de l’instance Study (0020,000D) d'
 * system = "urn:dicom:uid"
 * value 1..1
 * type 0..1
-* type.coding ^slicing.discriminator.type = #value
-* type.coding ^slicing.discriminator.path = "$this"
-* type.coding ^slicing.rules = #open
-* type.coding ^slicing.ordered = false
-* type.coding contains dcm 1..1
-* type.coding[dcm] = http://dicom.nema.org/resources/ontology/DCM#110180 "Study Instance UID"
-
-
-RuleSet: ImagingStudyImagingReference( slicename )
-* basedOn[{slicename}] only Reference(FRServiceRequestImagingDocument)
-  * identifier 1..1
-  * identifier only FRStudyInstanceUidIdentifierDocument
+* type.coding.code = #0020000D // "Study Instance UID"
