@@ -1,2 +1,0 @@
-URL,Version,Status,OIDs,Name,Title,Description,Used
-https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type,0.1.0,draft,,FRCSNoteType,FR CodeSystem Note Type,"CodeSystem définissant les types d'informations associés aux notes d'une demande d'examen d'imagerie.","ValueSet/fr-vs-note-type"
