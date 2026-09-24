@@ -8,12 +8,12 @@ Description: "FRObservationResultDocument permet d'indiquer le résultat observ�
 
 // Demande d'examen associée à l'observation
 * basedOn MS
-* basedOn ^slicing.discriminator.type = #pattern  
+* basedOn ^slicing.discriminator.type = #type  
 * basedOn ^slicing.discriminator.path = "$this"
 * basedOn ^slicing.rules = #open
 * basedOn contains serviceRequestAccessionNumber 0..*
-* basedOn[serviceRequestAccessionNumber] only Reference(FRServiceRequestDocument)
 * basedOn[serviceRequestAccessionNumber] ^short = "Référence à la demande d'examen contenant l'Accession Number"
+* insert serviceRequestAccessionNumber (serviceRequestAccessionNumber)
 
 * value[x] MS
   * ^short = "Observation effectuée"
