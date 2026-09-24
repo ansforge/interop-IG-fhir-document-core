@@ -8,7 +8,7 @@ Ce profil est utilisé pour représenter un document médical.
 **Usages:**
 
 * Use this Profile: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
-* Refer to this Profile: [FR Composition Document](StructureDefinition-fr-composition-document.md)
+* Refer to this Profile: [FR Composition Document](StructureDefinition-fr-composition-document.md) and [FR Composition Extension](StructureDefinition-fr-composition-extension.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-composition-document.json)
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

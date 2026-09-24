@@ -64,7 +64,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-hist
   "name" : "FRPatientHistoryExtension",
   "title" : "FR Patient History Extension",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -122,7 +122,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-hist
         "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-contra-indications-document|0.1.0",
         "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document|0.1.0",
         "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1",
-        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/Device|4.0.1",
         "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
       }]
     }]

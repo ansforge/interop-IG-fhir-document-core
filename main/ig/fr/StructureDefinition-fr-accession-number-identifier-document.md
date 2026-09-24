@@ -7,7 +7,7 @@ DataType définissant l'Accession Number d'une demande d'examen. Il s'agit d'un 
 
 **Utilisations:**
 
-* Utilise ce/t/te profil de type de données: [ServiceRequest - FR Service Request Document](StructureDefinition-fr-service-request-document.md)
+* Utilise ce/t/te profil de type de données: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md), [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md) and [ServiceRequest - FR Service Request Document](StructureDefinition-fr-service-request-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-accession-number-identifier-document)
 
@@ -35,8 +35,14 @@ Cette structure est dérivée de [Identifier](http://hl7.org/fhir/R4/datatypes.h
 
 ** Résumé **
 
-Obligatoire : 2 éléments
+Obligatoire : 4 éléments
  Must-Support : 3 éléments
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of Identifier.type.coding
 
  **Vue des éléments clés** 
 
@@ -58,8 +64,14 @@ Cette structure est dérivée de [Identifier](http://hl7.org/fhir/R4/datatypes.h
 
 ** Résumé **
 
-Obligatoire : 2 éléments
+Obligatoire : 4 éléments
  Must-Support : 3 éléments
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of Identifier.type.coding
 
  
 
@@ -78,7 +90,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-accession-nu
   "name" : "FRAccessionNumberIdentifierDocument",
   "title" : "FR Accession Number Identifier Document",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -125,14 +137,43 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-accession-nu
       "id" : "Identifier.type",
       "path" : "Identifier.type",
       "min" : 1,
-      "patternCodeableConcept" : {
-        "coding" : [{
-          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
-          "code" : "ACSN",
-          "display" : "Accession ID"
-        }]
-      },
       "mustSupport" : true
+    },
+    {
+      "id" : "Identifier.type.coding",
+      "path" : "Identifier.type.coding",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "Identifier.type.coding:v2-0203-coding",
+      "path" : "Identifier.type.coding",
+      "sliceName" : "v2-0203-coding",
+      "min" : 1,
+      "max" : "1",
+      "patternCoding" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "ACSN"
+      }
+    },
+    {
+      "id" : "Identifier.type.coding:dcm",
+      "path" : "Identifier.type.coding",
+      "sliceName" : "dcm",
+      "min" : 0,
+      "max" : "1",
+      "patternCoding" : {
+        "system" : "http://dicom.nema.org/resources/ontology/DCM",
+        "code" : "121022",
+        "display" : "Accession Number"
+      }
     },
     {
       "id" : "Identifier.system",

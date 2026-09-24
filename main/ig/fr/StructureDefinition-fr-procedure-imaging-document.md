@@ -7,7 +7,7 @@ FRProcedureImagingDocument permet d'enregistrer les différents paramètres de l
 
 **Utilisations:**
 
-* Référence ce Profil: [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md) and [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md)
+* Référence ce Profil: [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-procedure-imaging-document)
 
@@ -37,17 +37,16 @@ Cette structure est dérivée de [FRProcedureDocument](StructureDefinition-fr-pr
 
 ** Résumé **
 
-Must-Support : 2 éléments
+Must-Support : 1 élément
 
 **Structures**
 
 Cette structure fait référence à ces autres structures:
 
-* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
 * [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
+* [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
-* [DiagnosticReport - FR Diagnostic Report Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-imaging-document|0.1.0)](StructureDefinition-fr-diagnostic-report-imaging-document.md)
 * [BodyStructure - FR Body Structure Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0)](StructureDefinition-fr-body-structure-document.md)
 
 **Extensions**
@@ -60,7 +59,6 @@ Cette structure fait référence à ces extensions:
 
 Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
 
-* The element 1 is sliced based on the value of Procedure.basedOn
 * The element 1 is sliced based on the value of Procedure.performer
 
  **Vue des éléments clés** 
@@ -85,17 +83,16 @@ Cette structure est dérivée de [FRProcedureDocument](StructureDefinition-fr-pr
 
 ** Résumé **
 
-Must-Support : 2 éléments
+Must-Support : 1 élément
 
 **Structures**
 
 Cette structure fait référence à ces autres structures:
 
-* [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
 * [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
+* [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
-* [DiagnosticReport - FR Diagnostic Report Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-imaging-document|0.1.0)](StructureDefinition-fr-diagnostic-report-imaging-document.md)
 * [BodyStructure - FR Body Structure Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0)](StructureDefinition-fr-body-structure-document.md)
 
 **Extensions**
@@ -108,7 +105,6 @@ Cette structure fait référence à ces extensions:
 
 Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
 
-* The element 1 is sliced based on the value of Procedure.basedOn
 * The element 1 is sliced based on the value of Procedure.performer
 
  
@@ -128,7 +124,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-procedure-im
   "name" : "FRProcedureImagingDocument",
   "title" : "Procedure - FR Procedure Imaging Document",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -177,36 +173,13 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-procedure-im
       "path" : "Procedure"
     },
     {
-      "id" : "Procedure.basedOn",
-      "path" : "Procedure.basedOn",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      },
-      "mustSupport" : true
-    },
-    {
-      "id" : "Procedure.basedOn:serviceRequestAccessionNumber",
-      "path" : "Procedure.basedOn",
-      "sliceName" : "serviceRequestAccessionNumber",
-      "short" : "Référence à la demande d'examen contenant l'Accession Number",
-      "min" : 0,
-      "max" : "*",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
-      }]
-    },
-    {
       "id" : "Procedure.partOf",
       "path" : "Procedure.partOf",
-      "short" : "Produits administrés pendant l'acte d'imagerie",
+      "short" : "Produits administrés pendant l'acte d'imagerie, ou procédures d'imagerie associées",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0"]
       }]
     },
     {
@@ -260,14 +233,6 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-procedure-im
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Device|4.0.1"]
-      }]
-    },
-    {
-      "id" : "Procedure.reasonReference",
-      "path" : "Procedure.reasonReference",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-imaging-document|0.1.0"]
       }]
     },
     {

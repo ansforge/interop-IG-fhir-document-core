@@ -37,7 +37,7 @@ Cette structure est dérivée de [ImagingStudy](http://hl7.org/fhir/R4/imagingst
 
 ** Résumé **
 
-Obligatoire : 6 éléments
+Obligatoire : 6 éléments(1 élément obligatoire(s) imbriqué(s))
  Must-Support : 9 éléments
 
 **Structures**
@@ -84,7 +84,7 @@ Cette structure est dérivée de [ImagingStudy](http://hl7.org/fhir/R4/imagingst
 
 ** Résumé **
 
-Obligatoire : 6 éléments
+Obligatoire : 6 éléments(1 élément obligatoire(s) imbriqué(s))
  Must-Support : 9 éléments
 
 **Structures**
@@ -126,7 +126,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
   "name" : "FRImagingStudyDocument",
   "title" : "ImagingStudy - FR Imaging study Document",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -227,7 +227,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "path" : "ImagingStudy.basedOn",
       "slicing" : {
         "discriminator" : [{
-          "type" : "pattern",
+          "type" : "type",
           "path" : "$this"
         }],
         "rules" : "open"
@@ -244,6 +244,15 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-stud
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
+      }]
+    },
+    {
+      "id" : "ImagingStudy.basedOn:serviceRequestAccessionNumber.identifier",
+      "path" : "ImagingStudy.basedOn.identifier",
+      "min" : 1,
+      "type" : [{
+        "code" : "Identifier",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0"]
       }]
     },
     {

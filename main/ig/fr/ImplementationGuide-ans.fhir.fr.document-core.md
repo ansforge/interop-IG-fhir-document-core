@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -42,7 +42,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.3.0"
+    "version" : "7.4.0"
   },
   {
     "id" : "hl7ext",
@@ -1346,6 +1346,38 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-composition-extension.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-composition-extension"
+      },
+      "name" : "FR Composition Extension",
+      "description" : "Composition du rapport d'imagerie",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-conclusion-extension.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-conclusion-extension"
+      },
+      "name" : "FR Conclusion Extension",
+      "description" : "Conclusions cliniques et interprétations du rapport d'imagerie",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       },
       {
@@ -1396,6 +1428,22 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-finding-extension.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-finding-extension"
+      },
+      "name" : "FR Finding Extension",
+      "description" : "Résultats et observations cliniques de l'examen d'imagerie",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
       },
       {
@@ -1423,7 +1471,7 @@
         "reference" : "StructureDefinition/fr-imaging-procedure-extension"
       },
       "name" : "FR Imaging Procedure Extension",
-      "description" : "Imaging procedure used for the imaging acquisition",
+      "description" : "Technique d'imagerie utilisée pour l'acquisition des images",
       "exampleBoolean" : false
     },
     {
@@ -1753,6 +1801,22 @@
       "description" : "DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie",
       "exampleBoolean" : false,
       "groupingId" : "data-type-fhir"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-value-set-imaging-report-type-document.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/fr-value-set-imaging-report-type-document"
+      },
+      "name" : "FR Value Set Imaging Report Type Document",
+      "description" : "Type de document d'imagerie (CR d'imagerie médicale, CR de médecine nucléaire)",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

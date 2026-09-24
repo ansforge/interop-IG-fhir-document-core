@@ -13,7 +13,7 @@
   <name value="FHIRFRDocumentCore"/>
   <title value="FR Document Core (FHIR)"/>
   <status value="draft"/>
-  <date value="2026-09-18T08:26:19+00:00"/>
+  <date value="2026-09-24T07:33:45+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -39,7 +39,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.3.0"/>
+    <version value="7.4.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -982,6 +982,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fr-composition-extension"/>
+      </reference>
+      <name value="FR Composition Extension"/>
+      <description value="Composition du rapport d'imagerie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fr-conclusion-extension"/>
+      </reference>
+      <name value="FR Conclusion Extension"/>
+      <description value="Conclusions cliniques et interprétations du rapport d'imagerie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -1017,6 +1039,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fr-finding-extension"/>
+      </reference>
+      <name value="FR Finding Extension"/>
+      <description value="Résultats et observations cliniques de l'examen d'imagerie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
@@ -1035,7 +1068,7 @@
         <reference value="StructureDefinition/fr-imaging-procedure-extension"/>
       </reference>
       <name value="FR Imaging Procedure Extension"/>
-      <description value="Imaging procedure used for the imaging acquisition"/>
+      <description value="Technique d'imagerie utilisée pour l'acquisition des images"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1265,6 +1298,17 @@
       <description value="DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie"/>
       <exampleBoolean value="false"/>
       <groupingId value="data-type-fhir"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/fr-value-set-imaging-report-type-document"/>
+      </reference>
+      <name value="FR Value Set Imaging Report Type Document"/>
+      <description value="Type de document d'imagerie (CR d'imagerie médicale, CR de médecine nucléaire)"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

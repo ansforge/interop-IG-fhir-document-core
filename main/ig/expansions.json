@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "9a4e33d0-44a4-41cd-92ca-5d3bcbe22c77",
+  "id" : "2819ef7e-a683-4388-a9d5-6d32367b1dd0",
   "meta" : {
-    "lastUpdated" : "2026-09-18T08:26:19.953+00:00"
+    "lastUpdated" : "2026-09-24T07:33:45.659+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -14,7 +14,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>Informateur</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;Informateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;Informateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REF</code></td><td>Référent / Prescripteur</td><td><div><p>A person having referred the subject of the service to the performer (referring physician). Typically, a referring physician will receive a report.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REF&quot;, &quot;display&quot;: &quot;Référent / Prescripteur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REF&quot;&gt;&lt;display value=&quot;Référent / Prescripteur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-CON\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>CON</code></td><td>Consultant</td><td><div><p>An advisor participating in the service by performing evaluations and making recommendations.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;CON&quot;, &quot;display&quot;: &quot;Consultant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;CON&quot;&gt;&lt;display value=&quot;Consultant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>Exécutant</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;Exécutant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;Exécutant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-RESP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>RESP</code></td><td>Responsable de l'acte</td><td><div><p>The person or organization that has primary responsibility for the act. The responsible party is not necessarily present in an action, but is accountable for the action through the power to delegate, and the duty to review actions with the performing actor after the fact. This responsibility may be ethical, legal, contractual, fiscal, or fiduciary in nature.</p>\n<p><em>Example:</em> A person who is the head of a biochemical laboratory; a sponsor for a policy or government program.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;RESP&quot;, &quot;display&quot;: &quot;Responsable de l'acte&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;RESP&quot;&gt;&lt;display value=&quot;Responsable de l'acte&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REFB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REFB</code></td><td>Personne ayant adressé le patient</td><td><div><p>A participant (e.g. provider) who has referred the subject of an act (e.g. patient).</p>\n<p>Typically, a referred by participant will provide a report (e.g. referral).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REFB&quot;, &quot;display&quot;: &quot;Personne ayant adressé le patient&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REFB&quot;&gt;&lt;display value=&quot;Personne ayant adressé le patient&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-VRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>VRF</code></td><td>Vérificateur</td><td><div><p>A person who verifies the correctness and appropriateness of the service (plan, order, event, etc.) and hence takes on accountability.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;VRF&quot;, &quot;display&quot;: &quot;Vérificateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;VRF&quot;&gt;&lt;display value=&quot;Vérificateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>Informateur</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;Informateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;Informateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REF</code></td><td>Référent / Prescripteur</td><td><div><p>A person having referred the subject of the service to the performer (referring physician). Typically, a referring physician will receive a report.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REF&quot;, &quot;display&quot;: &quot;Référent / Prescripteur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REF&quot;&gt;&lt;display value=&quot;Référent / Prescripteur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-CON\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>CON</code></td><td>Consultant</td><td><div><p>An advisor participating in the service by performing evaluations and making recommendations.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;CON&quot;, &quot;display&quot;: &quot;Consultant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;CON&quot;&gt;&lt;display value=&quot;Consultant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>Exécutant</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;Exécutant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;Exécutant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-RESP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>RESP</code></td><td>Responsable de l'acte</td><td><div><p>The person or organization that has primary responsibility for the act. The responsible party is not necessarily present in an action, but is accountable for the action through the power to delegate, and the duty to review actions with the performing actor after the fact. This responsibility may be ethical, legal, contractual, fiscal, or fiduciary in nature.</p>\n<p><em>Example:</em> A person who is the head of a biochemical laboratory; a sponsor for a policy or government program.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;RESP&quot;, &quot;display&quot;: &quot;Responsable de l'acte&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;RESP&quot;&gt;&lt;display value=&quot;Responsable de l'acte&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REFB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REFB</code></td><td>Personne ayant adressé le patient</td><td><div><p>A participant (e.g. provider) who has referred the subject of an act (e.g. patient).</p>\n<p>Typically, a referred by participant will provide a report (e.g. referral).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REFB&quot;, &quot;display&quot;: &quot;Personne ayant adressé le patient&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REFB&quot;&gt;&lt;display value=&quot;Personne ayant adressé le patient&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-VRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>VRF</code></td><td>Vérificateur</td><td><div><p>A person who verifies the correctness and appropriateness of the service (plan, order, event, etc.) and hence takes on accountability.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;VRF&quot;, &quot;display&quot;: &quot;Vérificateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;VRF&quot;&gt;&lt;display value=&quot;Vérificateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant",
       "version" : "0.1.0",
@@ -22,7 +22,7 @@
       "title" : "FR ValueSet Participation Type Participant",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -31,8 +31,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:25c6b7e9-c936-4846-a74a-4d642920635c",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:65d1d5a4-7a45-45f2-b2f8-f636d10c024b",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -106,7 +106,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>Informateur</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;Informateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;Informateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REF</code></td><td>Référent / Prescripteur</td><td><div><p>A person having referred the subject of the service to the performer (referring physician). Typically, a referring physician will receive a report.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REF&quot;, &quot;display&quot;: &quot;Référent / Prescripteur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REF&quot;&gt;&lt;display value=&quot;Référent / Prescripteur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-CON\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>CON</code></td><td>Consultant</td><td><div><p>An advisor participating in the service by performing evaluations and making recommendations.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;CON&quot;, &quot;display&quot;: &quot;Consultant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;CON&quot;&gt;&lt;display value=&quot;Consultant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>Exécutant</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;Exécutant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;Exécutant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-RESP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>RESP</code></td><td>Responsable de l'acte</td><td><div><p>The person or organization that has primary responsibility for the act. The responsible party is not necessarily present in an action, but is accountable for the action through the power to delegate, and the duty to review actions with the performing actor after the fact. This responsibility may be ethical, legal, contractual, fiscal, or fiduciary in nature.</p>\n<p><em>Example:</em> A person who is the head of a biochemical laboratory; a sponsor for a policy or government program.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;RESP&quot;, &quot;display&quot;: &quot;Responsable de l'acte&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;RESP&quot;&gt;&lt;display value=&quot;Responsable de l'acte&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REFB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REFB</code></td><td>Personne ayant adressé le patient</td><td><div><p>A participant (e.g. provider) who has referred the subject of an act (e.g. patient).</p>\n<p>Typically, a referred by participant will provide a report (e.g. referral).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REFB&quot;, &quot;display&quot;: &quot;Personne ayant adressé le patient&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REFB&quot;&gt;&lt;display value=&quot;Personne ayant adressé le patient&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-VRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>VRF</code></td><td>Vérificateur</td><td><div><p>A person who verifies the correctness and appropriateness of the service (plan, order, event, etc.) and hence takes on accountability.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;VRF&quot;, &quot;display&quot;: &quot;Vérificateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;VRF&quot;&gt;&lt;display value=&quot;Vérificateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>Informateur</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;Informateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;Informateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REF</code></td><td>Référent / Prescripteur</td><td><div><p>A person having referred the subject of the service to the performer (referring physician). Typically, a referring physician will receive a report.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REF&quot;, &quot;display&quot;: &quot;Référent / Prescripteur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REF&quot;&gt;&lt;display value=&quot;Référent / Prescripteur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-CON\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>CON</code></td><td>Consultant</td><td><div><p>An advisor participating in the service by performing evaluations and making recommendations.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;CON&quot;, &quot;display&quot;: &quot;Consultant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;CON&quot;&gt;&lt;display value=&quot;Consultant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>Exécutant</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;Exécutant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;Exécutant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-RESP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>RESP</code></td><td>Responsable de l'acte</td><td><div><p>The person or organization that has primary responsibility for the act. The responsible party is not necessarily present in an action, but is accountable for the action through the power to delegate, and the duty to review actions with the performing actor after the fact. This responsibility may be ethical, legal, contractual, fiscal, or fiduciary in nature.</p>\n<p><em>Example:</em> A person who is the head of a biochemical laboratory; a sponsor for a policy or government program.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;RESP&quot;, &quot;display&quot;: &quot;Responsable de l'acte&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;RESP&quot;&gt;&lt;display value=&quot;Responsable de l'acte&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REFB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REFB</code></td><td>Personne ayant adressé le patient</td><td><div><p>A participant (e.g. provider) who has referred the subject of an act (e.g. patient).</p>\n<p>Typically, a referred by participant will provide a report (e.g. referral).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REFB&quot;, &quot;display&quot;: &quot;Personne ayant adressé le patient&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REFB&quot;&gt;&lt;display value=&quot;Personne ayant adressé le patient&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-VRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>VRF</code></td><td>Vérificateur</td><td><div><p>A person who verifies the correctness and appropriateness of the service (plan, order, event, etc.) and hence takes on accountability.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;VRF&quot;, &quot;display&quot;: &quot;Vérificateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;VRF&quot;&gt;&lt;display value=&quot;Vérificateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant",
       "version" : "0.1.0",
@@ -114,7 +114,7 @@
       "title" : "FR ValueSet Participation Type Participant",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -123,8 +123,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:356ce90b-c62e-44d9-8c61-c8e171facce5",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:be5319b7-8587-4f6b-8aad-d88cf7c6b098",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -198,7 +198,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>informant</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;informant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;informant&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REF</code></td><td>referrer</td><td><div><p>A person having referred the subject of the service to the performer (referring physician). Typically, a referring physician will receive a report.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REF&quot;, &quot;display&quot;: &quot;referrer&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REF&quot;&gt;&lt;display value=&quot;referrer&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-CON\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>CON</code></td><td>consultant</td><td><div><p>An advisor participating in the service by performing evaluations and making recommendations.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;CON&quot;, &quot;display&quot;: &quot;consultant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;CON&quot;&gt;&lt;display value=&quot;consultant&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>performer</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;performer&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;performer&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-RESP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>RESP</code></td><td>responsible party</td><td><div><p>The person or organization that has primary responsibility for the act. The responsible party is not necessarily present in an action, but is accountable for the action through the power to delegate, and the duty to review actions with the performing actor after the fact. This responsibility may be ethical, legal, contractual, fiscal, or fiduciary in nature.</p>\n<p><em>Example:</em> A person who is the head of a biochemical laboratory; a sponsor for a policy or government program.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;RESP&quot;, &quot;display&quot;: &quot;responsible party&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;RESP&quot;&gt;&lt;display value=&quot;responsible party&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REFB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REFB</code></td><td>Referred By</td><td><div><p>A participant (e.g. provider) who has referred the subject of an act (e.g. patient).</p>\n<p>Typically, a referred by participant will provide a report (e.g. referral).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REFB&quot;, &quot;display&quot;: &quot;Referred By&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REFB&quot;&gt;&lt;display value=&quot;Referred By&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-VRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>VRF</code></td><td>verifier</td><td><div><p>A person who verifies the correctness and appropriateness of the service (plan, order, event, etc.) and hence takes on accountability.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;VRF&quot;, &quot;display&quot;: &quot;verifier&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;VRF&quot;&gt;&lt;display value=&quot;verifier&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>informant</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;informant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;informant&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REF</code></td><td>referrer</td><td><div><p>A person having referred the subject of the service to the performer (referring physician). Typically, a referring physician will receive a report.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REF&quot;, &quot;display&quot;: &quot;referrer&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REF&quot;&gt;&lt;display value=&quot;referrer&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-CON\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>CON</code></td><td>consultant</td><td><div><p>An advisor participating in the service by performing evaluations and making recommendations.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;CON&quot;, &quot;display&quot;: &quot;consultant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;CON&quot;&gt;&lt;display value=&quot;consultant&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>performer</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;performer&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;performer&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-RESP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>RESP</code></td><td>responsible party</td><td><div><p>The person or organization that has primary responsibility for the act. The responsible party is not necessarily present in an action, but is accountable for the action through the power to delegate, and the duty to review actions with the performing actor after the fact. This responsibility may be ethical, legal, contractual, fiscal, or fiduciary in nature.</p>\n<p><em>Example:</em> A person who is the head of a biochemical laboratory; a sponsor for a policy or government program.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;RESP&quot;, &quot;display&quot;: &quot;responsible party&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;RESP&quot;&gt;&lt;display value=&quot;responsible party&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-REFB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>REFB</code></td><td>Referred By</td><td><div><p>A participant (e.g. provider) who has referred the subject of an act (e.g. patient).</p>\n<p>Typically, a referred by participant will provide a report (e.g. referral).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;REFB&quot;, &quot;display&quot;: &quot;Referred By&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;REFB&quot;&gt;&lt;display value=&quot;Referred By&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-VRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>VRF</code></td><td>verifier</td><td><div><p>A person who verifies the correctness and appropriateness of the service (plan, order, event, etc.) and hence takes on accountability.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;VRF&quot;, &quot;display&quot;: &quot;verifier&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;VRF&quot;&gt;&lt;display value=&quot;verifier&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant",
       "version" : "0.1.0",
@@ -206,7 +206,7 @@
       "title" : "FR ValueSet Participation Type Participant",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -215,8 +215,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e5177b30-4590-41a3-b239-2a8fdc6fb555",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:5eaa1b2c-0702-4223-8bec-d1e69769de22",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -290,7 +290,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-TRC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>TRC</code></td><td>Personne recevant une copie de l'information</td><td><div><p>A secondary information recipient, who receives copies (e.g., a primary care provider receiving copies of results as ordered by specialist).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;TRC&quot;, &quot;display&quot;: &quot;Personne recevant une copie de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;TRC&quot;&gt;&lt;display value=&quot;Personne recevant une copie de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-IRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>IRCP</code></td><td>Destinataire de l'information</td><td><div><p>A party, who may or should receive or who has recieved the Act or subsequent or derivative information of that Act. Information recipient is inert, i.e., independent of mood.&quot; Rationale: this is a generalization of a too diverse family that the definition can't be any more specific, and the concept is abstract so one of the specializations should be used.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;IRCP&quot;, &quot;display&quot;: &quot;Destinataire de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;IRCP&quot;&gt;&lt;display value=&quot;Destinataire de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRCP</code></td><td>Destinataire principal de l'information</td><td><div><p>Information recipient to whom an act statement is primarily directed. E.g., a primary care provider receiving a discharge letter from a hospitalist, a health department receiving information on a suspected case of infectious disease. Multiple of these participations may exist on the same act without requiring that recipients be ranked as primary vs. secondary.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRCP&quot;, &quot;display&quot;: &quot;Destinataire principal de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRCP&quot;&gt;&lt;display value=&quot;Destinataire principal de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-TRC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>TRC</code></td><td>Personne recevant une copie de l'information</td><td><div><p>A secondary information recipient, who receives copies (e.g., a primary care provider receiving copies of results as ordered by specialist).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;TRC&quot;, &quot;display&quot;: &quot;Personne recevant une copie de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;TRC&quot;&gt;&lt;display value=&quot;Personne recevant une copie de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-IRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>IRCP</code></td><td>Destinataire de l'information</td><td><div><p>A party, who may or should receive or who has recieved the Act or subsequent or derivative information of that Act. Information recipient is inert, i.e., independent of mood.&quot; Rationale: this is a generalization of a too diverse family that the definition can't be any more specific, and the concept is abstract so one of the specializations should be used.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;IRCP&quot;, &quot;display&quot;: &quot;Destinataire de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;IRCP&quot;&gt;&lt;display value=&quot;Destinataire de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRCP</code></td><td>Destinataire principal de l'information</td><td><div><p>Information recipient to whom an act statement is primarily directed. E.g., a primary care provider receiving a discharge letter from a hospitalist, a health department receiving information on a suspected case of infectious disease. Multiple of these participations may exist on the same act without requiring that recipients be ranked as primary vs. secondary.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRCP&quot;, &quot;display&quot;: &quot;Destinataire principal de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRCP&quot;&gt;&lt;display value=&quot;Destinataire principal de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type",
       "version" : "0.1.0",
@@ -298,7 +298,7 @@
       "title" : "FR ValueSet Participation Type Information Recipient",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -307,8 +307,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f33db2f5-d2ce-413c-86fa-9f91f0598382",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:ed1bbb02-9099-4a67-ac11-a2c8ce14ac28",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -362,7 +362,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-TRC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>TRC</code></td><td>Personne recevant une copie de l'information</td><td><div><p>A secondary information recipient, who receives copies (e.g., a primary care provider receiving copies of results as ordered by specialist).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;TRC&quot;, &quot;display&quot;: &quot;Personne recevant une copie de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;TRC&quot;&gt;&lt;display value=&quot;Personne recevant une copie de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-IRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>IRCP</code></td><td>Destinataire de l'information</td><td><div><p>A party, who may or should receive or who has recieved the Act or subsequent or derivative information of that Act. Information recipient is inert, i.e., independent of mood.&quot; Rationale: this is a generalization of a too diverse family that the definition can't be any more specific, and the concept is abstract so one of the specializations should be used.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;IRCP&quot;, &quot;display&quot;: &quot;Destinataire de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;IRCP&quot;&gt;&lt;display value=&quot;Destinataire de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRCP</code></td><td>Destinataire principal de l'information</td><td><div><p>Information recipient to whom an act statement is primarily directed. E.g., a primary care provider receiving a discharge letter from a hospitalist, a health department receiving information on a suspected case of infectious disease. Multiple of these participations may exist on the same act without requiring that recipients be ranked as primary vs. secondary.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRCP&quot;, &quot;display&quot;: &quot;Destinataire principal de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRCP&quot;&gt;&lt;display value=&quot;Destinataire principal de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-TRC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>TRC</code></td><td>Personne recevant une copie de l'information</td><td><div><p>A secondary information recipient, who receives copies (e.g., a primary care provider receiving copies of results as ordered by specialist).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;TRC&quot;, &quot;display&quot;: &quot;Personne recevant une copie de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;TRC&quot;&gt;&lt;display value=&quot;Personne recevant une copie de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-IRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>IRCP</code></td><td>Destinataire de l'information</td><td><div><p>A party, who may or should receive or who has recieved the Act or subsequent or derivative information of that Act. Information recipient is inert, i.e., independent of mood.&quot; Rationale: this is a generalization of a too diverse family that the definition can't be any more specific, and the concept is abstract so one of the specializations should be used.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;IRCP&quot;, &quot;display&quot;: &quot;Destinataire de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;IRCP&quot;&gt;&lt;display value=&quot;Destinataire de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRCP</code></td><td>Destinataire principal de l'information</td><td><div><p>Information recipient to whom an act statement is primarily directed. E.g., a primary care provider receiving a discharge letter from a hospitalist, a health department receiving information on a suspected case of infectious disease. Multiple of these participations may exist on the same act without requiring that recipients be ranked as primary vs. secondary.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRCP&quot;, &quot;display&quot;: &quot;Destinataire principal de l'information&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRCP&quot;&gt;&lt;display value=&quot;Destinataire principal de l'information&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type",
       "version" : "0.1.0",
@@ -370,7 +370,7 @@
       "title" : "FR ValueSet Participation Type Information Recipient",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -379,8 +379,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:12f0b2bc-305b-420b-b0a7-66267db53b3d",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:87a5c953-8a5d-469b-97ed-6d1159536f12",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -434,7 +434,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-TRC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>TRC</code></td><td>tracker</td><td><div><p>A secondary information recipient, who receives copies (e.g., a primary care provider receiving copies of results as ordered by specialist).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;TRC&quot;, &quot;display&quot;: &quot;tracker&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;TRC&quot;&gt;&lt;display value=&quot;tracker&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-IRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>IRCP</code></td><td>information recipient</td><td><div><p>A party, who may or should receive or who has recieved the Act or subsequent or derivative information of that Act. Information recipient is inert, i.e., independent of mood.&quot; Rationale: this is a generalization of a too diverse family that the definition can't be any more specific, and the concept is abstract so one of the specializations should be used.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;IRCP&quot;, &quot;display&quot;: &quot;information recipient&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;IRCP&quot;&gt;&lt;display value=&quot;information recipient&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRCP</code></td><td>primary information recipient</td><td><div><p>Information recipient to whom an act statement is primarily directed. E.g., a primary care provider receiving a discharge letter from a hospitalist, a health department receiving information on a suspected case of infectious disease. Multiple of these participations may exist on the same act without requiring that recipients be ranked as primary vs. secondary.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRCP&quot;, &quot;display&quot;: &quot;primary information recipient&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRCP&quot;&gt;&lt;display value=&quot;primary information recipient&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-TRC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>TRC</code></td><td>tracker</td><td><div><p>A secondary information recipient, who receives copies (e.g., a primary care provider receiving copies of results as ordered by specialist).</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;TRC&quot;, &quot;display&quot;: &quot;tracker&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;TRC&quot;&gt;&lt;display value=&quot;tracker&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-IRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>IRCP</code></td><td>information recipient</td><td><div><p>A party, who may or should receive or who has recieved the Act or subsequent or derivative information of that Act. Information recipient is inert, i.e., independent of mood.&quot; Rationale: this is a generalization of a too diverse family that the definition can't be any more specific, and the concept is abstract so one of the specializations should be used.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;IRCP&quot;, &quot;display&quot;: &quot;information recipient&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;IRCP&quot;&gt;&lt;display value=&quot;information recipient&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRCP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRCP</code></td><td>primary information recipient</td><td><div><p>Information recipient to whom an act statement is primarily directed. E.g., a primary care provider receiving a discharge letter from a hospitalist, a health department receiving information on a suspected case of infectious disease. Multiple of these participations may exist on the same act without requiring that recipients be ranked as primary vs. secondary.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRCP&quot;, &quot;display&quot;: &quot;primary information recipient&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRCP&quot;&gt;&lt;display value=&quot;primary information recipient&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type",
       "version" : "0.1.0",
@@ -442,7 +442,7 @@
       "title" : "FR ValueSet Participation Type Information Recipient",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -451,8 +451,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e01b4948-6c45-4350-8f13-e1cfb1244945",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:3082958f-f282-41a7-b533-c930deda43d7",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -514,7 +514,7 @@
       "title" : "Fr ValueSet RolePriseCharge",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -523,8 +523,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6ffd6b0d-81c8-4c24-aaad-8cffc1dfc087",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:98432b55-27cb-43f3-a229-9ead96e510c5",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
         "total" : 80,
         "offset" : 0,
         "parameter" : [{
@@ -991,7 +991,7 @@
       "title" : "Fr ValueSet RolePriseCharge",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1000,8 +1000,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9ce1120c-3efc-4036-9582-e9592bffa802",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:d553b83f-41e7-4a2e-966d-d86f1b7beb4a",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
         "total" : 80,
         "offset" : 0,
         "parameter" : [{
@@ -1468,7 +1468,7 @@
       "title" : "Fr ValueSet RolePriseCharge",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1477,8 +1477,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5716995d-a9a8-4ebb-b2ef-daa3da4f8ef4",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:91f6e23f-64ce-4a6f-8746-d282f4b1ed65",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
         "total" : 80,
         "offset" : 0,
         "parameter" : [{
@@ -1929,19 +1929,19 @@
     }
   },
   {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-actor-type-document",
+    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-AUT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>AUT</code></td><td>Auteur</td><td><div><p><strong>Definition:</strong> A party that originates the Act and therefore has responsibility for the information given in the Act and ownership of this Act.</p>\n<p><strong>Example:</strong> the report writer, the person writing the act definition, the guideline author, the placer of an order, the EKG cart (device) creating a report etc. Every Act should have an author. Authorship is regardless of mood always actual authorship.</p>\n<p>Examples of such policies might include:</p>\n<ul>\n<li>The author and anyone they explicitly delegate may update the report;</li>\n<li>All administrators within the same clinic may cancel and reschedule appointments created by other administrators within that clinic;</li>\n</ul>\n<p>A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;AUT&quot;, &quot;display&quot;: &quot;Auteur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;AUT&quot;&gt;&lt;display value=&quot;Auteur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>Exécutant</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;Exécutant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;Exécutant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PART\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PART</code></td><td>Participant</td><td><div><p>Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PART&quot;, &quot;display&quot;: &quot;Participant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PART&quot;&gt;&lt;display value=&quot;Participant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>Informateur</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;Informateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;Informateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion de tx.fhir.org basée sur Loinc v2.82<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.82\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></p><p>L'expension de ce jeu de valeurs (ValueSet) contient 1 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-85895-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/85895-1/\">85895-1</a></td><td>Nuclear medicine Diagnostic study note</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;85895-1&quot;, &quot;display&quot;: &quot;Nuclear medicine Diagnostic study note&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;2.82&quot;&gt;&lt;code value=&quot;85895-1&quot;&gt;&lt;display value=&quot;Nuclear medicine Diagnostic study note&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-actor-type-document",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document",
       "version" : "0.1.0",
-      "name" : "FRValueSetActorTypeDocument",
-      "title" : "ValueSet - FR ValueSet Actor Type Document",
+      "name" : "FRValueSetImagingReportTypeDocument",
+      "title" : "FR Value Set Imaging Report Type Document",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1950,8 +1950,215 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:250f6e1a-0c39-406f-8a73-1452ed861c38",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:4f968e67-4881-498a-9fb6-b5e5d82225ff",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "fr"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "fr-FR"
+        },
+        {
+          "name" : "includeDefinition",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|2.82"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "85895-1",
+          "display" : "Nuclear medicine Diagnostic study note"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion de tx.fhir.org basée sur Loinc v2.82<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.82\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></p><p>L'expension de ce jeu de valeurs (ValueSet) contient 1 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-85895-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/85895-1/\">85895-1</a></td><td>Nuclear medicine Diagnostic study note</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;85895-1&quot;, &quot;display&quot;: &quot;Nuclear medicine Diagnostic study note&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;2.82&quot;&gt;&lt;code value=&quot;85895-1&quot;&gt;&lt;display value=&quot;Nuclear medicine Diagnostic study note&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document",
+      "version" : "0.1.0",
+      "name" : "FRValueSetImagingReportTypeDocument",
+      "title" : "FR Value Set Imaging Report Type Document",
+      "status" : "draft",
+      "date" : "2026-09-24T07:33:45+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "FR",
+          "display" : "France (la)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:74ae8564-89ee-4d2f-83fe-822c3850005c",
+        "timestamp" : "2026-09-24T07:36:55+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "fr"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "fr-FR"
+        },
+        {
+          "name" : "includeDefinition",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|2.82"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "85895-1",
+          "display" : "Nuclear medicine Diagnostic study note"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.82<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.82\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set expansion contains 1 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-85895-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/85895-1/\">85895-1</a></td><td>Nuclear medicine Diagnostic study note</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;85895-1&quot;, &quot;display&quot;: &quot;Nuclear medicine Diagnostic study note&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;2.82&quot;&gt;&lt;code value=&quot;85895-1&quot;&gt;&lt;display value=&quot;Nuclear medicine Diagnostic study note&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document",
+      "version" : "0.1.0",
+      "name" : "FRValueSetImagingReportTypeDocument",
+      "title" : "FR Value Set Imaging Report Type Document",
+      "status" : "draft",
+      "date" : "2026-09-24T07:33:45+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "FR",
+          "display" : "France (la)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:58f21b6a-3860-4379-9150-e89c1d91e6fb",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "fr-FR"
+        },
+        {
+          "name" : "includeDefinition",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|2.82"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "85895-1",
+          "display" : "Nuclear medicine Diagnostic study note"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-actor-type-document",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-AUT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>AUT</code></td><td>Auteur</td><td><div><p><strong>Definition:</strong> A party that originates the Act and therefore has responsibility for the information given in the Act and ownership of this Act.</p>\n<p><strong>Example:</strong> the report writer, the person writing the act definition, the guideline author, the placer of an order, the EKG cart (device) creating a report etc. Every Act should have an author. Authorship is regardless of mood always actual authorship.</p>\n<p>Examples of such policies might include:</p>\n<ul>\n<li>The author and anyone they explicitly delegate may update the report;</li>\n<li>All administrators within the same clinic may cancel and reschedule appointments created by other administrators within that clinic;</li>\n</ul>\n<p>A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;AUT&quot;, &quot;display&quot;: &quot;Auteur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;AUT&quot;&gt;&lt;display value=&quot;Auteur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>Exécutant</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;Exécutant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;Exécutant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PART\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PART</code></td><td>Participant</td><td><div><p>Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PART&quot;, &quot;display&quot;: &quot;Participant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PART&quot;&gt;&lt;display value=&quot;Participant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>Informateur</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;Informateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;Informateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-actor-type-document",
+      "version" : "0.1.0",
+      "name" : "FRValueSetActorTypeDocument",
+      "title" : "ValueSet - FR ValueSet Actor Type Document",
+      "status" : "draft",
+      "date" : "2026-09-24T07:33:45+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "FR",
+          "display" : "France (la)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:976d3594-2562-4e3e-b67b-63ebe79fdb67",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2007,14 +2214,14 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-AUT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>AUT</code></td><td>Auteur</td><td><div><p><strong>Definition:</strong> A party that originates the Act and therefore has responsibility for the information given in the Act and ownership of this Act.</p>\n<p><strong>Example:</strong> the report writer, the person writing the act definition, the guideline author, the placer of an order, the EKG cart (device) creating a report etc. Every Act should have an author. Authorship is regardless of mood always actual authorship.</p>\n<p>Examples of such policies might include:</p>\n<ul>\n<li>The author and anyone they explicitly delegate may update the report;</li>\n<li>All administrators within the same clinic may cancel and reschedule appointments created by other administrators within that clinic;</li>\n</ul>\n<p>A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;AUT&quot;, &quot;display&quot;: &quot;Auteur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;AUT&quot;&gt;&lt;display value=&quot;Auteur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>Exécutant</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;Exécutant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;Exécutant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PART\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PART</code></td><td>Participant</td><td><div><p>Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PART&quot;, &quot;display&quot;: &quot;Participant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PART&quot;&gt;&lt;display value=&quot;Participant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>Informateur</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;Informateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;Informateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Cliquer pour copier l'URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-AUT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>AUT</code></td><td>Auteur</td><td><div><p><strong>Definition:</strong> A party that originates the Act and therefore has responsibility for the information given in the Act and ownership of this Act.</p>\n<p><strong>Example:</strong> the report writer, the person writing the act definition, the guideline author, the placer of an order, the EKG cart (device) creating a report etc. Every Act should have an author. Authorship is regardless of mood always actual authorship.</p>\n<p>Examples of such policies might include:</p>\n<ul>\n<li>The author and anyone they explicitly delegate may update the report;</li>\n<li>All administrators within the same clinic may cancel and reschedule appointments created by other administrators within that clinic;</li>\n</ul>\n<p>A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;AUT&quot;, &quot;display&quot;: &quot;Auteur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;AUT&quot;&gt;&lt;display value=&quot;Auteur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>Exécutant</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;Exécutant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;Exécutant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PART\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PART</code></td><td>Participant</td><td><div><p>Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PART&quot;, &quot;display&quot;: &quot;Participant&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PART&quot;&gt;&lt;display value=&quot;Participant&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>Informateur</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;Informateur&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;Informateur&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-actor-type-document",
       "version" : "0.1.0",
       "name" : "FRValueSetActorTypeDocument",
       "title" : "ValueSet - FR ValueSet Actor Type Document",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2023,8 +2230,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:643f1f59-db68-450f-ab96-606256c2c5ed",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:dc58d07f-f27c-433d-b7b6-8fe06c745ca8",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2080,14 +2287,14 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-AUT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>AUT</code></td><td>author (originator)</td><td><div><p><strong>Definition:</strong> A party that originates the Act and therefore has responsibility for the information given in the Act and ownership of this Act.</p>\n<p><strong>Example:</strong> the report writer, the person writing the act definition, the guideline author, the placer of an order, the EKG cart (device) creating a report etc. Every Act should have an author. Authorship is regardless of mood always actual authorship.</p>\n<p>Examples of such policies might include:</p>\n<ul>\n<li>The author and anyone they explicitly delegate may update the report;</li>\n<li>All administrators within the same clinic may cancel and reschedule appointments created by other administrators within that clinic;</li>\n</ul>\n<p>A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;AUT&quot;, &quot;display&quot;: &quot;author (originator)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;AUT&quot;&gt;&lt;display value=&quot;author (originator)&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>performer</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;performer&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;performer&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PART\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PART</code></td><td>Participation</td><td><div><p>Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PART&quot;, &quot;display&quot;: &quot;Participation&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PART&quot;&gt;&lt;display value=&quot;Participation&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>informant</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;informant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;informant&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationType.html\">codesystem ParticipationType v7.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-ParticipationType|7.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"https://interop.esante.gouv.fr/terminologies/1.13.0/CodeSystem-ParticipationType-supplement-fr.html\">supplement ParticipationTypeSupplementFr v1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr|1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-AUT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>AUT</code></td><td>author (originator)</td><td><div><p><strong>Definition:</strong> A party that originates the Act and therefore has responsibility for the information given in the Act and ownership of this Act.</p>\n<p><strong>Example:</strong> the report writer, the person writing the act definition, the guideline author, the placer of an order, the EKG cart (device) creating a report etc. Every Act should have an author. Authorship is regardless of mood always actual authorship.</p>\n<p>Examples of such policies might include:</p>\n<ul>\n<li>The author and anyone they explicitly delegate may update the report;</li>\n<li>All administrators within the same clinic may cancel and reschedule appointments created by other administrators within that clinic;</li>\n</ul>\n<p>A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;AUT&quot;, &quot;display&quot;: &quot;author (originator)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;AUT&quot;&gt;&lt;display value=&quot;author (originator)&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PRF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PRF</code></td><td>performer</td><td><div><p><strong>Definition:</strong> A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.</p>\n<p><strong>Exampe:</strong> A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.</p>\n<p><strong>Note:</strong> that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PRF&quot;, &quot;display&quot;: &quot;performer&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PRF&quot;&gt;&lt;display value=&quot;performer&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-PART\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>PART</code></td><td>Participation</td><td><div><p>Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;PART&quot;, &quot;display&quot;: &quot;Participation&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;PART&quot;&gt;&lt;display value=&quot;Participation&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ParticipationType-INF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<code>INF</code></td><td>informant</td><td><div><p>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;, &quot;version&quot;: &quot;7.0.0&quot;, &quot;code&quot;: &quot;INF&quot;, &quot;display&quot;: &quot;informant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationType&quot;&gt;&lt;version value=&quot;7.0.0&quot;&gt;&lt;code value=&quot;INF&quot;&gt;&lt;display value=&quot;informant&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-actor-type-document",
       "version" : "0.1.0",
       "name" : "FRValueSetActorTypeDocument",
       "title" : "ValueSet - FR ValueSet Actor Type Document",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2096,8 +2303,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e30ce6b0-9955-46ce-ae4b-79498a8f9fa0",
-        "timestamp" : "2026-09-18T08:28:44+00:00",
+        "identifier" : "urn:uuid:1a2b7dd0-9423-4e17-9209-c560b5c74c12",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2160,7 +2367,7 @@
       "name" : "FRValueSetAllergyInoleranceTypeDocument",
       "title" : "ValueSet - FR ValueSet Allergy Intolerance Type Document",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2169,8 +2376,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:002799ac-a159-4545-8099-22d5dd517e2a",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:1d794e82-a5d1-4333-ba93-01f25b8c9e5e",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2251,7 +2458,7 @@
       "name" : "FRValueSetAllergyInoleranceTypeDocument",
       "title" : "ValueSet - FR ValueSet Allergy Intolerance Type Document",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2260,8 +2467,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f08363da-2cc1-4330-a055-238e83c9388f",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:0514db5c-89a3-452a-8c4f-9b906bbb99ce",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2342,7 +2549,7 @@
       "name" : "FRValueSetAllergyInoleranceTypeDocument",
       "title" : "ValueSet - FR ValueSet Allergy Intolerance Type Document",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2351,8 +2558,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3150cb97-c98c-474a-a9e1-a473335645cd",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:a286467b-8673-473f-b594-b53f6b3e39b1",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2436,7 +2643,7 @@
       "title" : "ValueSet - FR ValueSet EDQM Document",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2445,8 +2652,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a2bfada8-e8d9-46a5-a394-0823e966eeae",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:9e390ba4-53ca-40cd-aa5f-d5c14467a991",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 1305,
         "offset" : 0,
         "parameter" : [{
@@ -7502,7 +7709,7 @@
       "title" : "ValueSet - FR ValueSet EDQM Document",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -7511,8 +7718,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:def7f3f1-23a0-4603-94e0-89d4ae1a01ce",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:024a2a43-8395-4668-8a1f-2e7cb36e2ded",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 1305,
         "offset" : 0,
         "parameter" : [{
@@ -12568,7 +12775,7 @@
       "title" : "ValueSet - FR ValueSet EDQM Document",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -12577,8 +12784,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3835091a-4e3a-4e39-aa27-f1f397fad00b",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:6d553b7c-7ca3-4484-a558-ad0d59dc76a4",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 1305,
         "offset" : 0,
         "parameter" : [{
@@ -17634,7 +17841,7 @@
       "title" : "ValueSet - FR ValueSet EDQM Form Document",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -17643,8 +17850,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7d958c1a-8af4-4081-96b8-98209dbfa75e",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:ec1ff822-ac14-4891-b95b-f76f4e92c8b0",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 598,
         "offset" : 0,
         "parameter" : [{
@@ -20690,7 +20897,7 @@
       "title" : "ValueSet - FR ValueSet EDQM Form Document",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -20699,8 +20906,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7d8c8d0b-aa13-4eb1-a9f4-802a37627178",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:cadb52ac-eb3a-443e-a29c-d9173af5eaf1",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 598,
         "offset" : 0,
         "parameter" : [{
@@ -23746,7 +23953,7 @@
       "title" : "ValueSet - FR ValueSet EDQM Form Document",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -23755,8 +23962,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:125b6eda-cd03-4d37-babb-9e26c40c1ca5",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:13002673-9f90-4882-9109-75c3aaf0e045",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "total" : 598,
         "offset" : 0,
         "parameter" : [{
@@ -26801,7 +27008,7 @@
       "name" : "FRValueSetEvaluationTypeDocument",
       "title" : "ValueSet – FR ValueSet Type d'évaluation",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -26810,8 +27017,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a65aea0e-7e71-4f3e-b716-a198dd779243",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:2116d4a7-c20b-4867-9e46-55ea6ab69864",
+        "timestamp" : "2026-09-24T07:36:56+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -32005,7 +32212,7 @@
       "name" : "FRValueSetEvaluationTypeDocument",
       "title" : "ValueSet – FR ValueSet Type d'évaluation",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -32014,8 +32221,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b6486a09-c619-4fd2-8203-dca761202e5d",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:afb5b451-eabf-4acd-937b-fd5285d9085b",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -37209,7 +37416,7 @@
       "name" : "FRValueSetEvaluationTypeDocument",
       "title" : "ValueSet – FR ValueSet Type d'évaluation",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -37218,8 +37425,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e727dce6-6e46-4c45-ad35-07af6516099c",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:a4e31bf9-c538-499a-be22-64978f08a5ea",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -42413,7 +42620,7 @@
       "name" : "FRValueSetLocationBodyStructureDocument",
       "title" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -42422,8 +42629,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9fd252a7-f3c9-4119-897d-495f4e368300",
-        "timestamp" : "2026-09-18T08:28:45+00:00",
+        "identifier" : "urn:uuid:2494925d-8cd0-4987-bd82-48bb4b719f36",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "total" : 1009,
         "offset" : 0,
         "parameter" : [{
@@ -47486,7 +47693,7 @@
       "name" : "FRValueSetLocationBodyStructureDocument",
       "title" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -47495,8 +47702,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6d766737-2b5f-420a-98a9-fec14fda5eb7",
-        "timestamp" : "2026-09-18T08:28:46+00:00",
+        "identifier" : "urn:uuid:b353d08d-7949-43bf-83b9-4e4530b28357",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "total" : 1009,
         "offset" : 0,
         "parameter" : [{
@@ -52559,7 +52766,7 @@
       "name" : "FRValueSetLocationBodyStructureDocument",
       "title" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -52568,8 +52775,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dc68c582-232f-4b8b-9095-206b6486ac53",
-        "timestamp" : "2026-09-18T08:28:46+00:00",
+        "identifier" : "urn:uuid:97045c1e-366d-462e-ac0c-0ee152f95b79",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "total" : 1009,
         "offset" : 0,
         "parameter" : [{
@@ -57632,7 +57839,7 @@
       "name" : "FRValueSetNoteType",
       "title" : "FR ValueSet Imaging Note Type",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -57641,8 +57848,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b5b13a8c-584a-42cd-8203-62dc2a2fde09",
-        "timestamp" : "2026-09-18T08:28:46+00:00",
+        "identifier" : "urn:uuid:0bea32e2-1a29-40b3-a605-ca555676d993",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -57689,7 +57896,7 @@
       "name" : "FRValueSetNoteType",
       "title" : "FR ValueSet Imaging Note Type",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -57698,8 +57905,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d7e62830-e4fa-4689-8ec5-a8aab7c780cc",
-        "timestamp" : "2026-09-18T08:28:46+00:00",
+        "identifier" : "urn:uuid:180a9b42-08db-45d3-85f7-ed7ce5d2c085",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -57746,7 +57953,7 @@
       "name" : "FRValueSetNoteType",
       "title" : "FR ValueSet Imaging Note Type",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -57755,8 +57962,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:af85c892-aa83-4b08-8017-0bc15fe715b8",
-        "timestamp" : "2026-09-18T08:28:46+00:00",
+        "identifier" : "urn:uuid:258d6fe1-575d-4d07-a4fb-5051e560df7a",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -57805,7 +58012,7 @@
       "name" : "FRValueSetProcedureCodeDocument",
       "title" : "ValueSet – FR ValueSet Codes d’actes",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -57818,8 +58025,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:c8529546-4c1f-47b7-b7c6-0d159d6480a0",
-        "timestamp" : "2026-09-18T08:28:46+00:00",
+        "identifier" : "urn:uuid:45d67a8d-760f-487a-95e4-d849a4c14623",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "total" : 38237,
         "offset" : 0,
         "parameter" : [{
@@ -62898,7 +63105,7 @@
       "name" : "FRValueSetProcedureCodeDocument",
       "title" : "ValueSet – FR ValueSet Codes d’actes",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -62911,8 +63118,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:12b722b5-e54e-4e4a-a343-af51e8d8f5d4",
-        "timestamp" : "2026-09-18T08:28:46+00:00",
+        "identifier" : "urn:uuid:fad9e3a9-9971-4dbd-8834-150c2a49828e",
+        "timestamp" : "2026-09-24T07:36:57+00:00",
         "total" : 38237,
         "offset" : 0,
         "parameter" : [{
@@ -67991,7 +68198,7 @@
       "name" : "FRValueSetProcedureCodeDocument",
       "title" : "ValueSet – FR ValueSet Codes d’actes",
       "status" : "draft",
-      "date" : "2026-09-18T08:26:19+00:00",
+      "date" : "2026-09-24T07:33:45+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -68004,8 +68211,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:24662917-a40c-41ee-ba74-b419f95eb15a",
-        "timestamp" : "2026-09-18T08:28:46+00:00",
+        "identifier" : "urn:uuid:9026d38c-20a7-4252-b398-f51a9b0e3f98",
+        "timestamp" : "2026-09-24T07:36:58+00:00",
         "total" : 38237,
         "offset" : 0,
         "parameter" : [{

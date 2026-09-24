@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-imaging-study-
   "name" : "FRImagingStudyDocument",
   "title" : "ImagingStudy - FR Imaging study Document",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -133,7 +133,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-imaging-study-
       "path" : "ImagingStudy.basedOn",
       "slicing" : {
         "discriminator" : [{
-          "type" : "pattern",
+          "type" : "type",
           "path" : "$this"
         }],
         "rules" : "open"
@@ -150,6 +150,15 @@ Other representations of profile: [CSV](../StructureDefinition-fr-imaging-study-
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
+      }]
+    },
+    {
+      "id" : "ImagingStudy.basedOn:serviceRequestAccessionNumber.identifier",
+      "path" : "ImagingStudy.basedOn.identifier",
+      "min" : 1,
+      "type" : [{
+        "code" : "Identifier",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document|0.1.0"]
       }]
     },
     {

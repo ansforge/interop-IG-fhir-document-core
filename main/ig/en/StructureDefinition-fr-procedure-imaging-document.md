@@ -7,7 +7,7 @@ FRProcedureImagingDocument permet d'enregistrer les différents paramètres de l
 
 **Usages:**
 
-* Refer to this Profile: [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md) and [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md)
+* Refer to this Profile: [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-procedure-imaging-document.json)
 
@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-procedure-imag
   "name" : "FRProcedureImagingDocument",
   "title" : "Procedure - FR Procedure Imaging Document",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -81,36 +81,13 @@ Other representations of profile: [CSV](../StructureDefinition-fr-procedure-imag
       "path" : "Procedure"
     },
     {
-      "id" : "Procedure.basedOn",
-      "path" : "Procedure.basedOn",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      },
-      "mustSupport" : true
-    },
-    {
-      "id" : "Procedure.basedOn:serviceRequestAccessionNumber",
-      "path" : "Procedure.basedOn",
-      "sliceName" : "serviceRequestAccessionNumber",
-      "short" : "Référence à la demande d'examen contenant l'Accession Number",
-      "min" : 0,
-      "max" : "*",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0"]
-      }]
-    },
-    {
       "id" : "Procedure.partOf",
       "path" : "Procedure.partOf",
-      "short" : "Produits administrés pendant l'acte d'imagerie",
+      "short" : "Produits administrés pendant l'acte d'imagerie, ou procédures d'imagerie associées",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0"]
       }]
     },
     {
@@ -164,14 +141,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-procedure-imag
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Device|4.0.1"]
-      }]
-    },
-    {
-      "id" : "Procedure.reasonReference",
-      "path" : "Procedure.reasonReference",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-imaging-document|0.1.0"]
       }]
     },
     {

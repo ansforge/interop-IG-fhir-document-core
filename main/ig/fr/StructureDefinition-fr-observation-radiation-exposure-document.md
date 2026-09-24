@@ -7,7 +7,7 @@ FRObservationRadiationExposureDocument permet d'enregistrer les informations rel
 
 **Utilisations:**
 
-* Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
+* Référence ce Profil: [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-observation-radiation-exposure-document)
 
@@ -38,34 +38,29 @@ Cette structure est dérivée de [Observation](http://hl7.org/fhir/R4/observatio
 ** Résumé **
 
 Obligatoire : 7 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 13 éléments
+ Must-Support : 9 éléments
+ Fixe : 2 éléments
 
 **Structures**
 
 Cette structure fait référence à ces autres structures:
 
 * [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
-* [ImagingStudy - FR Imaging study Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0)](StructureDefinition-fr-imaging-study-document.md)
+* [FR Accession Number Identifier Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0)](StructureDefinition-fr-accession-number-identifier-document.md)
 * [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
+* [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
 * [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
 * [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [BodyStructure - FR Body Structure Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0)](StructureDefinition-fr-body-structure-document.md)
 * [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
-
-**Extensions**
-
-Cette structure fait référence à ces extensions:
-
-* [http://hl7.org/fhir/StructureDefinition/procedure-targetBodyStructure|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-procedure-targetBodyStructure.html)
+* [ImagingStudy - FR Imaging study Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0)](StructureDefinition-fr-imaging-study-document.md)
 
 **Slices**
 
 Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
 
-* The element 1 is sliced based on the value of Observation.identifier
 * The element 1 is sliced based on the value of Observation.basedOn
-* The element 1 is sliced based on the value of Observation.partOf
+* The element 2 is sliced based on the values of Observation.code.coding
 * The element 1 is sliced based on the value of Observation.performer (Closed)
 
  **Vue des éléments clés** 
@@ -91,34 +86,29 @@ Cette structure est dérivée de [Observation](http://hl7.org/fhir/R4/observatio
 ** Résumé **
 
 Obligatoire : 7 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 13 éléments
+ Must-Support : 9 éléments
+ Fixe : 2 éléments
 
 **Structures**
 
 Cette structure fait référence à ces autres structures:
 
 * [ServiceRequest - FR Service Request Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document|0.1.0)](StructureDefinition-fr-service-request-imaging-document.md)
-* [ImagingStudy - FR Imaging study Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0)](StructureDefinition-fr-imaging-study-document.md)
+* [FR Accession Number Identifier Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0)](StructureDefinition-fr-accession-number-identifier-document.md)
 * [MedicationAdministration - FR Medication Administration Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0)](StructureDefinition-fr-medication-administration-document.md)
+* [Procedure - FR Procedure Imaging Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0)](StructureDefinition-fr-procedure-imaging-document.md)
 * [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
 * [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [BodyStructure - FR Body Structure Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0)](StructureDefinition-fr-body-structure-document.md)
 * [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
-
-**Extensions**
-
-Cette structure fait référence à ces extensions:
-
-* [http://hl7.org/fhir/StructureDefinition/procedure-targetBodyStructure|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-procedure-targetBodyStructure.html)
+* [ImagingStudy - FR Imaging study Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0)](StructureDefinition-fr-imaging-study-document.md)
 
 **Slices**
 
 Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
 
-* The element 1 is sliced based on the value of Observation.identifier
 * The element 1 is sliced based on the value of Observation.basedOn
-* The element 1 is sliced based on the value of Observation.partOf
+* The element 2 is sliced based on the values of Observation.code.coding
 * The element 1 is sliced based on the value of Observation.performer (Closed)
 
  
@@ -138,7 +128,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
   "name" : "FRObservationRadiationExposureDocument",
   "title" : "Observation - FR Observation Radiation Exposure Document",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -199,46 +189,14 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
     {
       "id" : "Observation.identifier",
       "path" : "Observation.identifier",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "type"
-        }],
-        "description" : "Identifiant de l'exposition aux radiations",
-        "ordered" : false,
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "Observation.identifier:radiationUID",
-      "path" : "Observation.identifier",
-      "sliceName" : "radiationUID",
-      "short" : "Radiation Exposures UID",
-      "min" : 0,
-      "max" : "*",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.identifier:radiationUID.type.coding.code",
-      "path" : "Observation.identifier.type.coding.code",
-      "patternCode" : "00083010"
-    },
-    {
-      "id" : "Observation.identifier:radiationUID.system",
-      "path" : "Observation.identifier.system",
-      "patternUri" : "urn:dicom:uid"
-    },
-    {
-      "id" : "Observation.identifier:radiationUID.value",
-      "path" : "Observation.identifier.value",
-      "min" : 1
+      "short" : "Identifiant de l'exposition aux radiations"
     },
     {
       "id" : "Observation.basedOn",
       "path" : "Observation.basedOn",
       "slicing" : {
         "discriminator" : [{
-          "type" : "pattern",
+          "type" : "type",
           "path" : "$this"
         }],
         "rules" : "open"
@@ -258,55 +216,62 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       }]
     },
     {
+      "id" : "Observation.basedOn:serviceRequestAccessionNumber.identifier",
+      "path" : "Observation.basedOn.identifier",
+      "min" : 1,
+      "type" : [{
+        "code" : "Identifier",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0"]
+      }]
+    },
+    {
       "id" : "Observation.partOf",
       "path" : "Observation.partOf",
+      "short" : "Ressources liées à cette exposition aux radiations (administration de produits radiopharmaceutiques, techniques d'imagerie)",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Observation.code",
+      "path" : "Observation.code",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.code.coding",
+      "path" : "Observation.code.coding",
       "slicing" : {
         "discriminator" : [{
-          "type" : "type",
-          "path" : "reference"
+          "type" : "value",
+          "path" : "code"
+        },
+        {
+          "type" : "value",
+          "path" : "system"
         }],
-        "description" : "Ressources liées à cette exposition aux radiations",
+        "ordered" : false,
         "rules" : "open"
       },
       "min" : 1
     },
     {
-      "id" : "Observation.partOf:imagingStudyRef",
-      "path" : "Observation.partOf",
-      "sliceName" : "imagingStudyRef",
-      "short" : "Imaging study associé à cette exposition aux radiations",
+      "id" : "Observation.code.coding:radiationDose",
+      "path" : "Observation.code.coding",
+      "sliceName" : "radiationDose",
       "min" : 1,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0"]
-      }],
-      "mustSupport" : true
+      "max" : "1"
     },
     {
-      "id" : "Observation.partOf:medicationAdministrationRef",
-      "path" : "Observation.partOf",
-      "sliceName" : "medicationAdministrationRef",
-      "short" : "Référence à l'administration du radiopharmaceutique associée à cette exposition aux radiations",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document|0.1.0"]
-      }],
-      "mustSupport" : true
+      "id" : "Observation.code.coding:radiationDose.system",
+      "path" : "Observation.code.coding.system",
+      "fixedUri" : "http://loinc.org"
     },
     {
-      "id" : "Observation.code",
-      "path" : "Observation.code",
-      "patternCodeableConcept" : {
-        "coding" : [{
-          "system" : "http://loinc.org",
-          "code" : "73569-6",
-          "display" : "Exposition aux rayonnements et informations de radioprotection"
-        }]
-      },
-      "mustSupport" : true
+      "id" : "Observation.code.coding:radiationDose.code",
+      "path" : "Observation.code.coding.code",
+      "fixedCode" : "73569-6"
     },
     {
       "id" : "Observation.subject",
@@ -362,28 +327,11 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "path" : "Observation.bodySite",
       "short" : "Localisation anatomique en SNOMED CT",
       "min" : 1,
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.bodySite.extension:precisionTopographique",
-      "path" : "Observation.bodySite.extension",
-      "sliceName" : "precisionTopographique",
-      "short" : "Modificateurs topographiques",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/procedure-targetBodyStructure|5.3.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.bodySite.extension:precisionTopographique.value[x]",
-      "path" : "Observation.bodySite.extension.value[x]",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0"]
-      }]
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/body-site|4.0.1"
+      }
     },
     {
       "id" : "Observation.device",
@@ -394,6 +342,15 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
         "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Device|4.0.1"]
       }],
       "mustSupport" : true
+    },
+    {
+      "id" : "Observation.derivedFrom",
+      "path" : "Observation.derivedFrom",
+      "short" : "Étude d'imagerie à partir de laquelle cette observation est dérivée",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document|0.1.0"]
+      }]
     },
     {
       "id" : "Observation.component",

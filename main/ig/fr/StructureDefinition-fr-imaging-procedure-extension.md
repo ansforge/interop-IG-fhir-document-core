@@ -2,7 +2,7 @@
 
 ## Extension: FR Imaging Procedure Extension 
 
-Imaging procedure used for the imaging acquisition
+Technique d'imagerie utilisée pour l'acquisition des images
 
 **Context of Use**
 
@@ -31,7 +31,7 @@ Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibilit
 
 ** Résumé **
 
-Extension simple avec le type Reference : Imaging procedure used for the imaging acquisition
+Extension simple avec le type Reference : Technique d'imagerie utilisée pour l'acquisition des images
 
  **Vue différentielleDifferential View** 
 
@@ -45,7 +45,7 @@ Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibilit
 
 ** Résumé **
 
-Extension simple avec le type Reference : Imaging procedure used for the imaging acquisition
+Extension simple avec le type Reference : Technique d'imagerie utilisée pour l'acquisition des images
 
  
 
@@ -64,7 +64,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-proc
   "name" : "FRImagingProcedureExtension",
   "title" : "FR Imaging Procedure Extension",
   "status" : "draft",
-  "date" : "2026-09-18T08:26:19+00:00",
+  "date" : "2026-09-24T07:33:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -73,7 +73,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-proc
       "value" : "https://esante.gouv.fr"
     }]
   }],
-  "description" : "Imaging procedure used for the imaging acquisition",
+  "description" : "Technique d'imagerie utilisée pour l'acquisition des images",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -101,7 +101,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-proc
       "id" : "Extension",
       "path" : "Extension",
       "short" : "FR Imaging Procedure Extension",
-      "definition" : "Imaging procedure used for the imaging acquisition"
+      "definition" : "Technique d'imagerie utilisée pour l'acquisition des images"
     },
     {
       "id" : "Extension.extension",
@@ -118,7 +118,9 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-imaging-proc
       "path" : "Extension.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-adverse-event-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-radiation-exposure-document|0.1.0"]
       }]
     }]
   }
