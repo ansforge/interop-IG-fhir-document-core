@@ -12,7 +12,7 @@
   <name value="FHIRFRDocumentCore"/>
   <title value="FR Document Core (FHIR)"/>
   <status value="draft"/>
-  <date value="2026-09-17T15:33:46+00:00"/>
+  <date value="2026-09-28T13:37:45+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -38,7 +38,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.3.0"/>
+    <version value="7.4.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -1024,6 +1024,17 @@
       <description value="Ce profil représente l'association du document à une prise en charge."/>
       <exampleBoolean value="false"/>
       <groupingId value="ressources-fhir-entete"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fr-evaluation-level-extension"/>
+      </reference>
+      <name value="FR Evaluation Level Extension"/>
+      <description value="Extension permettant d'indiquer le niveau (N1 ou N2) d'un composant d'une évaluation."/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

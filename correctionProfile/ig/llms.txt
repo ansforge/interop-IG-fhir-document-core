@@ -4,13 +4,13 @@
 
 * [Accueil](fr/index.md)
 * [Structure générale document](fr/ressourcesFHIR-struc-gen.md)
-* [Autres Ressources](fr/autres_ressources.md)
 * [Corps d'un document](fr/ressourcesFHIR-corps.md)
-* [Entête document](fr/ressourcesFHIR-entete.md)
-* [Sécurité](fr/securite.md)
-* [Résumé des artefacts](fr/artifacts.md)
 * [Informations sur la traduction](fr/translationinfo.md)
+* [Résumé des artefacts](fr/artifacts.md)
 * [Téléchargements et usages](fr/downloads.md)
+* [Autres Ressources](fr/autres_ressources.md)
+* [Sécurité](fr/securite.md)
+* [Entête document](fr/ressourcesFHIR-entete.md)
 
 ## Resources
 
@@ -110,6 +110,7 @@
 * [FR Comparison Studies Extension](fr/StructureDefinition-fr-comparison-studies-extension.md)
 * [FR Composition Extension](fr/StructureDefinition-fr-composition-extension.md)
 * [FR Conclusion Extension](fr/StructureDefinition-fr-conclusion-extension.md)
+* [FR Evaluation Level Extension](fr/StructureDefinition-fr-evaluation-level-extension.md)
 * [FR Family Member History Body Site Extension](fr/StructureDefinition-fr-family-member-history-body-site-extension.md)
 * [FR Finding Extension](fr/StructureDefinition-fr-finding-extension.md)
 * [FR Imaging Procedure Extension](fr/StructureDefinition-fr-imaging-procedure-extension.md)

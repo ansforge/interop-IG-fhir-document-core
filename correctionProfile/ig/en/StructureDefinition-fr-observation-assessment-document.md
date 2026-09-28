@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-as
   "name" : "FRObservationAssessmentDocument",
   "title" : "Observation - FR Observation Assessment Document",
   "status" : "draft",
-  "date" : "2026-09-17T15:33:46+00:00",
+  "date" : "2026-09-28T13:37:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -284,8 +284,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-as
       "path" : "Observation.component",
       "slicing" : {
         "discriminator" : [{
-          "type" : "value",
-          "path" : "extension('http://.../StructureDefinition/evaluation-type')"
+          "type" : "pattern",
+          "path" : "extension('https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension').value"
         }],
         "rules" : "open"
       },
@@ -310,7 +310,24 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-as
         }],
         "ordered" : false,
         "rules" : "open"
-      }
+      },
+      "min" : 1
+    },
+    {
+      "id" : "Observation.component:ComposantN1.extension:evaluationLevel",
+      "path" : "Observation.component.extension",
+      "sliceName" : "evaluationLevel",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Observation.component:ComposantN1.extension:evaluationLevel.value[x]",
+      "path" : "Observation.component.extension.value[x]",
+      "patternCode" : "N1"
     },
     {
       "id" : "Observation.component:ComposantN1.extension:note",
@@ -356,6 +373,35 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-as
       "short" : "Sous-composant N2 de l'évaluation",
       "min" : 0,
       "max" : "*"
+    },
+    {
+      "id" : "Observation.component:ComposantN2.extension",
+      "path" : "Observation.component.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "Observation.component:ComposantN2.extension:evaluationLevel",
+      "path" : "Observation.component.extension",
+      "sliceName" : "evaluationLevel",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Observation.component:ComposantN2.extension:evaluationLevel.value[x]",
+      "path" : "Observation.component.extension.value[x]",
+      "patternCode" : "N2"
     },
     {
       "id" : "Observation.component:ComposantN2.code",

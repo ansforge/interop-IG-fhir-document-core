@@ -41,7 +41,7 @@ Cette structure est dérivée de [ImmunizationRecommendation](http://hl7.org/fhi
 
 ** Résumé **
 
-Obligatoire : 1 élément(3 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 1 élément(4 éléments obligatoire(s) imbriqué(s))
  Must-Support : 3 éléments
 
 **Structures**
@@ -80,7 +80,7 @@ Cette structure est dérivée de [ImmunizationRecommendation](http://hl7.org/fhi
 
 ** Résumé **
 
-Obligatoire : 1 élément(3 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 1 élément(4 éléments obligatoire(s) imbriqué(s))
  Must-Support : 3 éléments
 
 **Structures**
@@ -114,7 +114,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-immunization
   "name" : "FRImmunizationRecommendationDocument",
   "title" : "ImmunizationRecommendation - FR Immunization Recommendation Document",
   "status" : "draft",
-  "date" : "2026-09-17T15:33:46+00:00",
+  "date" : "2026-09-28T13:37:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -201,6 +201,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-immunization
         "strength" : "required",
         "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-vaccine-code-cis|0.1.0"
       }
+    },
+    {
+      "id" : "ImmunizationRecommendation.recommendation.vaccineCode.coding:cis.system",
+      "path" : "ImmunizationRecommendation.recommendation.vaccineCode.coding.system",
+      "min" : 1,
+      "patternUri" : "https://smt.esante.gouv.fr/terminologie-bdpm"
     },
     {
       "id" : "ImmunizationRecommendation.recommendation.vaccineCode.coding:translation",

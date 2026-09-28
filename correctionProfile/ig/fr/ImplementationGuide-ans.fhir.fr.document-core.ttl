@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-17T15:33:46+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-28T13:37:45+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -58,7 +58,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ] ;
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "7.3.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "7.4.0" ]
   ], [
      fhir:index -1 ;
      fhir:Element.id [ fhir:value "hl7ext" ] ;
@@ -1477,6 +1477,20 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ce profil représente l'association du document à une prise en charge." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "ressources-fhir-entete" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-evaluation-level-extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Evaluation Level Extension" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'indiquer le niveau (N1 ou N2) d'un composant d'une évaluation." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
        fhir:Element.extension [

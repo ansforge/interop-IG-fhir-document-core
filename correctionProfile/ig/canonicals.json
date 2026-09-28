@@ -181,6 +181,13 @@
   "name" : "FREndpointWadoDocument"
 },
 {
+  "id" : "fr-evaluation-level-extension",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension",
+  "version" : "0.1.0",
+  "name" : "FREvaluationLevelExtension"
+},
+{
   "id" : "fr-family-member-history-body-site-extension",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension",

@@ -37,7 +37,7 @@ Cette structure est dérivée de [Observation](http://hl7.org/fhir/R4/observatio
 
 ** Résumé **
 
-Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 3 éléments(6 éléments obligatoire(s) imbriqué(s))
  Must-Support : 14 éléments
 
 **Structures**
@@ -53,6 +53,7 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-status-reason-extension|0.1.0](StructureDefinition-fr-status-reason-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension|0.1.0](StructureDefinition-fr-evaluation-level-extension.md)
 * [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
 
 **Slices**
@@ -83,7 +84,7 @@ Cette structure est dérivée de [Observation](http://hl7.org/fhir/R4/observatio
 
 ** Résumé **
 
-Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 3 éléments(6 éléments obligatoire(s) imbriqué(s))
  Must-Support : 14 éléments
 
 **Structures**
@@ -99,6 +100,7 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-status-reason-extension|0.1.0](StructureDefinition-fr-status-reason-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension|0.1.0](StructureDefinition-fr-evaluation-level-extension.md)
 * [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
 
 **Slices**
@@ -124,7 +126,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
   "name" : "FRObservationAssessmentDocument",
   "title" : "Observation - FR Observation Assessment Document",
   "status" : "draft",
-  "date" : "2026-09-17T15:33:46+00:00",
+  "date" : "2026-09-28T13:37:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -376,8 +378,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "path" : "Observation.component",
       "slicing" : {
         "discriminator" : [{
-          "type" : "value",
-          "path" : "extension('http://.../StructureDefinition/evaluation-type')"
+          "type" : "pattern",
+          "path" : "extension('https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension').value"
         }],
         "rules" : "open"
       },
@@ -402,7 +404,24 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
         }],
         "ordered" : false,
         "rules" : "open"
-      }
+      },
+      "min" : 1
+    },
+    {
+      "id" : "Observation.component:ComposantN1.extension:evaluationLevel",
+      "path" : "Observation.component.extension",
+      "sliceName" : "evaluationLevel",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Observation.component:ComposantN1.extension:evaluationLevel.value[x]",
+      "path" : "Observation.component.extension.value[x]",
+      "patternCode" : "N1"
     },
     {
       "id" : "Observation.component:ComposantN1.extension:note",
@@ -448,6 +467,35 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
       "short" : "Sous-composant N2 de l'évaluation",
       "min" : 0,
       "max" : "*"
+    },
+    {
+      "id" : "Observation.component:ComposantN2.extension",
+      "path" : "Observation.component.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "Observation.component:ComposantN2.extension:evaluationLevel",
+      "path" : "Observation.component.extension",
+      "sliceName" : "evaluationLevel",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Observation.component:ComposantN2.extension:evaluationLevel.value[x]",
+      "path" : "Observation.component.extension.value[x]",
+      "patternCode" : "N2"
     },
     {
       "id" : "Observation.component:ComposantN2.code",

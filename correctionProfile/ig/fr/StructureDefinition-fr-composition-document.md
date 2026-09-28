@@ -149,7 +149,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-09-17T15:33:46+00:00",
+  "date" : "2026-09-28T13:37:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -706,7 +706,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "path" : "Composition.event",
       "slicing" : {
         "discriminator" : [{
-          "type" : "value",
+          "type" : "exists",
           "path" : "$this"
         }],
         "rules" : "open"
@@ -786,7 +786,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
         "key" : "comp-4",
         "severity" : "error",
         "human" : "Une section ne peut pas contenir à la fois des entrées et des sous-sections.",
-        "expression" : "not(exists(f:entry) and exists(f:section))",
+        "expression" : "entry.exists().not() or section.exists().not()",
         "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"
       }]
     },
