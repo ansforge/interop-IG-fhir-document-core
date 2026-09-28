@@ -34,6 +34,7 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 // Slice CIS obligatoire
 * vaccineCode.coding contains cis 1..1
 * vaccineCode.coding[cis] from FRValueSetVaccineCodeCISDocument (required)
+* vaccineCode.coding[cis].system = "https://smt.esante.gouv.fr/terminologie-bdpm"
 
 // Slice (autres codifications)
 * vaccineCode.coding contains translation 0..*

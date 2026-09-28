@@ -11,7 +11,7 @@ Description: "Ce profil représente le lieu de la prise en charge."
 * name MS
 * name ^short = "Nom de la structure"
 * type.coding ^slicing.discriminator.type = #value
-* type.coding ^slicing.discriminator.path = "coding.code"
+* type.coding ^slicing.discriminator.path = "code"
 * type.coding ^slicing.rules = #open
 
 * type.coding contains secteurActivite 1..1

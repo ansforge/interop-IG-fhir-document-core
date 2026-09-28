@@ -114,7 +114,7 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * event.extension contains fr-performer-event-extension named performer 0..1
 * event.extension[performer] ^short = "Exécutant de l'évènement documenté"
 // Slicing event : évènement documenté principal 
-* event ^slicing.discriminator.type = #value
+* event ^slicing.discriminator.type = #exists
 * event ^slicing.discriminator.path = "$this"
 * event ^slicing.rules = #open
 
@@ -170,5 +170,5 @@ Severity: #error
 
 Invariant: comp-4
 Description: "Une section ne peut pas contenir à la fois des entrées et des sous-sections."
-Expression: "not(exists(f:entry) and exists(f:section))"
+Expression: "entry.exists().not() or section.exists().not()"
 Severity: #error

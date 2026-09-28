@@ -11,9 +11,11 @@ Description: "Ce profil représente le patient concerné par le document."
 // relationship
   * relationship[RelationType] from $JDV_J11_RelationPatient_CISIS (required)
   * relationship[RelationType].coding.system = "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"
+  * relationship[RelationType].coding 1..1
 
   * relationship[Role] from $jdv-role-informateur-cisis (required)
   * relationship[Role].coding.system = "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+  * relationship[Role].coding 1..1
 
 * extension contains
     $sexForClinicalUse named sex-for-clinical-use 0..*

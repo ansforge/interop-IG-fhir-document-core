@@ -56,8 +56,8 @@ et préciser le type d’évaluation exact dans un texte libre.
 // ----------------------
 // Slicing component (N1 vs N2)
 // ----------------------
-* component ^slicing.discriminator.type = #value
-* component ^slicing.discriminator.path = "extension('http://.../StructureDefinition/evaluation-type')"
+* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.path = "extension('https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension').value"
 * component ^slicing.rules = #open
 
 * component MS
@@ -67,6 +67,8 @@ et préciser le type d’évaluation exact dans un texte libre.
     ComposantN2 0..*
 
 * component[ComposantN1] ^short = "Composant N1 de l'évaluation"
+* component[ComposantN1].extension contains FREvaluationLevelExtension named evaluationLevel 1..1
+* component[ComposantN1].extension[evaluationLevel].valueCode = #N1
 * component[ComposantN1].code 1..1 MS
 * component[ComposantN1].code ^short = "Code de l'évaluation"
 * component[ComposantN1].value[x] 1..1 MS
@@ -78,6 +80,8 @@ et préciser le type d’évaluation exact dans un texte libre.
 * component[ComposantN1].extension[note].value[x] MS
 
 * component[ComposantN2] ^short = "Sous-composant N2 de l'évaluation"
+* component[ComposantN2].extension contains FREvaluationLevelExtension named evaluationLevel 1..1
+* component[ComposantN2].extension[evaluationLevel].valueCode = #N2
 * component[ComposantN2].code 1..1 MS
 * component[ComposantN2].code ^short = "Code de l'évaluation"
 * component[ComposantN2].value[x] 1..1 MS
