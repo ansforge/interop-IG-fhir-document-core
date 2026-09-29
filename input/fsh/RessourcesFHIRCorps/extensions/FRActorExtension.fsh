@@ -4,7 +4,7 @@ Title: "FR Actor Extension"
 Description: "Extension permettant de représenter un acteur impliqué dans le document avec son type et sa référence."
 
 * ^context[+].type = #element
-* ^context[=].expression = "Resource"
+* ^context[=].expression = "Reference"
 
 * extension contains
     type 1..1 and

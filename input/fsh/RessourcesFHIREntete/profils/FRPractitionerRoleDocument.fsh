@@ -6,7 +6,7 @@ Description: "Ce profil représente les professionnels de santé et leurs rôles
 
 // slice : Rôle fonctionnel du professionnel de santé
 * code contains functionCode 0..1
-* code[functionCode].coding from $JDV_J47-FunctionCode-CISIS (required)
+* code[functionCode] from $JDV_J47-FunctionCode-CISIS (required)
 * code[functionCode] ^short = "Rôle fonctionnel du professionnel de santé"
 
 // slice : PS / Non PS

@@ -25,7 +25,7 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 
 // produit de santé
 * vaccineCode.coding ^slicing.discriminator.type = #value
-* vaccineCode.coding ^slicing.discriminator.path = "system"
+* vaccineCode.coding ^slicing.discriminator.path = "$this"
 * vaccineCode.coding ^slicing.rules = #open
 * vaccineCode.coding ^slicing.description = "Slice CIS et autres codifications"
 
