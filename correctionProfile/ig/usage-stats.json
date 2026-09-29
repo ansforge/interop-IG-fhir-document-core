@@ -92,13 +92,6 @@
       ]
     },
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension",
-      "title": "FR Evaluation Level Extension",
-      "types": [
-        "code"
-      ]
-    },
-    {
       "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension",
       "title": "FR Family Member History Body Site Extension",
       "types": [
@@ -624,8 +617,7 @@
       "RelatedPerson.name"
     ],
     "http://hl7.org/fhir/StructureDefinition/note|5.3.0": [
-      "Composition.section",
-      "Observation.component"
+      "Composition.section"
     ],
     "http://hl7.org/fhir/StructureDefinition/organization-period|5.3.0": [
       "Organization"
@@ -830,9 +822,6 @@
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-conclusion-extension|0.1.0": [
       "DiagnosticReport"
-    ],
-    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension|0.1.0": [
-      "Observation.component"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension|0.1.0": [
       "FamilyMemberHistory.condition"

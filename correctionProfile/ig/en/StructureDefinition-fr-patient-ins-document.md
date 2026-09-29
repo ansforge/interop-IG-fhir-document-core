@@ -34,7 +34,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-patient-ins-do
   "name" : "FRPatientINSDocument",
   "title" : "FR Patient INS Document",
   "status" : "draft",
-  "date" : "2026-09-29T08:08:01+00:00",
+  "date" : "2026-09-29T09:01:26+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -105,12 +105,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-patient-ins-do
       }
     },
     {
-      "id" : "Patient.contact.relationship:Role.coding",
-      "path" : "Patient.contact.relationship.coding",
-      "min" : 1,
-      "max" : "1"
-    },
-    {
       "id" : "Patient.contact.relationship:Role.coding.system",
       "path" : "Patient.contact.relationship.coding.system",
       "min" : 1,
@@ -124,12 +118,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-patient-ins-do
         "strength" : "required",
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS|20200424120000"
       }
-    },
-    {
-      "id" : "Patient.contact.relationship:RelationType.coding",
-      "path" : "Patient.contact.relationship.coding",
-      "min" : 1,
-      "max" : "1"
     },
     {
       "id" : "Patient.contact.relationship:RelationType.coding.system",

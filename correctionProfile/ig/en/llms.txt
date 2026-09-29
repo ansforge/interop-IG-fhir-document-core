@@ -110,7 +110,6 @@
 * [FR Comparison Studies Extension](StructureDefinition-fr-comparison-studies-extension.md)
 * [FR Composition Extension](StructureDefinition-fr-composition-extension.md)
 * [FR Conclusion Extension](StructureDefinition-fr-conclusion-extension.md)
-* [FR Evaluation Level Extension](StructureDefinition-fr-evaluation-level-extension.md)
 * [FR Family Member History Body Site Extension](StructureDefinition-fr-family-member-history-body-site-extension.md)
 * [FR Finding Extension](StructureDefinition-fr-finding-extension.md)
 * [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md)

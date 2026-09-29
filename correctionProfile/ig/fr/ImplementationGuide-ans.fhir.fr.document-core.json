@@ -11,7 +11,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-09-29T08:08:01+00:00",
+  "date" : "2026-09-29T09:01:26+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1285,18 +1285,6 @@
       "description" : "Ce profil représente l'association du document à une prise en charge.",
       "exampleBoolean" : false,
       "groupingId" : "ressources-fhir-entete"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-evaluation-level-extension"
-      },
-      "name" : "FR Evaluation Level Extension",
-      "description" : "Extension permettant d'indiquer le niveau (N1 ou N2) d'un composant d'une évaluation.",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{
