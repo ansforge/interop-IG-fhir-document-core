@@ -54,43 +54,11 @@ et préciser le type d’évaluation exact dans un texte libre.
 * extension[participant].extension[typeCode].valueCodeableConcept.coding.code = #RESP
 
 // ----------------------
-// Slicing component (N1 vs N2)
+// Rattachement Composants N1 / N2 via hasMember
 // ----------------------
-* component ^slicing.discriminator.type = #pattern
-* component ^slicing.discriminator.path = "extension('https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-evaluation-level-extension').value"
-* component ^slicing.rules = #open
-
-* component MS
-* component ^short = "Composants de l'évaluation"
-* component contains
-    ComposantN1 0..* and
-    ComposantN2 0..*
-
-* component[ComposantN1] ^short = "Composant N1 de l'évaluation"
-* component[ComposantN1].extension contains FREvaluationLevelExtension named evaluationLevel 1..1
-* component[ComposantN1].extension[evaluationLevel].valueCode = #N1
-* component[ComposantN1].code 1..1 MS
-* component[ComposantN1].code ^short = "Code de l'évaluation"
-* component[ComposantN1].value[x] 1..1 MS
-* component[ComposantN1].value[x] ^short = "Résultat de l'évaluation"
-* component[ComposantN1].interpretation 0..1 MS
-* component[ComposantN1].interpretation ^short = "Interprétation"
-* component[ComposantN1].extension contains http://hl7.org/fhir/StructureDefinition/note named note 0..*
-* component[ComposantN1].extension[note] ^short = "Commentaire"
-* component[ComposantN1].extension[note].value[x] MS
-
-* component[ComposantN2] ^short = "Sous-composant N2 de l'évaluation"
-* component[ComposantN2].extension contains FREvaluationLevelExtension named evaluationLevel 1..1
-* component[ComposantN2].extension[evaluationLevel].valueCode = #N2
-* component[ComposantN2].code 1..1 MS
-* component[ComposantN2].code ^short = "Code de l'évaluation"
-* component[ComposantN2].value[x] 1..1 MS
-* component[ComposantN2].value[x] ^short = "Résultat de l'évaluation"
-* component[ComposantN2].interpretation 0..1 MS
-* component[ComposantN2].interpretation ^short = "Interprétation"
-
 * hasMember MS
-* hasMember ^short = "Référence interne"
+* hasMember only Reference(FRObservationAssessmentDocument)
+* hasMember ^short = "Sous-évaluations (composants N2) rattachées à cette évaluation N1"
 
 // Commentaires
 * note ^short = "Commentaires (Annotations)"
