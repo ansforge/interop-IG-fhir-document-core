@@ -98,7 +98,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
   "name" : "FRMedicationDispenseDocument",
   "title" : "MedicationDispense - FR Medication Dispense Document",
   "status" : "draft",
-  "date" : "2026-09-28T13:37:45+00:00",
+  "date" : "2026-09-29T08:08:01+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -203,7 +203,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
       "path" : "MedicationDispense.type.coding",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis|20260716085851"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis|20260916095452"
       }
     },
     {

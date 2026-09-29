@@ -1,9 +1,9 @@
 FHIRFRDocumentCore : Validation Results
 =========================================
 
-err = 16, warn = 176, info = 6818
+err = 16, warn = 174, info = 6825
 IG Publisher Version: 2.3.4
-Generated Mon Sep 28 13:44:42 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
+Generated Tue Sep 29 08:13:33 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.document-core#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/document-core)
  Build Errors : 5 / 3 / 0
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/AllergyIntolerance-example-allergy-intolerance-data-absent-reason : 0 / 0 / 1
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/CodeSystem-fr-cs-note-type : 0 / 3 / 2
@@ -58,29 +58,29 @@ Generated Mon Sep 28 13:44:42 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.docum
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-not-covered-extension : 0 / 1 / 9
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-note-type-extension : 0 / 1 / 10
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-number-of-frames-extension : 0 / 1 / 8
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-ald-document : 0 / 1 / 63
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-ald-document : 0 / 1 / 65
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-assessment-document : 0 / 3 / 129
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-contra-indications-document : 0 / 1 / 94
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-laboratory-report-results-document : 0 / 2 / 146
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-microorganism-detection-document : 0 / 1 / 81
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-multiresistant-microorganism-document : 0 / 1 / 81
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-microorganism-detection-document : 0 / 1 / 83
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-multiresistant-microorganism-document : 0 / 1 / 83
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-pain-score-document : 0 / 1 / 81
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-pregnancy-document : 0 / 1 / 85
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-pregnancy-history-document : 0 / 1 / 76
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-prevention-document : 0 / 1 / 63
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-prevention-document : 0 / 1 / 65
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-radiation-exposure-document : 0 / 2 / 105
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-result-document : 0 / 2 / 92
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-social-history-document : 0 / 1 / 67
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-vital-signs-document : 0 / 1 / 94
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-vital-signs-panel-document : 0 / 1 / 100
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-work-related-accident-document : 0 / 1 / 81
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-observation-work-related-accident-document : 0 / 1 / 83
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-organization-document : 0 / 9 / 310
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-patient-document : 0 / 1 / 207
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-patient-history-extension : 0 / 1 / 20
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-patient-ins-document : 0 / 0 / 286
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-performer-event-extension : 0 / 1 / 11
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-practitioner-document : 0 / 2 / 349
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-practitionerRole-document : 0 / 4 / 153
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-practitionerRole-document : 0 / 4 / 148
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-procedure-difficulty-extension : 0 / 1 / 10
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-procedure-document : 0 / 0 / 117
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/StructureDefinition-fr-procedure-imaging-document : 0 / 1 / 32
@@ -99,7 +99,7 @@ Generated Mon Sep 28 13:44:42 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.docum
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-actor-type-document : 0 / 2 / 2
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-allergy-code : 0 / 6 / 4
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-allergy-intolerance-type-document : 0 / 2 / 5
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-allergy-substance : 0 / 5 / 2
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-allergy-substance : 0 / 2 / 5
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-edqm-document : 0 / 1 / 5
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-edqm-form-document : 0 / 1 / 2
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-evaluation-type : 0 / 2 / 1
@@ -107,7 +107,7 @@ Generated Mon Sep 28 13:44:42 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.docum
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-medication-translation-document : 0 / 7 / 3
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-note-type : 0 / 2 / 2
  /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-procedure-code : 0 / 2 / 6
- /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-vaccine-code-cis : 0 / 5 / 2
+ /__w/interop-IG-fhir-document-core/interop-IG-fhir-document-core/igSource/fsh-generated/resources/ValueSet-fr-vs-vaccine-code-cis : 0 / 2 / 5
 </table>
 == n/a ==
 ERROR: ImplementationGuide/ans.fhir.fr.document-core: This IG is version 4.0.1, while the IG 'ihe.pharm.mpd' is from version 5.0.0
@@ -145,7 +145,7 @@ INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.extension[0].
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.name[0].extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[1].coding[0].display: Wrong Display Name 'Personne à prévenir en cas d'urgence' for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON. There are no valid display names found for language(s) 'fr-FR'. Default display is 'emergency contact'
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260716085852), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON)
+ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260916095455), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON)
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41: Patient.meta.profile[1]: Profile reference 'https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.json ==
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.meta.profile[1]: A definition could not be found for Canonical URL 'https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document'
@@ -155,7 +155,7 @@ INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.extension[0].
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
 INFORMATION: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.name[0].extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[1].coding[0].display: Wrong Display Name 'Personne à prévenir en cas d'urgence' for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON. There are no valid display names found for language(s) 'fr-FR'. Default display is 'emergency contact'
-ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260716085852), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON)
+ERROR: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.contact[0].relationship[1]: None of the codings provided are in the value set 'Jdv Role Informateur CISIS' (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260916095455), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/v3-RoleClass#ECON)
 WARNING: Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55: Patient.meta.profile[1]: Profile reference 'https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Procedure-example-procedure-data-absent-reason.json ==
 == fsh-generated/resources/StructureDefinition-fr-accession-number-identifier-document.json ==
@@ -297,7 +297,7 @@ INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[58].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-PurposeOfUse to 3.1.0
 INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[60].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[60].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis to 20260916095456
 INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -308,13 +308,13 @@ INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis to 20260716085853
+INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis to 20260916095456
 INFORMATION: StructureDefinition/fr-advance-directive-document: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
 INFORMATION: Resource: The resource StructureDefinition/fr-advance-directive-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-advance-directive-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-adverse-event-document.json ==
 ERROR: AdverseEvent - FR adverse event Document.AdverseEvent.severity: Binding https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis is not a subset of binding http://hl7.org/fhir/ValueSet/adverse-event-severity|4.0.1 because The codes 'GEN-092.01.22,255604002,419620001,276654001,442452003,2655002,266938001' are not in the base valueset
-ERROR: AdverseEvent - FR adverse event Document.AdverseEvent.outcome: Binding https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis is not a subset of binding http://hl7.org/fhir/ValueSet/adverse-event-outcome|4.0.1 because The codes '1352007006,1339036001,405535005,MED-1281,1335890004,261665006,1336140009,MED-1282' are not in the base valueset
+ERROR: AdverseEvent - FR adverse event Document.AdverseEvent.outcome: Binding https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis is not a subset of binding http://hl7.org/fhir/ValueSet/adverse-event-outcome|4.0.1 because The codes '1352007006,1339036001,405535005,1335890004,261665006,1336140009,MED-1282' are not in the base valueset
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/AdverseEvent to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 4.0.1
@@ -333,7 +333,7 @@ INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[11].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[11].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -345,9 +345,9 @@ INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[21].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[21].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis to 20260916095454
 INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[22].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[22].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis to 20260916095454
 INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -370,10 +370,10 @@ INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis to 20260916095453
 INFORMATION: StructureDefinition.differential.element[4].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[5].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[5].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis to 20260916095454
+INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis to 20260916095454
 INFORMATION: StructureDefinition.differential.element[8].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis to 20260716085851
 INFORMATION: Resource: The resource StructureDefinition/fr-adverse-event-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
@@ -475,12 +475,12 @@ INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[12].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-location-body-structure-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[13].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[13].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-location-body-structure-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis to 20260916095453
 INFORMATION: Resource: The resource StructureDefinition/fr-body-structure-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-bundle-document.json ==
@@ -1325,7 +1325,7 @@ INFORMATION: StructureDefinition.snapshot.element[256].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[256].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[257].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[258].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[258].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[258].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[259].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[260].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[261].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -1366,7 +1366,7 @@ INFORMATION: StructureDefinition.differential.element[72].type[0].profile[0]: Pi
 INFORMATION: StructureDefinition.differential.element[77].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[79].constraint[0].source: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[80].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/note to 5.3.0
-INFORMATION: StructureDefinition.differential.element[81].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[81].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis to 20260916095455
 ERROR: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'data entry person' for http://terminology.hl7.org/CodeSystem/v3-ParticipationType#ENT. Valid display is 'Transcripteur du contenu à partir d'une autre forme' (fr-FR) (for the language(s) 'fr-FR')
 ERROR: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[52].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'informant' for http://terminology.hl7.org/CodeSystem/v3-ParticipationType#INF. Valid display is 'Informateur' (fr-FR) (for the language(s) 'fr-FR')
 INFORMATION: StructureDefinition/fr-composition-document: StructureDefinition.snapshot.element[141].pattern.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#107903-7 for language(s) 'fr-FR'. The display is 'Clinical note' which is a valid display for the default language
@@ -1417,7 +1417,7 @@ INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260916095457
 INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -1440,7 +1440,7 @@ INFORMATION: StructureDefinition.snapshot.element[47].constraint[1].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[49].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[49].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[50].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Condition to 4.0.1
@@ -1455,11 +1455,11 @@ INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260716085853
+INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260916095457
 INFORMATION: StructureDefinition.differential.element[13].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[19].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[19].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis to 20260916095455
 INFORMATION: StructureDefinition.differential.element[20].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-document-reference-document to 0.1.0
 INFORMATION: Resource: The resource StructureDefinition/fr-condition-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document'): The Implementation Guide contains no examples for this profile
@@ -1510,7 +1510,7 @@ INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[37].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-systeme-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[37].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-systeme-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[40].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
@@ -1543,7 +1543,7 @@ INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[63].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-systeme-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-systeme-cisis to 20260916095455
 INFORMATION: StructureDefinition.differential.element[4].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document to 0.1.0
 INFORMATION: Resource: The resource StructureDefinition/fr-device-auteur-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document'): The Implementation Guide contains no examples for this profile
@@ -1721,9 +1721,9 @@ INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[12].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[12].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis to 20260916095454
 INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[13].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[13].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis to 20260916095454
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[15].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -1799,7 +1799,7 @@ INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[12].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[12].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis to 20260916095454
 INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -1839,7 +1839,7 @@ INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis to 20260916095454
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[2]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document to 0.1.0
@@ -2338,7 +2338,7 @@ INFORMATION: StructureDefinition.snapshot.element[160].type[0].targetProfile[0]:
 INFORMATION: StructureDefinition.snapshot.element[160].type[0].targetProfile[1]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization to 2.1.0
 INFORMATION: StructureDefinition.snapshot.element[160].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[161].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[161].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[161].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[162].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[164].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[164].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
@@ -2360,7 +2360,7 @@ INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[1
 INFORMATION: StructureDefinition.differential.element[7].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[13].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
-INFORMATION: StructureDefinition.differential.element[19].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[19].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-cisis to 20260916095455
 INFORMATION: StructureDefinition.differential.element[21].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document to 0.1.0
 WARNING: StructureDefinition/fr-encounter-document: StructureDefinition.snapshot.element[24].example[1].value.ofType(uri): No definition could be found for URL value '1.2.250.1.71.4.2.2.1330780321'
 WARNING: StructureDefinition/fr-encounter-document: StructureDefinition.snapshot.element[24].example[2].value.ofType(uri): No definition could be found for URL value 'http://hopitalTest.fr/fhir/namingsystem/encounters'
@@ -2456,7 +2456,7 @@ INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[37].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[37].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis to 20260916095452
 INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2478,7 +2478,7 @@ INFORMATION: StructureDefinition.snapshot.element[51].constraint[1].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[52].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[53].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[53].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260916095457
 INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2490,11 +2490,11 @@ INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[2
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[3]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[8].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[8].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis to 20260916095452
 INFORMATION: StructureDefinition.differential.element[13].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-body-site-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[14].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[15].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension to 0.1.0
-INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260716085853
+INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis to 20260916095457
 INFORMATION: Resource: The resource StructureDefinition/fr-family-member-history-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-family-member-history-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-finding-extension.json ==
@@ -2589,7 +2589,7 @@ INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis to 20260916095454
 INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2609,7 +2609,7 @@ INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[47].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[47].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[50].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2629,7 +2629,7 @@ INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[60].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[62].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[62].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[63].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document to 0.1.0
@@ -2637,13 +2637,13 @@ INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinne
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-imaging-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[7].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-study-instance-uid-identifier-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[9].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis to 20260916095454
 INFORMATION: StructureDefinition.differential.element[13].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-acquisition-cisis to 20260420150250
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-endpoint-wado-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[15].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
-INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis to 20260916095453
 INFORMATION: StructureDefinition.differential.element[20].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-number-of-frames-extension to 0.1.0
-INFORMATION: StructureDefinition.differential.element[21].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[21].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis to 20260916095453
 WARNING: StructureDefinition/fr-imaging-study-document: StructureDefinition.snapshot.element[30].binding.valueSet: A definition could not be found for Canonical URL 'http://www.rsna.org/RadLex_Playbook.aspx'
 WARNING: StructureDefinition/fr-imaging-study-document: StructureDefinition.snapshot.element[54].binding: The definition for the element 'ImagingStudy.series.performer.function' binds to the value set 'http://hl7.org/fhir/ValueSet/series-performer-function|4.0.1' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/fr-imaging-study-document: StructureDefinition.snapshot: The slice 'studyInstanceUid' on path 'ImagingStudy.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
@@ -2710,9 +2710,9 @@ INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[68].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-approach-site-code-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[68].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-approach-site-code-cisis to 20260916095452
 INFORMATION: StructureDefinition.snapshot.element[69].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[69].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[69].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis to 20260916095454
 INFORMATION: StructureDefinition.snapshot.element[70].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[71].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[73].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2754,7 +2754,7 @@ INFORMATION: StructureDefinition.snapshot.element[101].constraint[1].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[102].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[102].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[103].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[103].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[103].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis to 20260916095457
 INFORMATION: StructureDefinition.snapshot.element[104].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[105].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[106].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2769,11 +2769,11 @@ INFORMATION: StructureDefinition.differential.element[7].type[0].profile[0]: Pin
 INFORMATION: StructureDefinition.differential.element[9].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-vaccine-code-cis to 0.1.0
 INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-medication-translation-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[21].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-approach-site-code-cisis to 20260716085851
-INFORMATION: StructureDefinition.differential.element[22].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[21].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-approach-site-code-cisis to 20260916095452
+INFORMATION: StructureDefinition.differential.element[22].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis to 20260916095454
 INFORMATION: StructureDefinition.differential.element[26].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[28].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[30].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis to 20260716085853
+INFORMATION: StructureDefinition.differential.element[30].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis to 20260916095457
 INFORMATION: Resource: The resource StructureDefinition/fr-immunization-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-immunization-recommendation-document.json ==
@@ -2860,8 +2860,8 @@ INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis to 20260716085853
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis to 20260916095457
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis to 20260916095457
 INFORMATION: Resource: The resource StructureDefinition/fr-immunization-type-extension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-type-extension'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-interpretation-extension.json ==
@@ -2871,8 +2871,8 @@ INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: Resource: The resource StructureDefinition/fr-interpretation-extension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-location-document.json ==
@@ -3158,7 +3158,7 @@ INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[40].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[42].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[42].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[43].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -3174,7 +3174,7 @@ INFORMATION: StructureDefinition.differential.element[9].type[0].targetProfile[0
 INFORMATION: StructureDefinition.differential.element[9].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Observation to 4.0.1
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[13].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-sequence-extension to 0.1.0
-INFORMATION: StructureDefinition.differential.element[15].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[15].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260916095453
 INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[20].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/SimpleQuantity to 4.0.1
 INFORMATION: Resource: The resource StructureDefinition/fr-medication-administration-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
@@ -3231,7 +3231,7 @@ INFORMATION: StructureDefinition.snapshot.element[26].binding.valueSet: Pinned t
 INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[28].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[29].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[29].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis to 20260916095452
 INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -3287,7 +3287,7 @@ INFORMATION: StructureDefinition.snapshot.element[76].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.differential.element[2].type[1].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[3].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[4].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis to 20260916095452
 INFORMATION: StructureDefinition.differential.element[8].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document to 0.1.0
 INFORMATION: StructureDefinition/fr-medication-dispense-document: StructureDefinition.snapshot.element[39].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: StructureDefinition/fr-medication-dispense-document: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
@@ -3500,7 +3500,7 @@ INFORMATION: StructureDefinition.snapshot.element[72].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[73].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[74].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[75].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[75].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[75].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[76].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[76].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[77].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -3554,7 +3554,7 @@ INFORMATION: StructureDefinition.snapshot.element[125].constraint[1].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[126].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[126].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode to 3.0.0
 INFORMATION: StructureDefinition.snapshot.element[127].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[127].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[127].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[128].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[128].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason to 3.0.0
 INFORMATION: StructureDefinition.snapshot.element[130].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -3581,10 +3581,10 @@ INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-care-plan-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[2]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[3]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-immunization-recommendation-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[29].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[29].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260916095453
 INFORMATION: StructureDefinition.differential.element[30].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[44].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.dispenserInstruction to 0.1.0
-INFORMATION: StructureDefinition.differential.element[52].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[52].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis to 20260916095455
 WARNING: StructureDefinition/fr-medication-request-document: StructureDefinition.snapshot: The slice 'allowedCodeableConcept' on path 'MedicationRequest.substitution.allowed[x]' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 INFORMATION: Resource: The resource StructureDefinition/fr-medication-request-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-request-document'): The Implementation Guide contains no examples for this profile
@@ -3649,7 +3649,7 @@ INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[45].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[45].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -3672,7 +3672,7 @@ INFORMATION: StructureDefinition.differential.element[6].type[1].targetProfile[0
 INFORMATION: StructureDefinition.differential.element[8].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[8].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Observation to 4.0.1
 INFORMATION: StructureDefinition.differential.element[10].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence to 0.1.0
-INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis to 20260916095453
 INFORMATION: StructureDefinition.differential.element[18].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-edqm-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[21].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/SimpleQuantity to 4.0.1
 INFORMATION: StructureDefinition.differential.element[23].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/SimpleQuantity to 4.0.1
@@ -3685,8 +3685,8 @@ INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 INFORMATION: Resource: The resource StructureDefinition/fr-method-extension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-not-covered-extension.json ==
@@ -3781,6 +3781,8 @@ INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition/fr-observation-ald-document: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
+INFORMATION: StructureDefinition/fr-observation-ald-document: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-ald-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-ald-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-observation-assessment-document.json ==
@@ -3964,14 +3966,14 @@ INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[50].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[52].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[52].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis to 20260916095452
 INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[54].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[54].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[57].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[57].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4005,9 +4007,9 @@ INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[2
 INFORMATION: StructureDefinition.differential.element[13].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[13].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis to 20260716085851
-INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[20].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis to 20260916095452
+INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
+INFORMATION: StructureDefinition.differential.element[20].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-contra-indications-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-contra-indications-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-observation-laboratory-report-results-document.json ==
@@ -4029,7 +4031,7 @@ INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[25].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[28].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[40].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[40].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis to 20260916095456
 INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[42].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4056,7 +4058,7 @@ INFORMATION: StructureDefinition.snapshot.element[81].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[82].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[87].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[90].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[102].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[102].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis to 20260916095456
 INFORMATION: StructureDefinition.snapshot.element[104].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[104].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[105].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4105,7 +4107,7 @@ INFORMATION: StructureDefinition.snapshot.element[148].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[149].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[150].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[151].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[151].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[151].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[152].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[153].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[154].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4141,17 +4143,17 @@ INFORMATION: StructureDefinition.snapshot.element[177].constraint[0].source: Pin
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[7].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
-INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis to 20260716085853
+INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis to 20260916095456
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[15].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
 INFORMATION: StructureDefinition.differential.element[21].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[22].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension to 0.1.0
-INFORMATION: StructureDefinition.differential.element[26].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis to 20260716085853
+INFORMATION: StructureDefinition.differential.element[26].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis to 20260916095456
 INFORMATION: StructureDefinition.differential.element[29].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 4.0.1
 INFORMATION: StructureDefinition.differential.element[30].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo to 5.3.0
 INFORMATION: StructureDefinition.differential.element[36].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[41].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.differential.element[49].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[50].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-laboratory-report-results-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[51].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-media-document to 0.1.0
@@ -4198,11 +4200,11 @@ INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[43].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[43].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4236,8 +4238,10 @@ INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[2
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
+INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
+INFORMATION: StructureDefinition/fr-observation-microorganism-detection-document: StructureDefinition.snapshot.element[34].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
+INFORMATION: StructureDefinition/fr-observation-microorganism-detection-document: StructureDefinition.differential.element[9].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-microorganism-detection-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-microorganism-detection-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-observation-multiresistant-microorganism-document.json ==
@@ -4280,11 +4284,11 @@ INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[43].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[43].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4318,8 +4322,10 @@ INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[2
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
+INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
+INFORMATION: StructureDefinition/fr-observation-multiresistant-microorganism-document: StructureDefinition.snapshot.element[34].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
+INFORMATION: StructureDefinition/fr-observation-multiresistant-microorganism-document: StructureDefinition.differential.element[9].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-multiresistant-microorganism-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-multiresistant-microorganism-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-observation-pain-score-document.json ==
@@ -4367,7 +4373,7 @@ INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[35].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-douleur-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[35].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-douleur-cisis to 20260916095456
 INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[37].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
@@ -4399,7 +4405,7 @@ INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-douleur-cisis to 20260716085853
+INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-douleur-cisis to 20260916095456
 INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
 INFORMATION: StructureDefinition.differential.element[12].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Observation to 4.0.1
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-pain-score-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
@@ -4433,7 +4439,7 @@ INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[34].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[34].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis to 20260916095452
 INFORMATION: StructureDefinition.snapshot.element[35].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[35].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4446,11 +4452,11 @@ INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[43].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[43].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4482,12 +4488,12 @@ INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pin
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[2]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[9].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[9].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis to 20260916095452
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
+INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-pregnancy-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-pregnancy-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-observation-pregnancy-history-document.json ==
@@ -4629,6 +4635,8 @@ INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition/fr-observation-prevention-document: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
+INFORMATION: StructureDefinition/fr-observation-prevention-document: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-prevention-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-prevention-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-observation-radiation-exposure-document.json ==
@@ -4719,7 +4727,7 @@ INFORMATION: StructureDefinition.snapshot.element[63].constraint[1].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[64].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[65].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[65].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis to 20260916095452
 INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4734,7 +4742,7 @@ INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[
 INFORMATION: StructureDefinition.differential.element[15].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
 INFORMATION: StructureDefinition.differential.element[16].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 4.0.1
 INFORMATION: StructureDefinition.differential.element[17].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-study-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[19].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[19].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis to 20260916095452
 WARNING: StructureDefinition/fr-observation-radiation-exposure-document: StructureDefinition.snapshot: The slice 'serviceRequestAccessionNumber' on path 'Observation.basedOn' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-radiation-exposure-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-radiation-exposure-document'): The Implementation Guide contains no examples for this profile
@@ -4787,11 +4795,11 @@ INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[50].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[50].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[50].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[53].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[53].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4827,8 +4835,8 @@ INFORMATION: StructureDefinition.differential.element[10].type[0].profile[0]: Pi
 INFORMATION: StructureDefinition.differential.element[13].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[13].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[20].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
+INFORMATION: StructureDefinition.differential.element[20].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 WARNING: StructureDefinition/fr-observation-result-document: StructureDefinition.snapshot: The slice 'serviceRequestAccessionNumber' on path 'Observation.basedOn' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-result-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-result-document'): The Implementation Guide contains no examples for this profile
@@ -4857,7 +4865,7 @@ INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-social-history-code-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-social-history-code-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4897,7 +4905,7 @@ INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[0].constraint[0].source: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-social-history-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-social-history-code-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-social-history-code-cisis to 20260916095455
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-social-history-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-social-history-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-observation-vital-signs-document.json ==
@@ -4941,7 +4949,7 @@ INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cisis to 20260916095457
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -4952,7 +4960,7 @@ INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[55].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[55].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[57].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
@@ -4989,8 +4997,8 @@ INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pin
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[2]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[9].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cisis to 20260716085853
-INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[9].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cisis to 20260916095457
+INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.differential.element[12].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/body-site to 4.0.1
 INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/ucum-units to 1.0.0
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-vital-signs-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
@@ -5136,11 +5144,11 @@ INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[43].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[43].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[46].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -5174,8 +5182,10 @@ INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[2
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis to 20260916095455
+INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis to 20260916095453
+INFORMATION: StructureDefinition/fr-observation-work-related-accident-document: StructureDefinition.snapshot.element[34].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
+INFORMATION: StructureDefinition/fr-observation-work-related-accident-document: StructureDefinition.differential.element[9].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
 INFORMATION: Resource: The resource StructureDefinition/fr-observation-work-related-accident-document could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-work-related-accident-document'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-organization-document.json ==
@@ -5948,7 +5958,7 @@ INFORMATION: StructureDefinition.snapshot.element[159].constraint[1].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[160].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[160].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/patient-contactrelationship to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[161].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[161].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[161].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis to 20260916095455
 INFORMATION: StructureDefinition.snapshot.element[163].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[163].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[164].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -6006,7 +6016,7 @@ INFORMATION: StructureDefinition.snapshot.element[203].type[0].targetProfile[1]:
 INFORMATION: StructureDefinition.snapshot.element[203].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[204].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[0].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse to 5.3.0
-INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis to 20260916095455
 INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS to 20200424120000
 INFORMATION: StructureDefinition.differential.element[7].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[8].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document to 0.1.0
@@ -6340,7 +6350,7 @@ INFORMATION: StructureDefinition.snapshot.element[244].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[245].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[245].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J91-TypeSavoirFaire-RASS/FHIR/JDV-J91-TypeSavoirFaire-RASS to 20251016120000
 INFORMATION: StructureDefinition.snapshot.element[246].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[246].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS to 20260730120000
+INFORMATION: StructureDefinition.snapshot.element[246].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS to 20260928120000
 INFORMATION: StructureDefinition.snapshot.element[247].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[248].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[250].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -6470,62 +6480,57 @@ INFORMATION: StructureDefinition.snapshot.element[56].binding.valueSet: Pinned t
 INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[57].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J73-MetierPharmacien-RASS/FHIR/JDV-J73-MetierPharmacien-RASS to 20210528120000
 INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[58].binding.valueSet: Pinned the version of https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-role-exercice to 2.1.0
+INFORMATION: StructureDefinition.snapshot.element[58].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS to 20250523120000
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[59].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J141-RoleClass-CISIS/FHIR/JDV-J141-RoleClass-CISIS to 20210326120000
 INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[60].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[60].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J144-ParticipationType-CISIS/FHIR/JDV-J144-ParticipationType-CISIS to 20210326120000
 INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[61].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS to 20250523120000
+INFORMATION: StructureDefinition.snapshot.element[61].binding.valueSet: Pinned the version of https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty to 2.1.0
+INFORMATION: StructureDefinition.snapshot.element[62].type[0].targetProfile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location to 2.1.0
 INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[63].type[0].targetProfile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-healthcare-service to 2.1.0
 INFORMATION: StructureDefinition.snapshot.element[63].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[63].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J141-RoleClass-CISIS/FHIR/JDV-J141-RoleClass-CISIS to 20210326120000
-INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[64].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J144-ParticipationType-CISIS/FHIR/JDV-J144-ParticipationType-CISIS to 20210326120000
-INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[65].binding.valueSet: Pinned the version of https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty to 2.1.0
-INFORMATION: StructureDefinition.snapshot.element[66].type[0].targetProfile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location to 2.1.0
+INFORMATION: StructureDefinition.snapshot.element[64].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point to 2.1.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/ContactPoint to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[67].type[0].targetProfile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-healthcare-service to 2.1.0
+INFORMATION: StructureDefinition.snapshot.element[66].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[67].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type to 2.1.0
 INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[68].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point to 2.1.0
-INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/ContactPoint to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[68].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[67].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[69].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[70].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[70].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[71].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type to 2.1.0
 INFORMATION: StructureDefinition.snapshot.element[71].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[71].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[72].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[73].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[73].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss to 1.1.0
+INFORMATION: StructureDefinition.snapshot.element[73].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/ContactPoint to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[73].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[74].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[75].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[76].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[77].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-mailbox-mss to 1.1.0
-INFORMATION: StructureDefinition.snapshot.element[77].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/ContactPoint to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[77].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[76].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[77].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[77].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[78].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[79].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[80].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[80].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[81].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[81].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[82].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[83].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[84].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[84].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[85].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[85].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[86].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[87].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[88].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[88].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[89].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Endpoint to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[89].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[89].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[90].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[91].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[92].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[93].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Endpoint to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[93].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[0].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[1].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS to 20250523120000
-INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J141-RoleClass-CISIS/FHIR/JDV-J141-RoleClass-CISIS to 20210326120000
-INFORMATION: StructureDefinition.differential.element[5].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J144-ParticipationType-CISIS/FHIR/JDV-J144-ParticipationType-CISIS to 20210326120000
+INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS to 20250523120000
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J141-RoleClass-CISIS/FHIR/JDV-J141-RoleClass-CISIS to 20210326120000
+INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J144-ParticipationType-CISIS/FHIR/JDV-J144-ParticipationType-CISIS to 20210326120000
 WARNING: StructureDefinition/fr-practitionerRole-document: StructureDefinition.snapshot: The slice 'idSituationExercice' on path 'PractitionerRole.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 WARNING: StructureDefinition/fr-practitionerRole-document: StructureDefinition.snapshot: The slice 'numeroAm' on path 'PractitionerRole.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 WARNING: StructureDefinition/fr-practitionerRole-document: StructureDefinition.snapshot: The slice 'mailbox-mss' on path 'PractitionerRole.telecom' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
@@ -6538,8 +6543,8 @@ INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-difficulte-cisis to 20260716085853
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-difficulte-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-difficulte-cisis to 20260916095456
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-difficulte-cisis to 20260916095456
 INFORMATION: Resource: The resource StructureDefinition/fr-procedure-difficulty-extension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-difficulty-extension'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-procedure-document.json ==
@@ -6663,7 +6668,7 @@ INFORMATION: Resource: The resource StructureDefinition/fr-procedure-document co
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[44].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[44].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[62].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[69].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[74].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-anatomique-cisis to 20251028115832
@@ -6684,7 +6689,7 @@ INFORMATION: StructureDefinition.snapshot.element[89].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[90].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[1].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[1].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-imaging-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260916095453
 INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 4.0.1
 INFORMATION: StructureDefinition.differential.element[8].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-anatomique-cisis to 20251028115832
@@ -6699,8 +6704,8 @@ INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPriority-cisis to 20260716085852
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPriority-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[4].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPriority-cisis to 20260916095455
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPriority-cisis to 20260916095455
 INFORMATION: Resource: The resource StructureDefinition/fr-procedure-priority-extension could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-procedure-priority-extension'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-related-person-document.json ==
@@ -6882,7 +6887,7 @@ INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[68].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[69].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[70].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[92].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260716085851
+INFORMATION: StructureDefinition.snapshot.element[92].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260916095453
 INFORMATION: StructureDefinition.snapshot.element[110].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[110].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[111].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo to 0.1.0
@@ -6892,7 +6897,7 @@ INFORMATION: StructureDefinition.snapshot.element[112].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[113].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[114].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[115].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260716085851
+INFORMATION: StructureDefinition.differential.element[17].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis to 20260916095453
 INFORMATION: StructureDefinition.differential.element[18].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo to 0.1.0
 INFORMATION: StructureDefinition/fr-service-request-imaging-document: StructureDefinition.snapshot.element[42].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type|0.1.0
 INFORMATION: StructureDefinition/fr-service-request-imaging-document: StructureDefinition.snapshot.element[66].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type|0.1.0
@@ -6920,7 +6925,7 @@ INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[12].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[12].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis to 20260916095454
 INFORMATION: StructureDefinition.snapshot.element[13].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Substance to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -6974,7 +6979,7 @@ INFORMATION: StructureDefinition.snapshot.element[50].binding.valueSet: Pinned t
 INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[51].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v2-0493 to 3.0.0
 INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis to 20260916095454
 INFORMATION: StructureDefinition.differential.element[4].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Substance to 4.0.1
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[8].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
@@ -7039,7 +7044,7 @@ INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[20].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis to 20260716085853
+INFORMATION: StructureDefinition.snapshot.element[20].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis to 20260916095457
 INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -7084,7 +7089,7 @@ INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[57].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[59].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis to 20260716085852
+INFORMATION: StructureDefinition.snapshot.element[59].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis to 20260916095454
 INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[62].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
@@ -7132,10 +7137,10 @@ INFORMATION: StructureDefinition.snapshot.element[99].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[99].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[100].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[101].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis to 20260716085853
+INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis to 20260916095457
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document to 0.1.0
 INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[1]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document to 0.1.0
-INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis to 20260716085852
+INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis to 20260916095454
 WARNING: StructureDefinition/fr-task-patient-transport-document: StructureDefinition.snapshot.element[58].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: StructureDefinition/fr-task-patient-transport-document: StructureDefinition.snapshot.element[64].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: StructureDefinition/fr-task-patient-transport-document: StructureDefinition.differential.element[9].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
@@ -7165,14 +7170,14 @@ INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminolo
 WARNING: ValueSet/fr-vs-actor-type-document: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-actor-type-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-fr-vs-allergy-code.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-08-02
-INFORMATION: ValueSet.compose.include[4]: Pinned the version of https://smt.esante.gouv.fr/terminologie-sms to 2026-08
-INFORMATION: ValueSet.compose.include[3].valueSet[0]: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis to 20260716085853
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-09-01
+INFORMATION: ValueSet.compose.include[4]: Pinned the version of https://smt.esante.gouv.fr/terminologie-sms to 2026-09
+INFORMATION: ValueSet.compose.include[3].valueSet[0]: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis to 20260916095456
 WARNING: ValueSet/fr-vs-allergy-code: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-cip_ucd'
 WARNING: ValueSet/fr-vs-allergy-code: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-allergy-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-allergy-code'): Error from https://smt.esante.gouv.fr/fhir: Error: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-bdpm' version '2026-08-02' could not be found, so the value set cannot be expanded. Valid versions: 2026-09-01
-Information: X-Request-Id: f6749ddc-8aa8-418f-9a59-792932b5c0e2
+WARNING: ValueSet.where(id = 'fr-vs-allergy-code'): Error from https://smt.esante.gouv.fr/fhir: Error: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-cip_ucd' version '2026-09' could not be found, so the value set cannot be expanded. Valid versions: 2026-09
+Information: X-Request-Id: ec62ea9f-7e36-49eb-94c2-70a5fa60b10c
 == fsh-generated/resources/ValueSet-fr-vs-allergy-intolerance-type-document.json ==
 INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://hl7.org/fhir/allergy-intolerance-type to 4.0.1
 INFORMATION: ValueSet/fr-vs-allergy-intolerance-type-document: ValueSet.compose.include[0].concept[0]: Reference to draft CodeSystem http://hl7.org/fhir/allergy-intolerance-type|4.0.1
@@ -7181,11 +7186,10 @@ INFORMATION: ValueSet/fr-vs-allergy-intolerance-type-document: ValueSet.compose.
 WARNING: ValueSet/fr-vs-allergy-intolerance-type-document: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-allergy-intolerance-type-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-fr-vs-allergy-substance.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-sms to 2026-08
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-sms to 2026-09
 WARNING: ValueSet/fr-vs-allergy-substance: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-allergy-substance should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-allergy-substance'): Error from https://smt.esante.gouv.fr/fhir: Error: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-sms' version '2026-08' could not be found, so the value set cannot be expanded. Valid versions: 2026-09
-Information: X-Request-Id: 279b99a8-c9cd-498a-aae1-9093dc5adfa4
+INFORMATION: ValueSet.where(id = 'fr-vs-allergy-substance'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-fr-vs-edqm-document.json ==
 INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-standardterms to 2026-01-30
 WARNING: Resource: The resource ValueSet/fr-vs-edqm-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
@@ -7203,27 +7207,26 @@ WARNING: ValueSet/fr-vs-location-body-structure-document: ValueSet: Published va
 WARNING: Resource: The resource ValueSet/fr-vs-location-body-structure-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 INFORMATION: ValueSet.where(id = 'fr-vs-location-body-structure-document'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-fr-vs-medication-translation-document.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-08-02
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-09-01
 INFORMATION: ValueSet.compose.include[2]: Pinned the version of https://smt.esante.gouv.fr/terminologie-atc to 2026-02
 WARNING: ValueSet/fr-vs-medication-translation-document: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-cip_ucd'
 WARNING: ValueSet/fr-vs-medication-translation-document: ValueSet.compose.include[3].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-medicabase'
 WARNING: ValueSet/fr-vs-medication-translation-document: ValueSet.compose.include[4].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-nuva/'
 WARNING: Resource: The resource ValueSet/fr-vs-medication-translation-document should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-medication-translation-document'): Error from https://smt.esante.gouv.fr/fhir: Error: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-bdpm' version '2026-08-02' could not be found, so the value set cannot be expanded. Valid versions: 2026-09-01
-Information: X-Request-Id: f6749ddc-8aa8-418f-9a59-792932b5c0e2
+WARNING: ValueSet.where(id = 'fr-vs-medication-translation-document'): Error from https://smt.esante.gouv.fr/fhir: Error: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-cip_ucd' version '2026-09' could not be found, so the value set cannot be expanded. Valid versions: 2026-09
+Information: X-Request-Id: ec62ea9f-7e36-49eb-94c2-70a5fa60b10c
 == fsh-generated/resources/ValueSet-fr-vs-note-type.json ==
 INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/document-core/CodeSystem/fr-cs-note-type to 0.1.0
 WARNING: ValueSet/fr-vs-note-type: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-note-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-fr-vs-procedure-code.json ==
 INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-ccam to v84.00
-INFORMATION: ValueSet.compose.include[2].valueSet[0]: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis to 20260716085852
+INFORMATION: ValueSet.compose.include[2].valueSet[0]: Pinned the version of https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis to 20260916095454
 WARNING: ValueSet/fr-vs-procedure-code: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-procedure-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 INFORMATION: ValueSet.where(id = 'fr-vs-procedure-code'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-fr-vs-vaccine-code-cis.json ==
-INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-08-02
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of https://smt.esante.gouv.fr/terminologie-bdpm to 2026-09-01
 WARNING: ValueSet/fr-vs-vaccine-code-cis: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/fr-vs-vaccine-code-cis should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: ValueSet.where(id = 'fr-vs-vaccine-code-cis'): Error from https://smt.esante.gouv.fr/fhir: Error: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-bdpm' version '2026-08-02' could not be found, so the value set cannot be expanded. Valid versions: 2026-09-01
-Information: X-Request-Id: f6749ddc-8aa8-418f-9a59-792932b5c0e2
+INFORMATION: ValueSet.where(id = 'fr-vs-vaccine-code-cis'): The value set expansion is too large, and only a subset has been displayed

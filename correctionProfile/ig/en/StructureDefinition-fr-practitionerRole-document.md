@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-practitionerRo
   "name" : "FRPractitionerRoleDocument",
   "title" : "FR PractitionerRole Document",
   "status" : "draft",
-  "date" : "2026-09-28T13:37:45+00:00",
+  "date" : "2026-09-29T08:08:01+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -106,11 +106,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-practitionerRo
       "sliceName" : "functionCode",
       "short" : "Rôle fonctionnel du professionnel de santé",
       "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "PractitionerRole.code:functionCode.coding",
-      "path" : "PractitionerRole.code.coding",
+      "max" : "1",
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS|20250523120000"

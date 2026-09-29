@@ -72,7 +72,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-actor-extens
   "name" : "FRActorExtension",
   "title" : "FR Actor Extension",
   "status" : "draft",
-  "date" : "2026-09-28T13:37:45+00:00",
+  "date" : "2026-09-29T08:08:01+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -99,7 +99,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-actor-extens
   "abstract" : false,
   "context" : [{
     "type" : "element",
-    "expression" : "Resource"
+    "expression" : "Reference"
   }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1",

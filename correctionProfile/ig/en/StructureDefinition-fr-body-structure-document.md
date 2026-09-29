@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-body-structure
   "name" : "FRBodyStructureDocument",
   "title" : "BodyStructure - FR Body Structure Document",
   "status" : "draft",
-  "date" : "2026-09-28T13:37:45+00:00",
+  "date" : "2026-09-29T08:08:01+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -95,7 +95,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-body-structure
       "short" : "Modificateurs topographiques",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis|20260716085851"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis|20260916095453"
       }
     }]
   }

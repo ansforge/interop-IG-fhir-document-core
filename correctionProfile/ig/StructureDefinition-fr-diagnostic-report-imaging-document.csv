@@ -101,7 +101,7 @@ Reference is intended to point to a structure that can potentially be expressed 
 ","Event.status","OBR-25 (not 1:1 mapping)","statusCode  Note: final and amended are distinguished by whether observation is the subject of a ControlAct event of type ""revise""","FiveWs.status"
 "DiagnosticReport.category","DiagnosticReport.category","","Department
 Sub-departmentServiceDiscipline","",2,*,"Y","","Y","CodeableConcept {[]} {[]}
-","Type de résultat","A code that classifies the clinical discipline, department or diagnostic service that created the report (e.g. cardiology, biochemistry, hematology, MRI). This is used for searching, sorting and display purposes.","Multiple categories are allowed using various categorization schemes.   The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.","","","","","","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260716085852","","value:$this}
+","Type de résultat","A code that classifies the clinical discipline, department or diagnostic service that created the report (e.g. cardiology, biochemistry, hematology, MRI). This is used for searching, sorting and display purposes.","Multiple categories are allowed using various categorization schemes.   The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.","","","","","","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260916095454","","value:$this}
 ","",,"open","DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
 "DiagnosticReport.category:diagnostic-service","DiagnosticReport.category","diagnostic-service","Department
@@ -116,7 +116,7 @@ Sub-departmentServiceDiscipline","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
     <system value=""http://loinc.org""/>
     <code value=""85430-7""/>
   </coding>
-</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260716085852","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260916095454","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
 "DiagnosticReport.category:imaging","DiagnosticReport.category","imaging","Department
 Sub-departmentServiceDiscipline","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
@@ -125,7 +125,7 @@ Sub-departmentServiceDiscipline","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
     <system value=""http://hl7.eu/fhir/health-data-api/CodeSystem/eehrxf-document-priority-category-cs""/>
     <code value=""Medical-Imaging""/>
   </coding>
-</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260716085852","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260916095454","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
 "DiagnosticReport.code","DiagnosticReport.code","","Type
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}

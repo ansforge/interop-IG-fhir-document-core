@@ -34,7 +34,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-d
   "name" : "FRImmunizationDocument",
   "title" : "Immunization - FR Immunization Document",
   "status" : "draft",
-  "date" : "2026-09-28T13:37:45+00:00",
+  "date" : "2026-09-29T08:08:01+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -187,7 +187,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-d
       "slicing" : {
         "discriminator" : [{
           "type" : "value",
-          "path" : "system"
+          "path" : "$this"
         }],
         "description" : "Slice CIS et autres codifications",
         "rules" : "open"
@@ -208,7 +208,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-d
     {
       "id" : "Immunization.vaccineCode.coding:cis.system",
       "path" : "Immunization.vaccineCode.coding.system",
-      "min" : 1,
       "patternUri" : "https://smt.esante.gouv.fr/terminologie-bdpm"
     },
     {
@@ -256,7 +255,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-d
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-approach-site-code-cisis|20260716085851"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-approach-site-code-cisis|20260916095452"
       }
     },
     {
@@ -266,7 +265,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-d
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis|20260716085852"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis|20260916095454"
       }
     },
     {
@@ -325,7 +324,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-d
       "short" : "BOOSTER / IMMUNIZ / INITIMMUNIZ",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis|20260716085853"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis|20260916095457"
       }
     },
     {
