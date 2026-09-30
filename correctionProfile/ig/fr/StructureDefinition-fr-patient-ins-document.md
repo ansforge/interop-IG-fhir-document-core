@@ -8,7 +8,7 @@ Ce profil représente le patient concerné par le document.
 **Utilisations:**
 
 * Utilise ce/t/te Profil: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
-* Référence ce Profil: [FR Actor Extension](StructureDefinition-fr-actor-extension.md), [AllergyIntolerance - FR Allergy and intolerance Document](StructureDefinition-fr-allergy-intolerance-document.md), [FR Composition Document](StructureDefinition-fr-composition-document.md), [Condition - FR Condition Document](StructureDefinition-fr-condition-document.md)... Show 18 more, [DiagnosticReport - FR Diagnostic Report BIO chapter Document](StructureDefinition-fr-diagnostic-report-bio-chapter-document.md), [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [Encounter - FR Encounter Document](StructureDefinition-fr-encounter-document.md), [FamilyMemberHistory - FR Family Member History Document](StructureDefinition-fr-family-member-history-document.md), [Immunization - FR Immunization Document](StructureDefinition-fr-immunization-document.md), [Media - FR Media Document](StructureDefinition-fr-media-document.md), [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md), [Observation - FR Observation Contra Indications Document](StructureDefinition-fr-observation-contra-indications-document.md), [Observation - FR Observation Laboratory Report Results Document](StructureDefinition-fr-observation-laboratory-report-results-document.md), [Observation - FR Observation Microorganism Detection Document](StructureDefinition-fr-observation-microorganism-detection-document.md), [Observation - FR Observation Multiresistant Microorganisms Identification Document](StructureDefinition-fr-observation-multiresistant-microorganism-document.md), [Observation - FR Observation Pregnancy Document](StructureDefinition-fr-observation-pregnancy-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md), [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md), [Observation - FR Observation Vital Signs Document](StructureDefinition-fr-observation-vital-signs-document.md), [Observation - FR Observation Vital Signs Panel Document](StructureDefinition-fr-observation-vital-signs-panel-document.md), [Observation - FR Observation Work Related Accident Document](StructureDefinition-fr-observation-work-related-accident-document.md) and [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
+* Référence ce Profil: [FR Actor Extension](StructureDefinition-fr-actor-extension.md), [AllergyIntolerance - FR Allergy and intolerance Document](StructureDefinition-fr-allergy-intolerance-document.md), [FR Composition Document](StructureDefinition-fr-composition-document.md), [Condition - FR Condition Document](StructureDefinition-fr-condition-document.md)... Show 17 more, [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md), [Encounter - FR Encounter Document](StructureDefinition-fr-encounter-document.md), [FamilyMemberHistory - FR Family Member History Document](StructureDefinition-fr-family-member-history-document.md), [Immunization - FR Immunization Document](StructureDefinition-fr-immunization-document.md), [Media - FR Media Document](StructureDefinition-fr-media-document.md), [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md), [Observation - FR Observation Contra Indications Document](StructureDefinition-fr-observation-contra-indications-document.md), [Observation - FR Observation Laboratory Report Results Document](StructureDefinition-fr-observation-laboratory-report-results-document.md), [Observation - FR Observation Microorganism Detection Document](StructureDefinition-fr-observation-microorganism-detection-document.md), [Observation - FR Observation Multiresistant Microorganisms Identification Document](StructureDefinition-fr-observation-multiresistant-microorganism-document.md), [Observation - FR Observation Pregnancy Document](StructureDefinition-fr-observation-pregnancy-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md), [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md), [Observation - FR Observation Vital Signs Document](StructureDefinition-fr-observation-vital-signs-document.md), [Observation - FR Observation Vital Signs Panel Document](StructureDefinition-fr-observation-vital-signs-panel-document.md), [Observation - FR Observation Work Related Accident Document](StructureDefinition-fr-observation-work-related-accident-document.md) and [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
 * Exemples pour ce/t/te Profil: [Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41](Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41.md) and [Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55](Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-patient-ins-document)
@@ -27,7 +27,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient-ins.html) 
+Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient-ins.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -35,11 +35,11 @@ Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhi
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient-ins.html) 
+Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient-ins.html) 
 
 ** Résumé **
 
-Obligatoire : 0 élément(3 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 0 élément(1 élément obligatoire(s) imbriqué(s))
 
 **Structures**
 
@@ -62,7 +62,7 @@ Cette structure fait référence à ces extensions:
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient-ins.html) 
+Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient-ins.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -72,11 +72,11 @@ Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhi
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient-ins.html) 
+Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient-ins.html) 
 
 ** Résumé **
 
-Obligatoire : 0 élément(3 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 0 élément(1 élément obligatoire(s) imbriqué(s))
 
 **Structures**
 
@@ -108,7 +108,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
   "name" : "FRPatientINSDocument",
   "title" : "FR Patient INS Document",
   "status" : "draft",
-  "date" : "2026-09-29T09:01:26+00:00",
+  "date" : "2026-09-30T14:16:33+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -154,7 +154,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
   "kind" : "resource",
   "abstract" : false,
   "type" : "Patient",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins|2.1.0",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins|2.2.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -170,33 +170,31 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
       }]
     },
     {
-      "id" : "Patient.contact.relationship:Role",
+      "id" : "Patient.contact.relationship:role",
       "path" : "Patient.contact.relationship",
-      "sliceName" : "Role",
+      "sliceName" : "role",
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis|20260916095455"
       }
     },
     {
-      "id" : "Patient.contact.relationship:Role.coding.system",
+      "id" : "Patient.contact.relationship:role.coding.system",
       "path" : "Patient.contact.relationship.coding.system",
-      "min" : 1,
       "patternUri" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
     },
     {
-      "id" : "Patient.contact.relationship:RelationType",
+      "id" : "Patient.contact.relationship:relationType",
       "path" : "Patient.contact.relationship",
-      "sliceName" : "RelationType",
+      "sliceName" : "relationType",
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS|20200424120000"
       }
     },
     {
-      "id" : "Patient.contact.relationship:RelationType.coding.system",
+      "id" : "Patient.contact.relationship:relationType.coding.system",
       "path" : "Patient.contact.relationship.coding.system",
-      "min" : 1,
       "patternUri" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"
     },
     {

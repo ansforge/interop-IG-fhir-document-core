@@ -10,7 +10,7 @@
   "name" : "FROrganizationDocument",
   "title" : "FR Organization Document",
   "status" : "draft",
-  "date" : "2026-09-29T09:01:26+00:00",
+  "date" : "2026-09-30T14:16:33+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -460,7 +460,7 @@
         "code" : "canonical",
         "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1"]
       }],
-      "patternCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0",
+      "patternCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.2.0",
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -730,7 +730,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name|2.1.0"]
+        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name|2.2.0"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -4385,7 +4385,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.1.0"
+        "valueSet" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.2.0"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -7821,7 +7821,7 @@
       },
       "type" : [{
         "code" : "ContactPoint",
-        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0"]
+        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -7966,7 +7966,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.1.0"]
+        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.2.0"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -8349,7 +8349,7 @@
           "valueBoolean" : true
         }],
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0",
+        "targetProfile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.2.0",
         "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0"]
       }],
       "constraint" : [{
@@ -8515,7 +8515,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.1.0"
+        "valueSet" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.2.0"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -8822,7 +8822,7 @@
       },
       "type" : [{
         "code" : "ContactPoint",
-        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0"]
+        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -8875,7 +8875,7 @@
       },
       "type" : [{
         "code" : "Address",
-        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address|2.1.0"]
+        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address|2.2.0"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{

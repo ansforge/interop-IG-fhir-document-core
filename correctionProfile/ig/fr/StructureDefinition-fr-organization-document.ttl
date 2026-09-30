@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "FROrganizationDocument"] ;
   fhir:StructureDefinition.title [ fhir:value "FR Organization Document"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-09-29T09:01:26+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-09-30T14:16:33+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:StructureDefinition.contact [
      fhir:index -1 ;
@@ -570,8 +570,8 @@
          ]
        ] ;
        fhir:ElementDefinition.patternCanonical [
-         fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0" ;
-         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0>
+         fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.2.0" ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.2.0>
        ] ;
        fhir:ElementDefinition.constraint [
          fhir:index -1 ;
@@ -916,9 +916,9 @@
          fhir:index -1 ;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ] ;
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name|2.2.0" ;
            fhir:index -1 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.condition [
@@ -5378,8 +5378,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.1.0" ;
-           fhir:link <https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.1.0>
+           fhir:value "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.2.0" ;
+           fhir:link <https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.mapping [
@@ -9508,9 +9508,9 @@
          fhir:index -1 ;
          fhir:ElementDefinition.type.code [ fhir:value "ContactPoint" ] ;
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0" ;
            fhir:index -1 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.condition [
@@ -9693,9 +9693,9 @@
          fhir:index -1 ;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ] ;
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.2.0" ;
            fhir:index -1 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.constraint [
@@ -10165,9 +10165,9 @@
          ] ;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ] ;
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.2.0" ;
            fhir:index -1 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.2.0>
          ], [
            fhir:value "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0" ;
            fhir:index -1 ;
@@ -10378,8 +10378,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ] ;
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.1.0" ;
-           fhir:link <https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.1.0>
+           fhir:value "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.2.0" ;
+           fhir:link <https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.mapping [
@@ -10761,9 +10761,9 @@
          fhir:index -1 ;
          fhir:ElementDefinition.type.code [ fhir:value "ContactPoint" ] ;
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0" ;
            fhir:index -1 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.condition [
@@ -10830,9 +10830,9 @@
          fhir:index -1 ;
          fhir:ElementDefinition.type.code [ fhir:value "Address" ] ;
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address|2.2.0" ;
            fhir:index -1 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.condition [

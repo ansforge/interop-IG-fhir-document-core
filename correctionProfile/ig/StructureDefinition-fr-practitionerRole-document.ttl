@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "FRPractitionerRoleDocument"] ;
   fhir:StructureDefinition.title [ fhir:value "FR PractitionerRole Document"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-09-29T09:01:26+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-09-30T14:16:33+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:StructureDefinition.contact [
      fhir:index 0 ;
@@ -549,8 +549,8 @@
          ]
        ] ;
        fhir:ElementDefinition.patternCanonical [
-         fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.1.0" ;
-         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.1.0>
+         fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.2.0" ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.2.0>
        ] ;
        fhir:ElementDefinition.constraint [
          fhir:index 0 ;
@@ -895,9 +895,9 @@
          fhir:index 0 ;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ] ;
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-service-type-duration|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-service-type-duration|2.2.0" ;
            fhir:index 0 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-service-type-duration|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-service-type-duration|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.condition [
@@ -2525,8 +2525,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "preferred" ] ;
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-role-exercice|2.1.0" ;
-           fhir:link <https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-role-exercice|2.1.0>
+           fhir:value "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-role-exercice|2.2.0" ;
+           fhir:link <https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-role-exercice|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.mapping [
@@ -3151,8 +3151,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ] ;
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty|2.1.0" ;
-           fhir:link <https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty|2.1.0>
+           fhir:value "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty|2.2.0" ;
+           fhir:link <https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.mapping [
@@ -3185,9 +3185,9 @@
          fhir:index 0 ;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ] ;
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location|2.2.0" ;
            fhir:index 0 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.constraint [
@@ -3235,9 +3235,9 @@
          fhir:index 0 ;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ] ;
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-healthcare-service|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-healthcare-service|2.2.0" ;
            fhir:index 0 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-healthcare-service|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-healthcare-service|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.constraint [
@@ -3294,9 +3294,9 @@
          fhir:index 0 ;
          fhir:ElementDefinition.type.code [ fhir:value "ContactPoint" ] ;
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0" ;
            fhir:index 0 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.condition [
@@ -3464,9 +3464,9 @@
          fhir:index 0 ;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ] ;
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.1.0" ;
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.2.0" ;
            fhir:index 0 ;
-           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.1.0>
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.2.0>
          ]
        ] ;
        fhir:ElementDefinition.constraint [

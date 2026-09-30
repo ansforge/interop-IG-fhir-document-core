@@ -25,29 +25,24 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DiagnosticReport.extension:comparaison","DiagnosticReport.extension","comparaison","","",0,*,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-comparison-studies-extension|0.1.0]]} {[]}
-","Comparaisons avec des résultats antérieurs","Examen de comparaison radiologique","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"DiagnosticReport.extension:composition","DiagnosticReport.extension","composition","","",1,1,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0]]} {[]}
+","Composition du rapport d'imagerie","Composition","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.extension:comparaison","DiagnosticReport.extension","comparaison","","",0,*,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-comparison-studies-extension|0.1.0]]} {[]}
+","Comparaisons avec des résultats antérieurs","Examen de comparaison radiologique","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DiagnosticReport.extension:historiqueMedical","DiagnosticReport.extension","historiqueMedical","","",0,*,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-history-extension|0.1.0]]} {[]}
-","Historique médical du patient pertinent pour l'examen d'imagerie","Historique médical du patient pertinent pour l'examen d'imagerie","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Historique médical du patient pertinent pour l'examen d'imagerie","Historique médical du patient pertinent pour l'examen d'imagerie","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DiagnosticReport.extension:procedure","DiagnosticReport.extension","procedure","","",0,*,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-imaging-procedure-extension|0.1.0]]} {[]}
-","Technique d'imagerie","Technique d'imagerie utilisée pour l'acquisition des images","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Technique d'imagerie","Technique d'imagerie utilisée pour l'acquisition des images","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DiagnosticReport.extension:finding","DiagnosticReport.extension","finding","","",0,*,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-finding-extension|0.1.0]]} {[]}
-","Résultats et observations cliniques de l'examen d'imagerie","Résultats et observations cliniques de l'examen d'imagerie","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Résultats et observations cliniques de l'examen d'imagerie","Résultats et observations cliniques de l'examen d'imagerie","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DiagnosticReport.extension:conclusion","DiagnosticReport.extension","conclusion","","",0,*,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-conclusion-extension|0.1.0]]} {[]}
-","Conclusions cliniques et interprétations du rapport d'imagerie","Conclusions cliniques et interprétations du rapport d'imagerie","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DiagnosticReport.extension:composition","DiagnosticReport.extension","composition","","",1,1,"Y","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0]]} {[]}
-","Composition du rapport d'imagerie","Composition du rapport d'imagerie","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Conclusions cliniques et interprétations du rapport d'imagerie","Conclusions cliniques et interprétations du rapport d'imagerie","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DiagnosticReport.modifierExtension","DiagnosticReport.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -100,9 +95,13 @@ Reference is intended to point to a structure that can potentially be expressed 
 ","Statut du compte-rendu d'imagerie","The status of the diagnostic report.","","Diagnostic services routinely issue provisional/incomplete reports, and sometimes withdraw previously released reports.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""final""/>","","","",,"required","The status of the diagnostic report.","http://hl7.org/fhir/ValueSet/diagnostic-report-status|4.0.1","",,,,"DiagnosticReport.status",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.status","OBR-25 (not 1:1 mapping)","statusCode  Note: final and amended are distinguished by whether observation is the subject of a ControlAct event of type ""revise""","FiveWs.status"
 "DiagnosticReport.category","DiagnosticReport.category","","Department
-Sub-departmentServiceDiscipline","",2,*,"Y","","Y","CodeableConcept {[]} {[]}
-","Type de résultat","A code that classifies the clinical discipline, department or diagnostic service that created the report (e.g. cardiology, biochemistry, hematology, MRI). This is used for searching, sorting and display purposes.","Multiple categories are allowed using various categorization schemes.   The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.","","","","","","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260916095454","","value:$this}
+Sub-departmentServiceDiscipline","",3,*,"Y","","Y","CodeableConcept {[]} {[]}
+","Type de résultat","A code that classifies the clinical discipline, department or diagnostic service that created the report (e.g. cardiology, biochemistry, hematology, MRI). This is used for searching, sorting and display purposes.","Multiple categories are allowed using various categorization schemes.   The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.","","","","","","","","",,"example","Codes for diagnostic service sections.","http://hl7.org/fhir/ValueSet/diagnostic-service-sections|4.0.1","","value:$this}
 ","",,"open","DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
+"DiagnosticReport.category:typeResultat","DiagnosticReport.category","typeResultat","Department
+Sub-departmentServiceDiscipline","",1,1,"","","Y","CodeableConcept {[]} {[]}
+","Types de résultats","A code that classifies the clinical discipline, department or diagnostic service that created the report (e.g. cardiology, biochemistry, hematology, MRI). This is used for searching, sorting and display purposes.","Multiple categories are allowed using various categorization schemes.   The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.","","","","","","","","",,"extensible","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260916095454","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
 "DiagnosticReport.category:diagnostic-service","DiagnosticReport.category","diagnostic-service","Department
 Sub-departmentServiceDiscipline","",0,1,"Y","","Y","CodeableConcept {[]} {[]}
@@ -116,7 +115,7 @@ Sub-departmentServiceDiscipline","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
     <system value=""http://loinc.org""/>
     <code value=""85430-7""/>
   </coding>
-</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260916095454","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"example","Codes for diagnostic service sections.","http://hl7.org/fhir/ValueSet/diagnostic-service-sections|4.0.1","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
 "DiagnosticReport.category:imaging","DiagnosticReport.category","imaging","Department
 Sub-departmentServiceDiscipline","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
@@ -125,19 +124,19 @@ Sub-departmentServiceDiscipline","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
     <system value=""http://hl7.eu/fhir/health-data-api/CodeSystem/eehrxf-document-priority-category-cs""/>
     <code value=""Medical-Imaging""/>
   </coding>
-</valueCodeableConcept>","","","",,"preferred","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260916095454","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"example","Codes for diagnostic service sections.","http://hl7.org/fhir/ValueSet/diagnostic-service-sections|4.0.1","",,,,"DiagnosticReport.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code","FiveWs.class"
 "DiagnosticReport.code","DiagnosticReport.code","","Type
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Type de document d'imagerie (CR d'imagerie médicale, CR de médecine nucléaire)","A code or name that describes this diagnostic report.","","","","","","","","","",,"required","","https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document|0.1.0","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","OBR-4 (HL7 v2 doesn't provide an easy way to indicate both the ordered test and the performed panel)","code","FiveWs.what[x]"
 "DiagnosticReport.subject","DiagnosticReport.subject","","Patient
-","",0,1,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0]]}
+","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0]]}
 ","Patient concerné par le compte-rendu d'imagerie","The subject of the report. Usually, but not always, this is a patient. However, diagnostic services also perform analyses on specimens collected from a variety of other sources.","","SHALL know the subject context.","","","","","","","",,,,,"",,,,"DiagnosticReport.subject",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.subject","PID-3 (no HL7 v2 mapping for Group or Device)","participation[typeCode=SBJ]","FiveWs.subject[x]","FiveWs.subject"
 "DiagnosticReport.encounter","DiagnosticReport.encounter","","Context
-","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1]]}
-","Health care event when test ordered","The healthcare event  (e.g. a patient and healthcare provider interaction) which this DiagnosticReport is about.","This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter  but still be tied to the context of the encounter  (e.g. pre-admission laboratory tests).","Links the request to the Encounter context.","","","","","","","",,,,,"",,,,"DiagnosticReport.encounter",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","",0,1,"Y","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document|0.1.0]]}
+","L’événement de soins auquel se rapporte ce compte rendu de laboratoire (moment où l’examen a été prescrit).","The healthcare event  (e.g. a patient and healthcare provider interaction) which this DiagnosticReport is about.","This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter  but still be tied to the context of the encounter  (e.g. pre-admission laboratory tests).","Links the request to the Encounter context.","","","","","","","",,,,,"",,,,"DiagnosticReport.encounter",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.encounter","PV1-19","inboundRelationship[typeCode=COMP].source[classCode=ENC, moodCode=EVN]","FiveWs.context"
 "DiagnosticReport.effective[x]","DiagnosticReport.effective[x]","","Observation time
 Effective TimeOccurrence","",1,1,"Y","","Y","dateTime {[]} {[]}
@@ -153,8 +152,8 @@ ServicePractitionerDepartmentCompanyAuthorized byDirector","",0,*,"Y","","Y","Re
 ","",,"open","DiagnosticReport.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.performer.actor","PRT-8 (where this PRT-4-Participation = ""PO"")",".participation[typeCode=PRF]","FiveWs.actor"
 "DiagnosticReport.performer:organization","DiagnosticReport.performer","organization","Laboratory
-ServicePractitionerDepartmentCompanyAuthorized byDirector","",0,*,"Y","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0]]}
-","Organization productrice du CR d'imagerie","The diagnostic service that is responsible for issuing the report.","This is not necessarily the source of the atomic data items or the entity that interpreted the results. It is the entity that takes responsibility for the clinical report.","Need to know whom to contact if there are queries about the results. Also may need to track the source of reports for secondary data analysis.","","","","","","","",,,,,"",,,,"DiagnosticReport.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ServicePractitionerDepartmentCompanyAuthorized byDirector","",0,*,"","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0]]}
+","Organization productrice du CR","The diagnostic service that is responsible for issuing the report.","This is not necessarily the source of the atomic data items or the entity that interpreted the results. It is the entity that takes responsibility for the clinical report.","Need to know whom to contact if there are queries about the results. Also may need to track the source of reports for secondary data analysis.","","","","","","","",,,,,"",,,,"DiagnosticReport.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.performer.actor","PRT-8 (where this PRT-4-Participation = ""PO"")",".participation[typeCode=PRF]","FiveWs.actor"
 "DiagnosticReport.resultsInterpreter","DiagnosticReport.resultsInterpreter","","Analyzed by
 Reported by","",0,*,"Y","","Y","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0], CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0], CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0]]}
@@ -243,8 +242,8 @@ Reference is intended to point to a structure that can potentially be expressed 
 "DiagnosticReport.resultsInterpreter.display","DiagnosticReport.resultsInterpreter.display","","","",0,1,"","","Y","string {[]} {[]}
 ","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"DiagnosticReport.specimen","DiagnosticReport.specimen","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Specimen|4.0.1]]}
-","Specimens this report is based on","Details about the specimens on which this diagnostic report is based.","If the specimen is sufficiently specified with a code in the test result name, then this additional data may be redundant. If there are multiple specimens, these may be represented per observation or group.","Need to be able to report information about the collected specimens on which the report is based.","","","","","","","",,,,,"",,,,"DiagnosticReport.specimen",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"DiagnosticReport.specimen","DiagnosticReport.specimen","","","",0,*,"Y","","","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0]]}
+","Échantillons sur lesquels repose ce compte rendu.","Details about the specimens on which this diagnostic report is based.","If the specimen is sufficiently specified with a code in the test result name, then this additional data may be redundant. If there are multiple specimens, these may be represented per observation or group.","Need to be able to report information about the collected specimens on which the report is based.","","","","","","","",,,,,"",,,,"DiagnosticReport.specimen",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","SPM","participation[typeCode=SBJ]"
 "DiagnosticReport.result","DiagnosticReport.result","","Data
 Atomic ValueResultAtomic resultDataTestAnalyteBatteryOrganizer","",1,*,"Y","","","Reference {[]} {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-result-document|0.1.0], CanonicalType[https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-laboratory-report-results-document|0.1.0]]}

@@ -28,7 +28,7 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, Date de Naissance :1979-03-28 ( NIR dé
 * 12 rue des Lilas, 75012 Paris
  |
 | [Patient Birth Place](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-patient-birthPlace.html) | Ambléon |
-| FR Core Patient Ident Reliability Extension: | * identityStatus: [FR Core CodeSystem v2-0445: VALI](https://hl7.fr/ig/fhir/core/2.1.0/CodeSystem-fr-core-cs-v2-0445.html#fr-core-cs-v2-0445-VALI) (Identité validée)
+| FR Core Patient Ident Reliability Extension: | * identityStatus: [FR Core CodeSystem v2-0445: VALI](https://hl7.fr/ig/fhir/core/2.2.0/CodeSystem-fr-core-cs-v2-0445.html#fr-core-cs-v2-0445-VALI) (Identité validée)
  |
 
 
@@ -44,16 +44,6 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, Date de Naissance :1979-03-28 ( NIR dé
     "https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-patient-ins-document"]
   },
   "extension" : [{
-    "extension" : [{
-      "url" : "identityStatus",
-      "valueCoding" : {
-        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445",
-        "code" : "VALI"
-      }
-    }],
-    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability"
-  },
-  {
     "url" : "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
     "valueAddress" : {
       "extension" : [{
@@ -65,6 +55,16 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, Date de Naissance :1979-03-28 ( NIR dé
       }],
       "city" : "Ambléon"
     }
+  },
+  {
+    "extension" : [{
+      "url" : "identityStatus",
+      "valueCoding" : {
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445",
+        "code" : "VALI"
+      }
+    }],
+    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability"
   }],
   "identifier" : [{
     "use" : "official",
@@ -120,6 +120,9 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, Date de Naissance :1979-03-28 ( NIR dé
   }],
   "contact" : [{
     "relationship" : [{
+      "extension" : [{
+        "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-contact-relationship-category"
+      }],
       "coding" : [{
         "system" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
         "code" : "SIS",
@@ -127,6 +130,9 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, Date de Naissance :1979-03-28 ( NIR dé
       }]
     },
     {
+      "extension" : [{
+        "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-contact-relationship-category"
+      }],
       "coding" : [{
         "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
         "code" : "ECON",

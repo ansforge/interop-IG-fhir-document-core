@@ -18,7 +18,7 @@
   <name value="FRPractitionerRoleDocument"/>
   <title value="FR PractitionerRole Document"/>
   <status value="draft"/>
-  <date value="2026-09-29T09:01:26+00:00"/>
+  <date value="2026-09-30T14:16:33+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -435,7 +435,7 @@
         <code value="canonical"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1"/>
       </type>
-      <patternCanonical value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.1.0"/>
+      <patternCanonical value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-role|2.2.0"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -693,7 +693,7 @@
       </base>
       <type>
         <code value="Extension"/>
-        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-service-type-duration|2.1.0"/>
+        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-service-type-duration|2.2.0"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -1982,7 +1982,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-role-exercice|2.1.0"/>
+        <valueSet value="https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-role-exercice|2.2.0"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -2498,7 +2498,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty|2.1.0"/>
+        <valueSet value="https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty|2.2.0"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -2526,7 +2526,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location|2.1.0"/>
+        <targetProfile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location|2.2.0"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2565,7 +2565,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-healthcare-service|2.1.0"/>
+        <targetProfile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-healthcare-service|2.2.0"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2612,7 +2612,7 @@
       </base>
       <type>
         <code value="ContactPoint"/>
-        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0"/>
+        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -2741,7 +2741,7 @@
       </base>
       <type>
         <code value="Extension"/>
-        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.1.0"/>
+        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.2.0"/>
       </type>
       <constraint>
         <key value="ele-1"/>

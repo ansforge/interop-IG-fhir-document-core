@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-la
   "name" : "FRObservationLaboratoryReportResultsDocument",
   "title" : "Observation - FR Observation Laboratory Report Results Document",
   "status" : "draft",
-  "date" : "2026-09-29T09:01:26+00:00",
+  "date" : "2026-09-30T14:16:33+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -305,12 +305,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-la
       "id" : "Observation.status",
       "path" : "Observation.status",
       "short" : "Niveau de complétude :\n- 'final' si le résultat est présent\n- 'cancelled' dans le cas où l'élément d'examen n’a pu être et ne sera pas réalisé\n- 'registered' le résultat n'est pas encore disponible et est attendu",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.category",
-      "path" : "Observation.category",
-      "short" : "Code du chapitre",
       "mustSupport" : true
     },
     {

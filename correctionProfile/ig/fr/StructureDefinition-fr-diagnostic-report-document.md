@@ -38,16 +38,19 @@ Cette structure est dérivée de [DiagnosticReport](http://hl7.org/fhir/R4/diagn
 
 ** Résumé **
 
-Obligatoire : 4 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 10 éléments
+Obligatoire : 8 éléments(2 éléments obligatoire(s) imbriqué(s))
+ Must-Support : 14 éléments
 
 **Structures**
 
 Cette structure fait référence à ces autres structures:
 
+* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
+* [Encounter - FR Encounter Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document|0.1.0)](StructureDefinition-fr-encounter-document.md)
 * [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
+* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
 * [Observation - FR Observation Result Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-result-document|0.1.0)](StructureDefinition-fr-observation-result-document.md)
 * [Observation - FR Observation Laboratory Report Results Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-laboratory-report-results-document|0.1.0)](StructureDefinition-fr-observation-laboratory-report-results-document.md)
 * [Media - FR Media Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-media-document|0.1.0)](StructureDefinition-fr-media-document.md)
@@ -56,7 +59,15 @@ Cette structure fait référence à ces autres structures:
 
 Cette structure fait référence à ces extensions:
 
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0](StructureDefinition-fr-composition-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of DiagnosticReport.category
+* The element 1 is sliced based on the value of DiagnosticReport.performer
 
  **Vue des éléments clés** 
 
@@ -80,16 +91,19 @@ Cette structure est dérivée de [DiagnosticReport](http://hl7.org/fhir/R4/diagn
 
 ** Résumé **
 
-Obligatoire : 4 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 10 éléments
+Obligatoire : 8 éléments(2 éléments obligatoire(s) imbriqué(s))
+ Must-Support : 14 éléments
 
 **Structures**
 
 Cette structure fait référence à ces autres structures:
 
+* [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
+* [Encounter - FR Encounter Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document|0.1.0)](StructureDefinition-fr-encounter-document.md)
 * [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
+* [Specimen - FR Specimen Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0)](StructureDefinition-fr-specimen-document.md)
 * [Observation - FR Observation Result Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-result-document|0.1.0)](StructureDefinition-fr-observation-result-document.md)
 * [Observation - FR Observation Laboratory Report Results Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-laboratory-report-results-document|0.1.0)](StructureDefinition-fr-observation-laboratory-report-results-document.md)
 * [Media - FR Media Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-media-document|0.1.0)](StructureDefinition-fr-media-document.md)
@@ -98,7 +112,15 @@ Cette structure fait référence à ces autres structures:
 
 Cette structure fait référence à ces extensions:
 
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0](StructureDefinition-fr-composition-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+
+**Slices**
+
+Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
+
+* The element 1 is sliced based on the value of DiagnosticReport.category
+* The element 1 is sliced based on the value of DiagnosticReport.performer
 
  
 
@@ -117,7 +139,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-diagnostic-r
   "name" : "FRDiagnosticReportDocument",
   "title" : "DiagnosticReport - FR Diagnostic Report Document",
   "status" : "draft",
-  "date" : "2026-09-29T09:01:26+00:00",
+  "date" : "2026-09-30T14:16:33+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -166,6 +188,32 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-diagnostic-r
       "path" : "DiagnosticReport"
     },
     {
+      "id" : "DiagnosticReport.extension",
+      "path" : "DiagnosticReport.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "DiagnosticReport.extension:composition",
+      "path" : "DiagnosticReport.extension",
+      "sliceName" : "composition",
+      "short" : "Composition",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
       "id" : "DiagnosticReport.identifier",
       "path" : "DiagnosticReport.identifier",
       "short" : "Identifiant"
@@ -180,11 +228,26 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-diagnostic-r
     {
       "id" : "DiagnosticReport.category",
       "path" : "DiagnosticReport.category",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "$this"
+        }],
+        "rules" : "open"
+      },
       "short" : "Type de résultat",
       "min" : 1,
-      "mustSupport" : true,
+      "mustSupport" : true
+    },
+    {
+      "id" : "DiagnosticReport.category:typeResultat",
+      "path" : "DiagnosticReport.category",
+      "sliceName" : "typeResultat",
+      "short" : "Types de résultats",
+      "min" : 1,
+      "max" : "1",
       "binding" : {
-        "strength" : "preferred",
+        "strength" : "extensible",
         "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260916095454"
       }
     },
@@ -192,6 +255,27 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-diagnostic-r
       "id" : "DiagnosticReport.code",
       "path" : "DiagnosticReport.code",
       "short" : "Code du résultat"
+    },
+    {
+      "id" : "DiagnosticReport.subject",
+      "path" : "DiagnosticReport.subject",
+      "short" : "Sujet concerné",
+      "min" : 1,
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "DiagnosticReport.encounter",
+      "path" : "DiagnosticReport.encounter",
+      "short" : "L’événement de soins auquel se rapporte ce compte rendu de laboratoire (moment où l’examen a été prescrit).",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document|0.1.0"]
+      }],
+      "mustSupport" : true
     },
     {
       "id" : "DiagnosticReport.effective[x]",
@@ -206,6 +290,13 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-diagnostic-r
     {
       "id" : "DiagnosticReport.performer",
       "path" : "DiagnosticReport.performer",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "pattern",
+          "path" : "$this"
+        }],
+        "rules" : "open"
+      },
       "short" : "Exécutant",
       "type" : [{
         "code" : "Reference",
@@ -214,6 +305,18 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-diagnostic-r
         "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
       }],
       "mustSupport" : true
+    },
+    {
+      "id" : "DiagnosticReport.performer:organization",
+      "path" : "DiagnosticReport.performer",
+      "sliceName" : "organization",
+      "short" : "Organization productrice du CR",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
+      }]
     },
     {
       "id" : "DiagnosticReport.resultsInterpreter",
@@ -266,6 +369,16 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-diagnostic-r
         "code" : "Reference",
         "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
+    },
+    {
+      "id" : "DiagnosticReport.specimen",
+      "path" : "DiagnosticReport.specimen",
+      "short" : "Échantillons sur lesquels repose ce compte rendu.",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0"]
+      }],
+      "mustSupport" : true
     },
     {
       "id" : "DiagnosticReport.result",

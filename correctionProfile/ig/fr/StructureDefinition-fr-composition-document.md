@@ -65,6 +65,7 @@ Cette structure fait référence à ces extensions:
 * [http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference|1.3.0](http://hl7.eu/fhir/extensions/1.3.0/StructureDefinition-composition-diagnosticReportReference.html)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension|0.1.0](StructureDefinition-fr-author-time-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0](StructureDefinition-fr-performer-event-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0](StructureDefinition-fr-is-principal-event-extension.md)
 * [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
 
 **Slices**
@@ -123,6 +124,7 @@ Cette structure fait référence à ces extensions:
 * [http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference|1.3.0](http://hl7.eu/fhir/extensions/1.3.0/StructureDefinition-composition-diagnosticReportReference.html)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension|0.1.0](StructureDefinition-fr-author-time-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0](StructureDefinition-fr-performer-event-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0](StructureDefinition-fr-is-principal-event-extension.md)
 * [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
 
 **Slices**
@@ -149,7 +151,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-09-29T09:01:26+00:00",
+  "date" : "2026-09-30T14:16:33+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -706,8 +708,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "path" : "Composition.event",
       "slicing" : {
         "discriminator" : [{
-          "type" : "exists",
-          "path" : "$this"
+          "type" : "value",
+          "path" : "extension('https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension').value"
         }],
         "rules" : "open"
       },
@@ -739,6 +741,18 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       }]
     },
     {
+      "id" : "Composition.event.extension:isPrincipal",
+      "path" : "Composition.event.extension",
+      "sliceName" : "isPrincipal",
+      "short" : "Indique si l'évènement documenté est l'évènement principal",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0"]
+      }]
+    },
+    {
       "id" : "Composition.event.period",
       "path" : "Composition.event.period",
       "short" : "Date et heure de l’évènement documenté"
@@ -759,7 +773,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.event:principalEvent.extension",
       "path" : "Composition.event.extension",
-      "min" : 1
+      "min" : 2
     },
     {
       "id" : "Composition.event:principalEvent.extension:performer",
@@ -772,6 +786,23 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
         "code" : "Extension",
         "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0"]
       }]
+    },
+    {
+      "id" : "Composition.event:principalEvent.extension:isPrincipal",
+      "path" : "Composition.event.extension",
+      "sliceName" : "isPrincipal",
+      "short" : "Indique si l'évènement documenté est l'évènement principal",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Composition.event:principalEvent.extension:isPrincipal.value[x]",
+      "path" : "Composition.event.extension.value[x]",
+      "patternBoolean" : true
     },
     {
       "id" : "Composition.event:principalEvent.period",

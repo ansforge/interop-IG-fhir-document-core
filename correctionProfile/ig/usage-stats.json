@@ -127,6 +127,13 @@
       ]
     },
     {
+      "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension",
+      "title": "FR Is Principal Event Extension",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
       "url": "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-sequence-extension",
       "title": "FR Medication Administration Sequence Extension",
       "types": [
@@ -611,10 +618,12 @@
     "http://hl7.org/fhir/StructureDefinition/event-basedOn|5.3.0": [
       "Composition"
     ],
-    "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order|5.3.0": [
+    "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order|5.2.0": [
       "HumanName",
-      "Practitioner.name",
       "RelatedPerson.name"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order|5.3.0": [
+      "Practitioner.name"
     ],
     "http://hl7.org/fhir/StructureDefinition/note|5.3.0": [
       "Composition.section"
@@ -625,7 +634,7 @@
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Patient"
     ],
-    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.3.0": [
+    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.2.0": [
       "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse|5.3.0": [
@@ -694,61 +703,67 @@
     "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/information-recipient-extension|1.1.0": [
       "Composition"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code|2.2.0": [
       "Patient.extension.value[x]"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-comment|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-comment|2.2.0": [
       "Patient.contact"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.2.0": [
       "Organization.telecom",
       "Practitioner.telecom",
       "PractitionerRole.telecom"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-estimated-discharge-date|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-estimated-discharge-date|2.2.0": [
       "Encounter"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability": [
       "Patient"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability|2.2.0": [
       "Patient"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location-position-room|2.1.0": [
-      "Location.partOf"
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location-position-lit|2.2.0": [
+      "Location"
+    ],
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location-type-chambre|2.2.0": [
+      "Location"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-description|2.1.0": [
       "Organization"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name|2.2.0": [
       "Organization"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name": [
       "Patient.name"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name|2.2.0": [
       "Patient.name"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birthdate-update-indicator|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birthdate-update-indicator|2.2.0": [
       "Patient"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-contact-identifier|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-contact-identifier|2.2.0": [
       "Patient.contact"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-death-place|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-contact-relationship-category": [
+      "Patient.contact.relationship"
+    ],
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-contact-relationship-category|2.2.0": [
+      "Patient.contact.relationship"
+    ],
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-death-place|2.2.0": [
       "Patient"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-nationality|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-nationality|2.2.0": [
       "Patient"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-specialty|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-specialty|2.2.0": [
       "Practitioner"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-service-type-duration|2.1.0": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-service-type-duration|2.2.0": [
       "PractitionerRole"
-    ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-use-period|2.1.0": [
-      "Location"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-data-trace|1.1.0": [
       "Organization.meta",
@@ -834,6 +849,9 @@
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension|0.1.0": [
       "FamilyMemberHistory.condition"
+    ],
+    "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0": [
+      "Composition.event"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-medication-administration-sequence-extension|0.1.0": [
       "MedicationAdministration.dosage"

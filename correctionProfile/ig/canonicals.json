@@ -251,6 +251,13 @@
   "name" : "FRInterpretationExtension"
 },
 {
+  "id" : "fr-is-principal-event-extension",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension",
+  "version" : "0.1.0",
+  "name" : "FRIsPrincipalEventExtension"
+},
+{
   "id" : "fr-location-document",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document",

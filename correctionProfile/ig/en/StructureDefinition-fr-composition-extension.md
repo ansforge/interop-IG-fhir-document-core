@@ -2,7 +2,7 @@
 
 ## Extension: FR Composition Extension 
 
-Composition du rapport d'imagerie
+Composition
 
 **Context of Use**
 
@@ -10,7 +10,7 @@ Composition du rapport d'imagerie
 
 **Usages:**
 
-* Use this Extension: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md)
+* Use this Extension: [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-composition-extension.json)
 
@@ -35,7 +35,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-ex
   "name" : "FRCompositionExtension",
   "title" : "FR Composition Extension",
   "status" : "draft",
-  "date" : "2026-09-29T09:01:26+00:00",
+  "date" : "2026-09-30T14:16:33+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -44,7 +44,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-ex
       "value" : "https://esante.gouv.fr"
     }]
   }],
-  "description" : "Composition du rapport d'imagerie",
+  "description" : "Composition",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -72,7 +72,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-ex
       "id" : "Extension",
       "path" : "Extension",
       "short" : "FR Composition Extension",
-      "definition" : "Composition du rapport d'imagerie"
+      "definition" : "Composition"
     },
     {
       "id" : "Extension.extension",

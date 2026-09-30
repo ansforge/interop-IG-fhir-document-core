@@ -158,7 +158,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-r
   "name" : "FRMedicationRequestDocument",
   "title" : "MedicationRequest - FR Medication Request Document",
   "status" : "draft",
-  "date" : "2026-09-29T09:01:26+00:00",
+  "date" : "2026-09-30T14:16:33+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -598,7 +598,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-r
     {
       "id" : "MedicationRequest.substitution",
       "path" : "MedicationRequest.substitution",
-      "short" : "Autorisation de substitution",
+      "short" : "Autorisation de substitution / non-substitution",
       "min" : 1,
       "mustSupport" : true
     },
@@ -632,7 +632,11 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-r
     {
       "id" : "MedicationRequest.substitution.reason",
       "path" : "MedicationRequest.substitution.reason",
-      "mustSupport" : true
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-substitution-medicament-prescripteur-cisis|20260916095453"
+      }
     },
     {
       "id" : "MedicationRequest.substitution.reason.text",

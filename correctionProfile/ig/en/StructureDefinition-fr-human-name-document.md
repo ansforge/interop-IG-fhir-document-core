@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-human-name-doc
   "name" : "FRHumanNameDocument",
   "title" : "FR Human Name Document",
   "status" : "draft",
-  "date" : "2026-09-29T09:01:26+00:00",
+  "date" : "2026-09-30T14:16:33+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -68,7 +68,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-human-name-doc
   "kind" : "complex-type",
   "abstract" : false,
   "type" : "HumanName",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.2.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
