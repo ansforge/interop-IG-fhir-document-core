@@ -13,9 +13,6 @@ Description: "FRObservationLaboratoryReportResultsDocument décrit un résultat 
 - 'cancelled' dans le cas où l'élément d'examen n’a pu être et ne sera pas réalisé
 - 'registered' le résultat n'est pas encore disponible et est attendu"
 
-* category MS
-* category ^short = "Code du chapitre"
-
 * code MS
 * code ^short = "Code d'identification de l'analyse ou de l'observation"
 * code.text ^short = "Référence à l'expression verbale dans la partie visualisable du compte-rendu"
