@@ -26,13 +26,13 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient.html) 
+Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient.html) 
 
 #### Bindings terminologiques
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient.html) 
+Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient.html) 
 
 ** Résumé **
 
@@ -44,7 +44,7 @@ Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/c
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient.html) 
+Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient.html) 
 
  **Vue d'ensembleView** 
 
@@ -52,7 +52,7 @@ Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/c
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient.html) 
+Cette structure est dérivée de [FRCorePatientProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient.html) 
 
 ** Résumé **
 
@@ -73,7 +73,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-docu
   "name" : "FRPatientDocument",
   "title" : "FR Patient Document",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -119,7 +119,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-docu
   "kind" : "resource",
   "abstract" : false,
   "type" : "Patient",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient|2.1.0",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient|2.2.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{

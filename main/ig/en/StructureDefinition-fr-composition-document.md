@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -591,7 +591,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "slicing" : {
         "discriminator" : [{
           "type" : "value",
-          "path" : "$this"
+          "path" : "extension('https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension').value"
         }],
         "rules" : "open"
       },
@@ -623,6 +623,18 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       }]
     },
     {
+      "id" : "Composition.event.extension:isPrincipal",
+      "path" : "Composition.event.extension",
+      "sliceName" : "isPrincipal",
+      "short" : "Indique si l'évènement documenté est l'évènement principal",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0"]
+      }]
+    },
+    {
       "id" : "Composition.event.period",
       "path" : "Composition.event.period",
       "short" : "Date et heure de l’évènement documenté"
@@ -643,7 +655,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.event:principalEvent.extension",
       "path" : "Composition.event.extension",
-      "min" : 1
+      "min" : 2
     },
     {
       "id" : "Composition.event:principalEvent.extension:performer",
@@ -658,6 +670,23 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       }]
     },
     {
+      "id" : "Composition.event:principalEvent.extension:isPrincipal",
+      "path" : "Composition.event.extension",
+      "sliceName" : "isPrincipal",
+      "short" : "Indique si l'évènement documenté est l'évènement principal",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Composition.event:principalEvent.extension:isPrincipal.value[x]",
+      "path" : "Composition.event.extension.value[x]",
+      "patternBoolean" : true
+    },
+    {
       "id" : "Composition.event:principalEvent.period",
       "path" : "Composition.event.period",
       "short" : "Date et heure de l’évènement documenté principal",
@@ -670,7 +699,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
         "key" : "comp-4",
         "severity" : "error",
         "human" : "Une section ne peut pas contenir à la fois des entrées et des sous-sections.",
-        "expression" : "not(exists(f:entry) and exists(f:section))",
+        "expression" : "entry.exists().not() or section.exists().not()",
         "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"
       }]
     },
@@ -693,7 +722,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "min" : 1,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260716085852"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260916095455"
       }
     },
     {

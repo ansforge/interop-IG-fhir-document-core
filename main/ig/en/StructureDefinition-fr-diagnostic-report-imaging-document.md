@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
   "name" : "FRDiagnosticReportImagingDocument",
   "title" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -81,17 +81,10 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "path" : "DiagnosticReport"
     },
     {
-      "id" : "DiagnosticReport.extension",
+      "id" : "DiagnosticReport.extension:composition",
       "path" : "DiagnosticReport.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      },
-      "min" : 1
+      "sliceName" : "composition",
+      "short" : "Composition du rapport d'imagerie"
     },
     {
       "id" : "DiagnosticReport.extension:comparaison",
@@ -159,19 +152,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "mustSupport" : true
     },
     {
-      "id" : "DiagnosticReport.extension:composition",
-      "path" : "DiagnosticReport.extension",
-      "sliceName" : "composition",
-      "short" : "Composition du rapport d'imagerie",
-      "min" : 1,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
       "id" : "DiagnosticReport.identifier",
       "path" : "DiagnosticReport.identifier",
       "short" : "Identifiant du compte-rendu d'imagerie"
@@ -217,14 +197,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
     {
       "id" : "DiagnosticReport.category",
       "path" : "DiagnosticReport.category",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      },
-      "min" : 2
+      "min" : 3
     },
     {
       "id" : "DiagnosticReport.category:diagnostic-service",
@@ -278,34 +251,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
     {
       "id" : "DiagnosticReport.subject",
       "path" : "DiagnosticReport.subject",
-      "short" : "Patient concerné par le compte-rendu d'imagerie",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "DiagnosticReport.performer",
-      "path" : "DiagnosticReport.performer",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "DiagnosticReport.performer:organization",
-      "path" : "DiagnosticReport.performer",
-      "sliceName" : "organization",
-      "short" : "Organization productrice du CR d'imagerie",
-      "min" : 0,
-      "max" : "*",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
-      }]
+      "short" : "Patient concerné par le compte-rendu d'imagerie"
     },
     {
       "id" : "DiagnosticReport.resultsInterpreter.extension:author",

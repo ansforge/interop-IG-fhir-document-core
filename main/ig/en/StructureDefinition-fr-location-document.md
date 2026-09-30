@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-location-docum
   "name" : "FRLocationDocument",
   "title" : "FR Location Document",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -64,7 +64,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-location-docum
   "kind" : "resource",
   "abstract" : false,
   "type" : "Location",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location|2.1.0",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location|2.2.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -84,7 +84,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-location-docum
       "slicing" : {
         "discriminator" : [{
           "type" : "value",
-          "path" : "coding.code"
+          "path" : "code"
         }],
         "rules" : "open"
       },

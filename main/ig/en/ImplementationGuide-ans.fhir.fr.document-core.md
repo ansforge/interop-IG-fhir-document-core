@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -45,20 +45,22 @@
     "version" : "7.4.0"
   },
   {
-    "id" : "hl7ext",
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
-      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
-    }],
-    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
-    "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.3.0"
-  },
-  {
     "id" : "hl7_fhir_fr_core",
     "uri" : "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core",
     "packageId" : "hl7.fhir.fr.core",
-    "version" : "2.1.0"
+    "version" : "2.2.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_extensions_r4",
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r4",
+    "version" : "5.2.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_extensions",
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions",
+    "version" : "5.3.0"
   },
   {
     "id" : "hl7_fhir_uv_xver_r5_r4",
@@ -88,7 +90,7 @@
     "id" : "ans_fr_terminologies",
     "uri" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
     "packageId" : "ans.fr.terminologies",
-    "version" : "1.13.0"
+    "version" : "1.14.0"
   },
   {
     "id" : "hl7_fhir_eu_extensions",
@@ -1356,7 +1358,7 @@
         "reference" : "StructureDefinition/fr-composition-extension"
       },
       "name" : "FR Composition Extension",
-      "description" : "Composition du rapport d'imagerie",
+      "description" : "Composition",
       "exampleBoolean" : false
     },
     {
@@ -1504,6 +1506,22 @@
       },
       "name" : "FR Interpretation Extension",
       "description" : "Extension permettant de spécifier une interprétation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-is-principal-event-extension.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-is-principal-event-extension"
+      },
+      "name" : "FR Is Principal Event Extension",
+      "description" : "Extension permettant d'indiquer si l'évènement documenté est l'évènement documenté principal. Vaut true pour l'évènement principal. Ajout d'un indicateur à l'élément event d'une Composition.",
       "exampleBoolean" : false
     },
     {

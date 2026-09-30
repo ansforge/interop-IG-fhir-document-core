@@ -2,7 +2,7 @@
 
 ## Extension: FR Composition Extension 
 
-Composition du rapport d'imagerie
+Composition
 
 **Context of Use**
 
@@ -10,7 +10,7 @@ Composition du rapport d'imagerie
 
 **Utilisations:**
 
-* Utilise ce/t/te Extension: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md)
+* Utilise ce/t/te Extension: [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-composition-extension)
 
@@ -31,7 +31,7 @@ Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibilit
 
 ** Résumé **
 
-Extension simple avec le type Reference : Composition du rapport d'imagerie
+Extension simple avec le type Reference : Composition
 
  **Vue différentielleDifferential View** 
 
@@ -45,7 +45,7 @@ Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibilit
 
 ** Résumé **
 
-Extension simple avec le type Reference : Composition du rapport d'imagerie
+Extension simple avec le type Reference : Composition
 
  
 
@@ -64,7 +64,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
   "name" : "FRCompositionExtension",
   "title" : "FR Composition Extension",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -73,7 +73,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "value" : "https://esante.gouv.fr"
     }]
   }],
-  "description" : "Composition du rapport d'imagerie",
+  "description" : "Composition",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -101,7 +101,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "id" : "Extension",
       "path" : "Extension",
       "short" : "FR Composition Extension",
-      "definition" : "Composition du rapport d'imagerie"
+      "definition" : "Composition"
     },
     {
       "id" : "Extension.extension",

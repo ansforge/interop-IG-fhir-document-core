@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-la
   "name" : "FRObservationLaboratoryReportResultsDocument",
   "title" : "Observation - FR Observation Laboratory Report Results Document",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-la
       "path" : "Observation.extension.extension.value[x]",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis|20260716085853"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis|20260916095456"
       }
     },
     {
@@ -267,7 +267,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-la
       "path" : "Observation.extension.extension.value[x]",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis|20260716085853"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis|20260916095456"
       }
     },
     {
@@ -305,12 +305,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-la
       "id" : "Observation.status",
       "path" : "Observation.status",
       "short" : "Niveau de complétude :\n- 'final' si le résultat est présent\n- 'cancelled' dans le cas où l'élément d'examen n’a pu être et ne sera pas réalisé\n- 'registered' le résultat n'est pas encore disponible et est attendu",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.category",
-      "path" : "Observation.category",
-      "short" : "Code du chapitre",
       "mustSupport" : true
     },
     {
@@ -434,7 +428,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-la
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis|20260716085852"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis|20260916095455"
       }
     },
     {

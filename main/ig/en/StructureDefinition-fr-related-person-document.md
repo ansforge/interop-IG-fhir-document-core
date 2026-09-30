@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-related-person
   "name" : "FRRelatedPersonDocument",
   "title" : "FR RelatedPerson Document",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -69,7 +69,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-related-person
   "kind" : "resource",
   "abstract" : false,
   "type" : "RelatedPerson",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-related-person|2.1.0",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-related-person|2.2.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{

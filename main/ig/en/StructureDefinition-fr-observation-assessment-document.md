@@ -7,7 +7,7 @@ FRObservationAssessmentDocument permet de rapporter un résultat (score) répond
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [Observation - FR Observation Assessment Document](StructureDefinition-fr-observation-assessment-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-observation-assessment-document.json)
 
@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-as
   "name" : "FRObservationAssessmentDocument",
   "title" : "Observation - FR Observation Assessment Document",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -276,105 +276,11 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-as
     {
       "id" : "Observation.hasMember",
       "path" : "Observation.hasMember",
-      "short" : "Référence interne",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component",
-      "path" : "Observation.component",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "extension('http://.../StructureDefinition/evaluation-type')"
-        }],
-        "rules" : "open"
-      },
-      "short" : "Composants de l'évaluation",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN1",
-      "path" : "Observation.component",
-      "sliceName" : "ComposantN1",
-      "short" : "Composant N1 de l'évaluation",
-      "min" : 0,
-      "max" : "*"
-    },
-    {
-      "id" : "Observation.component:ComposantN1.extension",
-      "path" : "Observation.component.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "Observation.component:ComposantN1.extension:note",
-      "path" : "Observation.component.extension",
-      "sliceName" : "note",
-      "short" : "Commentaire",
-      "min" : 0,
-      "max" : "*",
+      "short" : "Sous-évaluations (composants N2) rattachées à cette évaluation N1",
       "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/note|5.3.0"]
-      }]
-    },
-    {
-      "id" : "Observation.component:ComposantN1.extension:note.value[x]",
-      "path" : "Observation.component.extension.value[x]",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN1.code",
-      "path" : "Observation.component.code",
-      "short" : "Code de l'évaluation",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN1.value[x]",
-      "path" : "Observation.component.value[x]",
-      "short" : "Résultat de l'évaluation",
-      "min" : 1,
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN1.interpretation",
-      "path" : "Observation.component.interpretation",
-      "short" : "Interprétation",
-      "max" : "1",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN2",
-      "path" : "Observation.component",
-      "sliceName" : "ComposantN2",
-      "short" : "Sous-composant N2 de l'évaluation",
-      "min" : 0,
-      "max" : "*"
-    },
-    {
-      "id" : "Observation.component:ComposantN2.code",
-      "path" : "Observation.component.code",
-      "short" : "Code de l'évaluation",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN2.value[x]",
-      "path" : "Observation.component.value[x]",
-      "short" : "Résultat de l'évaluation",
-      "min" : 1,
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN2.interpretation",
-      "path" : "Observation.component.interpretation",
-      "short" : "Interprétation",
-      "max" : "1",
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-assessment-document|0.1.0"]
+      }],
       "mustSupport" : true
     }]
   }

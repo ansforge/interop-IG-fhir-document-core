@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-24T07:33:45+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-30T20:06:50+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -61,27 +61,31 @@
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "7.4.0" ]
   ], [
      fhir:index -1 ;
-     fhir:Element.id [ fhir:value "hl7ext" ] ;
-     fhir:Element.extension [
-       fhir:index -1 ;
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment" ] ;
-       fhir:Extension.valueMarkdown [ fhir:value "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack" ]
-     ] ;
-     fhir:ImplementationGuide.dependsOn.uri [
-       fhir:value "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions" ;
-       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
-     ] ;
-     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.3.0" ]
-  ], [
-     fhir:index -1 ;
      fhir:Element.id [ fhir:value "hl7_fhir_fr_core" ] ;
      fhir:ImplementationGuide.dependsOn.uri [
        fhir:value "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core" ;
        fhir:link <https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core>
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.fr.core" ] ;
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "2.1.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "2.2.0" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Element.id [ fhir:value "hl7_fhir_uv_extensions_r4" ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions" ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.extensions.r4" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.2.0" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Element.id [ fhir:value "hl7_fhir_uv_extensions" ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions" ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.extensions" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.3.0" ]
   ], [
      fhir:index -1 ;
      fhir:Element.id [ fhir:value "hl7_fhir_uv_xver_r5_r4" ] ;
@@ -126,7 +130,7 @@
        fhir:link <https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies>
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "ans.fr.terminologies" ] ;
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.13.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.14.0" ]
   ], [
      fhir:index -1 ;
      fhir:Element.id [ fhir:value "hl7_fhir_eu_extensions" ] ;
@@ -1431,7 +1435,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/fr-composition-extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Composition Extension" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition du rapport d'imagerie" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
@@ -1561,6 +1565,20 @@
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Interpretation Extension" ] ;
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant de spécifier une interprétation." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-is-principal-event-extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Is Principal Event Extension" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension permettant d'indiquer si l'évènement documenté est l'évènement documenté principal. Vaut true pour l'évènement principal. Ajout d'un indicateur à l'élément event d'une Composition." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;

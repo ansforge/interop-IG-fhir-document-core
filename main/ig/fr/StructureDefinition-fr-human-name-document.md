@@ -25,7 +25,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-human-name.html) 
+Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-human-name.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -33,7 +33,7 @@ Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-human-name.html) 
+Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-human-name.html) 
 
 ** Résumé **
 
@@ -47,7 +47,7 @@ Obligatoire : 1 élément
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-human-name.html) 
+Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-human-name.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -57,7 +57,7 @@ Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-human-name.html) 
+Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-human-name.html) 
 
 ** Résumé **
 
@@ -80,7 +80,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-human-name-d
   "name" : "FRHumanNameDocument",
   "title" : "FR Human Name Document",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -116,7 +116,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-human-name-d
   "kind" : "complex-type",
   "abstract" : false,
   "type" : "HumanName",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.2.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{

@@ -4,13 +4,13 @@
 
 * [Accueil](index.md)
 * [Structure générale document](ressourcesFHIR-struc-gen.md)
-* [Autres Ressources](autres_ressources.md)
 * [Corps d'un document](ressourcesFHIR-corps.md)
-* [Entête document](ressourcesFHIR-entete.md)
-* [Sécurité](securite.md)
-* [Artifacts Summary](artifacts.md)
 * [Informations sur la traduction](translationinfo.md)
+* [Artifacts Summary](artifacts.md)
 * [Téléchargements et usages](downloads.md)
+* [Autres Ressources](autres_ressources.md)
+* [Sécurité](securite.md)
+* [Entête document](ressourcesFHIR-entete.md)
 
 ## Resources
 
@@ -115,6 +115,7 @@
 * [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md)
 * [FR Immunization Type Extension](StructureDefinition-fr-immunization-type-extension.md)
 * [FR Interpretation Extension](StructureDefinition-fr-interpretation-extension.md)
+* [FR Is Principal Event Extension](StructureDefinition-fr-is-principal-event-extension.md)
 * [FR Medication Administration Sequence Extension](StructureDefinition-fr-medication-administration-sequence-extension.md)
 * [FR Method Extension](StructureDefinition-fr-method-extension.md)
 * [FR Not Covered Extension](StructureDefinition-fr-not-covered-extension.md)

@@ -13,7 +13,7 @@
   <name value="FHIRFRDocumentCore"/>
   <title value="FR Document Core (FHIR)"/>
   <status value="draft"/>
-  <date value="2026-09-24T07:33:45+00:00"/>
+  <date value="2026-09-30T20:06:50+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -41,18 +41,20 @@
     <packageId value="hl7.terminology.r4"/>
     <version value="7.4.0"/>
   </dependsOn>
-  <dependsOn id="hl7ext">
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
-      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
-    </extension>
-    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
-    <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.3.0"/>
-  </dependsOn>
   <dependsOn id="hl7_fhir_fr_core">
     <uri value="https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core"/>
     <packageId value="hl7.fhir.fr.core"/>
-    <version value="2.1.0"/>
+    <version value="2.2.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_extensions_r4">
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r4"/>
+    <version value="5.2.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_extensions">
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions"/>
+    <version value="5.3.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_xver_r5_r4">
     <uri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
@@ -77,7 +79,7 @@
   <dependsOn id="ans_fr_terminologies">
     <uri value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
     <packageId value="ans.fr.terminologies"/>
-    <version value="1.13.0"/>
+    <version value="1.14.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_eu_extensions">
     <uri value="http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions"/>
@@ -988,7 +990,7 @@
         <reference value="StructureDefinition/fr-composition-extension"/>
       </reference>
       <name value="FR Composition Extension"/>
-      <description value="Composition du rapport d'imagerie"/>
+      <description value="Composition"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1091,6 +1093,17 @@
       </reference>
       <name value="FR Interpretation Extension"/>
       <description value="Extension permettant de spécifier une interprétation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fr-is-principal-event-extension"/>
+      </reference>
+      <name value="FR Is Principal Event Extension"/>
+      <description value="Extension permettant d'indiquer si l'évènement documenté est l'évènement documenté principal. Vaut true pour l'évènement principal. Ajout d'un indicateur à l'élément event d'une Composition."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

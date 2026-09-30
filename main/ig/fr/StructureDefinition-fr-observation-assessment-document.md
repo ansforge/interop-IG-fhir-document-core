@@ -7,7 +7,7 @@ FRObservationAssessmentDocument permet de rapporter un résultat (score) répond
 
 **Utilisations:**
 
-* Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
+* Référence ce Profil: [Observation - FR Observation Assessment Document](StructureDefinition-fr-observation-assessment-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-observation-assessment-document)
 
@@ -37,8 +37,8 @@ Cette structure est dérivée de [Observation](http://hl7.org/fhir/R4/observatio
 
 ** Résumé **
 
-Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 14 éléments
+Obligatoire : 3 éléments
+ Must-Support : 6 éléments
 
 **Structures**
 
@@ -46,6 +46,7 @@ Cette structure fait référence à ces autres structures:
 
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
+* [Observation - FR Observation Assessment Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-assessment-document|0.1.0)](StructureDefinition-fr-observation-assessment-document.md)
 
 **Extensions**
 
@@ -53,13 +54,6 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-status-reason-extension|0.1.0](StructureDefinition-fr-status-reason-extension.md)
-* [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
-
-**Slices**
-
-Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
-
-* The element 1 is sliced based on the value of Observation.component
 
  **Vue des éléments clés** 
 
@@ -83,8 +77,8 @@ Cette structure est dérivée de [Observation](http://hl7.org/fhir/R4/observatio
 
 ** Résumé **
 
-Obligatoire : 3 éléments(2 éléments obligatoire(s) imbriqué(s))
- Must-Support : 14 éléments
+Obligatoire : 3 éléments
+ Must-Support : 6 éléments
 
 **Structures**
 
@@ -92,6 +86,7 @@ Cette structure fait référence à ces autres structures:
 
 * [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
 * [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
+* [Observation - FR Observation Assessment Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-assessment-document|0.1.0)](StructureDefinition-fr-observation-assessment-document.md)
 
 **Extensions**
 
@@ -99,13 +94,6 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-status-reason-extension|0.1.0](StructureDefinition-fr-status-reason-extension.md)
-* [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
-
-**Slices**
-
-Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slices) suivantes:
-
-* The element 1 is sliced based on the value of Observation.component
 
  
 
@@ -124,7 +112,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
   "name" : "FRObservationAssessmentDocument",
   "title" : "Observation - FR Observation Assessment Document",
   "status" : "draft",
-  "date" : "2026-09-24T07:33:45+00:00",
+  "date" : "2026-09-30T20:06:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -368,105 +356,11 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
     {
       "id" : "Observation.hasMember",
       "path" : "Observation.hasMember",
-      "short" : "Référence interne",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component",
-      "path" : "Observation.component",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "extension('http://.../StructureDefinition/evaluation-type')"
-        }],
-        "rules" : "open"
-      },
-      "short" : "Composants de l'évaluation",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN1",
-      "path" : "Observation.component",
-      "sliceName" : "ComposantN1",
-      "short" : "Composant N1 de l'évaluation",
-      "min" : 0,
-      "max" : "*"
-    },
-    {
-      "id" : "Observation.component:ComposantN1.extension",
-      "path" : "Observation.component.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "Observation.component:ComposantN1.extension:note",
-      "path" : "Observation.component.extension",
-      "sliceName" : "note",
-      "short" : "Commentaire",
-      "min" : 0,
-      "max" : "*",
+      "short" : "Sous-évaluations (composants N2) rattachées à cette évaluation N1",
       "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/note|5.3.0"]
-      }]
-    },
-    {
-      "id" : "Observation.component:ComposantN1.extension:note.value[x]",
-      "path" : "Observation.component.extension.value[x]",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN1.code",
-      "path" : "Observation.component.code",
-      "short" : "Code de l'évaluation",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN1.value[x]",
-      "path" : "Observation.component.value[x]",
-      "short" : "Résultat de l'évaluation",
-      "min" : 1,
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN1.interpretation",
-      "path" : "Observation.component.interpretation",
-      "short" : "Interprétation",
-      "max" : "1",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN2",
-      "path" : "Observation.component",
-      "sliceName" : "ComposantN2",
-      "short" : "Sous-composant N2 de l'évaluation",
-      "min" : 0,
-      "max" : "*"
-    },
-    {
-      "id" : "Observation.component:ComposantN2.code",
-      "path" : "Observation.component.code",
-      "short" : "Code de l'évaluation",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN2.value[x]",
-      "path" : "Observation.component.value[x]",
-      "short" : "Résultat de l'évaluation",
-      "min" : 1,
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.component:ComposantN2.interpretation",
-      "path" : "Observation.component.interpretation",
-      "short" : "Interprétation",
-      "max" : "1",
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-observation-assessment-document|0.1.0"]
+      }],
       "mustSupport" : true
     }]
   }
