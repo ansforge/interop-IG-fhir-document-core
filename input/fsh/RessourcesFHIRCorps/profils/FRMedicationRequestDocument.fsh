@@ -89,10 +89,11 @@ Description: "FRMedicationRequestDocument permet de décrire un traitement presc
     * ^short = "Nombre de renouvellement(s) possible(s)"
 * substitution 1..1 MS
   * allowed[x] MS
-  * ^short = "Autorisation de substitution" 
-  * allowedCodeableConcept from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis
+  * ^short = "Autorisation de substitution / non-substitution" 
+  * allowedCodeableConcept from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis (required)
   * reason MS
   * reason.text ^short = "Motif de non substitution (Marge thérapeutique étroite, Enfant forme galénique, Contre-indication formelle)."
+  * reason from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-substitution-medicament-prescripteur-cisis (required)
 
 * extension contains $ihe-ext-offLabel named horsAMM 0..* MS
 * extension[horsAMM] ^short = "Hors Autorisation de mise sur le marché"
