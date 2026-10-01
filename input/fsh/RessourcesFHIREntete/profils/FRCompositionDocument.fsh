@@ -4,13 +4,15 @@ Id: fr-composition-document
 Title: "FR Composition Document"
 Description: "Ce profil est utilisé pour représenter un document médical."
 
+* meta 1..1 MS
+* meta.profile 1..* MS
 //Composition.meta.profile : templateId
 * meta.profile ^short = "Modèle du document et version du modèle."
 * meta.profile ^slicing.discriminator.type = #value
 * meta.profile ^slicing.discriminator.path = "$this"
 * meta.profile ^slicing.rules = #open
 * meta.profile ^slicing.description = "Modèle du document et version du modèle"
-* meta.profile contains canonical 0..1
+* meta.profile contains canonical 1..1
 * meta.profile[canonical] = Canonical(fr-composition-document)
 
 * extension[R5-Composition-version] 1..1
@@ -32,6 +34,7 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * extension[data-enterer].extension[party].valueReference only Reference(FRPractitionerRoleDocument)
 
 // informant-extension
+* extension[informant] ^short = "Informateur"
 * extension[informant].extension[type] 1..1 
 * extension[informant].extension[type] ^short = "Type de participation : Informateur"
 * extension[informant].extension[party] ^short = "Informateur"
@@ -60,9 +63,9 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * extension[participant].extension[party] obeys comp-3
 
 // basedOn-extension
-
-* extension[basedOn].valueReference only Reference(ServiceRequest)
-* extension[basedOn].valueReference ^short = "Association du document à une prescription"
+* extension[basedOn] ^short = "Prescription ou Plan"
+* extension[basedOn].valueReference only Reference(FRServiceRequestDocument or FRCarePlanDocument)
+* extension[basedOn].valueReference ^short = "Association du document à une prescription ou un plan"
 
 // Consent extension
 * extension[consent] ^short = "Consentement associé au document."
@@ -75,6 +78,8 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * type only CodeableConcept
 * type MS
 * type ^short = "Type de document"
+* category ^short = "Catégorie du document"
+* category from https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS (preferred)
 * title MS
 * title ^short = "Titre du document CDA"
 * title ^definition = "Les volets de contenus du CI-SIS fixent parfois le titre du document. Dans les autres cas, le titre provient soit de la saisie directe par le professionnel ou le patient/usager, soit d’une valeur par défaut générée par le logiciel et modifiable par le professionnel ou le patient/usager."
@@ -109,7 +114,6 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 
 * event 1..*
 * event ^short = "Evènement documenté et notamment le cadre d'exercice."
-* event.detail 0..1
 * event.period ^short = "Date et heure de l’évènement documenté"
 
 // Extension performer : event.detail ne permet pas de porter l'exécutant de l'évènement (hors de son périmètre), d'où l'ajout de cette extension
@@ -126,9 +130,10 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 
 * event contains principalEvent 1..1
 * event[principalEvent] ^short = "Evènement documenté principal"
+* event[principalEvent].id ^short = "Identifiant de l'évènement documenté"
+* event[principalEvent].code ^short = "Code de l'évènement documenté"
 * event[principalEvent].period 1..1 
 * event[principalEvent].period ^short = "Date et heure de l’évènement documenté principal"
-* event[principalEvent].detail 0..1
 * event[principalEvent].extension[isPrincipal] 1..1
 * event[principalEvent].extension[isPrincipal].valueBoolean = true
 * event[principalEvent].extension[performer] 1..1 
