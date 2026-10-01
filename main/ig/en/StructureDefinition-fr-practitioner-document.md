@@ -7,7 +7,6 @@ Ce profil permet de décrire un professionnel de santé dans le cadre d'un docum
 
 **Usages:**
 
-* Use this Profile: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
 * Refer to this Profile: [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md), [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md), [FR Patient INS Document](StructureDefinition-fr-patient-ins-document.md), [FR PractitionerRole Document](StructureDefinition-fr-practitionerRole-document.md) and [Specimen - FR Specimen Document](StructureDefinition-fr-specimen-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-practitioner-document.json)
@@ -33,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-practitioner-d
   "name" : "FRPractitionerDocument",
   "title" : "FR Practitioner Document",
   "status" : "draft",
-  "date" : "2026-10-01T08:49:37+00:00",
+  "date" : "2026-10-01T13:34:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -113,6 +112,10 @@ Other representations of profile: [CSV](../StructureDefinition-fr-practitioner-d
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
+      "id" : "Practitioner",
+      "path" : "Practitioner"
+    },
+    {
       "id" : "Practitioner.identifier",
       "path" : "Practitioner.identifier",
       "min" : 1

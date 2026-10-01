@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-10-01T08:49:37+00:00",
+  "date" : "2026-10-01T13:34:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -83,6 +83,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
+      "id" : "Composition.meta",
+      "path" : "Composition.meta",
+      "min" : 1,
+      "mustSupport" : true
+    },
+    {
       "id" : "Composition.meta.profile",
       "path" : "Composition.meta.profile",
       "slicing" : {
@@ -93,13 +99,15 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
         "description" : "Modèle du document et version du modèle",
         "rules" : "open"
       },
-      "short" : "Modèle du document et version du modèle."
+      "short" : "Modèle du document et version du modèle.",
+      "min" : 1,
+      "mustSupport" : true
     },
     {
       "id" : "Composition.meta.profile:canonical",
       "path" : "Composition.meta.profile",
       "sliceName" : "canonical",
-      "min" : 0,
+      "min" : 1,
       "max" : "1",
       "patternCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"
     },
@@ -170,7 +178,8 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.extension:informant",
       "path" : "Composition.extension",
-      "sliceName" : "informant"
+      "sliceName" : "informant",
+      "short" : "Informateur"
     },
     {
       "id" : "Composition.extension:informant.extension:type",
@@ -309,15 +318,17 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.extension:basedOn",
       "path" : "Composition.extension",
-      "sliceName" : "basedOn"
+      "sliceName" : "basedOn",
+      "short" : "Prescription ou Plan"
     },
     {
       "id" : "Composition.extension:basedOn.value[x]",
       "path" : "Composition.extension.value[x]",
-      "short" : "Association du document à une prescription",
+      "short" : "Association du document à une prescription ou un plan",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/ServiceRequest|4.0.1"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0",
+        "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-care-plan-document|0.1.0"]
       }]
     },
     {
@@ -356,6 +367,15 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "id" : "Composition.type",
       "path" : "Composition.type",
       "short" : "Type de document"
+    },
+    {
+      "id" : "Composition.category",
+      "path" : "Composition.category",
+      "short" : "Catégorie du document",
+      "binding" : {
+        "strength" : "preferred",
+        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS|20230922120000"
+      }
     },
     {
       "id" : "Composition.subject",
@@ -640,17 +660,17 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "short" : "Date et heure de l’évènement documenté"
     },
     {
-      "id" : "Composition.event.detail",
-      "path" : "Composition.event.detail",
-      "max" : "1"
-    },
-    {
       "id" : "Composition.event:principalEvent",
       "path" : "Composition.event",
       "sliceName" : "principalEvent",
       "short" : "Evènement documenté principal",
       "min" : 1,
       "max" : "1"
+    },
+    {
+      "id" : "Composition.event:principalEvent.id",
+      "path" : "Composition.event.id",
+      "short" : "Identifiant de l'évènement documenté"
     },
     {
       "id" : "Composition.event:principalEvent.extension",
@@ -685,6 +705,11 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "id" : "Composition.event:principalEvent.extension:isPrincipal.value[x]",
       "path" : "Composition.event.extension.value[x]",
       "patternBoolean" : true
+    },
+    {
+      "id" : "Composition.event:principalEvent.code",
+      "path" : "Composition.event.code",
+      "short" : "Code de l'évènement documenté"
     },
     {
       "id" : "Composition.event:principalEvent.period",

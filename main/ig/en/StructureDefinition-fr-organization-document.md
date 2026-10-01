@@ -7,7 +7,6 @@ Ce profil représente la structure pour le compte de laquelle intervient le prof
 
 **Usages:**
 
-* Use this Profile: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
 * Refer to this Profile: [FR Actor Extension](StructureDefinition-fr-actor-extension.md), [FR Composition Document](StructureDefinition-fr-composition-document.md), [FR Device Document](StructureDefinition-fr-device-auteur-document.md), [DeviceUseStatement - FR Device Use Statement Document](StructureDefinition-fr-device-use-statement-document.md)... Show 14 more, [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md), [Media - FR Media Document](StructureDefinition-fr-media-document.md), [Observation - FR Observation Assessment Document](StructureDefinition-fr-observation-assessment-document.md), [Observation - FR Observation Contra Indications Document](StructureDefinition-fr-observation-contra-indications-document.md), [Observation - FR Observation Laboratory Report Results Document](StructureDefinition-fr-observation-laboratory-report-results-document.md), [Observation - FR Observation Microorganism Detection Document](StructureDefinition-fr-observation-microorganism-detection-document.md), [Observation - FR Observation Multiresistant Microorganisms Identification Document](StructureDefinition-fr-observation-multiresistant-microorganism-document.md), [Observation - FR Observation Pregnancy Document](StructureDefinition-fr-observation-pregnancy-document.md), [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md), [Observation - FR Observation Vital Signs Document](StructureDefinition-fr-observation-vital-signs-document.md), [Observation - FR Observation Vital Signs Panel Document](StructureDefinition-fr-observation-vital-signs-panel-document.md), [Observation - FR Observation Work Related Accident Document](StructureDefinition-fr-observation-work-related-accident-document.md), [FR PractitionerRole Document](StructureDefinition-fr-practitionerRole-document.md) and [Task - FR Task Patient Transport Document](StructureDefinition-fr-task-patient-transport-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-organization-document.json)
@@ -33,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-organization-d
   "name" : "FROrganizationDocument",
   "title" : "FR Organization Document",
   "status" : "draft",
-  "date" : "2026-10-01T08:49:37+00:00",
+  "date" : "2026-10-01T13:34:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -88,6 +87,10 @@ Other representations of profile: [CSV](../StructureDefinition-fr-organization-d
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
+      "id" : "Organization",
+      "path" : "Organization"
+    },
+    {
       "id" : "Organization.identifier",
       "path" : "Organization.identifier",
       "short" : "Identifiant de la structure\n - Obligatoire dans la structure chargée de la conservation du document(Composition.custodian 1..1)"

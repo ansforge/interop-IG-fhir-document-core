@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
   "name" : "FRBundleDocument",
   "title" : "FR Bundle Document",
   "status" : "draft",
-  "date" : "2026-10-01T08:49:37+00:00",
+  "date" : "2026-10-01T13:34:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -120,7 +120,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
       "short" : "Ressource Entry dans le FRBundleDocument",
       "definition" : "Une ressource Entry incluse dans le bundle de ressources du document",
       "comment" : "Doit contenir la Composition comme première entrée",
-      "min" : 7,
+      "min" : 2,
       "mustSupport" : true
     },
     {
@@ -158,111 +158,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-bundle-documen
         "code" : "Patient",
         "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
         "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:practitionerRole",
-      "path" : "Bundle.entry",
-      "sliceName" : "practitionerRole",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:practitionerRole.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "PractitionerRole",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:practitioner",
-      "path" : "Bundle.entry",
-      "sliceName" : "practitioner",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:practitioner.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Practitioner",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:organization",
-      "path" : "Bundle.entry",
-      "sliceName" : "organization",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:organization.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Organization",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:device",
-      "path" : "Bundle.entry",
-      "sliceName" : "device",
-      "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "Bundle.entry:device.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Device",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:encounter",
-      "path" : "Bundle.entry",
-      "sliceName" : "encounter",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:encounter.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Encounter",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:location",
-      "path" : "Bundle.entry",
-      "sliceName" : "location",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:location.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Location",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:relatedPerson",
-      "path" : "Bundle.entry",
-      "sliceName" : "relatedPerson",
-      "min" : 0,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:relatedPerson.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "RelatedPerson",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0"]
       }]
     }]
   }

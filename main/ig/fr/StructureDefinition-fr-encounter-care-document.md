@@ -7,7 +7,6 @@ Ce profil représente l'association du document à une prise en charge.
 
 **Utilisations:**
 
-* Utilise ce/t/te Profil: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
 * Référence ce Profil: [FR Composition Document](StructureDefinition-fr-composition-document.md) and [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-encounter-care-document)
@@ -107,7 +106,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-encounter-ca
   "name" : "FREncounterCareDocument",
   "title" : "FR Encounter Care Document",
   "status" : "draft",
-  "date" : "2026-10-01T08:49:37+00:00",
+  "date" : "2026-10-01T13:34:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -152,6 +151,10 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-encounter-ca
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
+      "id" : "Encounter",
+      "path" : "Encounter"
+    },
+    {
       "id" : "Encounter.type",
       "path" : "Encounter.type",
       "short" : "Type de prise en charge",

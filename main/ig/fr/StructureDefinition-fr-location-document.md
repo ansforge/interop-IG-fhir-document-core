@@ -7,7 +7,6 @@ Ce profil représente le lieu de la prise en charge.
 
 **Utilisations:**
 
-* Utilise ce/t/te Profil: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
 * Référence ce Profil: [FR Encounter Care Document](StructureDefinition-fr-encounter-care-document.md) and [Encounter - FR Encounter Document](StructureDefinition-fr-encounter-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-location-document)
@@ -95,7 +94,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-location-doc
   "name" : "FRLocationDocument",
   "title" : "FR Location Document",
   "status" : "draft",
-  "date" : "2026-10-01T08:49:37+00:00",
+  "date" : "2026-10-01T13:34:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -130,6 +129,10 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-location-doc
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
+      "id" : "Location",
+      "path" : "Location"
+    },
+    {
       "id" : "Location.name",
       "path" : "Location.name",
       "short" : "Nom de la structure",

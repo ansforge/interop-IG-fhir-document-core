@@ -37,7 +37,7 @@ Cette structure est dérivée de [Bundle](http://hl7.org/fhir/R4/bundle.html)
 
 ** Résumé **
 
-Obligatoire : 9 éléments(1 élément obligatoire(s) imbriqué(s))
+Obligatoire : 5 éléments
  Must-Support : 2 éléments
 
 **Structures**
@@ -47,13 +47,6 @@ Cette structure fait référence à ces autres structures:
 * [FR Composition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0)](StructureDefinition-fr-composition-document.md)
 * [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
 * [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
-* [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
-* [FR Device Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0)](StructureDefinition-fr-device-auteur-document.md)
-* [FR Encounter Care Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0)](StructureDefinition-fr-encounter-care-document.md)
-* [FR Location Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document|0.1.0)](StructureDefinition-fr-location-document.md)
-* [FR RelatedPerson Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0)](StructureDefinition-fr-related-person-document.md)
 
 **Slices**
 
@@ -83,7 +76,7 @@ Cette structure est dérivée de [Bundle](http://hl7.org/fhir/R4/bundle.html)
 
 ** Résumé **
 
-Obligatoire : 9 éléments(1 élément obligatoire(s) imbriqué(s))
+Obligatoire : 5 éléments
  Must-Support : 2 éléments
 
 **Structures**
@@ -93,13 +86,6 @@ Cette structure fait référence à ces autres structures:
 * [FR Composition Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0)](StructureDefinition-fr-composition-document.md)
 * [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
 * [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
-* [FR PractitionerRole Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0)](StructureDefinition-fr-practitionerRole-document.md)
-* [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
-* [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
-* [FR Device Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0)](StructureDefinition-fr-device-auteur-document.md)
-* [FR Encounter Care Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0)](StructureDefinition-fr-encounter-care-document.md)
-* [FR Location Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document|0.1.0)](StructureDefinition-fr-location-document.md)
-* [FR RelatedPerson Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0)](StructureDefinition-fr-related-person-document.md)
 
 **Slices**
 
@@ -124,7 +110,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-bundle-docum
   "name" : "FRBundleDocument",
   "title" : "FR Bundle Document",
   "status" : "draft",
-  "date" : "2026-10-01T08:49:37+00:00",
+  "date" : "2026-10-01T13:34:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -212,7 +198,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-bundle-docum
       "short" : "Ressource Entry dans le FRBundleDocument",
       "definition" : "Une ressource Entry incluse dans le bundle de ressources du document",
       "comment" : "Doit contenir la Composition comme première entrée",
-      "min" : 7,
+      "min" : 2,
       "mustSupport" : true
     },
     {
@@ -250,111 +236,6 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-bundle-docum
         "code" : "Patient",
         "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
         "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:practitionerRole",
-      "path" : "Bundle.entry",
-      "sliceName" : "practitionerRole",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:practitionerRole.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "PractitionerRole",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:practitioner",
-      "path" : "Bundle.entry",
-      "sliceName" : "practitioner",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:practitioner.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Practitioner",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:organization",
-      "path" : "Bundle.entry",
-      "sliceName" : "organization",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:organization.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Organization",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:device",
-      "path" : "Bundle.entry",
-      "sliceName" : "device",
-      "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "Bundle.entry:device.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Device",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:encounter",
-      "path" : "Bundle.entry",
-      "sliceName" : "encounter",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:encounter.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Encounter",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:location",
-      "path" : "Bundle.entry",
-      "sliceName" : "location",
-      "min" : 1,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:location.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "Location",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-location-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "Bundle.entry:relatedPerson",
-      "path" : "Bundle.entry",
-      "sliceName" : "relatedPerson",
-      "min" : 0,
-      "max" : "*"
-    },
-    {
-      "id" : "Bundle.entry:relatedPerson.resource",
-      "path" : "Bundle.entry.resource",
-      "type" : [{
-        "code" : "RelatedPerson",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-related-person-document|0.1.0"]
       }]
     }]
   }

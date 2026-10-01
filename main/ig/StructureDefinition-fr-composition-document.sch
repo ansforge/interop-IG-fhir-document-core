@@ -12,6 +12,7 @@
   <sch:pattern>
     <sch:title>f:Composition</sch:title>
     <sch:rule context="f:Composition">
+      <sch:assert test="count(f:meta) &gt;= 1">meta: minimum cardinality of 'meta' is 1</sch:assert>
       <sch:assert test="count(f:language) &gt;= 1">language: minimum cardinality of 'language' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0': maximum cardinality of 'extension' is 1</sch:assert>
@@ -210,13 +211,11 @@
     <sch:rule context="f:Composition/f:event">
       <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:detail) &lt;= 1">detail: maximum cardinality of 'detail' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0']) &gt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension']) &gt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:period) &gt;= 1">period: minimum cardinality of 'period' is 1</sch:assert>
-      <sch:assert test="count(f:detail) &lt;= 1">detail: maximum cardinality of 'detail' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
