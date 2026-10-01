@@ -95,7 +95,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-practitioner
   "name" : "FRPractitionerRoleDocument",
   "title" : "FR PractitionerRole Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -168,11 +168,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-practitioner
       "sliceName" : "functionCode",
       "short" : "Rôle fonctionnel du professionnel de santé",
       "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "PractitionerRole.code:functionCode.coding",
-      "path" : "PractitionerRole.code.coding",
+      "max" : "1",
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS|20250523120000"
@@ -184,11 +180,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-practitioner
       "sliceName" : "classCode",
       "short" : "Professionnel de santé / Non Professionnel de santé",
       "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "PractitionerRole.code:classCode.coding.code",
-      "path" : "PractitionerRole.code.coding.code",
+      "max" : "1",
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J141-RoleClass-CISIS/FHIR/JDV-J141-RoleClass-CISIS|20210326120000"
@@ -200,11 +192,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-practitioner
       "sliceName" : "typeCode",
       "short" : "Type de participation",
       "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "PractitionerRole.code:typeCode.coding",
-      "path" : "PractitionerRole.code.coding",
+      "max" : "1",
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J144-ParticipationType-CISIS/FHIR/JDV-J144-ParticipationType-CISIS|20210326120000"

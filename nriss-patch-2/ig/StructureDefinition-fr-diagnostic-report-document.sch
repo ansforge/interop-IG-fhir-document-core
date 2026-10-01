@@ -12,7 +12,9 @@
   <sch:pattern>
     <sch:title>f:DiagnosticReport</sch:title>
     <sch:rule context="f:DiagnosticReport">
-      <sch:assert test="count(f:category) &gt;= 1">category: minimum cardinality of 'category' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0']) &gt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:subject) &gt;= 1">subject: minimum cardinality of 'subject' is 1</sch:assert>
       <sch:assert test="count(f:effective[x]) &gt;= 1">effective[x]: minimum cardinality of 'effective[x]' is 1</sch:assert>
       <sch:assert test="count(f:result) &gt;= 1">result: minimum cardinality of 'result' is 1</sch:assert>
       <sch:assert test="count(f:presentedForm) &gt;= 1">presentedForm: minimum cardinality of 'presentedForm' is 1</sch:assert>

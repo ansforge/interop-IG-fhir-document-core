@@ -8,7 +8,7 @@ Ce profil est utilisé pour représenter un document médical.
 **Utilisations:**
 
 * Utilise ce/t/te Profil: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
-* Référence ce Profil: [FR Composition Document](StructureDefinition-fr-composition-document.md)
+* Référence ce Profil: [FR Composition Document](StructureDefinition-fr-composition-document.md) and [FR Composition Extension](StructureDefinition-fr-composition-extension.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-composition-document)
 
@@ -40,7 +40,7 @@ Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fh
 
 ** Résumé **
 
-Obligatoire : 20 éléments(11 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 21 éléments(11 éléments obligatoire(s) imbriqué(s))
  Must-Support : 5 éléments
 
 **Structures**
@@ -52,6 +52,7 @@ Cette structure fait référence à ces autres structures:
 * [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
 * [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
 * [ServiceRequest (http://hl7.org/fhir/StructureDefinition/ServiceRequest|4.0.1)](http://hl7.org/fhir/R4/servicerequest.html)
+* [DiagnosticReport - FR Diagnostic Report Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-document|0.1.0)](StructureDefinition-fr-diagnostic-report-document.md)
 * [FR Encounter Care Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0)](StructureDefinition-fr-encounter-care-document.md)
 * [FR Device Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0)](StructureDefinition-fr-device-auteur-document.md)
 * [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
@@ -61,8 +62,11 @@ Cette structure fait référence à ces autres structures:
 
 Cette structure fait référence à ces extensions:
 
+* [http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference|1.3.0](http://hl7.eu/fhir/extensions/1.3.0/StructureDefinition-composition-diagnosticReportReference.html)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension|0.1.0](StructureDefinition-fr-author-time-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0](StructureDefinition-fr-performer-event-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0](StructureDefinition-fr-is-principal-event-extension.md)
+* [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
 
 **Slices**
 
@@ -95,7 +99,7 @@ Cette structure est dérivée de [ClinicalDocumentComposition](http://hl7.org/fh
 
 ** Résumé **
 
-Obligatoire : 20 éléments(11 éléments obligatoire(s) imbriqué(s))
+Obligatoire : 21 éléments(11 éléments obligatoire(s) imbriqué(s))
  Must-Support : 5 éléments
 
 **Structures**
@@ -107,6 +111,7 @@ Cette structure fait référence à ces autres structures:
 * [FR Patient INS Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0)](StructureDefinition-fr-patient-ins-document.md)
 * [FR Patient Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0)](StructureDefinition-fr-patient-document.md)
 * [ServiceRequest (http://hl7.org/fhir/StructureDefinition/ServiceRequest|4.0.1)](http://hl7.org/fhir/R4/servicerequest.html)
+* [DiagnosticReport - FR Diagnostic Report Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-document|0.1.0)](StructureDefinition-fr-diagnostic-report-document.md)
 * [FR Encounter Care Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-care-document|0.1.0)](StructureDefinition-fr-encounter-care-document.md)
 * [FR Device Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-device-auteur-document|0.1.0)](StructureDefinition-fr-device-auteur-document.md)
 * [FR Organization Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0)](StructureDefinition-fr-organization-document.md)
@@ -116,8 +121,11 @@ Cette structure fait référence à ces autres structures:
 
 Cette structure fait référence à ces extensions:
 
+* [http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference|1.3.0](http://hl7.eu/fhir/extensions/1.3.0/StructureDefinition-composition-diagnosticReportReference.html)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-author-time-extension|0.1.0](StructureDefinition-fr-author-time-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0](StructureDefinition-fr-performer-event-extension.md)
+* [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0](StructureDefinition-fr-is-principal-event-extension.md)
+* [http://hl7.org/fhir/StructureDefinition/note|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-note.html)
 
 **Slices**
 
@@ -143,7 +151,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -202,7 +210,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
         }],
         "description" : "Modèle du document et version du modèle",
         "rules" : "open"
-      }
+      },
+      "short" : "Modèle du document et version du modèle."
     },
     {
       "id" : "Composition.meta.profile:canonical",
@@ -227,7 +236,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "id" : "Composition.extension:R5-Composition-version",
       "path" : "Composition.extension",
       "sliceName" : "R5-Composition-version",
-      "short" : "Version du document",
+      "short" : "Numéro de version du document.",
       "min" : 1,
       "constraint" : [{
         "key" : "comp-1",
@@ -240,7 +249,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.extension:data-enterer",
       "path" : "Composition.extension",
-      "sliceName" : "data-enterer"
+      "sliceName" : "data-enterer",
+      "short" : "Opérateur de saisie"
     },
     {
       "id" : "Composition.extension:data-enterer.extension",
@@ -307,7 +317,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.extension:information-recipient",
       "path" : "Composition.extension",
-      "sliceName" : "information-recipient"
+      "sliceName" : "information-recipient",
+      "short" : "Destinataire prévu du document."
     },
     {
       "id" : "Composition.extension:information-recipient.extension:type",
@@ -341,7 +352,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.extension:participant",
       "path" : "Composition.extension",
-      "sliceName" : "participant"
+      "sliceName" : "participant",
+      "short" : "Participant, différent de l'auteur, du responsable, de l'opérateur de saisie, de l'informateur ou du destinataire."
     },
     {
       "id" : "Composition.extension:participant.extension",
@@ -360,7 +372,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "path" : "Composition.extension.extension.value[x]",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J144-ParticipationType-CISIS/FHIR/JDV-J144-ParticipationType-CISIS|20210326120000"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant|0.1.0"
       }
     },
     {
@@ -407,6 +419,12 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       }]
     },
     {
+      "id" : "Composition.extension:consent",
+      "path" : "Composition.extension",
+      "sliceName" : "consent",
+      "short" : "Consentement associé au document."
+    },
+    {
       "id" : "Composition.extension:basedOn",
       "path" : "Composition.extension",
       "sliceName" : "basedOn"
@@ -421,9 +439,29 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       }]
     },
     {
+      "id" : "Composition.extension:diagnosticReport",
+      "path" : "Composition.extension",
+      "sliceName" : "diagnosticReport",
+      "short" : "Pièces jointes",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference|1.3.0"]
+      }]
+    },
+    {
+      "id" : "Composition.extension:diagnosticReport.value[x]",
+      "path" : "Composition.extension.value[x]",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-diagnostic-report-document|0.1.0"]
+      }]
+    },
+    {
       "id" : "Composition.identifier",
       "path" : "Composition.identifier",
-      "short" : "Identifiant lot de versions",
+      "short" : "Identifiant du lot de versions du même document.",
       "min" : 1,
       "mustSupport" : true
     },
@@ -456,6 +494,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.encounter",
       "path" : "Composition.encounter",
+      "short" : "Association du document à une prise en charge.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -466,7 +505,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.date",
       "path" : "Composition.date",
-      "short" : "Date de création"
+      "short" : "Date de création du document."
     },
     {
       "id" : "Composition.author",
@@ -506,7 +545,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.confidentiality",
       "path" : "Composition.confidentiality",
-      "short" : "Niveau de confidentialité",
+      "short" : "Niveau de confidentialité du document.",
       "min" : 1,
       "mustSupport" : true
     },
@@ -569,7 +608,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.relatesTo",
       "path" : "Composition.relatesTo",
-      "short" : "Document de référence"
+      "short" : "Document de référence (à remplacer, transformé, …)."
     },
     {
       "id" : "Composition.relatesTo.target[x]",
@@ -670,10 +709,11 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "slicing" : {
         "discriminator" : [{
           "type" : "value",
-          "path" : "$this"
+          "path" : "extension('https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension').value"
         }],
         "rules" : "open"
       },
+      "short" : "Evènement documenté et notamment le cadre d'exercice.",
       "min" : 1
     },
     {
@@ -692,11 +732,24 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "id" : "Composition.event.extension:performer",
       "path" : "Composition.event.extension",
       "sliceName" : "performer",
+      "short" : "Exécutant de l'évènement documenté",
       "min" : 0,
       "max" : "1",
       "type" : [{
         "code" : "Extension",
         "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-performer-event-extension|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Composition.event.extension:isPrincipal",
+      "path" : "Composition.event.extension",
+      "sliceName" : "isPrincipal",
+      "short" : "Indique si l'évènement documenté est l'évènement principal",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0"]
       }]
     },
     {
@@ -720,7 +773,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.event:principalEvent.extension",
       "path" : "Composition.event.extension",
-      "min" : 1
+      "min" : 2
     },
     {
       "id" : "Composition.event:principalEvent.extension:performer",
@@ -735,8 +788,26 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       }]
     },
     {
+      "id" : "Composition.event:principalEvent.extension:isPrincipal",
+      "path" : "Composition.event.extension",
+      "sliceName" : "isPrincipal",
+      "short" : "Indique si l'évènement documenté est l'évènement principal",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension|0.1.0"]
+      }]
+    },
+    {
+      "id" : "Composition.event:principalEvent.extension:isPrincipal.value[x]",
+      "path" : "Composition.event.extension.value[x]",
+      "patternBoolean" : true
+    },
+    {
       "id" : "Composition.event:principalEvent.period",
       "path" : "Composition.event.period",
+      "short" : "Date et heure de l’évènement documenté principal",
       "min" : 1
     },
     {
@@ -746,16 +817,30 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
         "key" : "comp-4",
         "severity" : "error",
         "human" : "Une section ne peut pas contenir à la fois des entrées et des sous-sections.",
-        "expression" : "not(exists(f:entry) and exists(f:section))",
+        "expression" : "entry.exists().not() or section.exists().not()",
         "source" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"
+      }]
+    },
+    {
+      "id" : "Composition.section.extension:section-note",
+      "path" : "Composition.section.extension",
+      "sliceName" : "section-note",
+      "short" : "Commentaires supplémentaires pour chaque section.",
+      "definition" : "Permet de porter des commentaires dans chaque section.",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/note|5.3.0"]
       }]
     },
     {
       "id" : "Composition.section.code",
       "path" : "Composition.section.code",
+      "min" : 1,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis|20260916095455"
       }
     },
     {

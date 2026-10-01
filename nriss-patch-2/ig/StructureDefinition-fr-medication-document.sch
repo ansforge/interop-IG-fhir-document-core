@@ -16,6 +16,7 @@
       <sch:assert test="count(f:extension[@url = 'https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname|1.0.0-comment-2']) &lt;= 1">extension with URL = 'https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-productname|1.0.0-comment-2': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation|1.0.0-comment-2']) &lt;= 1">extension with URL = 'https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-unitofpresentation|1.0.0-comment-2': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem|1.0.0-comment-2']) &lt;= 1">extension with URL = 'https://profiles.ihe.net/PHARM/MPD/StructureDefinition/ihe-ext-medication-sizeofitem|1.0.0-comment-2': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.eu/fhir/StructureDefinition/medication-package-type|1.3.0']) &lt;= 1">extension with URL = 'http://hl7.eu/fhir/StructureDefinition/medication-package-type|1.3.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:code) &gt;= 1">code: minimum cardinality of 'code' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

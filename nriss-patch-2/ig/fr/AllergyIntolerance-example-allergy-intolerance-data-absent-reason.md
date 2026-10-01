@@ -18,7 +18,7 @@ Profil: [AllergyIntolerance - FR Allergy and intolerance Document](StructureDefi
 
 **code**: Agent allergique inconnu
 
-**patient**: [Exemple Patient](Patient/exemple-patient)
+**patient**: [DOMINIQUE MARIE-LOUISE PAT-TROIS Female, Date de Naissance :1979-03-28 ( NIR définitif (use: official, ))](Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41.md)
 
 **onset**: 2021-12-04 --> (en cours)
 
@@ -66,8 +66,7 @@ Profil: [AllergyIntolerance - FR Allergy and intolerance Document](StructureDefi
     "text" : "Agent allergique inconnu"
   },
   "patient" : {
-    "reference" : "Patient/exemple-patient",
-    "display" : "Exemple Patient"
+    "reference" : "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41"
   },
   "onsetPeriod" : {
     "start" : "2021-12-04"

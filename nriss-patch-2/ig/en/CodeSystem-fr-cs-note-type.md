@@ -7,7 +7,7 @@ CodeSystem définissant les types d'informations associés aux notes d'une deman
 
 This Code system is referenced in the definition of the following value sets:
 
-* [FRValueSetNoteType](ValueSet-fr-vs-note-type.md)
+* [FR ValueSet Imaging Note Type](ValueSet-fr-vs-note-type.md)
 
 -------
 
@@ -26,7 +26,7 @@ This Code system is referenced in the definition of the following value sets:
   "name" : "FRCSNoteType",
   "title" : "FR CodeSystem Note Type",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Encounter</sch:title>
     <sch:rule context="f:Encounter">
-      <sch:assert test="count(f:extension[@url = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-estimated-discharge-date|2.1.0']) &lt;= 1">extension with URL = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-estimated-discharge-date|2.1.0': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-estimated-discharge-date|2.2.0']) &lt;= 1">extension with URL = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-estimated-discharge-date|2.2.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:location) &lt;= 1">location: maximum cardinality of 'location' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

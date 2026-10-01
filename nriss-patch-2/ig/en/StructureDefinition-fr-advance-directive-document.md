@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-advance-direct
   "name" : "FRAdvanceDirectiveDocument",
   "title" : "Consent - FR Advance directive Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-advance-direct
         "coding" : [{
           "system" : "http://terminology.hl7.org/CodeSystem/consentscope",
           "code" : "adr",
-          "display" : "Advance Directive"
+          "display" : "Advanced Care Directive"
         }]
       },
       "mustSupport" : true
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-advance-direct
       "short" : "Type de la directive anticipée",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis|20260619134043"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis|20260916095456"
       }
     }]
   }

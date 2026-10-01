@@ -36,7 +36,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-r
   "name" : "FRImmunizationRecommendationDocument",
   "title" : "ImmunizationRecommendation - FR Immunization Recommendation Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -123,6 +123,12 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-r
         "strength" : "required",
         "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-vs-vaccine-code-cis|0.1.0"
       }
+    },
+    {
+      "id" : "ImmunizationRecommendation.recommendation.vaccineCode.coding:cis.system",
+      "path" : "ImmunizationRecommendation.recommendation.vaccineCode.coding.system",
+      "min" : 1,
+      "patternUri" : "https://smt.esante.gouv.fr/terminologie-bdpm"
     },
     {
       "id" : "ImmunizationRecommendation.recommendation.vaccineCode.coding:translation",

@@ -90,6 +90,20 @@
   "name" : "FRCompositionDocument"
 },
 {
+  "id" : "fr-composition-extension",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension",
+  "version" : "0.1.0",
+  "name" : "FRCompositionExtension"
+},
+{
+  "id" : "fr-conclusion-extension",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-conclusion-extension",
+  "version" : "0.1.0",
+  "name" : "FRConclusionExtension"
+},
+{
   "id" : "fr-condition-document",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-condition-document",
@@ -181,6 +195,13 @@
   "name" : "FRFamilyMemberHistoryDocument"
 },
 {
+  "id" : "fr-finding-extension",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-finding-extension",
+  "version" : "0.1.0",
+  "name" : "FRFindingExtension"
+},
+{
   "id" : "fr-human-name-document",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document",
@@ -228,6 +249,13 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-interpretation-extension",
   "version" : "0.1.0",
   "name" : "FRInterpretationExtension"
+},
+{
+  "id" : "fr-is-principal-event-extension",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension",
+  "version" : "0.1.0",
+  "name" : "FRIsPrincipalEventExtension"
 },
 {
   "id" : "fr-location-document",
@@ -556,7 +584,14 @@
   "type" : "ValueSet",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type",
   "version" : "0.1.0",
-  "name" : "FRValueSetParticipationType"
+  "name" : "FrValueSetParticipationTypeInformationRecipient"
+},
+{
+  "id" : "fr-doc-vs-participation-type-participant",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-participation-type-participant",
+  "version" : "0.1.0",
+  "name" : "FrValueSetParticipationTypeParticipant"
 },
 {
   "id" : "fr-doc-vs-role-prise-charge",
@@ -564,6 +599,13 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-doc-vs-role-prise-charge",
   "version" : "0.1.0",
   "name" : "FRValueSetRolePriseCharge"
+},
+{
+  "id" : "fr-value-set-imaging-report-type-document",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document",
+  "version" : "0.1.0",
+  "name" : "FRValueSetImagingReportTypeDocument"
 },
 {
   "id" : "fr-vs-actor-type-document",

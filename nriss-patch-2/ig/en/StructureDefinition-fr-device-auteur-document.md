@@ -8,7 +8,7 @@ Ce profil représente le système auteur du document.
 **Usages:**
 
 * Use this Profile: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
-* Refer to this Profile: [FR Actor Extension](StructureDefinition-fr-actor-extension.md), [FR Composition Document](StructureDefinition-fr-composition-document.md), [FamilyMemberHistory - FR Family Member History Document](StructureDefinition-fr-family-member-history-document.md), [Immunization - FR Immunization Document](StructureDefinition-fr-immunization-document.md)... Show 2 more, [Media - FR Media Document](StructureDefinition-fr-media-document.md) and [FR Patient History Extension](StructureDefinition-fr-patient-history-extension.md)
+* Refer to this Profile: [FR Actor Extension](StructureDefinition-fr-actor-extension.md), [FR Composition Document](StructureDefinition-fr-composition-document.md), [FamilyMemberHistory - FR Family Member History Document](StructureDefinition-fr-family-member-history-document.md), [Immunization - FR Immunization Document](StructureDefinition-fr-immunization-document.md) and [Media - FR Media Document](StructureDefinition-fr-media-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-device-auteur-document.json)
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-device-auteur-
   "name" : "FRDeviceAuteurDocument",
   "title" : "FR Device Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -93,7 +93,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-device-auteur-
       "short" : "Profession / savoir-faire ou rôle",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-systeme-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-systeme-cisis|20260916095455"
       }
     },
     {

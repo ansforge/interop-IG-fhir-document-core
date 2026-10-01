@@ -38,7 +38,7 @@ Cette structure est dérivée de [MedicationDispense](http://hl7.org/fhir/R4/med
 ** Résumé **
 
 Obligatoire : 2 éléments(1 élément obligatoire(s) imbriqué(s))
- Must-Support : 10 éléments
+ Must-Support : 11 éléments
 
 **Structures**
 
@@ -71,7 +71,7 @@ Cette structure est dérivée de [MedicationDispense](http://hl7.org/fhir/R4/med
 ** Résumé **
 
 Obligatoire : 2 éléments(1 élément obligatoire(s) imbriqué(s))
- Must-Support : 10 éléments
+ Must-Support : 11 éléments
 
 **Structures**
 
@@ -98,7 +98,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
   "name" : "FRMedicationDispenseDocument",
   "title" : "MedicationDispense - FR Medication Dispense Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -203,7 +203,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
       "path" : "MedicationDispense.type.coding",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis|20260619134041"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis|20260916095452"
       }
     },
     {
@@ -248,14 +248,28 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-d
     {
       "id" : "MedicationDispense.substitution.type",
       "path" : "MedicationDispense.substitution.type",
+      "short" : "Type de substitution",
       "min" : 1,
-      "patternCodeableConcept" : {
-        "coding" : [{
-          "code" : "G",
-          "display" : "Substitution autorisée par un produit générique"
-        }]
-      },
-      "mustSupport" : true
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis|20260916095455"
+      }
+    },
+    {
+      "id" : "MedicationDispense.substitution.reason",
+      "path" : "MedicationDispense.substitution.reason",
+      "max" : "1",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-substitution-medicament-dispensateur-cisis|20260916095453"
+      }
+    },
+    {
+      "id" : "MedicationDispense.substitution.reason.text",
+      "path" : "MedicationDispense.substitution.reason.text",
+      "short" : "le motif de substitution / non-substitution"
     }]
   }
 }

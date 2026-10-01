@@ -7,7 +7,7 @@ FRSpecimenDocument est un profil utilisé pour décrire le prélèvement et l'é
 
 **Usages:**
 
-* Refer to this Profile: [DiagnosticReport - FR Diagnostic Report BIO chapter Document](StructureDefinition-fr-diagnostic-report-bio-chapter-document.md), [Media - FR Media Document](StructureDefinition-fr-media-document.md), [Observation - FR Observation Laboratory Report Results Document](StructureDefinition-fr-observation-laboratory-report-results-document.md) and [Specimen - FR Specimen Document](StructureDefinition-fr-specimen-document.md)
+* Refer to this Profile: [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md), [Media - FR Media Document](StructureDefinition-fr-media-document.md), [Observation - FR Observation Laboratory Report Results Document](StructureDefinition-fr-observation-laboratory-report-results-document.md) and [Specimen - FR Specimen Document](StructureDefinition-fr-specimen-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-specimen-document.json)
 
@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-specimen-docum
   "name" : "FRSpecimenDocument",
   "title" : "Specimen - FR Specimen Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-specimen-docum
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis|20260916095454"
       }
     },
     {

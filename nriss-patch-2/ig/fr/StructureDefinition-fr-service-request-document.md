@@ -8,7 +8,7 @@ FRServiceRequestDocument profil permet de porter des demandes d'examens (analyse
 **Utilisations:**
 
 * Dérivé de ce Profil: [ServiceRequest - FR Service Request Imaging Document](StructureDefinition-fr-service-request-imaging-document.md)
-* Référence ce Profil: [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md) and [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md)
+* Référence ce Profil: [DiagnosticReport - FR Diagnostic Report BIO chapter Document](StructureDefinition-fr-diagnostic-report-bio-chapter-document.md) and [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.document-core|current/StructureDefinition/fr-service-request-document)
 
@@ -55,6 +55,7 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.reason.html)
 
 **Slices**
 
@@ -101,6 +102,7 @@ Cette structure fait référence à ces extensions:
 
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-method-extension|0.1.0](StructureDefinition-fr-method-extension.md)
 * [https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-actor-extension|0.1.0](StructureDefinition-fr-actor-extension.md)
+* [http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-ext-R5-ServiceRequest.reason.html)
 
 **Slices**
 
@@ -125,7 +127,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
   "name" : "FRServiceRequestDocument",
   "title" : "ServiceRequest - FR Service Request Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -231,6 +233,17 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
       "id" : "ServiceRequest.extension:author.extension:type.value[x]",
       "path" : "ServiceRequest.extension.extension.value[x]",
       "patternCode" : "AUT"
+    },
+    {
+      "id" : "ServiceRequest.extension:reason",
+      "path" : "ServiceRequest.extension",
+      "sliceName" : "reason",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason|0.1.0"]
+      }]
     },
     {
       "id" : "ServiceRequest.identifier",

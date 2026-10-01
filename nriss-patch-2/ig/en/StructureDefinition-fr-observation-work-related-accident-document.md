@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-wo
   "name" : "FRObservationWorkRelatedAccidentDocument",
   "title" : "Observation - FR Observation Work Related Accident Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -210,7 +210,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-wo
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis|20260916095455"
       }
     },
     {
@@ -232,7 +232,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-wo
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis|20260916095453"
       }
     }]
   }

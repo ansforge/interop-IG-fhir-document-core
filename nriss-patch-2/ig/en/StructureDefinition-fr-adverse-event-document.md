@@ -7,7 +7,7 @@ FRAdverseEventDocument permet de décrire un effet indésirable prévisible lié
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-adverse-event-document.json)
 
@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-adverse-event-
   "name" : "FRAdverseEventDocument",
   "title" : "AdverseEvent - FR adverse event Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -79,7 +79,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-adverse-event-
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20260916095453"
       }
     },
     {
@@ -114,7 +114,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-adverse-event-
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis|20260916095454"
       }
     },
     {
@@ -124,7 +124,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-adverse-event-
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20260916095454"
       }
     },
     {
@@ -159,7 +159,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-adverse-event-
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis|20260716085851"
       }
     }]
   }

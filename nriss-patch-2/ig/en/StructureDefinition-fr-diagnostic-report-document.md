@@ -8,7 +8,7 @@ FRDiagnosticReportDocument est un profil permettant de regrouper les types des r
 **Usages:**
 
 * Derived from this Profile: [DiagnosticReport - FR Diagnostic Report BIO chapter Document](StructureDefinition-fr-diagnostic-report-bio-chapter-document.md) and [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md)
-* Refer to this Profile: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
+* Refer to this Profile: [FR Composition Document](StructureDefinition-fr-composition-document.md) and [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-diagnostic-report-document.json)
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
   "name" : "FRDiagnosticReportDocument",
   "title" : "DiagnosticReport - FR Diagnostic Report Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -82,6 +82,32 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "path" : "DiagnosticReport"
     },
     {
+      "id" : "DiagnosticReport.extension",
+      "path" : "DiagnosticReport.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "DiagnosticReport.extension:composition",
+      "path" : "DiagnosticReport.extension",
+      "sliceName" : "composition",
+      "short" : "Composition",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-extension|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
       "id" : "DiagnosticReport.identifier",
       "path" : "DiagnosticReport.identifier",
       "short" : "Identifiant"
@@ -96,18 +122,54 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
     {
       "id" : "DiagnosticReport.category",
       "path" : "DiagnosticReport.category",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "$this"
+        }],
+        "rules" : "open"
+      },
       "short" : "Type de résultat",
       "min" : 1,
-      "mustSupport" : true,
+      "mustSupport" : true
+    },
+    {
+      "id" : "DiagnosticReport.category:typeResultat",
+      "path" : "DiagnosticReport.category",
+      "sliceName" : "typeResultat",
+      "short" : "Types de résultats",
+      "min" : 1,
+      "max" : "1",
       "binding" : {
-        "strength" : "preferred",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260619134042"
+        "strength" : "extensible",
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis|20260916095454"
       }
     },
     {
       "id" : "DiagnosticReport.code",
       "path" : "DiagnosticReport.code",
       "short" : "Code du résultat"
+    },
+    {
+      "id" : "DiagnosticReport.subject",
+      "path" : "DiagnosticReport.subject",
+      "short" : "Sujet concerné",
+      "min" : 1,
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "DiagnosticReport.encounter",
+      "path" : "DiagnosticReport.encounter",
+      "short" : "L’événement de soins auquel se rapporte ce compte rendu de laboratoire (moment où l’examen a été prescrit).",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document|0.1.0"]
+      }],
+      "mustSupport" : true
     },
     {
       "id" : "DiagnosticReport.effective[x]",
@@ -122,6 +184,13 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
     {
       "id" : "DiagnosticReport.performer",
       "path" : "DiagnosticReport.performer",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "pattern",
+          "path" : "$this"
+        }],
+        "rules" : "open"
+      },
       "short" : "Exécutant",
       "type" : [{
         "code" : "Reference",
@@ -130,6 +199,18 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
         "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
       }],
       "mustSupport" : true
+    },
+    {
+      "id" : "DiagnosticReport.performer:organization",
+      "path" : "DiagnosticReport.performer",
+      "sliceName" : "organization",
+      "short" : "Organization productrice du CR",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
+      }]
     },
     {
       "id" : "DiagnosticReport.resultsInterpreter",
@@ -182,6 +263,16 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
         "code" : "Reference",
         "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitionerRole-document|0.1.0"]
       }]
+    },
+    {
+      "id" : "DiagnosticReport.specimen",
+      "path" : "DiagnosticReport.specimen",
+      "short" : "Échantillons sur lesquels repose ce compte rendu.",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0"]
+      }],
+      "mustSupport" : true
     },
     {
       "id" : "DiagnosticReport.result",

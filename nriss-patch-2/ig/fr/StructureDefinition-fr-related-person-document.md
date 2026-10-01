@@ -26,7 +26,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-related-person.html) 
+Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-related-person.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -34,7 +34,7 @@ Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-related-person.html) 
+Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-related-person.html) 
 
 ** Résumé **
 
@@ -54,7 +54,7 @@ Cette structure fait référence à ces autres structures:
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-related-person.html) 
+Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-related-person.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -64,7 +64,7 @@ Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-related-person.html) 
+Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-related-person.html) 
 
 ** Résumé **
 
@@ -93,7 +93,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-related-pers
   "name" : "FRRelatedPersonDocument",
   "title" : "FR RelatedPerson Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -129,7 +129,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-related-pers
   "kind" : "resource",
   "abstract" : false,
   "type" : "RelatedPerson",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-related-person|2.1.0",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-related-person|2.2.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{

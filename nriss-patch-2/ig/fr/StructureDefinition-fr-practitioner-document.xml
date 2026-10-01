@@ -23,7 +23,7 @@
   <name value="FRPractitionerDocument"/>
   <title value="FR Practitioner Document"/>
   <status value="draft"/>
-  <date value="2026-08-07T09:15:45+00:00"/>
+  <date value="2026-10-01T07:42:11+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -494,7 +494,7 @@
         <code value="canonical"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1"/>
       </type>
-      <patternCanonical value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.1.0"/>
+      <patternCanonical value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner|2.2.0"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -752,7 +752,7 @@
       </base>
       <type>
         <code value="Extension"/>
-        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-specialty|2.1.0"/>
+        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner-specialty|2.2.0"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -1039,7 +1039,7 @@
       <isSummary value="false"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS|20240628120000"/>
+        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS|20260730120000"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -6178,7 +6178,7 @@
       </base>
       <type>
         <code value="ContactPoint"/>
-        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.1.0"/>
+        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point|2.2.0"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -6307,7 +6307,7 @@
       </base>
       <type>
         <code value="Extension"/>
-        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.1.0"/>
+        <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.2.0"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -8271,7 +8271,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS|20260223120000"/>
+        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS|20260730120000"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -8528,7 +8528,7 @@
       <type>
         <code value="Reference"/>
         <targetProfile value="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization|1.1.0"/>
-        <targetProfile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0"/>
+        <targetProfile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.2.0"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -9661,7 +9661,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS|20251222120000"/>
+        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS|20260928120000"/>
       </binding>
       <mapping>
         <identity value="v2"/>

@@ -35,7 +35,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-t
   "name" : "FRImmunizationTypeExtension",
   "title" : "FR Immunization Type Extension",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -92,7 +92,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-t
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis|20260619134043"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis|20260916095457"
       }
     }]
   }

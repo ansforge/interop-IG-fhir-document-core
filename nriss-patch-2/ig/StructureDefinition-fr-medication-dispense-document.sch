@@ -66,6 +66,14 @@
     <sch:title>f:MedicationDispense/f:substitution</sch:title>
     <sch:rule context="f:MedicationDispense/f:substitution">
       <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
+      <sch:assert test="count(f:reason) &lt;= 1">reason: maximum cardinality of 'reason' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:MedicationDispense/f:substitution/f:reason</sch:title>
+    <sch:rule context="f:MedicationDispense/f:substitution/f:reason">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:text) &lt;= 1">text: maximum cardinality of 'text' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

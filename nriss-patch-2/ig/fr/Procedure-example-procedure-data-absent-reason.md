@@ -16,7 +16,7 @@ Profil: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-doc
 
 **code**: Acte réalisé inconnu : utilisation de l'extension data-absent-reason avec code 'unknown'
 
-**subject**: [Exemple Patient](Patient/exemple-patient)
+**subject**: [DOMINIQUE MARIE-LOUISE PAT-TROIS Female, Date de Naissance :1979-03-28 ( NIR définitif (use: official, ))](Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa55.md)
 
 **performed**: Absent because : temp-unknown
 
@@ -44,8 +44,7 @@ Profil: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-doc
     "text" : "Acte réalisé inconnu : utilisation de l'extension data-absent-reason avec code 'unknown'"
   },
   "subject" : {
-    "reference" : "Patient/exemple-patient",
-    "display" : "Exemple Patient"
+    "reference" : "Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa55"
   },
   "_performedDateTime" : {
     "extension" : [{

@@ -26,7 +26,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -34,7 +34,7 @@ Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
 
 ** Résumé **
 
@@ -61,7 +61,7 @@ Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slic
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -71,7 +71,7 @@ Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
 
 ** Résumé **
 
@@ -107,7 +107,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-encounter-ca
   "name" : "FREncounterCareDocument",
   "title" : "FR Encounter Care Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -148,13 +148,14 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-encounter-ca
   "kind" : "resource",
   "abstract" : false,
   "type" : "Encounter",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-encounter|2.1.0",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-encounter|2.2.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
       "id" : "Encounter.type",
       "path" : "Encounter.type",
-      "short" : "Type de prise en charge"
+      "short" : "Type de prise en charge",
+      "max" : "1"
     },
     {
       "id" : "Encounter.participant",

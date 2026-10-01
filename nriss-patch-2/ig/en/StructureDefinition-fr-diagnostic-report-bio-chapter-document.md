@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
   "name" : "FRDiagnosticReportBIOChapterDocument",
   "title" : "DiagnosticReport - FR Diagnostic Report BIO chapter Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -81,6 +81,21 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "path" : "DiagnosticReport"
     },
     {
+      "id" : "DiagnosticReport.extension:composition",
+      "path" : "DiagnosticReport.extension",
+      "sliceName" : "composition",
+      "short" : "Composition du rapport de biologie"
+    },
+    {
+      "id" : "DiagnosticReport.basedOn",
+      "path" : "DiagnosticReport.basedOn",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-service-request-document|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
       "id" : "DiagnosticReport.status",
       "path" : "DiagnosticReport.status",
       "short" : "Statut du rapport de BIO (final, partial ...)"
@@ -88,14 +103,13 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
     {
       "id" : "DiagnosticReport.category",
       "path" : "DiagnosticReport.category",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      },
-      "short" : "Catégorie du rapport de biologie",
+      "min" : 2
+    },
+    {
+      "id" : "DiagnosticReport.category:typeResultat",
+      "path" : "DiagnosticReport.category",
+      "sliceName" : "typeResultat",
+      "short" : "Type de résultat de biologie",
       "patternCodeableConcept" : {
         "coding" : [{
           "system" : "http://loinc.org",
@@ -109,7 +123,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "path" : "DiagnosticReport.category",
       "sliceName" : "chapitreBIO",
       "short" : "Codes des chapitres du compte-rendu de BIO",
-      "definition" : "Le code du chapitre doit être un code issu du jeu de valeurs Circuit de la biologie (disponible sur bioloinc.fr), onglet ‘2.Chapitres LOINC’ et contenant les codes et libellés traduits en français pour la biologie.",
+      "definition" : "Le code du chapitre doit être issu du jeu de valeurs Circuit de la biologie (https://smt.esante.gouv.fr/terminologie-jeu-de-valeurs-circuit-de-la-biologie/) onglet ‘2.Chapitres LOINC’ et contenant les codes et libellés traduits en français pour la biologie.",
       "min" : 1,
       "max" : "*"
     },
@@ -117,27 +131,13 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "id" : "DiagnosticReport.code",
       "path" : "DiagnosticReport.code",
       "short" : "Type de document",
-      "mustSupport" : true
-    },
-    {
-      "id" : "DiagnosticReport.subject",
-      "path" : "DiagnosticReport.subject",
-      "short" : "Sujet concerné",
-      "min" : 1,
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"]
-      }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "DiagnosticReport.encounter",
-      "path" : "DiagnosticReport.encounter",
-      "short" : "L’événement de soins auquel se rapporte ce compte rendu de laboratoire (moment où l’examen a été prescrit).",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-encounter-document|0.1.0"]
-      }],
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "11502-2",
+          "display" : "CR d'examens biologiques"
+        }]
+      },
       "mustSupport" : true
     },
     {
@@ -146,42 +146,9 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "short" : "Date et heure de création du document"
     },
     {
-      "id" : "DiagnosticReport.performer",
-      "path" : "DiagnosticReport.performer",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "DiagnosticReport.performer:organization",
-      "path" : "DiagnosticReport.performer",
-      "sliceName" : "organization",
-      "short" : "Organization productrice du CR de biologie",
-      "min" : 0,
-      "max" : "*",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
-      }]
-    },
-    {
       "id" : "DiagnosticReport.resultsInterpreter",
       "path" : "DiagnosticReport.resultsInterpreter",
       "short" : "Interpréteur de résultat primaire"
-    },
-    {
-      "id" : "DiagnosticReport.specimen",
-      "path" : "DiagnosticReport.specimen",
-      "short" : "Échantillons sur lesquels repose ce compte rendu.",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-specimen-document|0.1.0"]
-      }],
-      "mustSupport" : true
     },
     {
       "id" : "DiagnosticReport.result",

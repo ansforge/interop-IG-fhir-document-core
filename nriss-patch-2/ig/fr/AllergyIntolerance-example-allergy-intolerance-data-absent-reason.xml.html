@@ -52,8 +52,8 @@
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.93"}
-    h3,h4,h5,h6{--heading-prefix:"7.93"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.99"}
+    h3,h4,h5,h6{--heading-prefix:"7.99"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -143,7 +143,7 @@
         <a target="_blank" href="https://smt.esante.gouv.fr/fhir">Serveur Multi-terminologies / FHIR</a>
       </li>
       <li>
-        <a target="_blank" href="https://ansforge.github.io/IG-terminologie-de-sante/ig/main/index.html">IG terminologies et jeux de valeurs du CI-SIS</a>
+        <a target="_blank" href="https://interop.esante.gouv.fr/terminologies/index.html">IG terminologies et jeux de valeurs du CI-SIS</a>
       </li>
       <li>
         <a target="_blank" href="https://interop.esante.gouv.fr/">Espace de tests du CI-SIS</a>
@@ -170,13 +170,13 @@
 
 <div style="float: var(--ig-right);padding: 8px 0px;" id="language">
   <div id="select_flg" class="flaglist" style="background-image: url(assets/images/icon_arrow_down.png);background-position: 133px 3px;">
-    <div><img class="flag" alt="flag en" src="assets/images/lang-fr.png"/>Français</div>
+    <div><img class="flag" alt="drapeau English" src="assets/images/lang-fr.png"/>Français</div>
   </div>
   <div style="float: var(--ig-right); margin: 2px 0px; padding: 1px 0;color: var(--btn-text-color);font-size:12px">Language:</div>
  	<div id="flaglist" class="flaglist" style="display: none;position: absolute;right: 0;z-index: 100;background-image: url(assets/images/icon_arrow_up.png);background-position: 133px 3px;">
-    <div><img class="flag" alt="flag fr" src="assets/images/lang-fr.png"/>Français</div>
+    <div><img class="flag" alt="drapeau fr" src="assets/images/lang-fr.png"/>Français</div>
 
-    <div><a href="../en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.xml.html"><img class="flag" src="assets/images/lang-en.png" alt="flag en"/>English</a></div>
+    <div><a href="../en/AllergyIntolerance-example-allergy-intolerance-data-absent-reason.xml.html"><img class="flag" src="assets/images/lang-en.png" alt="drapeau en"/>English</a></div>
 
   </div>
 </div>
@@ -268,7 +268,7 @@
 <h2 id="root">: Example - AllergyIntolerance avec Data Absent Reason</h2>
 
 
-<p><a href="AllergyIntolerance-example-allergy-intolerance-data-absent-reason.xml" no-download="true">Brut xml</a> | <a href="AllergyIntolerance-example-allergy-intolerance-data-absent-reason.xml" download>Télécharger</a></p>
+<p><a href="AllergyIntolerance-example-allergy-intolerance-data-absent-reason.xml" no-download="true">xml brut</a> | <a href="AllergyIntolerance-example-allergy-intolerance-data-absent-reason.xml" download>Télécharger</a></p>
 
   <!-- insert intro if present -->
   
@@ -277,7 +277,7 @@
 
   <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance">AllergyIntolerance</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/resource.html#AllergyIntolerance.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;example-allergy-intolerance-data-absent-reason&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#AllergyIntolerance.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;example-allergy-intolerance-data-absent-reason&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/resource.html#AllergyIntolerance.meta">meta</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-allergy-intolerance-document&quot;/&gt;
@@ -291,7 +291,7 @@ This oid is used as an identifier II.root to indicate the the extension is an ab
 
 Note that this OID is created to aid with interconversion between CDA and FHIR - FHIR uses urn:ietf:rfc:3986 as equivalent to this OID. URIs as identifiers appear more commonly in FHIR.
 
-This OID may also be used in CD.codeSystem.&quot;&gt;Uniform Resource Identifier (URI)&lt;/a&gt;/urn:uuid:7f0e9c1a-3b2d-4e5f-8a6b-1c2d3e4f5a6b&lt;/p&gt;&lt;p&gt;&lt;b&gt;clinicalStatus&lt;/b&gt;: &lt;span title=&quot;Codes :{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}&quot;&gt;Active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;verificationStatus&lt;/b&gt;: &lt;span title=&quot;Codes :{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification unconfirmed}&quot;&gt;Unconfirmed&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes :&quot;&gt;Agent allergique inconnu&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=&quot;Patient/exemple-patient&quot;&gt;Exemple Patient&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;onset&lt;/b&gt;: 2021-12-04 --&amp;gt; (en cours)&lt;/p&gt;&lt;h3&gt;Reactions&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Manifestation&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes :&quot;&gt;Manifestation clinique inconnue&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+This OID may also be used in CD.codeSystem.&quot;&gt;Uniform Resource Identifier (URI)&lt;/a&gt;/urn:uuid:7f0e9c1a-3b2d-4e5f-8a6b-1c2d3e4f5a6b&lt;/p&gt;&lt;p&gt;&lt;b&gt;clinicalStatus&lt;/b&gt;: &lt;span title=&quot;Codes :{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}&quot;&gt;Active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;verificationStatus&lt;/b&gt;: &lt;span title=&quot;Codes :{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification unconfirmed}&quot;&gt;Unconfirmed&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes :&quot;&gt;Agent allergique inconnu&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=&quot;Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41.html&quot;&gt;DOMINIQUE MARIE-LOUISE PAT-TROIS  Female, Date de Naissance :1979-03-28 ( NIR définitif (use: official, ))&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;onset&lt;/b&gt;: 2021-12-04 --&amp;gt; (en cours)&lt;/p&gt;&lt;h3&gt;Reactions&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Manifestation&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes :&quot;&gt;Manifestation clinique inconnue&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#AllergyIntolerance.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.identifier">identifier</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:ietf:rfc:3986&quot;/&gt;
@@ -320,9 +320,8 @@ This OID may also be used in CD.codeSystem.&quot;&gt;Uniform Resource Identifier
     &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeableConcept.extension">extension</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Agent allergique inconnu&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.code">code</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.patient">patient</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/exemple-patient&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Exemple Patient&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.patient">patient</a>&gt;<a href="Patient-ba499de3-aeae-43c3-82cb-0ba2718cfa41.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/ba499de3-aeae-43c3-82cb-0ba2718cfa41&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.patient">patient</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/allergyintolerance.html#AllergyIntolerance.onset_x_">onsetPeriod</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2021-12-04&quot;/&gt;
@@ -390,8 +389,8 @@ This OID may also be used in CD.codeSystem.&quot;&gt;Uniform Resource Identifier
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.fhir.fr.document-core#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Date de génération : 
-  <span title="2026-08-07 09:15:00 +0000">
-    2026-08-07
+  <span title="2026-10-01 07:42:00 +0000">
+    2026-10-01
   </span>
 
           <br/>

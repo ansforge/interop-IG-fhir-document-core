@@ -7,7 +7,7 @@ Le profil FRDiagnosticReportImagingDocument est dédié aux comptes rendus d’i
 
 **Usages:**
 
-* Refer to this Profile: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
+* Refer to this Profile: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-diagnostic-report-imaging-document.json)
 
@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
   "name" : "FRDiagnosticReportImagingDocument",
   "title" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
   "status" : "draft",
-  "date" : "2026-08-07T09:15:45+00:00",
+  "date" : "2026-10-01T07:42:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -81,16 +81,10 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "path" : "DiagnosticReport"
     },
     {
-      "id" : "DiagnosticReport.extension",
+      "id" : "DiagnosticReport.extension:composition",
       "path" : "DiagnosticReport.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      }
+      "sliceName" : "composition",
+      "short" : "Composition du rapport d'imagerie"
     },
     {
       "id" : "DiagnosticReport.extension:comparaison",
@@ -132,6 +126,32 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "mustSupport" : true
     },
     {
+      "id" : "DiagnosticReport.extension:finding",
+      "path" : "DiagnosticReport.extension",
+      "sliceName" : "finding",
+      "short" : "Résultats et observations cliniques de l'examen d'imagerie",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-finding-extension|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "DiagnosticReport.extension:conclusion",
+      "path" : "DiagnosticReport.extension",
+      "sliceName" : "conclusion",
+      "short" : "Conclusions cliniques et interprétations du rapport d'imagerie",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-conclusion-extension|0.1.0"]
+      }],
+      "mustSupport" : true
+    },
+    {
       "id" : "DiagnosticReport.identifier",
       "path" : "DiagnosticReport.identifier",
       "short" : "Identifiant du compte-rendu d'imagerie"
@@ -141,7 +161,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       "path" : "DiagnosticReport.basedOn",
       "slicing" : {
         "discriminator" : [{
-          "type" : "pattern",
+          "type" : "type",
           "path" : "$this"
         }],
         "rules" : "open"
@@ -161,6 +181,15 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
       }]
     },
     {
+      "id" : "DiagnosticReport.basedOn:serviceRequestAccessionNumber.identifier",
+      "path" : "DiagnosticReport.basedOn.identifier",
+      "min" : 1,
+      "type" : [{
+        "code" : "Identifier",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-accession-number-identifier-document|0.1.0"]
+      }]
+    },
+    {
       "id" : "DiagnosticReport.status",
       "path" : "DiagnosticReport.status",
       "short" : "Statut du compte-rendu d'imagerie"
@@ -168,54 +197,61 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
     {
       "id" : "DiagnosticReport.category",
       "path" : "DiagnosticReport.category",
+      "min" : 3
+    },
+    {
+      "id" : "DiagnosticReport.category:diagnostic-service",
+      "path" : "DiagnosticReport.category",
+      "sliceName" : "diagnostic-service",
+      "short" : "- **RAD** : Radiologie\n- **NMS** : Médecine nucléaire",
+      "min" : 0,
+      "max" : "1",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/diagnostic-service-sections|4.0.1"
+      }
+    },
+    {
+      "id" : "DiagnosticReport.category:imaging-report",
+      "path" : "DiagnosticReport.category",
+      "sliceName" : "imaging-report",
+      "definition" : "définit la catégorie du rapport d'imagerie.",
+      "min" : 1,
+      "max" : "1",
       "patternCodeableConcept" : {
         "coding" : [{
           "system" : "http://loinc.org",
-          "code" : "18748-4",
-          "display" : "Imagerie"
+          "code" : "85430-7"
+        }]
+      }
+    },
+    {
+      "id" : "DiagnosticReport.category:imaging",
+      "path" : "DiagnosticReport.category",
+      "sliceName" : "imaging",
+      "definition" : "définit la catégorie de priorité du rapport",
+      "min" : 1,
+      "max" : "1",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/health-data-api/CodeSystem/eehrxf-document-priority-category-cs",
+          "code" : "Medical-Imaging"
         }]
       }
     },
     {
       "id" : "DiagnosticReport.code",
       "path" : "DiagnosticReport.code",
-      "short" : "Type de document d'imagerie",
+      "short" : "Type de document d'imagerie (CR d'imagerie médicale, CR de médecine nucléaire)",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis|20260619134041"
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/document-core/ValueSet/fr-value-set-imaging-report-type-document|0.1.0"
       }
     },
     {
       "id" : "DiagnosticReport.subject",
       "path" : "DiagnosticReport.subject",
-      "short" : "Patient concerné par le compte-rendu d'imagerie",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0"]
-      }]
-    },
-    {
-      "id" : "DiagnosticReport.performer",
-      "path" : "DiagnosticReport.performer",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "pattern",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "DiagnosticReport.performer:organization",
-      "path" : "DiagnosticReport.performer",
-      "sliceName" : "organization",
-      "short" : "Organization productrice du CR d'imagerie",
-      "min" : 0,
-      "max" : "*",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-organization-document|0.1.0"]
-      }]
+      "short" : "Patient concerné par le compte-rendu d'imagerie"
     },
     {
       "id" : "DiagnosticReport.resultsInterpreter.extension:author",
