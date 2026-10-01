@@ -32,4 +32,9 @@ Description: "FRMedicationDispenseDocument permet de décrire un traitement disp
 * substitution MS
   * ^short = "Acte de substitution"
   * type 1..1 MS
-  * type = #G "Substitution autorisée par un produit générique"
+  * type ^short = "Type de substitution"
+  * type from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis (required)
+ 
+  * reason 0..1 MS
+  * reason.text ^short = "le motif de substitution / non-substitution"
+  * reason from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-substitution-medicament-dispensateur-cisis (required)

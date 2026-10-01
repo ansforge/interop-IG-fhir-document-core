@@ -23,7 +23,6 @@ Ce document représente le rapport d’un examen d’imagerie. Il constitue la r
 * extension contains FRConclusionExtension named conclusion 0..* MS
 * extension[conclusion] ^short = "Conclusions cliniques et interprétations du rapport d'imagerie"
 
-* extension contains FRCompositionExtension named composition 1..1 MS
 * extension[composition] ^short = "Composition du rapport d'imagerie"
 
 * identifier ^short = "Identifiant du compte-rendu d'imagerie"
@@ -40,10 +39,6 @@ Ce document représente le rapport d’un examen d’imagerie. Il constitue la r
 * basedOn[serviceRequestAccessionNumber] ^short = "Référence à la demande d'examen contenant l'Accession Number"
 * insert serviceRequestAccessionNumber( serviceRequestAccessionNumber )
 
-//* category = $LNC#18748-4 "Imagerie"
-* category ^slicing.discriminator.type = #value
-* category ^slicing.discriminator.path = "$this"
-* category ^slicing.rules = #open
 * category contains diagnostic-service 0..1 and imaging-report 1..1 and imaging 1..1
 * category[diagnostic-service] from http://hl7.org/fhir/ValueSet/diagnostic-service-sections (required)
 * category[diagnostic-service] ^short = "- **RAD** : Radiologie\n- **NMS** : Médecine nucléaire"
@@ -57,15 +52,6 @@ Ce document représente le rapport d’un examen d’imagerie. Il constitue la r
 
 * subject only Reference(FRPatientINSDocument)
 * subject ^short = "Patient concerné par le compte-rendu d'imagerie"
-
-* performer MS
-* performer ^slicing.discriminator.type = #pattern
-* performer ^slicing.discriminator.path = "$this"
-* performer ^slicing.rules = #open
-
-* performer contains organization 0..*
-* performer[organization] only Reference(FROrganizationDocument)
-* performer[organization] ^short = "Organization productrice du CR d'imagerie"
 
 * resultsInterpreter.extension[author] ^short = "Auteur du compte-rendu d'imagerie (Médecin - Radiologue)"
 
@@ -135,10 +121,3 @@ Id: fr-conclusion-extension
 Description: "Conclusions cliniques et interprétations du rapport d'imagerie"
 Context: DiagnosticReport
 * value[x] only string
-
-Extension: FRCompositionExtension
-Title: "FR Composition Extension"
-Id: fr-composition-extension
-Description: "Composition du rapport d'imagerie"
-Context: DiagnosticReport
-* value[x] only Reference(FRCompositionDocument)

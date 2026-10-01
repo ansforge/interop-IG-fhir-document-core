@@ -25,7 +25,7 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 
 // produit de santé
 * vaccineCode.coding ^slicing.discriminator.type = #value
-* vaccineCode.coding ^slicing.discriminator.path = "system"
+* vaccineCode.coding ^slicing.discriminator.path = "$this"
 * vaccineCode.coding ^slicing.rules = #open
 * vaccineCode.coding ^slicing.description = "Slice CIS et autres codifications"
 
@@ -34,6 +34,7 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 // Slice CIS obligatoire
 * vaccineCode.coding contains cis 1..1
 * vaccineCode.coding[cis] from FRValueSetVaccineCodeCISDocument (required)
+* vaccineCode.coding[cis].system = "https://smt.esante.gouv.fr/terminologie-bdpm"
 
 // Slice (autres codifications)
 * vaccineCode.coding contains translation 0..*

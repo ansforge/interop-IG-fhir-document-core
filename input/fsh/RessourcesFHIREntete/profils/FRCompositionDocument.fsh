@@ -114,13 +114,18 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 
 * event 1..*
 * event ^short = "Evènement documenté et notamment le cadre d'exercice."
-* event.detail 0..1
 * event.period ^short = "Date et heure de l’évènement documenté"
+
+// Extension performer : event.detail ne permet pas de porter l'exécutant de l'évènement (hors de son périmètre), d'où l'ajout de cette extension
 * event.extension contains fr-performer-event-extension named performer 0..1
 * event.extension[performer] ^short = "Exécutant de l'évènement documenté"
-// Slicing event : évènement documenté principal 
+// En FHIR R4, Composition.event ne dispose d'aucun élément natif permettant d'identifier l'évènement documenté principal d'où l'ajout de cette extension isPrincipal (boolean, true si l'évènement est principal) sert donc de discriminant au slicing ci-dessous.
+// TODO : à supprimer lors du passage à une version ultérieure de FHIR (R5) au profit de #position (discriminant sur la position de l'event).
+* event.extension contains fr-is-principal-event-extension named isPrincipal 0..1
+* event.extension[isPrincipal] ^short = "Indique si l'évènement documenté est l'évènement principal"
+// Slicing event : évènement documenté principal, discriminé par la valeur de l'extension isPrincipal
 * event ^slicing.discriminator.type = #value
-* event ^slicing.discriminator.path = "$this"
+* event ^slicing.discriminator.path = "extension('https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-is-principal-event-extension').value"
 * event ^slicing.rules = #open
 
 * event contains principalEvent 1..1
@@ -129,6 +134,8 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * event[principalEvent].code ^short = "Code de l'évènement documenté"
 * event[principalEvent].period 1..1 
 * event[principalEvent].period ^short = "Date et heure de l’évènement documenté principal"
+* event[principalEvent].extension[isPrincipal] 1..1
+* event[principalEvent].extension[isPrincipal].valueBoolean = true
 * event[principalEvent].extension[performer] 1..1 
 * event[principalEvent].extension[performer] ^short = "Exécutant de l'évènement documenté principal"
 
@@ -176,5 +183,5 @@ Severity: #error
 
 Invariant: comp-4
 Description: "Une section ne peut pas contenir à la fois des entrées et des sous-sections."
-Expression: "not(exists(f:entry) and exists(f:section))"
+Expression: "entry.exists().not() or section.exists().not()"
 Severity: #error
