@@ -35,31 +35,3 @@ Description: "Ce profil permet d’assembler les éléments de l’en-tête et d
 // Définition de l'entrée patient
 * entry contains patient 1..1
 * entry[patient].resource only FRPatientINSDocument or FRPatientDocument
-
-// Définition de l'entrée practitionerRole
-* entry contains practitionerRole 1..*
-* entry[practitionerRole].resource only FRPractitionerRoleDocument
-
-// Définition de l'entrée practitioner
-* entry contains practitioner 1..*
-* entry[practitioner].resource only FRPractitionerDocument
-
-// Définition de l'entrée organization
-* entry contains organization 1..*
-* entry[organization].resource only FROrganizationDocument
-
-// Définition de l'entrée device
-* entry contains device 0..1
-* entry[device].resource only FRDeviceAuteurDocument
-
-// Définition de l'entrée encounter
-* entry contains encounter 1..*
-* entry[encounter].resource only FREncounterCareDocument
-
-// Définition de l'entrée location
-* entry contains location 1..*
-* entry[location].resource only FRLocationDocument
-
-// Définition de l'entrée relatedPerson
-* entry contains  relatedPerson 0..*
-* entry[relatedPerson].resource only FRRelatedPersonDocument
