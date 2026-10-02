@@ -96,9 +96,9 @@ Title: "Example Patient - Procedure avec Data Absent Reason"
 // Extension: Lieu de naissance
 * extension[birthPlace].url = "http://hl7.org/fhir/StructureDefinition/patient-birthPlace"
 * extension[birthPlace].valueAddress.city = "Ambléon"
-* extension[birthPlace].valueAddress.extension[fr-core-address-insee-code].url = "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code"
-* extension[birthPlace].valueAddress.extension[fr-core-address-insee-code].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"
-* extension[birthPlace].valueAddress.extension[fr-core-address-insee-code].valueCoding.code = #01006
+* extension[birthPlace].valueAddress.extension[inseeCode].url = "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code"
+* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"
+* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.code = #01006
  
 // Extension: Fiabilité de l'identité
 * extension[identityReliability].url = "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability"

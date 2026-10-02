@@ -15,8 +15,7 @@ Description: "Ce profil représente le patient concerné par le document."
   * relationship[role] from $jdv-role-informateur-cisis (required)
   * relationship[role].coding.system = "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
 
-* extension contains
-    $sexForClinicalUse named sex-for-clinical-use 0..*
+// sex-for-clinical-use : slice hérité du profil Europe (patient-eu-core)
 * extension[sex-for-clinical-use] ^short = "Sexe clinique du patient"
 
 * generalPractitioner only Reference(FRPractitionerDocument)
