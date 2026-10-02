@@ -16,8 +16,11 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * meta.profile contains canonicalEU 1..1  and 
     canonicalFR 1..1 and canonicalClinicalDocument 1..1
 
+* meta.profile[canonicalEU] ^short = "Conformité au profil Composition EU Core"
 * meta.profile[canonicalEU] = Canonical(composition-eu-core)
+* meta.profile[canonicalFR] ^short = "Conformité au profil FR Composition Document"
 * meta.profile[canonicalFR] = Canonical(fr-composition-document)
+* meta.profile[canonicalClinicalDocument] ^short = "Conformité au profil Composition Clinical Document"
 * meta.profile[canonicalClinicalDocument] = Canonical(clinical-document-composition)
 
 * text MS
@@ -84,7 +87,6 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * identifier 1..1 MS
 * status MS
 * status ^short = "Statut du document"
-* status.extension contains $R5-Composition-status named R5-Composition-status 0..1
 * type only CodeableConcept
 * type MS
 * type ^short = "Type de document"
@@ -97,12 +99,11 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * category[classCode] ^short = "Classe du document"
 * category[classCode] from $JDV_J06-XdsClassCode-CISIS (required)
 * title MS
-* title ^short = "Titre du document CDA"
+* title ^short = "Titre du document"
 * title ^definition = "Les volets de contenus du CI-SIS fixent parfois le titre du document. Dans les autres cas, le titre provient soit de la saisie directe par le professionnel ou le patient/usager, soit d’une valeur par défaut générée par le logiciel et modifiable par le professionnel ou le patient/usager."
 * subject 1.. MS
 * subject ^short = "Patient / Usager"
 * subject only Reference(FRPatientINSDocument or FRPatientDocument)
-* subject.reference 1.. MS
 * date MS
 * date ^short = "Date de création du document."
 * confidentiality 1..1 MS
@@ -147,7 +148,7 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 
 * event contains principalEvent 1..1
 * event[principalEvent] ^short = "Evènement documenté principal"
-* event[principalEvent].code ^short = "Code de l'évènement documenté"
+* event[principalEvent].code ^short = "Code de l'évènement documenté principal"
 * event[principalEvent].period 1..1 
 * event[principalEvent].period ^short = "Date et heure de l’évènement documenté principal"
 * event[principalEvent].extension[isPrincipal] 1..1

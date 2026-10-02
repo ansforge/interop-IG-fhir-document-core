@@ -47,4 +47,3 @@ Alias: $informant-extension = http://hl7.org/fhir/uv/fhir-clinical-document/Stru
 Alias: $ParticipantExtension = http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ParticipantExtension
 Alias: $consent-extension = http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/consent-extension
 Alias: $event-basedOn = http://hl7.org/fhir/StructureDefinition/event-basedOn|5.3.0
-Alias: $R5-Composition-status = http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.status
