@@ -147,7 +147,6 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 
 * event contains principalEvent 1..1
 * event[principalEvent] ^short = "Evènement documenté principal"
-//* event[principalEvent].id ^short = "Identifiant de l'évènement documenté"
 * event[principalEvent].code ^short = "Code de l'évènement documenté"
 * event[principalEvent].period 1..1 
 * event[principalEvent].period ^short = "Date et heure de l’évènement documenté principal"
