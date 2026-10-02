@@ -570,9 +570,6 @@
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.type|0.1.0": [
       "AllergyIntolerance.type"
     ],
-    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.status|0.1.0": [
-      "Composition.status"
-    ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version|0.1.0": [
       "Composition"
     ],

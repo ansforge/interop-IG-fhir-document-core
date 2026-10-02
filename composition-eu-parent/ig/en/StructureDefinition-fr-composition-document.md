@@ -37,7 +37,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-10-02T13:08:18+00:00",
+  "date" : "2026-10-02T13:54:47+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -111,6 +111,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "id" : "Composition.meta.profile:canonicalEU",
       "path" : "Composition.meta.profile",
       "sliceName" : "canonicalEU",
+      "short" : "Conformité au profil Composition EU Core",
       "min" : 1,
       "max" : "1",
       "patternCanonical" : "http://hl7.eu/fhir/base/StructureDefinition/composition-eu-core|2.0.0"
@@ -119,6 +120,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "id" : "Composition.meta.profile:canonicalFR",
       "path" : "Composition.meta.profile",
       "sliceName" : "canonicalFR",
+      "short" : "Conformité au profil FR Composition Document",
       "min" : 1,
       "max" : "1",
       "patternCanonical" : "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-composition-document|0.1.0"
@@ -127,6 +129,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "id" : "Composition.meta.profile:canonicalClinicalDocument",
       "path" : "Composition.meta.profile",
       "sliceName" : "canonicalClinicalDocument",
+      "short" : "Conformité au profil Composition Clinical Document",
       "min" : 1,
       "max" : "1",
       "patternCanonical" : "http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/clinical-document-composition|1.1.0"
@@ -383,29 +386,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "mustSupport" : true
     },
     {
-      "id" : "Composition.status.extension",
-      "path" : "Composition.status.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "Composition.status.extension:R5-Composition-status",
-      "path" : "Composition.status.extension",
-      "sliceName" : "R5-Composition-status",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.status|0.1.0"]
-      }]
-    },
-    {
       "id" : "Composition.type",
       "path" : "Composition.type",
       "short" : "Type de document",
@@ -445,12 +425,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
         "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-ins-document|0.1.0",
         "https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-patient-document|0.1.0"]
       }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "Composition.subject.reference",
-      "path" : "Composition.subject.reference",
-      "min" : 1,
       "mustSupport" : true
     },
     {
@@ -503,7 +477,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
     {
       "id" : "Composition.title",
       "path" : "Composition.title",
-      "short" : "Titre du document CDA",
+      "short" : "Titre du document",
       "definition" : "Les volets de contenus du CI-SIS fixent parfois le titre du document. Dans les autres cas, le titre provient soit de la saisie directe par le professionnel ou le patient/usager, soit d’une valeur par défaut générée par le logiciel et modifiable par le professionnel ou le patient/usager.",
       "mustSupport" : true
     },
@@ -772,6 +746,11 @@ Other representations of profile: [CSV](../StructureDefinition-fr-composition-do
       "id" : "Composition.event:principalEvent.extension:isPrincipal.value[x]",
       "path" : "Composition.event.extension.value[x]",
       "patternBoolean" : true
+    },
+    {
+      "id" : "Composition.event:principalEvent.code",
+      "path" : "Composition.event.code",
+      "short" : "Code de l'évènement documenté principal"
     },
     {
       "id" : "Composition.event:principalEvent.period",
