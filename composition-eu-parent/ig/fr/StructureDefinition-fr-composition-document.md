@@ -167,7 +167,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
   "name" : "FRCompositionDocument",
   "title" : "FR Composition Document",
   "status" : "draft",
-  "date" : "2026-10-02T12:41:40+00:00",
+  "date" : "2026-10-02T12:54:07+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -917,6 +917,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
     {
       "id" : "Composition.section",
       "path" : "Composition.section",
+      "short" : "Section",
       "min" : 1,
       "constraint" : [{
         "key" : "comp-4",
@@ -928,20 +929,27 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       "mustSupport" : true
     },
     {
+      "id" : "Composition.section.id",
+      "path" : "Composition.section.id",
+      "short" : "Identifiant technique"
+    },
+    {
       "id" : "Composition.section.extension:section-note",
       "path" : "Composition.section.extension",
       "sliceName" : "section-note",
-      "short" : "Commentaires supplémentaires pour chaque section.",
+      "short" : "Commentaires.",
       "definition" : "Permet de porter des commentaires dans chaque section."
     },
     {
       "id" : "Composition.section.title",
       "path" : "Composition.section.title",
+      "short" : "Titre de la section",
       "mustSupport" : true
     },
     {
       "id" : "Composition.section.code",
       "path" : "Composition.section.code",
+      "short" : "Code de la section",
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
@@ -949,9 +957,45 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-composition-
       }
     },
     {
+      "id" : "Composition.section.author",
+      "path" : "Composition.section.author",
+      "short" : "Auteur de la section"
+    },
+    {
+      "id" : "Composition.section.focus",
+      "path" : "Composition.section.focus",
+      "short" : "Sujet de la section (si différent du sujet de la composition)"
+    },
+    {
       "id" : "Composition.section.text",
       "path" : "Composition.section.text",
+      "short" : "Partie narrative de la section (pour affichage à un humain)",
       "mustSupport" : true
+    },
+    {
+      "id" : "Composition.section.mode",
+      "path" : "Composition.section.mode",
+      "short" : "Type de section (Liste de référence, Liste à date, Liste des modifications)"
+    },
+    {
+      "id" : "Composition.section.orderedBy",
+      "path" : "Composition.section.orderedBy",
+      "short" : "Ordre des entrées"
+    },
+    {
+      "id" : "Composition.section.entry",
+      "path" : "Composition.section.entry",
+      "short" : "Entrée"
+    },
+    {
+      "id" : "Composition.section.emptyReason",
+      "path" : "Composition.section.emptyReason",
+      "short" : "Raison pour laquelle la section est vide"
+    },
+    {
+      "id" : "Composition.section.section",
+      "path" : "Composition.section.section",
+      "short" : "Sous-section"
     }]
   }
 }
