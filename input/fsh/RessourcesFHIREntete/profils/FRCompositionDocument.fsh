@@ -194,8 +194,22 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * section.text 1..1 MS
 * section obeys comp-4
 
+// Libellés des éléments de section
+* section ^short = "Section"
+* section.id ^short = "Identifiant technique"
+* section.title ^short = "Titre de la section"
+* section.code ^short = "Code de la section"
+* section.author ^short = "Auteur de la section"
+* section.focus ^short = "Sujet de la section (si différent du sujet de la composition)"
+* section.text ^short = "Partie narrative de la section (pour affichage à un humain)"
+* section.mode ^short = "Type de section (Liste de référence, Liste à date, Liste des modifications)"
+* section.orderedBy ^short = "Ordre des entrées"
+* section.entry ^short = "Entrée"
+* section.emptyReason ^short = "Raison pour laquelle la section est vide"
+* section.section ^short = "Sous-section"
+
 // section-note-extension Europe
-* section.extension[section-note] ^short = "Commentaires supplémentaires pour chaque section."
+* section.extension[section-note] ^short = "Commentaires."
 * section.extension[section-note] ^definition = "Permet de porter des commentaires dans chaque section."
 
 /// INVARIANTS
