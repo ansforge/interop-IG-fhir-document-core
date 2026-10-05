@@ -1,9 +1,10 @@
 Profile: FRCompositionDocument
-Parent: clinical-document-composition
+Parent: composition-eu-core
 Id: fr-composition-document
 Title: "FR Composition Document"
 Description: "Ce profil est utilisé pour représenter un document médical."
 
+* ^extension[$imposeProfile].valueCanonical = Canonical(http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/clinical-document-composition)
 * meta 1..1 MS
 * meta.profile 1..* MS
 //Composition.meta.profile : templateId
@@ -12,15 +13,32 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * meta.profile ^slicing.discriminator.path = "$this"
 * meta.profile ^slicing.rules = #open
 * meta.profile ^slicing.description = "Modèle du document et version du modèle"
-* meta.profile contains canonical 1..1
-* meta.profile[canonical] = Canonical(fr-composition-document)
+* meta.profile contains canonicalEU 1..1  and 
+    canonicalFR 1..1 and canonicalClinicalDocument 1..1
 
-* extension[R5-Composition-version] 1..1
-* extension[R5-Composition-version] ^short = "Numéro de version du document."
-* extension[R5-Composition-version] obeys comp-1
+* meta.profile[canonicalEU] ^short = "Conformité au profil Composition EU Core"
+* meta.profile[canonicalEU] = Canonical(composition-eu-core)
+* meta.profile[canonicalFR] ^short = "Conformité au profil FR Composition Document"
+* meta.profile[canonicalFR] = Canonical(fr-composition-document)
+* meta.profile[canonicalClinicalDocument] ^short = "Conformité au profil Composition Clinical Document"
+* meta.profile[canonicalClinicalDocument] = Canonical(clinical-document-composition)
+
+* text MS
+
+// Extensions absentes du profil Europe, reprises de clinical-document
+* extension contains
+    $data-enterer-extension named data-enterer 0..1 and
+    $informant-extension named informant 0..* and
+    $ParticipantExtension named participant 0..* MS and
+    $consent-extension named consent 0..* and
+    $event-basedOn named basedOn 0..*
+
+// version-extension Europe
+* extension[version] 1..1
+* extension[version] ^short = "Numéro de version du document."
+* extension[version] obeys comp-1
 
 // diagnosticReportReference-extension Europe
-* extension contains $composition-diagnosticReportReference named diagnosticReport 0..1
 * extension[diagnosticReport] ^short = "Pièces jointes"
 * extension[diagnosticReport].value[x] only Reference(FRDiagnosticReportDocument)
 
@@ -40,13 +58,9 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * extension[informant].extension[party] ^short = "Informateur"
 * extension[informant].extension[party].valueReference only Reference(FRPractitionerRoleDocument or FRRelatedPersonDocument or FRPatientINSDocument or FRPatientDocument)
 
-// information-recipient-extension
-* extension[information-recipient] ^short = "Destinataire prévu du document."
-* extension[information-recipient].extension[type] 1..1 
-* extension[information-recipient].extension[type] ^short = "Type de participation : destinataire"
-* extension[information-recipient].extension[type].valueCodeableConcept from FrValueSetParticipationTypeInformationRecipient
-* extension[information-recipient].extension[party] ^short = "Destinataire"
-* extension[information-recipient].extension[party].valueReference only Reference(FRPractitionerRoleDocument)
+// information-recipient-extension Europe
+* extension[informationRecipient] ^short = "Destinataire prévu du document."
+* extension[informationRecipient].value[x] only Reference(FRPractitionerRoleDocument)
 
 // participant-extension
 * extension[participant] ^short = "Participant, différent de l'auteur, du responsable, de l'opérateur de saisie, de l'informateur ou du destinataire."
@@ -64,8 +78,6 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 
 // basedOn-extension
 * extension[basedOn] ^short = "Prescription ou Plan"
-* extension[basedOn].valueReference only Reference(FRServiceRequestDocument or FRCarePlanDocument)
-* extension[basedOn].valueReference ^short = "Association du document à une prescription ou un plan"
 
 // Consent extension
 * extension[consent] ^short = "Consentement associé au document."
@@ -79,14 +91,19 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * type MS
 * type ^short = "Type de document"
 * category ^short = "Catégorie du document"
-* category from https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS (preferred)
+// Slicing category : classe du document, discriminée par le binding required sur le JDV_J06
+* category ^slicing.discriminator.type = #value
+* category ^slicing.discriminator.path = "$this"
+* category ^slicing.rules = #open
+* category contains classCode 1..1
+* category[classCode] ^short = "Classe du document"
+* category[classCode] from $JDV_J06-XdsClassCode-CISIS (required)
 * title MS
-* title ^short = "Titre du document CDA"
+* title ^short = "Titre du document"
 * title ^definition = "Les volets de contenus du CI-SIS fixent parfois le titre du document. Dans les autres cas, le titre provient soit de la saisie directe par le professionnel ou le patient/usager, soit d’une valeur par défaut générée par le logiciel et modifiable par le professionnel ou le patient/usager."
 * subject 1.. MS
 * subject ^short = "Patient / Usager"
 * subject only Reference(FRPatientINSDocument or FRPatientDocument)
-* subject.reference 1.. MS
 * date MS
 * date ^short = "Date de création du document."
 * confidentiality 1..1 MS
@@ -98,23 +115,24 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * author.extension contains fr-author-time-extension named time 1..1
 
 // Responsable du document : legalAuthenticator
-* attester[legal_attester] 1..1
-* attester[legal_attester].mode = #legal
-* attester[legal_attester].time 1..1
-* attester[legal_attester].party 1..1 
-* attester[legal_attester].party only Reference(FRPractitionerRoleDocument)
-* attester[legal_attester] ^short = "Responsable du document"
+* attester[legalAuthenticator] 1..1
+* attester[legalAuthenticator].mode = #legal
+* attester[legalAuthenticator].time 1..1
+* attester[legalAuthenticator].party 1..1
+* attester[legalAuthenticator].party only Reference(FRPractitionerRoleDocument)
+* attester[legalAuthenticator] ^short = "Responsable du document"
 
 // Professionnel attestant la validité du contenu du document : authenticator
-* attester[professional_attester].mode = #professional
-* attester[professional_attester].time 1..1
-* attester[professional_attester].party 1..1 
-* attester[professional_attester].party only Reference(FRPractitionerRoleDocument)
-* attester[professional_attester] ^short = "Professionnel attestant la validité du contenu du document"
+* attester[validator].mode = #professional
+* attester[validator].time 1..1
+* attester[validator].party 1..1
+* attester[validator].party only Reference(FRPractitionerRoleDocument)
+* attester[validator] ^short = "Professionnel attestant la validité du contenu du document"
 
 * event 1..*
 * event ^short = "Evènement documenté et notamment le cadre d'exercice."
 * event.period ^short = "Date et heure de l’évènement documenté"
+* event.code ^short = "Code de l'évènement documenté"
 
 // Extension performer : event.detail ne permet pas de porter l'exécutant de l'évènement (hors de son périmètre), d'où l'ajout de cette extension
 * event.extension contains fr-performer-event-extension named performer 0..1
@@ -130,44 +148,68 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 
 * event contains principalEvent 1..1
 * event[principalEvent] ^short = "Evènement documenté principal"
-* event[principalEvent].id ^short = "Identifiant de l'évènement documenté"
-* event[principalEvent].code ^short = "Code de l'évènement documenté"
+* event[principalEvent].code ^short = "Code de l'évènement documenté principal"
 * event[principalEvent].period 1..1 
 * event[principalEvent].period ^short = "Date et heure de l’évènement documenté principal"
 * event[principalEvent].extension[isPrincipal] 1..1
 * event[principalEvent].extension[isPrincipal].valueBoolean = true
 * event[principalEvent].extension[performer] 1..1 
 * event[principalEvent].extension[performer] ^short = "Exécutant de l'évènement documenté principal"
-
+* event[principalEvent].detail.identifier ^short = "Identifiant de l'évènement documenté"
 * relatesTo ^short = "Document de référence (à remplacer, transformé, …)."
 * relatesTo.target[x] only Identifier or Reference(FRCompositionDocument)
 * relatesTo.targetIdentifier.type 1..1
 * relatesTo.targetIdentifier.system 1..1
 * relatesTo.targetIdentifier.value 1..1
 
-* relatesTo[replaced_document] 0..1
+// Slicing relatesTo (auparavant défini dans clinical-document)
+* relatesTo ^slicing.discriminator.type = #value
+* relatesTo ^slicing.discriminator.path = "code"
+* relatesTo ^slicing.rules = #open
+* relatesTo contains
+    replaced_document 0..1 and
+    transformed_document 0..1 and
+    appended_document 0..*
+
 * relatesTo[replaced_document].code = #replaces
 
-* relatesTo contains transformed_document 0..1 
 * relatesTo[transformed_document].code = #transforms
 
-* custodian 1..1
+* relatesTo[appended_document].code = #appends
+* relatesTo[appended_document].target[x] only Identifier
+* relatesTo[appended_document].targetIdentifier.use 1..1
+
+* custodian 1..1 MS
 * custodian ^short = "Structure chargée de la conservation du document"
 * custodian only Reference(FROrganizationDocument)
 * encounter 1..1 MS
 * encounter ^short = "Association du document à une prise en charge."
 * encounter only Reference(FREncounterCareDocument)
 
-* section 1..*
+* section 1..* MS
 // Binder section.code sur le ValueSet
-* section.code 1..1
+* section.code 1..1 MS
 * section.code from $jdv-section-document-cisis
-* section.title 1..1
-* section.text 1..1
+* section.title 1..1 MS
+* section.text 1..1 MS
 * section obeys comp-4
 
-* section.extension contains $note named section-note 0..*
-* section.extension[section-note] ^short = "Commentaires supplémentaires pour chaque section."
+// Libellés des éléments de section
+* section ^short = "Section"
+* section.id ^short = "Identifiant technique"
+* section.title ^short = "Titre de la section"
+* section.code ^short = "Code de la section"
+* section.author ^short = "Auteur de la section"
+* section.focus ^short = "Sujet de la section (si différent du sujet de la composition)"
+* section.text ^short = "Partie narrative de la section (pour affichage à un humain)"
+* section.mode ^short = "Type de section (Liste de référence, Liste à date, Liste des modifications)"
+* section.orderedBy ^short = "Ordre des entrées"
+* section.entry ^short = "Entrée"
+* section.emptyReason ^short = "Raison pour laquelle la section est vide"
+* section.section ^short = "Sous-section"
+
+// section-note-extension Europe
+* section.extension[section-note] ^short = "Commentaires."
 * section.extension[section-note] ^definition = "Permet de porter des commentaires dans chaque section."
 
 /// INVARIANTS

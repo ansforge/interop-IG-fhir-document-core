@@ -1,5 +1,6 @@
 // JDV
 Alias: $JDV_J04-XdsPracticeSettingCode-CISIS = https://mos.esante.gouv.fr/NOS/JDV_J04-XdsPracticeSettingCode-CISIS/FHIR/JDV-J04-XdsPracticeSettingCode-CISIS
+Alias: $JDV_J06-XdsClassCode-CISIS = https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS
 Alias: $JDV_J01-XdsAuthorSpecialty-CISIS = https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS
 Alias: $JDV_J245-Civilite-CISIS = https://mos.esante.gouv.fr/NOS/JDV_J245-Civilite-CISIS/FHIR/JDV-J245-Civilite-CISIS
 Alias: $JDV_J246-Titre-CISIS = https://mos.esante.gouv.fr/NOS/JDV_J246-Titre-CISIS/FHIR/JDV-J246-Titre-CISIS
@@ -39,3 +40,10 @@ Alias: $note = http://hl7.org/fhir/StructureDefinition/note
 
 // extensions Eu
 Alias: $composition-diagnosticReportReference = http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference
+
+// extensions clinical-document (absentes du profil Europe)
+Alias: $data-enterer-extension = http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/data-enterer-extension
+Alias: $informant-extension = http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/informant-extension
+Alias: $ParticipantExtension = http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ParticipantExtension
+Alias: $consent-extension = http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/consent-extension
+Alias: $event-basedOn = http://hl7.org/fhir/StructureDefinition/event-basedOn|5.3.0
