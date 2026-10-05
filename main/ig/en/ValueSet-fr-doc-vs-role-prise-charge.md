@@ -2,9 +2,6 @@
 
 ## ValueSet: Fr ValueSet RolePriseCharge 
 
- 
-Pour les professions 41 (Assistant de service social) et 99 (Acteur caractérisé par son rôle). 
-
  **References** 
 
 * [FR Practitioner Document](StructureDefinition-fr-practitioner-document.md)
@@ -36,7 +33,7 @@ Pour les professions 41 (Assistant de service social) et 99 (Acteur caractéris�
   "title" : "Fr ValueSet RolePriseCharge",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -2,8 +2,6 @@
 
 ## Extension: FR Performer Event Extension 
 
-Extension permettant d'ajouter l'exécutant de l'évènement documenté. Ajout d'un performer à l'élément event d'une Composition.
-
 **Context of Use**
 
 **Usage info**
@@ -33,7 +31,7 @@ Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibilit
 
 Extension simple avec le type base64Binary, boolean, canonical, code, date, dateTime, decimal, id, instant, integer, markdown, oid, positiveInt, string, time, unsignedInt, uri, url, uuid, Address, Age, Annotation, Attachment, CodeableConcept, Coding, ContactPoint, Count, Distance, Duration, HumanName, Identifier, Money, Period, Quantity, Range, Ratio, Reference, SampledData, Signature, Timing, ContactDetail, Contributor, DataRequirement, Expression, ParameterDefinition, RelatedArtifact, TriggerDefinition, UsageContext, Dosage, Meta : Extension permettant d'ajouter l'exécutant de l'évènement documenté. Ajout d'un performer à l'élément event d'une Composition.
 
- **Vue différentielleDifferential View** 
+ **Vue différentielle** 
 
 Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
 
@@ -64,7 +62,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-performer-ev
   "name" : "FRPerformerEventExtension",
   "title" : "FR Performer Event Extension",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

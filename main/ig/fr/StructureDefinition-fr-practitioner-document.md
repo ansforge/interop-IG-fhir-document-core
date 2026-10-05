@@ -2,9 +2,6 @@
 
 ## Profil de ressource: FR Practitioner Document 
 
- 
-Ce profil permet de décrire un professionnel de santé dans le cadre d'un document médical 
-
 **Utilisations:**
 
 * Référence ce Profil: [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md), [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md), [FR Patient INS Document](StructureDefinition-fr-patient-ins-document.md), [FR PractitionerRole Document](StructureDefinition-fr-practitionerRole-document.md) and [Specimen - FR Specimen Document](StructureDefinition-fr-specimen-document.md)
@@ -92,7 +89,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-practitioner
   "name" : "FRPractitionerDocument",
   "title" : "FR Practitioner Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

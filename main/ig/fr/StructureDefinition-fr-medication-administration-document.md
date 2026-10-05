@@ -2,12 +2,6 @@
 
 ## Profil de ressource: MedicationAdministration - FR Medication Administration Document 
 
- 
-* FRMedicationAdministrationDocument permert de décrire les modalités d'administration d'un médicament au patient.
-* Il permet de décrire notamment le médicament, le mode d'administration, la quantité, la durée et la fréquence d'administration.
-* Si le traitement est en attente d’administration c’est-à dire qu’il a été prescrit.
- 
-
 **Utilisations:**
 
 * Référence ce Profil: [AdverseEvent - FR adverse event Document](StructureDefinition-fr-adverse-event-document.md), [MedicationDispense - FR Medication Dispense Document](StructureDefinition-fr-medication-dispense-document.md), [MedicationStatement - FR Medication Statement Document](StructureDefinition-fr-medication-statement-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md)... Show 3 more, [FR Patient History Extension](StructureDefinition-fr-patient-history-extension.md), [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
@@ -131,7 +125,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-medication-a
   "name" : "FRMedicationAdministrationDocument",
   "title" : "MedicationAdministration - FR Medication Administration Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

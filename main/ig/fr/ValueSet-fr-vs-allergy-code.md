@@ -2,15 +2,6 @@
 
 ## ValueSet: ValueSet – FR ValueSet Allergy Code Document 
 
- 
-Jeu de valeurs permettant de coder l’agent responsable d’une allergie : 
-* Médicaments : CIP ou UCD
-* Substances : SMS
-* Aliments : CIM-11 Chapitre X Extensions – Allergènes ou substances non médicinales
-* Agents environnementaux ou physiques : idem CIM-11 Chapitre X Extensions
-* Allergènes pouvant induire une contre-indication vaccinale : jdv-allergie-vaccin-cisis
- 
-
  **References** 
 
 * [AllergyIntolerance - FR Allergy and intolerance Document](StructureDefinition-fr-allergy-intolerance-document.md)
@@ -40,7 +31,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "name" : "FRValueSetAllergyCodeDocument",
   "title" : "ValueSet – FR ValueSet Allergy Code Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

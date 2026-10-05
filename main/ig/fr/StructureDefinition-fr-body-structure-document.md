@@ -2,9 +2,6 @@
 
 ## Profil de ressource: BodyStructure - FR Body Structure Document 
 
- 
-FRBodyStructureDocument permet de préciser les modificateurs topographiques associés à une localisation anatomique. 
-
 **Utilisations:**
 
 * Référence ce Profil: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
@@ -76,7 +73,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-body-structu
   "name" : "FRBodyStructureDocument",
   "title" : "BodyStructure - FR Body Structure Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

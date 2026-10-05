@@ -2,9 +2,6 @@
 
 ## Data Type Profile: FR Accession Number Identifier Document 
 
- 
-DataType définissant l'Accession Number d'une demande d'examen. Il s'agit d'un identifiant unique attribué à chaque demande d'examen. 
-
 **Usages:**
 
 * Use this DataType Profile: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md), [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md) and [ServiceRequest - FR Service Request Document](StructureDefinition-fr-service-request-document.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-accession-numb
   "name" : "FRAccessionNumberIdentifierDocument",
   "title" : "FR Accession Number Identifier Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

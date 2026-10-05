@@ -2,9 +2,6 @@
 
 ## Profil de ressource: FR Patient INS Document 
 
- 
-Ce profil représente le patient concerné par le document. 
-
 **Utilisations:**
 
 * Utilise ce/t/te Profil: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
@@ -27,7 +24,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient-ins.html) 
+Cette structure est dérivée de [FRCorePatientINSProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-patient-ins.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -35,7 +32,7 @@ Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhi
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient-ins.html) 
+Cette structure est dérivée de [FRCorePatientINSProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-patient-ins.html) 
 
 ** Résumé **
 
@@ -47,12 +44,6 @@ Cette structure fait référence à ces autres structures:
 
 * [FR Human Name Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document|0.1.0)](StructureDefinition-fr-human-name-document.md)
 * [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
-
-**Extensions**
-
-Cette structure fait référence à ces extensions:
-
-* [http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-patient-sexParameterForClinicalUse.html)
 
  **Vue des éléments clés** 
 
@@ -62,7 +53,7 @@ Cette structure fait référence à ces extensions:
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient-ins.html) 
+Cette structure est dérivée de [FRCorePatientINSProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-patient-ins.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -72,7 +63,7 @@ Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhi
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCorePatientINSProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-patient-ins.html) 
+Cette structure est dérivée de [FRCorePatientINSProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-patient-ins.html) 
 
 ** Résumé **
 
@@ -84,12 +75,6 @@ Cette structure fait référence à ces autres structures:
 
 * [FR Human Name Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-human-name-document|0.1.0)](StructureDefinition-fr-human-name-document.md)
 * [FR Practitioner Document (https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-practitioner-document|0.1.0)](StructureDefinition-fr-practitioner-document.md)
-
-**Extensions**
-
-Cette structure fait référence à ces extensions:
-
-* [http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse|5.3.0](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-patient-sexParameterForClinicalUse.html)
 
  
 
@@ -108,7 +93,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
   "name" : "FRPatientINSDocument",
   "title" : "FR Patient INS Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -161,13 +146,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-patient-ins-
       "id" : "Patient.extension:sex-for-clinical-use",
       "path" : "Patient.extension",
       "sliceName" : "sex-for-clinical-use",
-      "short" : "Sexe clinique du patient",
-      "min" : 0,
-      "max" : "*",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse|5.3.0"]
-      }]
+      "short" : "Sexe clinique du patient"
     },
     {
       "id" : "Patient.contact.relationship:role",

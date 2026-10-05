@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FHIRFRDocumentCore"] ;
   fhir:ImplementationGuide.title [ fhir:value "FR Document Core (FHIR)"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-10-01T13:34:48+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-05T07:58:20+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -67,7 +67,7 @@
        fhir:link <https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core>
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.fr.core" ] ;
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "2.2.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "current" ]
   ], [
      fhir:index 2 ;
      fhir:Element.id [ fhir:value "hl7_fhir_uv_extensions_r4" ] ;
@@ -140,6 +140,15 @@
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.eu.extensions" ] ;
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.3.0" ]
+  ], [
+     fhir:index 10 ;
+     fhir:Element.id [ fhir:value "hl7_fhir_eu_base" ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base" ;
+       fhir:link <http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.eu.base" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "2.0.0" ]
   ] ;
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [

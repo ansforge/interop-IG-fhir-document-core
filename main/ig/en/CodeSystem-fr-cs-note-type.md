@@ -2,9 +2,6 @@
 
 ## CodeSystem: FR CodeSystem Note Type 
 
- 
-CodeSystem définissant les types d'informations associés aux notes d'une demande d'examen d'imagerie. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [FR ValueSet Imaging Note Type](ValueSet-fr-vs-note-type.md)
@@ -26,7 +23,7 @@ This Code system is referenced in the definition of the following value sets:
   "name" : "FRCSNoteType",
   "title" : "FR CodeSystem Note Type",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -2,9 +2,6 @@
 
 ## Profil de ressource: Consent - FR Advance directive Document 
 
- 
-FRAdvanceDirectiveDocument permet d’indiquer si les directives anticipées du patient. Article L1111-11 du Code de la Santé Publique : « Toute personne majeure peut rédiger des directives anticipées pour le cas où elle serait un jour hors d'état d'exprimer sa volonté. Ces directives anticipées expriment la volonté de la personne relative à sa fin de vie en ce qui concerne les conditions de la poursuite, de la limitation, de l'arrêt ou du refus de traitement ou d'acte médicaux.» 
-
 **Utilisations:**
 
 * Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
@@ -104,7 +101,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-advance-dire
   "name" : "FRAdvanceDirectiveDocument",
   "title" : "Consent - FR Advance directive Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

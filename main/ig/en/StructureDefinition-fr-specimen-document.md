@@ -2,9 +2,6 @@
 
 ## Resource Profile: Specimen - FR Specimen Document 
 
- 
-FRSpecimenDocument est un profil utilisé pour décrire le prélèvement et l'échantillon biologique (le matériel). 
-
 **Usages:**
 
 * Refer to this Profile: [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md), [Media - FR Media Document](StructureDefinition-fr-media-document.md), [Observation - FR Observation Laboratory Report Results Document](StructureDefinition-fr-observation-laboratory-report-results-document.md) and [Specimen - FR Specimen Document](StructureDefinition-fr-specimen-document.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-specimen-docum
   "name" : "FRSpecimenDocument",
   "title" : "Specimen - FR Specimen Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

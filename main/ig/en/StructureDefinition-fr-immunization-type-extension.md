@@ -2,8 +2,6 @@
 
 ## Extension: FR Immunization Type Extension 
 
-Extension permettant de représenter le type de vaccination (ex: INITIMMUNIZ, BOOSTER, IMMUNIZ).
-
 **Context of Use**
 
 **Usage info**
@@ -35,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-immunization-t
   "name" : "FRImmunizationTypeExtension",
   "title" : "FR Immunization Type Extension",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

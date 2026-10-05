@@ -2,8 +2,6 @@
 
 ## Extension: FR Medication Administration Sequence Extension 
 
-Extension permettant d'indiquer l’ordre d’une prise dans le cadre d’un schéma de traitement comportant des dosages progressifs ou fractionnés dans le contexte de MedicationAdministration. La valeur est un entier (integer) représentant le numéro de séquence de l’administration.
-
 **Context of Use**
 
 **Usage info**
@@ -35,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-medication-adm
   "name" : "FRMedicationAdministrationSequenceExtension",
   "title" : "FR Medication Administration Sequence Extension",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

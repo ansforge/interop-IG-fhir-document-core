@@ -2,9 +2,6 @@
 
 ## Profil de ressource: ServiceRequest - FR Service Request Imaging Document 
 
- 
-FRServiceRequestImagingDocument profil spécifique permet de porter des demandes d'examens d'imagerie. 
-
 **Utilisations:**
 
 * Référence ce Profil: [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md) and [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md)
@@ -108,7 +105,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-service-requ
   "name" : "FRServiceRequestImagingDocument",
   "title" : "ServiceRequest - FR Service Request Imaging Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "FRProcedureImagingDocument"] ;
   fhir:StructureDefinition.title [ fhir:value "Procedure - FR Procedure Imaging Document"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-10-01T13:34:48+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-10-05T07:58:20+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:StructureDefinition.contact [
      fhir:index -1 ;
@@ -521,17 +521,12 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/procedure-approachBodyStructure|5.3.0>
          ]
        ] ;
-       fhir:ElementDefinition.condition [
-         fhir:value "ele-1" ;
-         fhir:index -1
-       ] ;
        fhir:ElementDefinition.constraint [
          fhir:index -1 ;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ] ;
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element|4.0.1>
@@ -542,7 +537,6 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension|4.0.1>
@@ -573,9 +567,13 @@
          fhir:Element.extension [
            fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ] ;
-           fhir:Extension.valueUrl [ fhir:value "string" ]
+           fhir:Extension.valueUrl [ fhir:value "id" ]
          ] ;
          fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
+       ] ;
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1" ;
+         fhir:index -1
        ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
@@ -616,7 +614,6 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element|4.0.1>
@@ -627,7 +624,6 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension|4.0.1>
@@ -675,7 +671,7 @@
        fhir:Element.id [ fhir:value "Procedure.extension:approachBodySite.value[x]" ] ;
        fhir:ElementDefinition.path [ fhir:value "Procedure.extension.value[x]" ] ;
        fhir:ElementDefinition.short [ fhir:value "Value of extension" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list)." ] ;
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -692,13 +688,16 @@
            fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0>
          ]
        ] ;
+       fhir:ElementDefinition.condition [
+         fhir:value "ext-1" ;
+         fhir:index -1
+       ] ;
        fhir:ElementDefinition.constraint [
          fhir:index -1 ;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ] ;
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element|4.0.1>
@@ -3992,9 +3991,13 @@
          fhir:Element.extension [
            fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ] ;
-           fhir:Extension.valueUrl [ fhir:value "string" ]
+           fhir:Extension.valueUrl [ fhir:value "id" ]
          ] ;
          fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
+       ] ;
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1" ;
+         fhir:index -1
        ] ;
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ] ;
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ] ;
@@ -4035,7 +4038,6 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element|4.0.1>
@@ -4046,7 +4048,6 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension|4.0.1>
@@ -4094,7 +4095,7 @@
        fhir:Element.id [ fhir:value "Procedure.bodySite.extension:precisionTopographique.value[x]" ] ;
        fhir:ElementDefinition.path [ fhir:value "Procedure.bodySite.extension.value[x]" ] ;
        fhir:ElementDefinition.short [ fhir:value "Value of extension" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list)." ] ;
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "1" ] ;
        fhir:ElementDefinition.base [
@@ -4111,13 +4112,16 @@
            fhir:link <https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0>
          ]
        ] ;
+       fhir:ElementDefinition.condition [
+         fhir:value "ext-1" ;
+         fhir:index -1
+       ] ;
        fhir:ElementDefinition.constraint [
          fhir:index -1 ;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ] ;
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element|4.0.1>

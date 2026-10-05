@@ -2,9 +2,6 @@
 
 ## Resource Profile: Observation - FR Observation Contra Indications Document 
 
- 
-FRObservationContraIndicationsDocument permet d'apporter des informations relatives aux contre-indications médicales du patient dans le cadre d'un examen d'imagerie. 
-
 **Usages:**
 
 * Refer to this Profile: [FR Patient History Extension](StructureDefinition-fr-patient-history-extension.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-co
   "name" : "FRObservationContraIndicationsImagingDocument",
   "title" : "Observation - FR Observation Contra Indications Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

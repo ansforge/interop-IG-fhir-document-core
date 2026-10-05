@@ -2,9 +2,6 @@
 
 ## ValueSet: FR ValueSet Imaging Note Type 
 
- 
-ValueSet définissant les types d'informations pouvant être associés aux notes d'une demande d'examen d'imagerie. 
-
  **References** 
 
 * [FR Note Type Extension](StructureDefinition-fr-note-type-extension.md)
@@ -32,7 +29,7 @@ ValueSet définissant les types d'informations pouvant être associés aux notes
   "name" : "FRValueSetNoteType",
   "title" : "FR ValueSet Imaging Note Type",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

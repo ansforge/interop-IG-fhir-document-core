@@ -2,9 +2,6 @@
 
 ## Data Type Profile: FR Human Name Document 
 
- 
-Ce profil correspond au type de données HumanName utilisé dans le document. 
-
 **Usages:**
 
 * Use this DataType Profile: [FR Patient INS Document](StructureDefinition-fr-patient-ins-document.md), [FR Practitioner Document](StructureDefinition-fr-practitioner-document.md) and [FR RelatedPerson Document](StructureDefinition-fr-related-person-document.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-human-name-doc
   "name" : "FRHumanNameDocument",
   "title" : "FR Human Name Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

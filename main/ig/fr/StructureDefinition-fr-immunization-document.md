@@ -2,11 +2,6 @@
 
 ## Profil de ressource: Immunization - FR Immunization Document 
 
- 
-FRImmunizationDocument permet de décrire l'administration d'un vaccin. 
-* Il permet également de décrire pourquoi un vaccin n'a pas été réalisé.
- 
-
 **Utilisations:**
 
 * Référence ce Profil: [ImmunizationRecommendation - FR Immunization Recommendation Document](StructureDefinition-fr-immunization-recommendation-document.md)
@@ -136,7 +131,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-immunization
   "name" : "FRImmunizationDocument",
   "title" : "Immunization - FR Immunization Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

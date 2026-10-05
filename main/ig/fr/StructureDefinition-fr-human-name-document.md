@@ -2,9 +2,6 @@
 
 ## Profil du type de données: FR Human Name Document 
 
- 
-Ce profil correspond au type de données HumanName utilisé dans le document. 
-
 **Utilisations:**
 
 * Utilise ce/t/te profil de type de données: [FR Patient INS Document](StructureDefinition-fr-patient-ins-document.md), [FR Practitioner Document](StructureDefinition-fr-practitioner-document.md) and [FR RelatedPerson Document](StructureDefinition-fr-related-person-document.md)
@@ -25,7 +22,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-human-name.html) 
+Cette structure est dérivée de [FRCoreHumanNameProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-human-name.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -33,7 +30,7 @@ Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-human-name.html) 
+Cette structure est dérivée de [FRCoreHumanNameProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-human-name.html) 
 
 ** Résumé **
 
@@ -47,7 +44,7 @@ Obligatoire : 1 élément
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-human-name.html) 
+Cette structure est dérivée de [FRCoreHumanNameProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-human-name.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -57,7 +54,7 @@ Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreHumanNameProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-human-name.html) 
+Cette structure est dérivée de [FRCoreHumanNameProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-human-name.html) 
 
 ** Résumé **
 
@@ -80,7 +77,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-human-name-d
   "name" : "FRHumanNameDocument",
   "title" : "FR Human Name Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

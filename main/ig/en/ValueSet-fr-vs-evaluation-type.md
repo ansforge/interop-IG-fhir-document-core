@@ -2,9 +2,6 @@
 
 ## ValueSet: ValueSet – FR ValueSet Type d'évaluation 
 
- 
-Codes autorisés pour indiquer le type d'évaluation. Inclut LOINC, ICF, et permet d'autres systèmes si aucun code approprié n'est trouvé. 
-
  **References** 
 
 * [Observation - FR Observation Assessment Document](StructureDefinition-fr-observation-assessment-document.md)
@@ -32,7 +29,7 @@ Codes autorisés pour indiquer le type d'évaluation. Inclut LOINC, ICF, et perm
   "name" : "FRValueSetEvaluationTypeDocument",
   "title" : "ValueSet – FR ValueSet Type d'évaluation",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

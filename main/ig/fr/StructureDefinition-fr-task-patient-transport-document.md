@@ -2,9 +2,6 @@
 
 ## Profil de ressource: Task - FR Task Patient Transport Document 
 
- 
-FRTaskPatientTransportDocument permet de décrire le transport d'un patient/usager lors d'un déplacement (entrée ou sortie d'hôpital, …). 
-
 **Utilisations:**
 
 * Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
@@ -108,7 +105,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-task-patient
   "name" : "FRTaskPatientTransportDocument",
   "title" : "Task - FR Task Patient Transport Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

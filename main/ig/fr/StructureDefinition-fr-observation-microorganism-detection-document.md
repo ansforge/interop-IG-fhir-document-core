@@ -2,9 +2,6 @@
 
 ## Profil de ressource: Observation - FR Observation Microorganism Detection Document 
 
- 
-FRObservationMicroorganismDetectionDocument permet d'indiquer si une recherche de micro-organismes multirésistants ou émergents a été effectuée ou pas. 
-
 **Utilisations:**
 
 * Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
@@ -114,7 +111,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
   "name" : "FRObservationMicroorganismDetectionDocument",
   "title" : "Observation - FR Observation Microorganism Detection Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

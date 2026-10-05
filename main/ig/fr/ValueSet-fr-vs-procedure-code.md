@@ -2,14 +2,6 @@
 
 ## ValueSet: ValueSet – FR ValueSet Codes d’actes 
 
- 
-Codes autorisés pour indiquer un acte. Inclut : 
-* Terminologie CCAM
-* NCIT (code C25218 : 'Intervention') si l'acte n'est pas trouvé dans CCAM
-* CISIS jdv-absent-or-unknown-procedure-cisis pour actes chirurgicaux inconnus ou absents.
- 
-Si aucun code approprié n’est disponible, l’acte peut être décrit en texte libre. 
-
  **References** 
 
 * [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
@@ -37,7 +29,7 @@ Si aucun code approprié n’est disponible, l’acte peut être décrit en text
   "name" : "FRValueSetProcedureCodeDocument",
   "title" : "ValueSet – FR ValueSet Codes d’actes",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

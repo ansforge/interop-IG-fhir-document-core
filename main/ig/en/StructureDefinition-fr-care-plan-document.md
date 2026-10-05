@@ -2,12 +2,9 @@
 
 ## Resource Profile: CarePlan - FR Care Plan Document 
 
- 
-FRCarePlanDocument est un profil permettant d’enregistrer une référence à un traitement dans un plan de traitement. 
-
 **Usages:**
 
-* Refer to this Profile: [FR Composition Document](StructureDefinition-fr-composition-document.md) and [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md)
+* Refer to this Profile: [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.document-core|current/StructureDefinition/StructureDefinition-fr-care-plan-document.json)
 
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-care-plan-docu
   "name" : "FRCarePlanDocument",
   "title" : "CarePlan - FR Care Plan Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

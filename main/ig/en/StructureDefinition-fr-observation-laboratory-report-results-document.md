@@ -2,9 +2,6 @@
 
 ## Resource Profile: Observation - FR Observation Laboratory Report Results Document 
 
- 
-FRObservationLaboratoryReportResultsDocument décrit un résultat d’examen de biologie médicale. 
-
 **Usages:**
 
 * Refer to this Profile: [DiagnosticReport - FR Diagnostic Report BIO chapter Document](StructureDefinition-fr-diagnostic-report-bio-chapter-document.md), [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md) and [Observation - FR Observation Laboratory Report Results Document](StructureDefinition-fr-observation-laboratory-report-results-document.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-la
   "name" : "FRObservationLaboratoryReportResultsDocument",
   "title" : "Observation - FR Observation Laboratory Report Results Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

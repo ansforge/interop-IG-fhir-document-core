@@ -2,9 +2,6 @@
 
 ## Profil de ressource: DiagnosticReport - FR Diagnostic Report Document 
 
- 
-FRDiagnosticReportDocument est un profil permettant de regrouper les types des résultats classés par type d’examens (BIO, IMG, etc…). 
-
 **Utilisations:**
 
 * Dérivé de ce Profil: [DiagnosticReport - FR Diagnostic Report BIO chapter Document](StructureDefinition-fr-diagnostic-report-bio-chapter-document.md) and [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md)
@@ -139,7 +136,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-diagnostic-r
   "name" : "FRDiagnosticReportDocument",
   "title" : "DiagnosticReport - FR Diagnostic Report Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

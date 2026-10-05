@@ -2,9 +2,6 @@
 
 ## Resource Profile: Condition - FR Condition Document 
 
- 
-FRConditionDocument est un profil utilisé pour décrire un problème du patient (une pathologie par exemple). 
-
 **Usages:**
 
 * Refer to this Profile: [AdverseEvent - FR adverse event Document](StructureDefinition-fr-adverse-event-document.md), [DeviceRequest - FR Device request Document](StructureDefinition-fr-device-request-document.md), [DeviceUseStatement - FR Device Use Statement Document](StructureDefinition-fr-device-use-statement-document.md), [Immunization - FR Immunization Document](StructureDefinition-fr-immunization-document.md)... Show 5 more, [MedicationAdministration - FR Medication Administration Document](StructureDefinition-fr-medication-administration-document.md), [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md), [MedicationStatement - FR Medication Statement Document](StructureDefinition-fr-medication-statement-document.md), [FR Patient History Extension](StructureDefinition-fr-patient-history-extension.md) and [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-condition-docu
   "name" : "FRConditionDocument",
   "title" : "Condition - FR Condition Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

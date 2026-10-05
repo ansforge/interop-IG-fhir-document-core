@@ -2,9 +2,6 @@
 
 ## Resource Profile: DiagnosticReport - FR Diagnostic Report Imaging Document 
 
- 
-Le profil FRDiagnosticReportImagingDocument est dédié aux comptes rendus d’imagerie. Ce document représente le rapport d’un examen d’imagerie. Il constitue la ressource principale qui fait référence à l’ensemble des données produites lors de l’examen d’imagerie. 
-
 **Usages:**
 
 * Refer to this Profile: [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-diagnostic-rep
   "name" : "FRDiagnosticReportImagingDocument",
   "title" : "DiagnosticReport - FR Diagnostic Report Imaging Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

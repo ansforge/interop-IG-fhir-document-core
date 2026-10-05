@@ -2,9 +2,6 @@
 
 ## Resource Profile: Observation - FR Observation Radiation Exposure Document 
 
- 
-FRObservationRadiationExposureDocument permet d'enregistrer les informations relatives à l’exposition du patient aux rayonnements et les informations de radioprotection. 
-
 **Usages:**
 
 * Refer to this Profile: [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-ra
   "name" : "FRObservationRadiationExposureDocument",
   "title" : "Observation - FR Observation Radiation Exposure Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

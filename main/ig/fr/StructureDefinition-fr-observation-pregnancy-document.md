@@ -2,9 +2,6 @@
 
 ## Profil de ressource: Observation - FR Observation Pregnancy Document 
 
- 
-FRObservationPregnancyDocument permet d'apporter des informations relatives aux grossesses actuelle ou passées. 
-
 **Utilisations:**
 
 * Référence ce Profil: [Observation - FR Observation Pregnancy History Document](StructureDefinition-fr-observation-pregnancy-history-document.md) and [FR Patient History Extension](StructureDefinition-fr-patient-history-extension.md)
@@ -118,7 +115,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
   "name" : "FRObservationPregnancyDocument",
   "title" : "Observation - FR Observation Pregnancy Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

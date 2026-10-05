@@ -67,7 +67,7 @@
   <name value="FRProcedureDocument"/>
   <title value="Procedure - FR Procedure Document"/>
   <status value="draft"/>
-  <date value="2026-10-01T13:34:48+00:00"/>
+  <date value="2026-10-05T07:58:20+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -449,13 +449,11 @@
         <code value="Extension"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/procedure-approachBodyStructure|5.3.0"/>
       </type>
-      <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element|4.0.1"/>
       </constraint>
       <constraint>
@@ -463,7 +461,6 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
       </constraint>
       <mustSupport value="true"/>
@@ -484,10 +481,11 @@
       </base>
       <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
+          <valueUrl value="id"/>
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>
+      <condition value="ele-1"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -522,7 +520,6 @@
         <severity value="error"/>
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element|4.0.1"/>
       </constraint>
       <constraint>
@@ -530,7 +527,6 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
       </constraint>
       <isModifier value="false"/>
@@ -566,7 +562,7 @@
     <element id="Procedure.extension:approachBodySite.value[x]">
       <path value="Procedure.extension.value[x]"/>
       <short value="Value of extension"/>
-      <definition value="Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)."/>
+      <definition value="Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list)."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -578,12 +574,12 @@
         <code value="Reference"/>
         <targetProfile value="https://interop.esante.gouv.fr/ig/fhir/document-core/StructureDefinition/fr-body-structure-document|0.1.0"/>
       </type>
+      <condition value="ext-1"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element|4.0.1"/>
       </constraint>
       <isModifier value="false"/>

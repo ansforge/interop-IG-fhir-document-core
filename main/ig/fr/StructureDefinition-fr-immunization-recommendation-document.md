@@ -2,13 +2,6 @@
 
 ## Profil de ressource: ImmunizationRecommendation - FR Immunization Recommendation Document 
 
- 
-FRImmunizationRecommendationDocument permet de décrire une vaccination prévue ou proposée. 
-* Une vaccination proposée est une proposition qui est utilisée dans la prise de décisions (elle peut apparaître comme une contribution ou un résultat provenant de l'aide à la décision clinique).
-* Une vaccination prévue dépend d'un plan accepté et à venir.
-* Ce profil hérite de la structuration, des contraintes et des vocabulaires définis dans le profil FRVaccinationDocument.
- 
-
 **Utilisations:**
 
 * Référence ce Profil: [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md)
@@ -114,7 +107,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-immunization
   "name" : "FRImmunizationRecommendationDocument",
   "title" : "ImmunizationRecommendation - FR Immunization Recommendation Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

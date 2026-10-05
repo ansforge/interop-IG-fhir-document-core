@@ -2,9 +2,6 @@
 
 ## Resource Profile: DeviceRequest - FR Device request Document 
 
- 
-FRDeviceRequestDocument représente une demande de dispositif médical (DM) qui n’a pas encore été dispensé. 
-
 **Usages:**
 
 * This Profile is not used by any profiles in this Specification
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-device-request
   "name" : "FRDeviceRequestDocument",
   "title" : "DeviceRequest - FR Device request Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

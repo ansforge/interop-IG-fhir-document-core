@@ -2,8 +2,6 @@
 
 ## Extension: FR Performer Event Extension 
 
-Extension permettant d'ajouter l'exécutant de l'évènement documenté. Ajout d'un performer à l'élément event d'une Composition.
-
 **Context of Use**
 
 **Usage info**
@@ -35,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-performer-even
   "name" : "FRPerformerEventExtension",
   "title" : "FR Performer Event Extension",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -2,12 +2,6 @@
 
 ## ValueSet: ValueSet – FR ValueSet Localisation anatomique et voie d'abord 
 
- 
-Codes SNOMED CT autorisés pour décrire une localisation anatomique ou une voie d'abord. Inclut : 
-* Les structures anatomiques pour body site : http://hl7.org/fhir/ValueSet/body-site
-* Les structures anatomiques pour voie d'abord (approach-site-codes) : http://hl7.org/fhir/ValueSet/approach-site-codes
- 
-
  **References** 
 
 * [BodyStructure - FR Body Structure Document](StructureDefinition-fr-body-structure-document.md)
@@ -35,7 +29,7 @@ Codes SNOMED CT autorisés pour décrire une localisation anatomique ou une voie
   "name" : "FRValueSetLocationBodyStructureDocument",
   "title" : "ValueSet – FR ValueSet Localisation anatomique et voie d'abord",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

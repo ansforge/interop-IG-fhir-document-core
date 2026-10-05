@@ -2,9 +2,6 @@
 
 ## Resource Profile: Observation - FR Observation Result Document 
 
- 
-FRObservationResultDocument permet d'indiquer le résultat observé. 
-
 **Usages:**
 
 * Refer to this Profile: [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md), [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md) and [FR Finding Extension](StructureDefinition-fr-finding-extension.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-re
   "name" : "FRObservationResultDocument",
   "title" : "Observation - FR Observation Result Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

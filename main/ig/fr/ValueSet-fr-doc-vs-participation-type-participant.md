@@ -2,9 +2,6 @@
 
 ## ValueSet: FR ValueSet Participation Type Participant 
 
- 
-Type de participation : participant 
-
  **References** 
 
 * [FR Composition Document](StructureDefinition-fr-composition-document.md)
@@ -36,7 +33,7 @@ Type de participation : participant
   "title" : "FR ValueSet Participation Type Participant",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

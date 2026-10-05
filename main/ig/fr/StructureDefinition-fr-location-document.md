@@ -2,9 +2,6 @@
 
 ## Profil de ressource: FR Location Document 
 
- 
-Ce profil représente le lieu de la prise en charge. 
-
 **Utilisations:**
 
 * Référence ce Profil: [FR Encounter Care Document](StructureDefinition-fr-encounter-care-document.md) and [Encounter - FR Encounter Document](StructureDefinition-fr-encounter-document.md)
@@ -25,7 +22,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreLocationProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-location.html) 
+Cette structure est dérivée de [FRCoreLocationProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-location.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -33,7 +30,7 @@ Cette structure est dérivée de [FRCoreLocationProfile](https://hl7.fr/ig/fhir/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreLocationProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-location.html) 
+Cette structure est dérivée de [FRCoreLocationProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-location.html) 
 
 ** Résumé **
 
@@ -54,7 +51,7 @@ Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slic
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCoreLocationProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-location.html) 
+Cette structure est dérivée de [FRCoreLocationProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-location.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -64,7 +61,7 @@ Cette structure est dérivée de [FRCoreLocationProfile](https://hl7.fr/ig/fhir/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreLocationProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-location.html) 
+Cette structure est dérivée de [FRCoreLocationProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-location.html) 
 
 ** Résumé **
 
@@ -94,7 +91,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-location-doc
   "name" : "FRLocationDocument",
   "title" : "FR Location Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

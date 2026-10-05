@@ -28,7 +28,7 @@ DOMINIQUE MARIE-LOUISE PAT-TROIS Female, DoB: 1979-03-28 ( NIR définitif (use:
 * 12 rue des Lilas, 75012 Paris
  |
 | [Patient Birth Place](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-patient-birthPlace.html) | Ambléon |
-| FR Core Patient Ident Reliability Extension: | * identityStatus: [FR Core CodeSystem v2-0445: VALI](https://hl7.fr/ig/fhir/core/2.2.0/CodeSystem-fr-core-cs-v2-0445.html#fr-core-cs-v2-0445-VALI) (Identité validée)
+| FR Core Patient Ident Reliability Extension: | * identityStatus: [FR Core CodeSystem v2-0445: VALI](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/CodeSystem-fr-core-cs-v2-0445.html#fr-core-cs-v2-0445-VALI) (Identité validée)
  |
 
 

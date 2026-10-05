@@ -2,9 +2,6 @@
 
 ## ValueSet: FR Value Set Imaging Report Type Document 
 
- 
-Type de document d'imagerie (CR d'imagerie médicale, CR de médecine nucléaire) 
-
  **References** 
 
 * [DiagnosticReport - FR Diagnostic Report Imaging Document](StructureDefinition-fr-diagnostic-report-imaging-document.md)
@@ -32,7 +29,7 @@ Type de document d'imagerie (CR d'imagerie médicale, CR de médecine nucléaire
   "name" : "FRValueSetImagingReportTypeDocument",
   "title" : "FR Value Set Imaging Report Type Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

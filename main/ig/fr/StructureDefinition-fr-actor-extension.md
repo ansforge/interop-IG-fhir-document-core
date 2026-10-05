@@ -2,8 +2,6 @@
 
 ## Extension: FR Actor Extension 
 
-Extension permettant de représenter un acteur impliqué dans le document avec son type et sa référence.
-
 **Context of Use**
 
 **Usage info**
@@ -37,7 +35,7 @@ Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibilit
 
 Extension complexe: Extension permettant de représenter un acteur impliqué dans le document avec son type et sa référence.
 
- **Vue différentielleDifferential View** 
+ **Vue différentielle** 
 
 Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
 
@@ -72,7 +70,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-actor-extens
   "name" : "FRActorExtension",
   "title" : "FR Actor Extension",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

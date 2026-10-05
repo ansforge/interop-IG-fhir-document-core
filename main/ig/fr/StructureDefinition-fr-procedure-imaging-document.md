@@ -2,9 +2,6 @@
 
 ## Profil de ressource: Procedure - FR Procedure Imaging Document 
 
- 
-FRProcedureImagingDocument permet d'enregistrer les différents paramètres de l’acquisition d’image : acte d'imagerie, localisation anatomique / latéralité / topographie, d'autres paramètres de l'acte 
-
 **Utilisations:**
 
 * Référence ce Profil: [FR Imaging Procedure Extension](StructureDefinition-fr-imaging-procedure-extension.md), [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md), [Observation - FR Observation Radiation Exposure Document](StructureDefinition-fr-observation-radiation-exposure-document.md) and [Procedure - FR Procedure Imaging Document](StructureDefinition-fr-procedure-imaging-document.md)
@@ -124,7 +121,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-procedure-im
   "name" : "FRProcedureImagingDocument",
   "title" : "Procedure - FR Procedure Imaging Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

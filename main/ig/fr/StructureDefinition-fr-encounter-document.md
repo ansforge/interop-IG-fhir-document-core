@@ -2,9 +2,6 @@
 
 ## Profil de ressource: Encounter - FR Encounter Document 
 
- 
-FREncounterDocument est un profil permettant de conserver les modalités d'une rencontre du patient. Il peut s'agir d'une rencontre passée ou à venir 
-
 **Utilisations:**
 
 * Référence ce Profil: [DiagnosticReport - FR Diagnostic Report Document](StructureDefinition-fr-diagnostic-report-document.md), [Observation - FR Observation Contra Indications Document](StructureDefinition-fr-observation-contra-indications-document.md), [Observation - FR Observation Microorganism Detection Document](StructureDefinition-fr-observation-microorganism-detection-document.md), [Observation - FR Observation Multiresistant Microorganisms Identification Document](StructureDefinition-fr-observation-multiresistant-microorganism-document.md)... Show 4 more, [Observation - FR Observation Pregnancy Document](StructureDefinition-fr-observation-pregnancy-document.md), [Observation - FR Observation Result Document](StructureDefinition-fr-observation-result-document.md), [Observation - FR Observation Work Related Accident Document](StructureDefinition-fr-observation-work-related-accident-document.md) and [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
@@ -25,7 +22,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-encounter.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -35,7 +32,7 @@ Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-encounter.html) 
 
 ** Résumé **
 
@@ -63,7 +60,7 @@ Cette structure fait référence à ces extensions:
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-encounter.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -75,7 +72,7 @@ Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-encounter.html) 
 
 ** Résumé **
 
@@ -112,7 +109,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-encounter-do
   "name" : "FREncounterDocument",
   "title" : "Encounter - FR Encounter Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

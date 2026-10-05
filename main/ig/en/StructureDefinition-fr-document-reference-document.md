@@ -2,9 +2,6 @@
 
 ## Resource Profile: DocumentReference - FR Document reference Document 
 
- 
-FRDocumentReferenceDocument restreint pour les documents PDF. 
-
 **Usages:**
 
 * Refer to this Profile: [Consent - FR Advance directive Document](StructureDefinition-fr-advance-directive-document.md) and [Condition - FR Condition Document](StructureDefinition-fr-condition-document.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-document-refer
   "name" : "FRDocumentReferenceDocument",
   "title" : "DocumentReference - FR Document reference Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

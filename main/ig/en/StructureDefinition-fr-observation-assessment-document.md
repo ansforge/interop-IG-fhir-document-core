@@ -2,9 +2,6 @@
 
 ## Resource Profile: Observation - FR Observation Assessment Document 
 
- 
-FRObservationAssessmentDocument permet de rapporter un résultat (score) répondant à une question faisant partie d'une évaluation (questionnaire d'enquête par exemple). 
-
 **Usages:**
 
 * Refer to this Profile: [Observation - FR Observation Assessment Document](StructureDefinition-fr-observation-assessment-document.md)
@@ -32,7 +29,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-observation-as
   "name" : "FRObservationAssessmentDocument",
   "title" : "Observation - FR Observation Assessment Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -2,8 +2,6 @@
 
 ## Extension: FR Procedure Priority Extension 
 
-Extension permettant d’indiquer d'indique la priorité clinique de l’observation.
-
 **Context of Use**
 
 **Usage info**
@@ -37,7 +35,7 @@ Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibilit
 
 Extension simple avec le type CodeableConcept : Extension permettant d’indiquer d'indique la priorité clinique de l’observation.
 
- **Vue différentielleDifferential View** 
+ **Vue différentielle** 
 
 Cette structure est dérivée de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
 
@@ -72,7 +70,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-procedure-pr
   "name" : "FRProcedurePriorityExtension",
   "title" : "FR Procedure Priority Extension",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

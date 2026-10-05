@@ -2,9 +2,6 @@
 
 ## Profil de ressource: Observation - FR Observation Pain Score Document 
 
- 
-FRObservationPainScoreDocument permet d'enregistrer l'évaluation du patient de sa douleur sur une échelle de 1 à 10. 
-
 **Utilisations:**
 
 * Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
@@ -106,7 +103,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-observation-
   "name" : "FRObservationPainScoreDocument",
   "title" : "Observation - FR Observation Pain Score Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

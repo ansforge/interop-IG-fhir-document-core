@@ -14,7 +14,7 @@
   "name" : "FHIRFRDocumentCore",
   "title" : "FR Document Core (FHIR)",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -48,7 +48,7 @@
     "id" : "hl7_fhir_fr_core",
     "uri" : "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core",
     "packageId" : "hl7.fhir.fr.core",
-    "version" : "2.2.0"
+    "version" : "current"
   },
   {
     "id" : "hl7_fhir_uv_extensions_r4",
@@ -97,6 +97,12 @@
     "uri" : "http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions",
     "packageId" : "hl7.fhir.eu.extensions",
     "version" : "1.3.0"
+  },
+  {
+    "id" : "hl7_fhir_eu_base",
+    "uri" : "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base",
+    "packageId" : "hl7.fhir.eu.base",
+    "version" : "2.0.0"
   }],
   "definition" : {
     "extension" : [{

@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "FRObservationLaboratoryReportResultsDocument"] ;
   fhir:StructureDefinition.title [ fhir:value "Observation - FR Observation Laboratory Report Results Document"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-10-01T13:34:48+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-10-05T07:58:20+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:StructureDefinition.contact [
      fhir:index -1 ;
@@ -5952,17 +5952,12 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo|5.3.0>
          ]
        ] ;
-       fhir:ElementDefinition.condition [
-         fhir:value "ele-1" ;
-         fhir:index -1
-       ] ;
        fhir:ElementDefinition.constraint [
          fhir:index -1 ;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ] ;
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element|4.0.1>
@@ -5973,7 +5968,6 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ] ;
          fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ] ;
          fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ] ;
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1" ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension|4.0.1>

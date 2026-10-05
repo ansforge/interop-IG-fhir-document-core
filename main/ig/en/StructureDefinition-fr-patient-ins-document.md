@@ -2,9 +2,6 @@
 
 ## Resource Profile: FR Patient INS Document 
 
- 
-Ce profil représente le patient concerné par le document. 
-
 **Usages:**
 
 * Use this Profile: [FR Bundle Document](StructureDefinition-fr-bundle-document.md)
@@ -34,7 +31,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-patient-ins-do
   "name" : "FRPatientINSDocument",
   "title" : "FR Patient INS Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -87,13 +84,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-patient-ins-do
       "id" : "Patient.extension:sex-for-clinical-use",
       "path" : "Patient.extension",
       "sliceName" : "sex-for-clinical-use",
-      "short" : "Sexe clinique du patient",
-      "min" : 0,
-      "max" : "*",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse|5.3.0"]
-      }]
+      "short" : "Sexe clinique du patient"
     },
     {
       "id" : "Patient.contact.relationship:role",

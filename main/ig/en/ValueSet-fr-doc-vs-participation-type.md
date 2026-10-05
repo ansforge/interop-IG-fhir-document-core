@@ -2,12 +2,9 @@
 
 ## ValueSet: FR ValueSet Participation Type Information Recipient 
 
- 
-Type de participation : destinataire 
-
  **References** 
 
-* [FR Composition Document](StructureDefinition-fr-composition-document.md)
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
 
 ### Logical Definition (CLD)
 
@@ -36,7 +33,7 @@ Type de participation : destinataire
   "title" : "FR ValueSet Participation Type Information Recipient",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

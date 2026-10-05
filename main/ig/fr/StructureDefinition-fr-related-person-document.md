@@ -2,9 +2,6 @@
 
 ## Profil de ressource: FR RelatedPerson Document 
 
- 
-Ce profil représente l'informateur non professionnel. 
-
 **Utilisations:**
 
 * Référence ce Profil: [FR Actor Extension](StructureDefinition-fr-actor-extension.md), [FR Composition Document](StructureDefinition-fr-composition-document.md), [Media - FR Media Document](StructureDefinition-fr-media-document.md) and [Procedure - FR Procedure Document](StructureDefinition-fr-procedure-document.md)
@@ -25,7 +22,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-related-person.html) 
+Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-related-person.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -33,7 +30,7 @@ Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-related-person.html) 
+Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-related-person.html) 
 
 ** Résumé **
 
@@ -53,7 +50,7 @@ Cette structure fait référence à ces autres structures:
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-related-person.html) 
+Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-related-person.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -63,7 +60,7 @@ Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-related-person.html) 
+Cette structure est dérivée de [FRCoreRelatedPersonProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-related-person.html) 
 
 ** Résumé **
 
@@ -92,7 +89,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-related-pers
   "name" : "FRRelatedPersonDocument",
   "title" : "FR RelatedPerson Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -2,9 +2,6 @@
 
 ## Profil de ressource: FR Encounter Care Document 
 
- 
-Ce profil représente l'association du document à une prise en charge. 
-
 **Utilisations:**
 
 * Référence ce Profil: [FR Composition Document](StructureDefinition-fr-composition-document.md) and [MedicationRequest - FR Medication Request Document](StructureDefinition-fr-medication-request-document.md)
@@ -25,7 +22,7 @@ Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https:/
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-encounter.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -33,7 +30,7 @@ Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-encounter.html) 
 
 ** Résumé **
 
@@ -60,7 +57,7 @@ Cette structure définit les [slices](http://hl7.org/fhir/R4/profiling.html#slic
 
  **Vue différentielle** 
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-encounter.html) 
 
 #### Bindings terminologiques (différentiel)
 
@@ -70,7 +67,7 @@ Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir
 
 #### Contraintes
 
-Cette structure est dérivée de [FRCoreEncounterProfile](https://hl7.fr/ig/fhir/core/2.2.0/StructureDefinition-fr-core-encounter.html) 
+Cette structure est dérivée de [FRCoreEncounterProfile](https://build.fhir.org/ig/Interop-Sante/hl7.fhir.fr.core/StructureDefinition-fr-core-encounter.html) 
 
 ** Résumé **
 
@@ -106,7 +103,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-encounter-ca
   "name" : "FREncounterCareDocument",
   "title" : "FR Encounter Care Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

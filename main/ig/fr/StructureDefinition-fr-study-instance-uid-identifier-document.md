@@ -2,9 +2,6 @@
 
 ## Profil du type de données: FR Study Instance Uid Identifier Document 
 
- 
-DataType définissant l’UID de l’instance Study (0020,000D) d'une demande d'examen d'imagerie 
-
 **Utilisations:**
 
 * Utilise ce/t/te profil de type de données: [ImagingStudy - FR Imaging study Document](StructureDefinition-fr-imaging-study-document.md)
@@ -88,7 +85,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-study-instan
   "name" : "FRStudyInstanceUidIdentifierDocument",
   "title" : "FR Study Instance Uid Identifier Document",
   "status" : "draft",
-  "date" : "2026-10-01T13:34:48+00:00",
+  "date" : "2026-10-05T07:58:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
