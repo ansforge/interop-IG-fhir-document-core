@@ -29,7 +29,7 @@ Description: "FRImmunizationRecommendationDocument permet de décrire une vaccin
 
   // Slice (autres codifications)
   * vaccineCode.coding contains translation 0..*
-  * vaccineCode.coding[translation] from FRValueSetMedicationTranslationDocument (required)
+  * vaccineCode.coding[translation] from $fr-core-vs-medication-translation (required)
   * vaccineCode.coding[translation].system 1..1
 
  // Référence vers le profil FRVaccinationDocument

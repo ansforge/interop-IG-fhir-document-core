@@ -8,7 +8,7 @@ Description: "FRMedicationDocument permet de décrire un médicament ou un vacci
 
 * code 1..1 MS
   * ^short = "Code du produit de santé"
-* code.coding from FRValueSetMedicationTranslationDocument (required) 
+* code.coding from $fr-core-vs-medication-translation (required) 
 
 //Nom de marque du produit : Extension IHE
 * extension contains $ihe-ext-medication-productname named productName 1..1 MS

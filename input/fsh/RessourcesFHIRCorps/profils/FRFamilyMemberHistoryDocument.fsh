@@ -38,7 +38,7 @@ Description: "FRFamilyMemberHistoryDocument est un profil utilisé pour apporter
 * condition.extension contains
     FRFamilyMemberHistoryBodySiteExtension named bodySite 0..1 MS and
     FRInterpretationExtension named interpretation 0..1 MS and
-    FRMethodExtension named method 0..1 MS
+    https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-method-extension named method 0..1 MS
 
 * condition.extension[bodySite] ^short = "Localisation anatomique"
 
