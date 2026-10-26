@@ -36,7 +36,7 @@ Description: "FRServiceRequestDocument profil permet de porter des demandes d'ex
 * bodySite ^short = "Cible"
 * bodySite from http://hl7.org/fhir/ValueSet/body-site (extensible)
 
-* extension contains https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-method-extension named method 0..* and
+* extension contains $fr-core-method-extension named method 0..* and
      FRActorExtension named author 0..1 and 
      http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason named reason 0..*
 
