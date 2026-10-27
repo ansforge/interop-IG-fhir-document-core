@@ -55,13 +55,13 @@ Si pas de problème ou pas d'information : https://smt.esante.gouv.fr/fhir/Value
 * stage ^slicing.rules = #open
 * stage ^slicing.description = "Slice sur stage.type : statut clinique du patient (LOINC 11323-3) et autres stadifications"
 
-* stage contains statutCliniqueDuPatient 0..1 MS
-* stage[statutCliniqueDuPatient] ^short = "Statut clinique du patient"
-* stage[statutCliniqueDuPatient].type 1..1 MS
-* stage[statutCliniqueDuPatient].type = $LNC#11323-3 "Statut clinique du patient"
-* stage[statutCliniqueDuPatient].summary 1..1 MS
-* stage[statutCliniqueDuPatient].summary ^short = "Statut clinique du patient"
-* stage[statutCliniqueDuPatient].summary from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis (required)
+* stage contains statutClinique 0..1 MS
+* stage[statutClinique] ^short = "Statut clinique du patient"
+* stage[statutClinique].type 1..1 MS
+* stage[statutClinique].type = $LNC#11323-3 "Statut clinique du patient"
+* stage[statutClinique].summary 1..1 MS
+* stage[statutClinique].summary ^short = "Statut clinique du patient"
+* stage[statutClinique].summary from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis (required)
 
 * note MS
 * note ^short = "Commentaire"
