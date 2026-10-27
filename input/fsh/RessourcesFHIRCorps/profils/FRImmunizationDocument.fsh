@@ -68,6 +68,9 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 // Rang de la vaccination 
 * protocolApplied.doseNumberPositiveInt MS
 * protocolApplied.doseNumberPositiveInt ^short = "Rang de la vaccination"
+// Nombre total de doses prévues
+* protocolApplied.seriesDosesPositiveInt MS
+* protocolApplied.seriesDosesPositiveInt ^short = "Nombre total de doses prévues"
 
 * reasonReference MS
 * reasonReference only Reference(FRConditionDocument) 
