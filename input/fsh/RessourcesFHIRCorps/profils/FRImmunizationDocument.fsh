@@ -63,14 +63,14 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 
 * protocolApplied MS
 // Type de vaccination
-* protocolApplied.series ^short = "BOOSTER / IMMUNIZ / INITIMMUNIZ"
+* protocolApplied.series ^short = "Type de dose (BOOSTER / IMMUNIZ / INITIMMUNIZ)"
 * protocolApplied.series from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis
 // Rang de la vaccination 
 * protocolApplied.doseNumberPositiveInt MS
 * protocolApplied.doseNumberPositiveInt ^short = "Rang de la vaccination"
 // Nombre total de doses prévues
 * protocolApplied.seriesDosesPositiveInt MS
-* protocolApplied.seriesDosesPositiveInt ^short = "Nombre total de doses prévues"
+* protocolApplied.seriesDosesPositiveInt ^short = "Nombre total de doses"
 
 * reasonReference MS
 * reasonReference only Reference(FRConditionDocument) 
