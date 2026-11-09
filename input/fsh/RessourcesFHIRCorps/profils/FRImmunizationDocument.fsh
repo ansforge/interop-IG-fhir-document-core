@@ -27,7 +27,7 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 
 // Slice (autres codifications)
 * vaccineCode.coding contains translation 0..*
-* vaccineCode.coding[translation] from FRValueSetMedicationTranslationDocument (required)
+* vaccineCode.coding[translation] from $fr-core-vs-medication (required)
 * vaccineCode.coding[translation].system 1..1
 
 * lotNumber MS

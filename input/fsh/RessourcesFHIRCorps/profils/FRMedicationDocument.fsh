@@ -7,7 +7,7 @@ Description: "FRMedicationDocument permet de décrire un médicament ou un vacci
 //* ^extension[$imposeProfile].valueCanonical = Canonical()
 
 * code MS
-* code.coding from FRValueSetMedicationTranslationDocument (required) 
+* code.coding from $fr-core-vs-medication (required) 
 
 // Les slices d'extension ci-dessous sont définies dans les profils parents (FRCoreMedicationProfile / MedicationEuCore)
 
