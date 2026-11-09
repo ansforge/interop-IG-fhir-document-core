@@ -1,5 +1,5 @@
 Profile: FRMedicationAdministrationDocument
-Parent: MedicationAdministration
+Parent: FRCoreMedicationAdministrationProfile
 Id: fr-medication-administration-document
 Title: "MedicationAdministration - FR Medication Administration Document"
 Description: "
@@ -10,34 +10,21 @@ Description: "
 //* ^extension[$imposeProfile].valueCanonical = Canonical()
 * identifier ^short = "Identifiant de l'administration du médicament"
 * category MS
-  * ^short = "Acte ou situation"
-* status 1..1 MS
-  * ^short = "Statut"
+* status MS
 * status = #completed
 * effective[x] only Period
 * effectivePeriod MS
-  * ^short = "Durée du traitement"
-
-// R5 : occurenceTiming
-// Fréquence d'administration
-* extension contains $medicationAdministration-occurence-r5 named occurenceR5 0..1
-* extension[occurenceR5].valueTiming 1..1
-* extension[occurenceR5] ^short = "Fréquence d'administration"
 
 * dosage
-  // Dosages progressifs ou fractionnés
-  * extension contains FRMedicationAdministrationSequenceExtension named sequence 0..*
+  // Dosages progressifs ou fractionnés : slice sequence (FRCoreMedicationAdministrationSequenceExtension) définie dans FRCoreMedicationAdministrationProfile
   // Dosages conditionnels
   //* extension contains http://hl7.org/fhir/StructureDefinition/note named dosagesConditionnels 0..* 
   * route MS
   * route from FRValueSetEDQMDocument
-  * route ^short = "Voie d'administration"
   * route ^binding.description = "EDQM - Standard terms / classe ROA (0.4.0.127.0.16.1.1.2.1)" 
   * site MS
-  * site ^short = "Région anatomique d'administration"
   * site from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis
   * dose MS
-    * ^short = "Dose à administrer"
 
 * dosage.rate[x] MS
 * dosage.rateRatio MS
@@ -51,15 +38,12 @@ Description: "
 
 // Instruction au patient
 * dosage.text MS
-  * ^short = "Instruction au patient"
 
 // Motif du traitement
 * reasonReference MS
-  * ^short = "Motif du traitement"
 * reasonReference only Reference(FRConditionDocument or Observation)
 
 * request only Reference(FRMedicationRequestDocument)
-* request ^short = "Prescription"
 
 * note MS
 * note ^short = "Permet de décrire les conditions préalables à l'utilisation du médicament."

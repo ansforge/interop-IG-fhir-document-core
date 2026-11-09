@@ -14,11 +14,10 @@ acte d'imagerie, localisation anatomique / latéralité / topographie, d'autres 
 * code ^short = "Code de l'acte d'imagerie"
 * code from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis (required)
 
-* bodySite from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-anatomique-cisis
-* bodySite ^short = "Localisation anatomique"
-* bodySite.extension contains http://hl7.org/fhir/StructureDefinition/procedure-targetBodyStructure named precisionTopographique 0..1 MS
-* bodySite.extension[precisionTopographique] ^short = "Modificateurs topographiques"
-* bodySite.extension[precisionTopographique].valueReference only Reference(FRBodyStructureDocument) 
+// slice bodySite (extension http://hl7.org/fhir/StructureDefinition/bodySite) définie dans FRCoreProcedureProfile
+* bodySite.extension[bodySite] MS
+* bodySite.extension[bodySite] ^short = "Localisation anatomique ou structure"
+* bodySite.extension[bodySite].valueReference only Reference(FRCoreBodyStructureProfile) 
 
 * performer ^slicing.discriminator.type = #value
 * performer ^slicing.discriminator.path = "actor"

@@ -1,5 +1,5 @@
 Profile: FRMedicationStatementDocument
-Parent: MedicationStatement
+Parent: FRCoreMedicationStatementProfile
 Id: fr-medication-statement-document
 Title: "MedicationStatement - FR Medication Statement Document"
 Description: "
@@ -10,35 +10,27 @@ Description: "
 //* ^extension[$imposeProfile].valueCanonical = Canonical()
 * identifier ^short = "Identifiant. L'entrée Traitement doit être identifiée de manière unique."
 * basedOn only Reference(FRMedicationRequestDocument)
-* basedOn ^short = "Prescription"
 * partOf only Reference(FRMedicationAdministrationDocument)
 * category MS
-  * ^short = "Acte ou situation"
 * status MS
-  * ^short = "Statut"
 * status = #completed
 * effective[x] only Period
 * effectivePeriod MS
-  * ^short = "Durée du traitement"
 
 * dosage MS
   * timing MS
-  * timing ^short = "Fréquence d'administration"
   // Dosages progressifs, fractionnés 
   * sequence MS
   // Dosages conditionnels
   * asNeeded[x] MS 
   * route MS
   * route from FRValueSetEDQMDocument
-  * route ^short = "Voie d'administration"
   * route ^binding.description = "EDQM - Standard terms / classe ROA (0.4.0.127.0.16.1.1.2.1)" 
   * site MS
-  * site ^short = "Région anatomique d'administration"
   * site from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis
   
 * dosage.doseAndRate MS
 * dosage.doseAndRate.doseQuantity MS
-  * ^short = "Dose déclarée"
 
 * dosage.maxDosePerPeriod MS
 * dosage.maxDosePerPeriod
@@ -58,7 +50,6 @@ Description: "
 
 // Motif du traitement
 * reasonReference MS
-  * ^short = "Motif du traitement"
 * reasonReference only Reference(FRConditionDocument or Observation)
 
 * note MS

@@ -1,5 +1,5 @@
 Profile: FRAdvanceDirectiveDocument
-Parent: Consent
+Parent: FRCoreConsentProfile
 Id: fr-advance-directive-document
 Title: "Consent - FR Advance directive Document"
 Description: "FRAdvanceDirectiveDocument permet  d’indiquer si les directives anticipées du patient.

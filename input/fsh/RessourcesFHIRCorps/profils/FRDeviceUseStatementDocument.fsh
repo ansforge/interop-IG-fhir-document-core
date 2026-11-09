@@ -29,5 +29,5 @@ Description: "FRDeviceUseStatementDocument représente les informations sur un d
   * ^short = "Raisons liées à l'utilisation du dispositif médical"
 * reasonReference only Reference(Observation or FRConditionDocument or FRObservationPreventionDocument or FRObservationALDDocument or FRObservationWorkRelatedAccidentDocument)
 
-* extension contains FRNotCoveredExtension named notCovered 0..1
+* extension contains FRCoreNotCoveredExtension named notCovered 0..1
 * extension[notCovered] ^short = "DM n'est remboursable / remboursable"

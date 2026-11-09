@@ -1,5 +1,5 @@
 Profile: FRPractitionerDocument
-Parent: AsPractitionerProfile
+Parent: FRCorePractitionerProfile
 Id: fr-practitioner-document
 Title: "FR Practitioner Document"
 Description: "Ce profil permet de décrire un professionnel de santé dans le cadre d'un document médical"
