@@ -15,6 +15,5 @@ Description: "Ce profil représente le patient concerné par le document."
   * relationship[role].coding.system = "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
 
 // sex-for-clinical-use : slice hérité du profil Europe (patient-eu-core)
-* extension[sex-for-clinical-use] ^short = "Sexe clinique du patient"
 
 * generalPractitioner only Reference(FRPractitionerDocument)

@@ -7,9 +7,7 @@ Description: "FRImmunizationRecommendationDocument permet de décrire une vaccin
  - Une vaccination prévue dépend d'un plan accepté et à venir.
  - Ce profil hérite de la structuration, des contraintes et des vocabulaires définis dans le profil FRVaccinationDocument."
 
-//* ^extension[$imposeProfile].valueCanonical = Canonical()
 * identifier ^short = "Identifiant"
-
 * recommendation 1..1
   * forecastStatus = #complete
   * dateCriterion 1..1 
@@ -19,26 +17,17 @@ Description: "FRImmunizationRecommendationDocument permet de décrire une vaccin
   * vaccineCode.coding ^slicing.discriminator.path = "system"
   * vaccineCode.coding ^slicing.rules = #open
   * vaccineCode.coding ^slicing.description = "Slice CIS et autres codifications"
-
-  * vaccineCode MS
   * vaccineCode ^short = "Vaccin. Code du produit de santé"
   // Slice CIS obligatoire
   * vaccineCode.coding contains cis 1..1
-  * vaccineCode.coding[cis] from $fr-core-vs-vaccine-code-cis (required)
+  * vaccineCode.coding[cis] from FRCoreValueSetVaccineCodeCIS (required)
   * vaccineCode.coding[cis].system = "https://smt.esante.gouv.fr/terminologie-bdpm"
-
   // Slice (autres codifications)
   * vaccineCode.coding contains translation 0..*
-  * vaccineCode.coding[translation] from $fr-core-vs-medication (required)
+  * vaccineCode.coding[translation] from FRCoreValueSetMedication (required)
   * vaccineCode.coding[translation].system 1..1
-
- // Référence vers le profil FRVaccinationDocument
   * supportingImmunization only Reference(FRImmunizationDocument)
-  // Rang de la vaccination
-  * seriesDosesPositiveInt MS
-  // ou utilisation de l'extesion FHIR : Note  http://hl7.org/fhir/StructureDefinition/note?
-  * description MS
+  * description
     * ^short = "Commentaire"
-
   * supportingPatientInformation only Reference(FRMedicationRequestDocument)
   * supportingPatientInformation ^short = "Prescription"

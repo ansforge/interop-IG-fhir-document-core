@@ -129,7 +129,6 @@ groups:
       - StructureDefinition/fr-medication-request-document
       - StructureDefinition/fr-observation-contra-indications-document
       - StructureDefinition/fr-observation-laboratory-report-results-document
-      - StructureDefinition/fr-observation-microorganism-detection-document
       - StructureDefinition/fr-observation-pregnancy-history-document
       - StructureDefinition/fr-observation-pain-score-document
       - StructureDefinition/fr-observation-pregnancy-document
@@ -146,7 +145,6 @@ groups:
       - StructureDefinition/fr-task-patient-transport-document
       - StructureDefinition/fr-observation-vital-signs-panel-document
       - StructureDefinition/fr-observation-vital-signs-document
-      - StructureDefinition/fr-observation-multiresistant-microorganism-document
       - StructureDefinition/fr-service-request-imaging-document
 
   data-type-fhir:
