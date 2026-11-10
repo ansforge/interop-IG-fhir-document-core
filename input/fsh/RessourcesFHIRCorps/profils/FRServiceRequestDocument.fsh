@@ -6,8 +6,7 @@ Description: "FRServiceRequestDocument profil permet de porter des demandes d'ex
 
 * obeys fr-invariant-intent
 
-* extension contains FRActorExtension named author 0..1 and
-     http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason named reason 0..*
+* extension contains FRActorExtension named author 0..1
 * extension[author].extension[type].valueCode = #AUT
 * extension[author].extension[actor].valueReference only Reference(FRPractitionerRoleDocument or Device or FRDeviceAuteurDocument or FROrganizationDocument or FRRelatedPersonDocument or FRPatientINSDocument or FRPatientDocument)
 
