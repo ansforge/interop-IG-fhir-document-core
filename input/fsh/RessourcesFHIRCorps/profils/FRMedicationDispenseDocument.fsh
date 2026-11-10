@@ -8,9 +8,8 @@ Description: "FRMedicationDispenseDocument permet de décrire un traitement disp
 //* ^extension[$imposeProfile].valueCanonical = Canonical()
 * identifier ^short = "Identifiant"
 * type 1..1 MS
-  * coding from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis
 * quantity MS
-  * unit from FRValueSetEDQMDocument
+* quantity from FRValueSetEDQMDocument (extensible)
 
 * medication[x] MS
 * medication[x] only CodeableConcept or Reference(FRMedicationDocument)

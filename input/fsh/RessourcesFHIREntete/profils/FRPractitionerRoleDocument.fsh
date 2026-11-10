@@ -4,7 +4,7 @@ Id: fr-practitionerRole-document
 Title: "FR PractitionerRole Document"
 Description: "Ce profil représente les professionnels de santé et leurs rôles dans le cadre d'un document médical."
 
-// Slicing de code (non défini dans FRCorePractitionerRoleProfile)
+// Slicing de code
 * code ^slicing.discriminator.type = #value
 * code ^slicing.discriminator.path = "$this"
 * code ^slicing.rules = #open

@@ -18,12 +18,8 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 * doseQuantity MS 
 
 // produit de santé
-// Slicing de vaccineCode.coding défini dans FRCoreImmunizationProfile
 
 * vaccineCode MS
-// Slice CIS obligatoire (définie dans FRCoreImmunizationProfile)
-* vaccineCode.coding[cis] from FRValueSetVaccineCodeCISDocument (required)
-* vaccineCode.coding[cis].system = "https://smt.esante.gouv.fr/terminologie-bdpm"
 
 // Slice (autres codifications)
 * vaccineCode.coding contains translation 0..*
@@ -42,7 +38,7 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 * extension[author].extension[type].valueCode = #AUT
 * extension[author].extension[actor].valueReference only Reference(FRPractitionerRoleDocument or FRPatientINSDocument or FRDeviceAuteurDocument or FRPatientDocument)
 
-//Prescription (slice basedOnRequestR5 définie dans FRCoreImmunizationProfile)
+// Prescription
 * extension[basedOnRequestR5].valueReference only Reference (FRMedicationRequestDocument)
 
 * protocolApplied MS
@@ -57,10 +53,5 @@ Description: "FRImmunizationDocument permet de décrire l'administration d'un va
 * reasonReference MS
 * reasonReference only Reference(FRConditionDocument) 
 
-// Dose d'antigène
-// Problème dataType : codeableReference 
-/* * extension contains $immunization-administeredProduct-r5 named ImmunizationAdministeredProductR5 0..*
-* extension[ImmunizationAdministeredProductR5].extension[reference].valueReference only Reference(FRMedicationDocument)
- */
 * note MS
   * ^short = "Commentaire"

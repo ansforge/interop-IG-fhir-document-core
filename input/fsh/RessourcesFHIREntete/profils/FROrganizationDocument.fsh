@@ -7,7 +7,7 @@ Description: "Ce profil représente la structure pour le compte de laquelle inte
 * identifier ^short = "Identifiant de la structure
  - Obligatoire dans la structure chargée de la conservation du document(Composition.custodian 1..1)"
 
-// slice : type (slicing non défini dans FRCoreOrganizationProfile, même syntaxe que FRCoreOrganizationEtablissementProfile)
+// slice : type
 * type ^slicing.discriminator.type = #value
 * type ^slicing.discriminator.path = "$this"
 * type ^slicing.rules = #open

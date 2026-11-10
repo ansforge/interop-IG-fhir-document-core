@@ -9,8 +9,6 @@ Description: "FRMedicationDocument permet de décrire un médicament ou un vacci
 * code MS
 * code.coding from $fr-core-vs-medication (required) 
 
-// Les slices d'extension ci-dessous sont définies dans les profils parents (FRCoreMedicationProfile / MedicationEuCore)
-
 //Nom de marque du produit : Extension IHE
 * extension[productName] 1..1 MS
 * form MS

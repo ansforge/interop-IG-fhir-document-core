@@ -32,7 +32,6 @@ Pour les actes chirurgicaux inconnus, utiliser jdv-absent-or-unknown-procedure-c
 
 * performed[x] MS
 
-// Slices priority, approachBodySite et difficulte définies dans FRCoreProcedureProfile
 * extension[priority] MS
 
 // Voie d'abord : extension standard FHIR (procedure-approachBodySite)

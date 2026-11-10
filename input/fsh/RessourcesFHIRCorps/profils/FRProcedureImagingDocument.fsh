@@ -14,7 +14,6 @@ acte d'imagerie, localisation anatomique / latéralité / topographie, d'autres 
 * code ^short = "Code de l'acte d'imagerie"
 * code from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis (required)
 
-// slice bodySite (extension http://hl7.org/fhir/StructureDefinition/bodySite) définie dans FRCoreProcedureProfile
 * bodySite.extension[bodySite] MS
 * bodySite.extension[bodySite] ^short = "Localisation anatomique ou structure"
 * bodySite.extension[bodySite].valueReference only Reference(FRCoreBodyStructureProfile) 

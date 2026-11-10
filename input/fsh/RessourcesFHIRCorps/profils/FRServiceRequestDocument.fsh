@@ -8,7 +8,6 @@ Description: "FRServiceRequestDocument profil permet de porter des demandes d'ex
 
 * category MS
 
-// Slicing de identifier et slice accessionNumber (AccessionNumberIdentifierEuImaging) définis dans FRCoreServiceRequestProfile
 * identifier[accessionNumber] ^short = "Accession Number de la demande d’examen d’imagerie"
 
 * intent MS
@@ -26,7 +25,6 @@ Description: "FRServiceRequestDocument profil permet de porter des demandes d'ex
 
 * bodySite MS
 
-// slice method (FRCoreMethodExtension) définie dans FRCoreServiceRequestProfile
 * extension contains FRActorExtension named author 0..1 and
      http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason named reason 0..*
 

@@ -24,7 +24,7 @@ Description: "FRImmunizationRecommendationDocument permet de décrire une vaccin
   * vaccineCode ^short = "Vaccin. Code du produit de santé"
   // Slice CIS obligatoire
   * vaccineCode.coding contains cis 1..1
-  * vaccineCode.coding[cis] from FRValueSetVaccineCodeCISDocument (required)
+  * vaccineCode.coding[cis] from $fr-core-vs-vaccine-code-cis (required)
   * vaccineCode.coding[cis].system = "https://smt.esante.gouv.fr/terminologie-bdpm"
 
   // Slice (autres codifications)

@@ -16,14 +16,8 @@ Description: "
 * effectivePeriod MS
 
 * dosage
-  // Dosages progressifs ou fractionnés : slice sequence (FRCoreMedicationAdministrationSequenceExtension) définie dans FRCoreMedicationAdministrationProfile
-  // Dosages conditionnels
-  //* extension contains http://hl7.org/fhir/StructureDefinition/note named dosagesConditionnels 0..* 
   * route MS
-  * route from FRValueSetEDQMDocument
-  * route ^binding.description = "EDQM - Standard terms / classe ROA (0.4.0.127.0.16.1.1.2.1)" 
   * site MS
-  * site from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis
   * dose MS
 
 * dosage.rate[x] MS
