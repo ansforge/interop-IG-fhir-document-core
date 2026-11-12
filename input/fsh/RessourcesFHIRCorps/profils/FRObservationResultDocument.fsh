@@ -4,26 +4,18 @@ Id: fr-observation-result-document
 Title: "Observation - FR Observation Result Document"
 Description: "FRObservationResultDocument permet d'indiquer le résultat observé."
 
-//* ^extension[$imposeProfile].valueCanonical = Canonical()
-
 // Demande d'examen associée à l'observation
-* basedOn MS
 * basedOn ^slicing.discriminator.type = #type  
 * basedOn ^slicing.discriminator.path = "$this"
 * basedOn ^slicing.rules = #open
 * basedOn contains serviceRequestAccessionNumber 0..*
 * basedOn[serviceRequestAccessionNumber] ^short = "Référence à la demande d'examen contenant l'Accession Number"
 * insert serviceRequestAccessionNumber (serviceRequestAccessionNumber)
-
-* value[x] MS
+* value[x]
   * ^short = "Observation effectuée"
-* referenceRange MS
+* referenceRange
   * ^short = "Intervalles de référence"
-
 * interpretation ^short = "Interprétation"
 * interpretation from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis
-
-* note MS
 * note ^short = "Commentaires (résultats d'examen non codés)"
-
 * insert FRRuleSetSimpleObservation

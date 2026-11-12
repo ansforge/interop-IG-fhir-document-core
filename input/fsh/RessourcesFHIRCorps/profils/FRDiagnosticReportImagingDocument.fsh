@@ -8,37 +8,27 @@ Le profil FRDiagnosticReportImagingDocument est dédié aux comptes rendus d’i
 Ce document représente le rapport d’un examen d’imagerie. Il constitue la ressource principale qui fait référence à l’ensemble des données produites lors de l’examen d’imagerie.
 """
 
-* extension contains FRComparisonStudiesExtension named comparaison 0..* MS
+* extension contains FRComparisonStudiesExtension named comparaison 0..*
 * extension[comparaison] ^short = "Comparaisons avec des résultats antérieurs"
-
-* extension contains FRPatientHistoryExtension named historiqueMedical 0..* MS
+* extension contains FRPatientHistoryExtension named historiqueMedical 0..*
 * extension[historiqueMedical] ^short = "Historique médical du patient pertinent pour l'examen d'imagerie"
-
-* extension contains FRImagingProcedureExtension named procedure 0..* MS
+* extension contains FRImagingProcedureExtension named procedure 0..*
 * extension[procedure] ^short = "Technique d'imagerie"
-
-* extension contains FRFindingExtension named finding 0..* MS
+* extension contains FRFindingExtension named finding 0..*
 * extension[finding] ^short = "Résultats et observations cliniques de l'examen d'imagerie"
-
-* extension contains FRConclusionExtension named conclusion 0..* MS
+* extension contains FRConclusionExtension named conclusion 0..*
 * extension[conclusion] ^short = "Conclusions cliniques et interprétations du rapport d'imagerie"
-
 * extension[composition] ^short = "Composition du rapport d'imagerie"
-
 * identifier ^short = "Identifiant du compte-rendu d'imagerie"
-
 * status
   * ^short = "Statut du compte-rendu d'imagerie"
-
 // référence à la demande d'examen d'imagerie contenant l'Accession Number comme identifiant
-* basedOn MS
 * basedOn ^slicing.discriminator.type = #type  
 * basedOn ^slicing.discriminator.path = "$this"
 * basedOn ^slicing.rules = #open
 * basedOn contains serviceRequestAccessionNumber 0..*
 * basedOn[serviceRequestAccessionNumber] ^short = "Référence à la demande d'examen contenant l'Accession Number"
 * insert serviceRequestAccessionNumber( serviceRequestAccessionNumber )
-
 * category contains diagnostic-service 0..1 and imaging-report 1..1 and imaging 1..1
 * category[diagnostic-service] from http://hl7.org/fhir/ValueSet/diagnostic-service-sections (required)
 * category[diagnostic-service] ^short = "- **RAD** : Radiologie\n- **NMS** : Médecine nucléaire"
@@ -46,42 +36,31 @@ Ce document représente le rapport d’un examen d’imagerie. Il constitue la r
   * ^definition = "définit la catégorie de priorité du rapport"
 * category[imaging-report] = $LNC#85430-7 //Diagnostic imaging report
   * ^definition = "définit la catégorie du rapport d'imagerie."
-
 * code from FRValueSetImagingReportTypeDocument (required)
   * ^short = "Type de document d'imagerie (CR d'imagerie médicale, CR de médecine nucléaire)"
-
 * subject only Reference(FRPatientINSDocument)
 * subject ^short = "Patient concerné par le compte-rendu d'imagerie"
-
 * resultsInterpreter.extension[author] ^short = "Auteur du compte-rendu d'imagerie (Médecin - Radiologue)"
-
 * result ^short = "Résultats d'examen (actuels ou antérieurs)"
 * result ^comment = "Les résultats sont exprimés sous forme non codée dans notre cas d’usage. Le contenu narratif du résultat est porté dans une note"
-
 // Slicing des résultats d'examen en résultats actuels et résultats antérieurs
 * result ^slicing.discriminator.type = #pattern
 * result ^slicing.discriminator.path = "reference"
 * result ^slicing.ordered = false
 * result ^slicing.rules = #open
-
 * result contains resultatActuel 0..1 and resultatAnterieur 0..1
-
 // Slice : résultats actuels
 * result[resultatActuel] ^short = "Résultats actuels de l'examen d'imagerie"
 * result[resultatActuel] ^comment = "Si les résultats d'examen sont codés, ils sont référencés dans FRObservationResultDocument. Si les résultats d'examen sont exprimés sous forme non codée, ils sont portés dans une note de FRObservationResultDocument."
 * result[resultatActuel] only Reference(FRObservationResultDocument)
-
 // Slice : résultats antérieurs
 * result[resultatAnterieur] ^short = "Résultats antérieurs"
 * result[resultatAnterieur] ^comment = "Si les résultats d'examen sont codés, ils sont référencés dans FRObservationResultDocument. Si les résultats d'examen sont exprimés sous forme non codée, ils sont portés dans une note de FRObservationResultDocument."
 * result[resultatAnterieur] only Reference(FRObservationResultDocument)
-
 // La conclusion est non codée
 * conclusion ^short = "Conclusions cliniques et interprétations du rapport d’imagerie."
-
 * imagingStudy only Reference(FRImagingStudyDocument)
 * imagingStudy ^short = "Acte d'imagerie associé au compte-rendu"
-
 /* Création des extensions utilisées dans le profil FRDiagnosticReportImagingDocument en suivant
  la même structure que HL7 Europe DiagnosticReportEuImaging */
 

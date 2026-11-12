@@ -102,9 +102,10 @@ Title: "Example Patient - AllergyIntolerance avec Data Absent Reason"
  
 // Extension: Fiabilité de l'identité
 * extension[identityReliability].url = "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability"
+* extension[identityReliability].extension[lastUpdated].valueDateTime = "2025-01-15T09:30:00+01:00"
 * extension[identityReliability].extension[identityStatus].url = "identityStatus"
-* extension[identityReliability].extension[identityStatus].valueCoding.system = "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445"
-* extension[identityReliability].extension[identityStatus].valueCoding.code = #VALI
+* extension[identityReliability].extension[identityStatus].valueCoding.system = "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-identity-status"
+* extension[identityReliability].extension[identityStatus].valueCoding.code = #QUAL
  
 // Contact 1
 * contact[0].name.text = "Sophie NESSI"

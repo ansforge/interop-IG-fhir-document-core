@@ -16,7 +16,6 @@ Description: "Ce profil permet d’assembler les éléments de l’en-tête et d
 * type = #document
 * timestamp 1..1
 
-* entry MS
 // Slicing sur entry
 * entry ^slicing.discriminator[0].type = #type
 * entry ^slicing.discriminator[=].path = "resource"
@@ -27,7 +26,7 @@ Description: "Ce profil permet d’assembler les éléments de l’en-tête et d
 * entry ^definition = "Une ressource Entry incluse dans le bundle de ressources du document"
 * entry ^comment = "Doit contenir la Composition comme première entrée"
 
-* entry.fullUrl 1.. MS
+* entry.fullUrl 1..
 // Définition de l'entrée composition
 * entry contains composition 1..1
 * entry[composition].resource only FRCompositionDocument

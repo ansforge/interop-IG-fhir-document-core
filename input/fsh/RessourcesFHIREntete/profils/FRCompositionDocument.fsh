@@ -5,8 +5,8 @@ Title: "FR Composition Document"
 Description: "Ce profil est utilisé pour représenter un document médical."
 
 * ^extension[$imposeProfile].valueCanonical = Canonical(http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/clinical-document-composition)
-* meta 1..1 MS
-* meta.profile 1..* MS
+* meta 1..1
+* meta.profile 1..*
 //Composition.meta.profile : templateId
 * meta.profile ^short = "Modèle du document et version du modèle."
 * meta.profile ^slicing.discriminator.type = #value
@@ -23,13 +23,11 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * meta.profile[canonicalClinicalDocument] ^short = "Conformité au profil Composition Clinical Document"
 * meta.profile[canonicalClinicalDocument] = Canonical(clinical-document-composition)
 
-* text MS
-
 // Extensions absentes du profil Europe, reprises de clinical-document
 * extension contains
     $data-enterer-extension named data-enterer 0..1 and
     $informant-extension named informant 0..* and
-    $ParticipantExtension named participant 0..* MS and
+    $ParticipantExtension named participant 0..* and
     $consent-extension named consent 0..* and
     $event-basedOn named basedOn 0..*
 
@@ -82,13 +80,11 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 // Consent extension
 * extension[consent] ^short = "Consentement associé au document."
 
-* language 1..1 MS
+* language 1..1
 * identifier ^short = "Identifiant du lot de versions du même document."
-* identifier 1..1 MS
-* status MS
+* identifier 1..1
 * status ^short = "Statut du document"
 * type only CodeableConcept
-* type MS
 * type ^short = "Type de document"
 * category ^short = "Catégorie du document"
 // Slicing category : classe du document, discriminée par le binding required sur le JDV_J06
@@ -98,17 +94,14 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * category contains classCode 1..1
 * category[classCode] ^short = "Classe du document"
 * category[classCode] from $JDV_J06-XdsClassCode-CISIS (required)
-* title MS
 * title ^short = "Titre du document"
 * title ^definition = "Les volets de contenus du CI-SIS fixent parfois le titre du document. Dans les autres cas, le titre provient soit de la saisie directe par le professionnel ou le patient/usager, soit d’une valeur par défaut générée par le logiciel et modifiable par le professionnel ou le patient/usager."
-* subject 1.. MS
+* subject 1..
 * subject ^short = "Patient / Usager"
 * subject only Reference(FRPatientINSDocument or FRPatientDocument)
-* date MS
 * date ^short = "Date de création du document."
-* confidentiality 1..1 MS
+* confidentiality 1..1
 * confidentiality ^short = "Niveau de confidentialité du document."
-* author MS
 * author ^short = "Auteur du document"
 * author ^definition = "author permet d’enregistrer un auteur du document. Un document peut avoir un ou plusieurs auteurs. Un professionnel de santé auteur d'un document est toujours dans une situation d'exercice donnée (FRPractitionerRoleDocument)."
 * author only Reference(FRPractitionerRoleDocument or FRPatientINSDocument or FRPatientDocument or FRDeviceAuteurDocument)
@@ -179,19 +172,19 @@ Description: "Ce profil est utilisé pour représenter un document médical."
 * relatesTo[appended_document].target[x] only Identifier
 * relatesTo[appended_document].targetIdentifier.use 1..1
 
-* custodian 1..1 MS
+* custodian 1..1
 * custodian ^short = "Structure chargée de la conservation du document"
 * custodian only Reference(FROrganizationDocument)
-* encounter 1..1 MS
+* encounter 1..1
 * encounter ^short = "Association du document à une prise en charge."
 * encounter only Reference(FREncounterCareDocument)
 
-* section 1..* MS
+* section 1..*
 // Binder section.code sur le ValueSet
-* section.code 1..1 MS
+* section.code 1..1
 * section.code from $jdv-section-document-cisis
-* section.title 1..1 MS
-* section.text 1..1 MS
+* section.title 1..1
+* section.text 1..1
 * section obeys comp-4
 
 // Libellés des éléments de section

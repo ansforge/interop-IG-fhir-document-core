@@ -7,7 +7,6 @@ Description: "Ce profil représente le patient concerné par le document."
 * contact
   * name 1..1 
   * name only fr-human-name-document
-  * address 0..1
 // relationship
   * relationship[relationType] from $JDV_J11_RelationPatient_CISIS (required)
   * relationship[relationType].coding.system = "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"
@@ -16,6 +15,5 @@ Description: "Ce profil représente le patient concerné par le document."
   * relationship[role].coding.system = "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
 
 // sex-for-clinical-use : slice hérité du profil Europe (patient-eu-core)
-* extension[sex-for-clinical-use] ^short = "Sexe clinique du patient"
 
 * generalPractitioner only Reference(FRPractitionerDocument)
