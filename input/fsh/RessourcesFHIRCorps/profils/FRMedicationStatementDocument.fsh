@@ -14,6 +14,5 @@ Description: "
 * medication[x] only CodeableConcept or Reference(FRMedicationDocument)
 // Motif du traitement
 * reasonReference only Reference(FRConditionDocument or Observation)
-* note
 // Ajout de l'extension R5 :  ExtensionMedicationStatement_Adherence
-  * extension contains $extension-MedicationStatement.adherence named adherence 0..*
+* extension contains $extension-MedicationStatement.adherence named adherence 0..*

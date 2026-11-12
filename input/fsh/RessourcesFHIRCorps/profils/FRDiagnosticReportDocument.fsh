@@ -28,8 +28,7 @@ Description: "FRDiagnosticReportDocument est un profil permettant de regrouper l
 * subject only Reference(FRPatientINSDocument)
 * specimen only Reference(FRSpecimenDocument)
 * specimen ^short = "Échantillons sur lesquels repose ce compte rendu." 
-* performer
-  * ^short = "Exécutant"
+* performer ^short = "Exécutant"
 * performer only Reference (FRPractitionerDocument or FRPractitionerRoleDocument or FROrganizationDocument)
 * performer ^slicing.discriminator.type = #pattern
 * performer ^slicing.discriminator.path = "$this"
