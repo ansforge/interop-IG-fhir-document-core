@@ -22,4 +22,4 @@ Alias: $data-enterer-extension = http://hl7.org/fhir/uv/fhir-clinical-document/S
 Alias: $informant-extension = http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/informant-extension
 Alias: $ParticipantExtension = http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/ParticipantExtension
 Alias: $consent-extension = http://hl7.org/fhir/uv/fhir-clinical-document/StructureDefinition/consent-extension
-Alias: $event-basedOn = http://hl7.org/fhir/StructureDefinition/event-basedOn|5.3.0
+Alias: $event-basedOn = http://hl7.org/fhir/StructureDefinition/event-basedOn
