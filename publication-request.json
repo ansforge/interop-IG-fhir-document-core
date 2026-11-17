@@ -9,5 +9,9 @@
     "first" : true,
     "desc" : "Première publication en concertation publique du volet FHIR du guide d'implémentation Document Core.",
     "ci-build" : "https://ansforge.github.io/interop-IG-fhir-document-core/main/ig",
+    "category" : "Clinical Documents",
+    "registry-description" : "Guide d'implémentation FHIR des documents dématérialisés produits en France dans le domaine sanitaire et le domaine médico-social",
+    "registry-country" : "fr",
+    "registry-authority" : "ANS",
     "introduction" : "Ce guide définit les spécifications FHIR des documents dématérialisés produits en France dans le domaine sanitaire et le domaine médico-social (en-tête, structure générale et corps des documents)."
 }
