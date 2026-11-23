@@ -1,0 +1,19 @@
+{
+  "composition-eu-parent": null,
+  "condition-stage-slicing": "2026-10-27T17:04:50Z",
+  "correctionProfile": null,
+  "heritage-fr-core": "2026-11-12T10:52:21Z",
+  "htr-shorts-heritage-fr-core": "2026-11-23T10:34:59Z",
+  "immunization-maj": "2026-10-27T16:32:33Z",
+  "main": "2026-11-17T16:47:15Z",
+  "majComposition": null,
+  "nr-fix-template-ref": null,
+  "nr-test-template-main": null,
+  "nriss-patch-2": null,
+  "publication-0.1.0-ballot": "2026-11-17T09:46:48Z",
+  "publication-request-registry": "2026-11-17T13:03:58Z",
+  "restauration-encart-ci-build": "2026-11-17T10:13:05Z",
+  "revert-38-correctionProfile": null,
+  "revert-39-revert-38-correctionProfile": null,
+  "traduireDisplayFR": null
+}
