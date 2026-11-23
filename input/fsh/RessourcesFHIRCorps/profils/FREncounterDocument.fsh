@@ -5,6 +5,7 @@ Title: "Encounter - FR Encounter Document"
 Description: "FREncounterDocument est un profil permettant de conserver les modalités d'une rencontre du patient. Il peut s'agir d'une rencontre passée ou à venir"
 
 * obeys fr-encounter-status
+* priority ^short = "Si la rencontre est prévue non confirmée et qu'une confirmation est attendue : `system` = `http://terminology.hl7.org/CodeSystem/v3-ActPriority`, `code` = `CS`. Sinon, non fourni."
 * subject only Reference(FRPatientINSDocument or FRPatientDocument)
 * participant.individual.extension contains
     FRActorExtension named executant 0..* and

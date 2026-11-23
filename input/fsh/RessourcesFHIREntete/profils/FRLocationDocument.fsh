@@ -4,6 +4,9 @@ Id: fr-location-document
 Title: "FR Location Document"
 Description: "Ce profil représente le lieu de la prise en charge."
 
+* name ^short = "Nom de la structure"
+* address ^short = "Adresse géopostale de la structure"
+
 // Slicing : type 
 * type.coding ^slicing.discriminator.type = #value
 * type.coding ^slicing.discriminator.path = "code"

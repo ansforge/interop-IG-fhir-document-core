@@ -8,8 +8,10 @@ Description: "FRAdverseEventDocument permet de décrire un effet indésirable pr
 // la date de fin de l'effet indésirable est à renseigner dans resultingCondition.abatementDateTime
 * date 1..
 * detected 1..
+* detected ^short = "Date de détection de l'effet indésirable"
 * suspectEntity 1..
 * suspectEntity.instance only Reference(FRMedicationAdministrationDocument)
 * resultingCondition only Reference(FRConditionDocument)
 * severity 1..
 * severity from https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis (required)
+* severity ^short = "Gravité de l'effet indésirable"
