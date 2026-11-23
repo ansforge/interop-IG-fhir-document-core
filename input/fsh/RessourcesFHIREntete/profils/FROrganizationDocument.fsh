@@ -4,6 +4,8 @@ Id: fr-organization-document
 Title: "FR Organization Document"
 Description: "Ce profil représente la structure pour le compte de laquelle intervient le professionnel." 
 
+* identifier ^short = "Identifiant de la structure"
+
 // slice : type
 * type ^slicing.discriminator.type = #value
 * type ^slicing.discriminator.path = "$this"

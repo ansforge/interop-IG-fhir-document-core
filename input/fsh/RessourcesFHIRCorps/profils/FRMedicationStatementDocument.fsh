@@ -10,9 +10,11 @@ Description: "
 * basedOn only Reference(FRMedicationRequestDocument)
 * partOf only Reference(FRMedicationAdministrationDocument)
 * status = #completed
+* identifier ^short = "Identifiant"
 // Médicament
 * medication[x] only CodeableConcept or Reference(FRMedicationDocument)
 // Motif du traitement
 * reasonReference only Reference(FRConditionDocument or Observation)
+* note ^short = "Conditions préalables à l'utilisation du médicament."
 // Ajout de l'extension R5 :  ExtensionMedicationStatement_Adherence
 * extension contains $extension-MedicationStatement.adherence named adherence 0..*

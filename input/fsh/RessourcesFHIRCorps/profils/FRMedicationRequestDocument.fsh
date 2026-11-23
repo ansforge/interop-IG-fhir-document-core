@@ -7,6 +7,7 @@ Description: "FRMedicationRequestDocument permet de décrire un traitement presc
 
 * intent = #order
 * status = #completed
+* identifier ^short = "Identifiant de la prescription"
 // Dosages progressifs, fractionnés 
 * dosageInstruction
   // Dosages conditionnels

@@ -8,6 +8,7 @@ Description: "
  - Si le traitement est en attente d’administration c’est-à dire qu’il a été prescrit."
 
 * status = #completed
+* identifier ^short = "Identifiant de l'administration du médicament"
 // Médicament
 * medication[x] only Reference(FRMedicationDocument)
 // Motif du traitement

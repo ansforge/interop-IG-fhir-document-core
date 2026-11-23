@@ -4,6 +4,7 @@ Id: fr-procedure-document
 Title: "Procedure - FR Procedure Document"
 Description: "FRProcedureDocument est un profil utilisé pour décrire un acte planifié ou réalisé."
 
+* identifier ^short = "Identifiant"
 * partOf only Reference(Observation or FRMedicationAdministrationDocument or FRProcedureDocument)
 * code from FRValueSetProcedureCodeDocument (preferred)
 * reasonReference only Reference(FRConditionDocument or FRDiagnosticReportDocument or FRDiagnosticReportImagingDocument or FRDiagnosticReportBIOChapterDocument)
@@ -11,15 +12,19 @@ Description: "FRProcedureDocument est un profil utilisé pour décrire un acte p
 // Voie d'abord
 * extension[approachBodySite].valueReference only Reference(FRCoreBodyStructureProfile)
 * performer.actor only Reference(FRPractitionerRoleDocument or Device)
+* performer ^short = "Exécutant"
 //informant
 * asserter only Reference(FRPractitionerRoleDocument or FRRelatedPersonDocument or FRPatientINSDocument or FRPatientDocument)
+* asserter ^short = "Informateur"
 // Auteur de l'acte
 * recorder only Reference(FRPractitionerRoleDocument)
+* recorder ^short = "Auteur"
 //participant
 * extension contains FRActorExtension named participant 0..*
 * extension[participant].extension[type].valueCode = #PART
 * extension[participant].extension[actor].valueReference only Reference(FRPractitionerRoleDocument)
 //Réference à un DM
 * usedReference only Reference(Device)
+* usedReference ^short = "Référence à un dispositif médical"
 // Rencontre associée à l'acte
 * encounter only Reference(FREncounterDocument)

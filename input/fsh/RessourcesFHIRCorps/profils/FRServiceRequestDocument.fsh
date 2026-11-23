@@ -5,10 +5,12 @@ Title: "ServiceRequest - FR Service Request Document"
 Description: "FRServiceRequestDocument profil permet de porter des demandes d'examens (analyses biologiques, évaluations, étude d'imagerie, etc…) ou de suivis particuliers à programmer dans le cadre d'un plan de soins."
 
 * obeys fr-invariant-intent
+* intent ^short = "Intention de la demande : order, plan ou proposal"
 
 * extension contains FRActorExtension named author 0..1
 * extension[author].extension[type].valueCode = #AUT
 * extension[author].extension[actor].valueReference only Reference(FRPractitionerRoleDocument or Device or FRDeviceAuteurDocument or FROrganizationDocument or FRRelatedPersonDocument or FRPatientINSDocument or FRPatientDocument)
+* requester ^short = "Prescripteur"
 
 Invariant: fr-invariant-intent
 Description: "L'intention doit être order, plan ou proposal."
